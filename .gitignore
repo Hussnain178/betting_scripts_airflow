@@ -1,0 +1,6 @@
+venv/
+.venv/
+.github/workflows/
+.idea/
+.env
+airflow_venv/
