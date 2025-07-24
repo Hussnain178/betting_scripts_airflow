@@ -1,0 +1,5452 @@
+[{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b71b"
+  },
+  "id": "3-way",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "home",
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw",
+        "X"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "away",
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "1x2",
+    "full time",
+    "standard",
+    "three-way",
+    "match result",
+    "full-time",
+    "match-result",
+    "1x2-3way-ordinary-time"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-09T13:23:16.206Z"
+  },
+  "titles": {
+    "en": "3-way"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b71c"
+  },
+  "id": "3-way-half-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]",
+        "home"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw",
+        "X"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]",
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "half time",
+    "section-win-half-1",
+    "who-wins-the-1-half?",
+    "half-time",
+    "1x2-1h",
+    "1st-half---1x2",
+    "1x2-3way-1st-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:07:31.690Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b71d"
+  },
+  "id": "3-way-half-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw",
+        "X"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "2nd half",
+    "section-win-half-2",
+    "who-wins-the-2-half?",
+    "1x2-2h",
+    "1x2-3way-2nd-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:37:29.731Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b71e"
+  },
+  "id": "3-way-quarter-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "1x2-3way-1st-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b71f"
+  },
+  "id": "3-way-quarter-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "1x2-3way-2nd-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b720"
+  },
+  "id": "3-way-quarter-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "1x2-3way-3rd-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b721"
+  },
+  "id": "3-way-quarter-4",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "1x2-3way-4th-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b722"
+  },
+  "id": "3-way-hc",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]",
+        "home"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]",
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "3-way handicap",
+    "handicap",
+    "3-way-handicap",
+    "3way-handicap-ordinary-time"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-06T12:07:30.663Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b723"
+  },
+  "id": "3-way-hc-half-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw",
+        "X"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "3-way handicap - 1st half",
+    "1-ht-handicap",
+    "1x2_hc-1h",
+    "1st-half---handicap--3way-",
+    "3way-handicap-1st-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:11:50.477Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b724"
+  },
+  "id": "3-way-hc-half-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw",
+        "X"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "3-way handicap - 2nd half",
+    "1x2_hc-2h",
+    "3way-handicap-2nd-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:41:35.498Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b725"
+  },
+  "id": "double-chance",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1x",
+      "maps": []
+    },
+    {
+      "id": "x2",
+      "maps": []
+    },
+    {
+      "id": "12",
+      "maps": []
+    }
+  ],
+  "maps": [
+    "double chance",
+    "double-chance",
+    "double-chance-(1x/x2/12)",
+    "double-chance-ordinary-time"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b726"
+  },
+  "id": "double-chance-half-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1x",
+      "maps": []
+    },
+    {
+      "id": "x2",
+      "maps": []
+    },
+    {
+      "id": "12",
+      "maps": []
+    }
+  ],
+  "maps": [
+    "double chance - 1st half",
+    "double-chance-first-half",
+    "double-chance---1st-half",
+    "1st-half---double-chance",
+    "double-chance-1st-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:11:20.904Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b727"
+  },
+  "id": "double-chance-half-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1x",
+      "maps": []
+    },
+    {
+      "id": "x2",
+      "maps": []
+    },
+    {
+      "id": "12",
+      "maps": []
+    }
+  ],
+  "maps": [
+    "double chance - 2nd half",
+    "double-chance-2nd-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b728"
+  },
+  "id": "double-chance-quarter-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1x",
+      "maps": []
+    },
+    {
+      "id": "x2",
+      "maps": []
+    },
+    {
+      "id": "12",
+      "maps": []
+    }
+  ],
+  "maps": [
+    "double-chance-1st-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b729"
+  },
+  "id": "double-chance-quarter-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1x",
+      "maps": []
+    },
+    {
+      "id": "x2",
+      "maps": []
+    },
+    {
+      "id": "12",
+      "maps": []
+    }
+  ],
+  "maps": [
+    "double-chance-2nd-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b72a"
+  },
+  "id": "double-chance-quarter-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1x",
+      "maps": []
+    },
+    {
+      "id": "x2",
+      "maps": []
+    },
+    {
+      "id": "12",
+      "maps": []
+    }
+  ],
+  "maps": [
+    "double-chance-3rd-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b72b"
+  },
+  "id": "asian-handicap",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "asian handicap",
+    "ah-fe",
+    "asian-handicap-ordinary-time"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:32:36.555Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b72c"
+  },
+  "id": "asian-handicap-half-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "asian handicap - 1st half",
+    "ah-1h",
+    "1st-half---asian-handicap",
+    "asian-handicap-1st-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:06.951Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b72d"
+  },
+  "id": "asian-handicap-half-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "asian handicap - 2nd half",
+    "ah-2h",
+    "asian-handicap-2nd-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:44:08.028Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b72e"
+  },
+  "id": "asian-totals",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "asian-total",
+    "asian total"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b72f"
+  },
+  "id": "asian-totals-half-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "asian total - 1st half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b730"
+  },
+  "id": "points",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "spread"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b731"
+  },
+  "id": "points-half-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b732"
+  },
+  "id": "points-half-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b733"
+  },
+  "id": "points-quarter-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b734"
+  },
+  "id": "points-quarter-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b735"
+  },
+  "id": "points-quarter-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b736"
+  },
+  "id": "points-quarter-4",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b737"
+  },
+  "id": "points-extratime",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b738"
+  },
+  "id": "totals",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "brid": null,
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "brid": null,
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "total goals",
+    "points-more-less-than",
+    "over/under total goals",
+    "over-under",
+    "total-goals",
+    "ou-fe",
+    "over-under-ordinary-time",
+    "sets-over-under-full-event"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:31:09.950Z"
+  },
+  "shortTitle": "O/U",
+  "titles": {
+    "en": "Over/Under"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b739"
+  },
+  "id": "totals-half-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "total goals - 1st half",
+    "1--half-over-under",
+    "ou-1h",
+    "1st-half---over-under",
+    "over-under-1st-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:57.954Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b73a"
+  },
+  "id": "totals-half-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "total goals - 2nd half",
+    "2--half-over-under",
+    "ou-2h",
+    "over-under-2nd-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:34:28.328Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b73b"
+  },
+  "id": "totals-quarter-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-1st-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b73c"
+  },
+  "id": "totals-quarter-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-2nd-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b73d"
+  },
+  "id": "totals-quarter-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-3rd-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b73e"
+  },
+  "id": "totals-quarter-4",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-4th-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b73f"
+  },
+  "id": "totals-extratime",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b740"
+  },
+  "id": "totals-1st-over",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b741"
+  },
+  "id": "totals-home",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "total goals by [home]",
+    "home-over-under",
+    "total-goals-by-home-team",
+    "home-over-under"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:09:42.477Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b742"
+  },
+  "id": "totals-away",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "total goals by [away]",
+    "away-over-under",
+    "total-goals-by-away-team",
+    "away-over-under"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:09:59.108Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b743"
+  },
+  "id": "totals-odd-even",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "total goals odd/even",
+    "odd-even",
+    "odd/even",
+    "even-odd?",
+    "oe",
+    "odd-even-ordinary-time"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:32:04.649Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b744"
+  },
+  "id": "totals-odd-even-half-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "oe-1h",
+    "odd-even-1st-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:34:07.252Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b745"
+  },
+  "id": "totals-odd-even-half-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "oe-2h",
+    "odd-even-2nd-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:33:33.846Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b746"
+  },
+  "id": "totals-home-odd-even",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "total goals by [home] odd/even"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b747"
+  },
+  "id": "totals-away-odd-even",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "total goals by [away] odd/even"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b748"
+  },
+  "id": "totals-corners-odd-even",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "corners-odd-even-ordinary-time"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b749"
+  },
+  "id": "totals-corners-odd-even-half-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "corners-odd-even-1st-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b74a"
+  },
+  "id": "total-sets",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b74b"
+  },
+  "id": "total-corners",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "total corners",
+    "over-under-corners",
+    "corners-over-under-ordinary-time"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-05T17:57:09.835Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b74c"
+  },
+  "id": "total-corners-half-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-corners-in-the-1-half",
+    "corners-over-under-1st-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-05T17:57:31.644Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b74d"
+  },
+  "id": "total-sixes",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b74e"
+  },
+  "id": "half-time-full-time",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1/1",
+      "maps": [
+        "1:1"
+      ]
+    },
+    {
+      "id": "1/x",
+      "maps": [
+        "1:x"
+      ]
+    },
+    {
+      "id": "1/2",
+      "maps": [
+        "1:2"
+      ]
+    },
+    {
+      "id": "x/1",
+      "maps": [
+        "x:1"
+      ]
+    },
+    {
+      "id": "x/x",
+      "maps": [
+        "x:x"
+      ]
+    },
+    {
+      "id": "X/2",
+      "maps": [
+        "x:2"
+      ]
+    },
+    {
+      "id": "2/1",
+      "maps": [
+        "2:1"
+      ]
+    },
+    {
+      "id": "2/X",
+      "maps": [
+        "2:x"
+      ]
+    },
+    {
+      "id": "2/2",
+      "maps": [
+        "2:2"
+      ]
+    }
+  ],
+  "maps": [
+    "half time/full time",
+    "halftime-fulltime",
+    "ht-ft",
+    "half-time-full-time-ordinary-time"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:07:02.381Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b74f"
+  },
+  "id": "2-way",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "money-line",
+    "head-to-head",
+    "12-fe",
+    "12-2way-ordinary-time"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-18T12:04:10.469Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b750"
+  },
+  "id": "2-way-half-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "money-line - 1st half",
+    "12-2way-1st-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T12:24:22.529Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b751"
+  },
+  "id": "2-way-half-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "money-line - 2nd half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b752"
+  },
+  "id": "2-way-quarter-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "12-2way-1st-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b753"
+  },
+  "id": "2-way-quarter-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b754"
+  },
+  "id": "2-way-quarter-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b755"
+  },
+  "id": "2-way-quarter-4",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b756"
+  },
+  "id": "draw-no-bet",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]",
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]",
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "draw no bet",
+    "draw-no-bet",
+    "draw-no-bet-ordinary-time"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-06T12:02:14.415Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b757"
+  },
+  "id": "draw-no-bet-half-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]",
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]",
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "draw no bet - 1st half",
+    "draw-no-bet---1st-half",
+    "draw-no-bet-1st-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-06T12:08:40.093Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b758"
+  },
+  "id": "draw-no-bet-half-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "draw no bet - 2nd half",
+    "draw-no-bet-2nd-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b759"
+  },
+  "id": "win-to-nil",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "win-to-nil-ordinary-time"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b75a"
+  },
+  "id": "home-win-to-nil",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "[home] to win to nil",
+    "does-home-win-to-nil?",
+    "home-wins-to-nil"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:10:22.412Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b75b"
+  },
+  "id": "away-win-to-nil",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "[away] to win to nil",
+    "does-away-win-to-nil?",
+    "away-wins-to-nil"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:10:37.183Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b75c"
+  },
+  "id": "both-score",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "both teams to score",
+    "score-both",
+    "both-teams-to-score?",
+    "bts",
+    "both-teams-to-score",
+    "both-to-score-ordinary-time"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:06:04.193Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b75d"
+  },
+  "id": "both-score-half-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "both teams to score - 1st half",
+    "score-both-halftime-half-1",
+    "bts-1h",
+    "both-to-score-1st-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:36:15.999Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b75e"
+  },
+  "id": "both-score-half-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "both teams to score - 2nd half",
+    "score-both-halftime-half-2",
+    "bts-2h",
+    "both-to-score-2nd-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:36:26.525Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b75f"
+  },
+  "id": "both-score-both-halves",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "both teams to score in both halves",
+    "score-both-halves"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b760"
+  },
+  "id": "home-scores-half-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "[home] to score - 1st half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b761"
+  },
+  "id": "away-scores-half-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "[away] to score - 1st half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b762"
+  },
+  "id": "goal-both-halves",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "goal in both halves",
+    "goals-in-both-halves"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b763"
+  },
+  "id": "win-both-halves",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b764"
+  },
+  "id": "home-scores-both-halves",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "[home] to score in both halves"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b765"
+  },
+  "id": "away-scores-both-halves",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "[away] to score in both halves"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b766"
+  },
+  "id": "home-wins-both-halves",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "[home] to win both halves"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b767"
+  },
+  "id": "away-wins-both-halves",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "[away] to win both halves"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b768"
+  },
+  "id": "home-win-and-both-score",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "[home] to win and both teams to score"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b769"
+  },
+  "id": "away-win-and-both-score",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "[away] to win and both teams to score"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b76a"
+  },
+  "id": "draw-and-both-score",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "draw and both teams to score"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b76b"
+  },
+  "id": "home-win-one-half",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "[home] to win at least one half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b76c"
+  },
+  "id": "away-win-one-half",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "[away] to win at least one half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b76d"
+  },
+  "id": "first-team-to-score",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "first goal. no goal, no bet",
+    "first-scorer",
+    "first-goal-no-goal-no-bet",
+    "first-team-to-score-ordinary-time"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b76e"
+  },
+  "id": "last-goal-no-goal-no-bet",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "last goal. no goal, no bet"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b76f"
+  },
+  "id": "correct-score",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct score",
+    "point-bet",
+    "correct-score-ordinary-time"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b770"
+  },
+  "id": "correct-score-half-1",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct score - 1st half",
+    "correct-score-1st-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b771"
+  },
+  "id": "correct-score-half-2",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct score - 2nd half",
+    "correct-score-2nd-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b772"
+  },
+  "id": "to-progress",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b773"
+  },
+  "id": "will-there-be-overtime",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b774"
+  },
+  "id": "half-with-more-goals",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b775"
+  },
+  "id": "win-the-toss",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b776"
+  },
+  "id": "3-way-corners",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b777"
+  },
+  "id": "3-way-corners-half-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b778"
+  },
+  "id": "handicap-corners",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "corner-handicap-ordinary-time"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b779"
+  },
+  "id": "handicap-corners-half-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "corner-handicap-1st-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b77a"
+  },
+  "id": "handicap-sets",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.183Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.183Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b77b"
+  },
+  "id": "3-way-first-corner",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.183Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.183Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b77c"
+  },
+  "id": "first-corner",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.183Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.183Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83848afc2792d7223b77d"
+  },
+  "id": "last-corner",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.183Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.183Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66d6aa4a1fe806834b2ceab7"
+  },
+  "id": "test",
+  "act": true,
+  "ovs": [
+    {
+      "id": "test",
+      "maps": [
+        "test"
+      ]
+    }
+  ],
+  "maps": [
+    "test"
+  ],
+  "titles": {
+    "en": "test"
+  },
+  "shortTitle": "test",
+  "createdAt": {
+    "$date": "2024-09-03T06:18:50.085Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-03T06:18:50.085Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66d6aa4a1fe806834b2ceab9"
+  },
+  "id": "test",
+  "act": true,
+  "ovs": [
+    {
+      "id": "test",
+      "maps": [
+        "test"
+      ]
+    }
+  ],
+  "maps": [
+    "test"
+  ],
+  "titles": {
+    "en": "test"
+  },
+  "shortTitle": "test",
+  "createdAt": {
+    "$date": "2024-09-03T06:18:50.116Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-03T06:18:50.116Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67a359039c468c68f8d8b1da"
+  },
+  "id": "2-way-period-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "money-line - 1st period",
+    "12-2way-1st-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T12:24:22.529Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a359589c468c68f8d8b1db"
+  },
+  "id": "2-way-period-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "money-line - 2nd period",
+    "12-2way-2nd-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T12:24:22.529Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a359c39c468c68f8d8b1dc"
+  },
+  "id": "2-way-period-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "money-line - 3rd period",
+    "12-2way-3rd-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-05T12:24:22.529Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a35a309c468c68f8d8b1dd"
+  },
+  "id": "2-way-set-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "12-2way-1st-set"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a35a4b9c468c68f8d8b1de"
+  },
+  "id": "2-way-set-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "12-2way-2nd-set"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a35a669c468c68f8d8b1df"
+  },
+  "id": "2-way-set-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "12-2way-3rd-set"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a35aec9c468c68f8d8b1e0"
+  },
+  "id": "3-way-period-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]",
+        "home"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw",
+        "X"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]",
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "1x2-3way-1st-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:07:31.690Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a35b0a9c468c68f8d8b1e1"
+  },
+  "id": "3-way-period-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]",
+        "home"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw",
+        "X"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]",
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "1x2-3way-2nd-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:07:31.690Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a35b179c468c68f8d8b1e2"
+  },
+  "id": "3-way-period-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]",
+        "home"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw",
+        "X"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]",
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "1x2-3way-3rd-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:07:31.690Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a35cde9c468c68f8d8b1e3"
+  },
+  "id": "asian-handicap-period-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "asian-handicap-1st-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:06.951Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a35cec9c468c68f8d8b1e4"
+  },
+  "id": "asian-handicap-period-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "asian-handicap-2nd-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:06.951Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a35cf69c468c68f8d8b1e5"
+  },
+  "id": "asian-handicap-period-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "asian-handicap-3rd-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:06.951Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a35d489c468c68f8d8b1e6"
+  },
+  "id": "asian-handicap-quarter-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "asian-handicap-1st-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:06.951Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a35d5c9c468c68f8d8b1e7"
+  },
+  "id": "asian-handicap-quarter-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "asian-handicap-2nd-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:06.951Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a35d659c468c68f8d8b1e8"
+  },
+  "id": "asian-handicap-quarter-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "asian-handicap-3rd-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:06.951Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a35d6e9c468c68f8d8b1e9"
+  },
+  "id": "asian-handicap-quarter-4",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "asian-handicap-4th-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:06.951Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a35def9c468c68f8d8b1ea"
+  },
+  "id": "both-score-period-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "both-to-score-1st-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:36:15.999Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a35e0a9c468c68f8d8b1eb"
+  },
+  "id": "both-score-period-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "both-to-score-2nd-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:36:15.999Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a35e139c468c68f8d8b1ec"
+  },
+  "id": "both-score-period-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "y",
+      "maps": [
+        "yes"
+      ]
+    },
+    {
+      "id": "n",
+      "maps": [
+        "no"
+      ]
+    }
+  ],
+  "maps": [
+    "both-to-score-3rd-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:36:15.999Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a35fad9c468c68f8d8b1ed"
+  },
+  "id": "handicap-corners-half-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "corner-handicap-2nd-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a360209c468c68f8d8b1ee"
+  },
+  "id": "totals-corners-odd-even-half-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "corners-odd-even-2nd-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a361469c468c68f8d8b1ef"
+  },
+  "id": "total-corners-half-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "corners-over-under-2nd-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-05T17:57:31.644Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a361b69c468c68f8d8b1f0"
+  },
+  "id": "correct-score-period-1",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-1st-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a361c89c468c68f8d8b1f1"
+  },
+  "id": "correct-score-period-2",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-2nd-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a361d19c468c68f8d8b1f2"
+  },
+  "id": "correct-score-period-3",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-3rd-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a362439c468c68f8d8b1f3"
+  },
+  "id": "double-chance-period-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1x",
+      "maps": []
+    },
+    {
+      "id": "x2",
+      "maps": []
+    },
+    {
+      "id": "12",
+      "maps": []
+    }
+  ],
+  "maps": [
+    "double-chance-1st-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:11:20.904Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3624f9c468c68f8d8b1f4"
+  },
+  "id": "double-chance-period-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1x",
+      "maps": []
+    },
+    {
+      "id": "x2",
+      "maps": []
+    },
+    {
+      "id": "12",
+      "maps": []
+    }
+  ],
+  "maps": [
+    "double-chance-2nd-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:11:20.904Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3625b9c468c68f8d8b1f5"
+  },
+  "id": "double-chance-period-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1x",
+      "maps": []
+    },
+    {
+      "id": "x2",
+      "maps": []
+    },
+    {
+      "id": "12",
+      "maps": []
+    }
+  ],
+  "maps": [
+    "double-chance-3rd-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:11:20.904Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a362a99c468c68f8d8b1f6"
+  },
+  "id": "double-chance-quarter-4",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1x",
+      "maps": []
+    },
+    {
+      "id": "x2",
+      "maps": []
+    },
+    {
+      "id": "12",
+      "maps": []
+    }
+  ],
+  "maps": [
+    "double-chance-4th-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3643e9c468c68f8d8b1f7"
+  },
+  "id": "draw-no-bet-quarter-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "draw-no-bet-1st-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3644c9c468c68f8d8b1f8"
+  },
+  "id": "draw-no-bet-quarter-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "draw-no-bet-2nd-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a364599c468c68f8d8b1f9"
+  },
+  "id": "draw-no-bet-quarter-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "draw-no-bet-3rd-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a364639c468c68f8d8b1fa"
+  },
+  "id": "draw-no-bet-quarter-4",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "draw-no-bet-4th-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a364719c468c68f8d8b1fb"
+  },
+  "id": "draw-no-bet-period-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "draw-no-bet-1st-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a364809c468c68f8d8b1fc"
+  },
+  "id": "draw-no-bet-period-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "draw-no-bet-2nd-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a364879c468c68f8d8b1fd"
+  },
+  "id": "draw-no-bet-period-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "draw-no-bet-3rd-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3652c9c468c68f8d8b1fe"
+  },
+  "id": "first-team-to-score-half-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "first-team-to-score-1st-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a365539c468c68f8d8b1ff"
+  },
+  "id": "first-team-to-score-half-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "first-team-to-score-2nd-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a366349c468c68f8d8b200"
+  },
+  "id": "totals-odd-even-period-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "odd-even-1st-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:33:33.846Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a366419c468c68f8d8b201"
+  },
+  "id": "totals-odd-even-period-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "odd-even-2nd-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:33:33.846Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3664d9c468c68f8d8b202"
+  },
+  "id": "totals-odd-even-period-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "odd-even-3rd-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:33:33.846Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a366779c468c68f8d8b203"
+  },
+  "id": "totals-odd-even-quarter-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "odd-even-1st-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:33:33.846Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a366849c468c68f8d8b204"
+  },
+  "id": "totals-odd-even-quarter-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "odd-even-2nd-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:33:33.846Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3668d9c468c68f8d8b205"
+  },
+  "id": "totals-odd-even-quarter-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "odd-even-3rd-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:33:33.846Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3669a9c468c68f8d8b206"
+  },
+  "id": "totals-odd-even-quarter-4",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "odd-even-4th-quarter"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:33:33.846Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a366b39c468c68f8d8b207"
+  },
+  "id": "totals-odd-even-set-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "odd-even-1st-set"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:33:33.846Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a367339c468c68f8d8b208"
+  },
+  "id": "totals-period-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-1st-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:34:28.328Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a367419c468c68f8d8b209"
+  },
+  "id": "totals-period-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-2nd-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:34:28.328Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a367489c468c68f8d8b20a"
+  },
+  "id": "totals-period-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-3rd-period"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:34:28.328Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a367d99c468c68f8d8b20b"
+  },
+  "id": "totals-set-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-1st-set"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:57.954Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a367e89c468c68f8d8b20c"
+  },
+  "id": "totals-set-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-2nd-set"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:57.954Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a367f19c468c68f8d8b20d"
+  },
+  "id": "totals-set-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-3rd-set"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:57.954Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a368709c468c68f8d8b20e"
+  },
+  "id": "win-to-nil-half-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "win-to-nil-1st-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3687c9c468c68f8d8b20f"
+  },
+  "id": "win-to-nil-half-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "win-to-nil-2nd-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a369299c468c68f8d8b210"
+  },
+  "id": "totals-cards-yellow",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "brid": null,
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "brid": null,
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "yellow-cards-over-under-ordinary-time"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:31:09.950Z"
+  },
+  "shortTitle": "O/U Yellow",
+  "titles": {
+    "en": "Over/Under"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a369729c468c68f8d8b211"
+  },
+  "id": "totals-cards-yellow-half-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "brid": null,
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "brid": null,
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "yellow-cards-over-under-1st-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:31:09.950Z"
+  },
+  "shortTitle": "O/U Yellow",
+  "titles": {
+    "en": "Over/Under"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a3698c9c468c68f8d8b212"
+  },
+  "id": "totals-cards-yellow-half-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "brid": null,
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "brid": null,
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "yellow-cards-over-under-2nd-half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:31:09.950Z"
+  },
+  "shortTitle": "O/U Yellow",
+  "titles": {
+    "en": "Over/Under"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a369a79c468c68f8d8b213"
+  },
+  "id": "totals-cards",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "brid": null,
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "brid": null,
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "total-cards-over-under-ordinary-time"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:31:09.950Z"
+  },
+  "shortTitle": "O/U Yellow",
+  "titles": {
+    "en": "Over/Under"
+  }
+}]

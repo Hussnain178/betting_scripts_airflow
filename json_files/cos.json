@@ -1,0 +1,6163 @@
+[{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b632"
+  },
+  "id": "afganistan",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Afganistan"
+  },
+  "iso2": "af",
+  "iso3": "AFG",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.767Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-18T12:58:59.686Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b634"
+  },
+  "id": "albania",
+  "maps": null,
+  "titles": {
+    "en": "Albania"
+  },
+  "iso2": "al",
+  "iso3": "ALB",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:14.281Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b635"
+  },
+  "id": "algeria",
+  "maps": null,
+  "titles": {
+    "en": "Algeria"
+  },
+  "iso2": "dz",
+  "iso3": "ALG",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:03:10.139Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b636"
+  },
+  "id": "american-samoa",
+  "maps": null,
+  "titles": {
+    "en": "American Samoa"
+  },
+  "iso2": "as",
+  "iso3": "ASM",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b637"
+  },
+  "id": "andorra",
+  "maps": null,
+  "titles": {
+    "en": "Andorra"
+  },
+  "iso2": "ad",
+  "iso3": "AND",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:03:05.201Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b638"
+  },
+  "id": "angola",
+  "maps": null,
+  "titles": {
+    "en": "Angola"
+  },
+  "iso2": "ao",
+  "iso3": "ANG",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:01:44.019Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b639"
+  },
+  "id": "anguilla",
+  "maps": null,
+  "titles": {
+    "en": "Anguilla"
+  },
+  "iso2": "ai",
+  "iso3": "AIA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b63a"
+  },
+  "id": "antigua-and-barbuda",
+  "maps": [
+    "antigua-&-barbuda"
+  ],
+  "titles": {
+    "en": "Antigua and Barbuda"
+  },
+  "iso2": "ag",
+  "iso3": "ATG",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-12T06:33:44.106Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b63b"
+  },
+  "id": "argentina",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Argentina"
+  },
+  "iso2": "ar",
+  "iso3": "ARG",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:14.253Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b63c"
+  },
+  "id": "armenia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Armenia"
+  },
+  "iso2": "am",
+  "iso3": "ARM",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:11.273Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b63d"
+  },
+  "id": "aruba",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Aruba"
+  },
+  "iso2": "aw",
+  "iso3": "ABW",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:11.177Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b63f"
+  },
+  "id": "australia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Australia"
+  },
+  "iso2": "au",
+  "iso3": "AUS",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:12.165Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b640"
+  },
+  "id": "austria",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Austria"
+  },
+  "iso2": "at",
+  "iso3": "AUT",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:15.146Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b641"
+  },
+  "id": "azerbaijan",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Azerbaijan"
+  },
+  "iso2": "az",
+  "iso3": "AZE",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:04:40.134Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b643"
+  },
+  "id": "bahamas",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Bahamas"
+  },
+  "iso2": "bs",
+  "iso3": "BHS",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:35:09.780Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b644"
+  },
+  "id": "bahrain",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Bahrain"
+  },
+  "iso2": "bh",
+  "iso3": "BRN",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:06:05.365Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b645"
+  },
+  "id": "bangladesh",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Bangladesh"
+  },
+  "iso2": "bd",
+  "iso3": "BGD",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:15.195Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b646"
+  },
+  "id": "barbados",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Barbados"
+  },
+  "iso2": "bb",
+  "iso3": "BRB",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:02:41.209Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b647"
+  },
+  "id": "belarus",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Belarus"
+  },
+  "iso2": "by",
+  "iso3": "BLR",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:50.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b648"
+  },
+  "id": "belgium",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Belgium"
+  },
+  "iso2": "be",
+  "iso3": "BEL",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:08.377Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b649"
+  },
+  "id": "belize",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Belize"
+  },
+  "iso2": "bz",
+  "iso3": "BLZ",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2024-09-09T12:24:50.079Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b64a"
+  },
+  "id": "benin",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Benin"
+  },
+  "iso2": "bj",
+  "iso3": "BEN",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:04:43.084Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b64b"
+  },
+  "id": "bermuda",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Bermuda"
+  },
+  "iso2": "bm",
+  "iso3": "BMU",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T18:42:53.617Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b64c"
+  },
+  "id": "bhutan",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Bhutan"
+  },
+  "iso2": "bt",
+  "iso3": "BTN",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.768Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:36:16.779Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b64d"
+  },
+  "id": "bolivia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Bolivia"
+  },
+  "iso2": "bo",
+  "iso3": "BOL",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:03:15.101Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b64e"
+  },
+  "id": "bonaire-sint-eustatius-and-saba",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Bonaire, Sint Eustatius and Saba"
+  },
+  "iso2": "bq",
+  "iso3": "BES",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:36:47.541Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b64f"
+  },
+  "id": "bosnia-herzegovina",
+  "maps": [
+    "bosnia-&-herzegovina",
+    "bosnia-and-herzegovina"
+  ],
+  "titles": {
+    "en": "Bosnia Herzegovina"
+  },
+  "iso2": "ba",
+  "iso3": "BIH",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-14T18:06:29.949Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b650"
+  },
+  "id": "botswana",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Botswana"
+  },
+  "iso2": "bw",
+  "iso3": "BWA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:50.219Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b651"
+  },
+  "id": "brazil",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Brazil"
+  },
+  "iso2": "br",
+  "iso3": "BRA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:14.277Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b652"
+  },
+  "id": "british-virgin-islands",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "British Virgin Islands"
+  },
+  "iso2": "vg",
+  "iso3": "VGB",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:39:51.658Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b653"
+  },
+  "id": "brunei",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Brunei"
+  },
+  "iso2": "bn",
+  "iso3": "BRU",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:39:58.321Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b654"
+  },
+  "id": "bulgaria",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Bulgaria"
+  },
+  "iso2": "bg",
+  "iso3": "BUL",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:17.234Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b655"
+  },
+  "id": "burkina-faso",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Burkina Faso"
+  },
+  "iso2": "bf",
+  "iso3": "BFA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:02:12.042Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b656"
+  },
+  "id": "burundi",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Burundi"
+  },
+  "iso2": "bi",
+  "iso3": "BDI",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:02:47.153Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b657"
+  },
+  "id": "cambodia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Cambodia"
+  },
+  "iso2": "kh",
+  "iso3": "KHM",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-07T19:00:05.402Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b658"
+  },
+  "id": "cameroon",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Cameroon"
+  },
+  "iso2": "cm",
+  "iso3": "CMR",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:41:42.246Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b659"
+  },
+  "id": "canada",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Canada"
+  },
+  "iso2": "ca",
+  "iso3": "CAN",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:14.290Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b65a"
+  },
+  "id": "cape-verde-islands",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Cape Verde Islands"
+  },
+  "iso2": "cv",
+  "iso3": "CPV",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:43:25.701Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b65b"
+  },
+  "id": "cayman-islands",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Cayman Islands"
+  },
+  "iso2": "ky",
+  "iso3": "CYM",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:45:02.252Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b65c"
+  },
+  "id": "central-african-republic",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Central African Republic"
+  },
+  "iso2": "cf",
+  "iso3": "CAF",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:45:13.120Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b65d"
+  },
+  "id": "chad",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Chad"
+  },
+  "iso2": "td",
+  "iso3": "TDC",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:17.156Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b65e"
+  },
+  "id": "chile",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Chile"
+  },
+  "iso2": "cl",
+  "iso3": "CHI",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:16.258Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b65f"
+  },
+  "id": "china",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "China"
+  },
+  "iso2": "cn",
+  "iso3": "CHN",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:16.232Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b660"
+  },
+  "id": "colombia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Colombia"
+  },
+  "iso2": "co",
+  "iso3": "COL",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:11.262Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b661"
+  },
+  "id": "comoros",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Comoros"
+  },
+  "iso2": "km",
+  "iso3": "COM",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:45:44.478Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b662"
+  },
+  "id": "congo",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Congo"
+  },
+  "iso2": null,
+  "iso3": "COG",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:45:51.298Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b663"
+  },
+  "id": "congo-dr",
+  "maps": [
+    "dr-congo"
+  ],
+  "titles": {
+    "en": "Congo DR"
+  },
+  "iso2": "cd",
+  "iso3": "COD",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-21T18:31:19.798Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b664"
+  },
+  "id": "cook-islands",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Cook Islands"
+  },
+  "iso2": "ck",
+  "iso3": "COK",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.769Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:46:26.149Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b665"
+  },
+  "id": "costa-rica",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Costa Rica"
+  },
+  "iso2": "cr",
+  "iso3": "CRI",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:10.310Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b666"
+  },
+  "id": "cote-d'ivoire",
+  "maps": [
+    "ivory-coast"
+  ],
+  "titles": {
+    "en": "Cote d'Ivoire"
+  },
+  "iso2": "ci",
+  "iso3": "CIV",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-20T19:50:52.556Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b667"
+  },
+  "id": "croatia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Croatia"
+  },
+  "iso2": "hr",
+  "iso3": "CRO",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:50.903Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b668"
+  },
+  "id": "cuba",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Cuba"
+  },
+  "iso2": "cu",
+  "iso3": "CUB",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:10.237Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b669"
+  },
+  "id": "curacao",
+  "maps": [
+    "curaçao"
+  ],
+  "titles": {
+    "en": "Curacao"
+  },
+  "iso2": "cw",
+  "iso3": "CUW",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-20T19:49:16.724Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b66a"
+  },
+  "id": "cyprus",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Cyprus"
+  },
+  "iso2": "cy",
+  "iso3": "CYP",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:54.185Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b66b"
+  },
+  "id": "czech-republic",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Czech Republic"
+  },
+  "iso2": "cz",
+  "iso3": "CZE",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:50.961Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b66c"
+  },
+  "id": "denmark",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Denmark"
+  },
+  "iso2": "dk",
+  "iso3": "DEN",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:13.175Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b66d"
+  },
+  "id": "djibouti",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Djibouti"
+  },
+  "iso2": "dj",
+  "iso3": "DJI",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:03:17.090Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b66e"
+  },
+  "id": "dominica",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Dominica"
+  },
+  "iso2": "dm",
+  "iso3": "DMA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:47:40.651Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b66f"
+  },
+  "id": "dominican-republic",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Dominican Republic"
+  },
+  "iso2": "do",
+  "iso3": "DOM",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:03:51.085Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b670"
+  },
+  "id": "east-timor",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "East Timor"
+  },
+  "iso2": "tl",
+  "iso3": "TLS",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:48:00.749Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b671"
+  },
+  "id": "ecuador",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Ecuador"
+  },
+  "iso2": "ec",
+  "iso3": "ECU",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:41:34.414Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b672"
+  },
+  "id": "egypt",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Egypt"
+  },
+  "iso2": "eg",
+  "iso3": "EGY",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:15.109Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b673"
+  },
+  "id": "el-salvador",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "El Salvador"
+  },
+  "iso2": "sv",
+  "iso3": "SLV",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:02:57.108Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b674"
+  },
+  "id": "england",
+  "maps": [
+    "united-kingdom"
+  ],
+  "titles": {
+    "en": "England"
+  },
+  "iso2": "gb-eng",
+  "iso3": "ENG",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:17.164Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b675"
+  },
+  "id": "equatorial-guinea",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Equatorial Guinea"
+  },
+  "iso2": "gq",
+  "iso3": "GNQ",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:48:53.240Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b676"
+  },
+  "id": "eritrea",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Eritrea"
+  },
+  "iso2": "er",
+  "iso3": "ERI",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:48:59.910Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b677"
+  },
+  "id": "estonia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Estonia"
+  },
+  "iso2": "ee",
+  "iso3": "EST",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:41:53.206Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b678"
+  },
+  "id": "ethiopia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Ethiopia"
+  },
+  "iso2": "et",
+  "iso3": "ETH",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:17.168Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b67a"
+  },
+  "id": "faroe-islands",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Faroe Islands"
+  },
+  "iso2": "fo",
+  "iso3": "FAR",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:04:29.099Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b67b"
+  },
+  "id": "fiji",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Fiji"
+  },
+  "iso2": "fj",
+  "iso3": "FJI",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:02:19.018Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b67c"
+  },
+  "id": "finland",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Finland"
+  },
+  "iso2": "fi",
+  "iso3": "FIN",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:54.951Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b67d"
+  },
+  "id": "france",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "France"
+  },
+  "iso2": "fr",
+  "iso3": "FRA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:54.972Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b67e"
+  },
+  "id": "french-guiana",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "French Guiana"
+  },
+  "iso2": "gf",
+  "iso3": "GUF",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:49:59.165Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b67f"
+  },
+  "id": "gabon",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Gabon"
+  },
+  "iso2": "ga",
+  "iso3": "GAB",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:02:07.994Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b680"
+  },
+  "id": "gambia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Gambia"
+  },
+  "iso2": "gm",
+  "iso3": "GMB",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:03:33.078Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b681"
+  },
+  "id": "georgia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Georgia"
+  },
+  "iso2": "ge",
+  "iso3": "GEO",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.770Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:56.756Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b682"
+  },
+  "id": "germany",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Germany"
+  },
+  "iso2": "de",
+  "iso3": "GER",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:56.773Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b683"
+  },
+  "id": "ghana",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Ghana"
+  },
+  "iso2": "gh",
+  "iso3": "GHA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:05.375Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b684"
+  },
+  "id": "gibraltar",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Gibraltar"
+  },
+  "iso2": "gi",
+  "iso3": "GIB",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:06.107Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b686"
+  },
+  "id": "greece",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Greece"
+  },
+  "iso2": "gr",
+  "iso3": "GRE",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:56.783Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b687"
+  },
+  "id": "grenada",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Grenada"
+  },
+  "iso2": "gd",
+  "iso3": "GRD",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-28T18:10:32.312Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b688"
+  },
+  "id": "guadeloupe",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Guadeloupe"
+  },
+  "iso2": "gp",
+  "iso3": "GLP",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:51:12.460Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b689"
+  },
+  "id": "guam",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Guam"
+  },
+  "iso2": "gu",
+  "iso3": "GUM",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:51:18.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b68a"
+  },
+  "id": "guatemala",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Guatemala"
+  },
+  "iso2": "gt",
+  "iso3": "GUA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:02:06.062Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b68b"
+  },
+  "id": "guinea",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Guinea"
+  },
+  "iso2": "gn",
+  "iso3": "GIN",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-30T14:43:21.814Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b68c"
+  },
+  "id": "guinea-bissau",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Guinea-Bissau"
+  },
+  "iso2": "gw",
+  "iso3": "GNB",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:51:47.749Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b68d"
+  },
+  "id": "guyana",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Guyana"
+  },
+  "iso2": "gy",
+  "iso3": "GUY",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:55:06.840Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b68e"
+  },
+  "id": "haiti",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Haiti"
+  },
+  "iso2": "ht",
+  "iso3": "HTI",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:02:04.071Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b68f"
+  },
+  "id": "holland",
+  "maps": [
+    "netherlands"
+  ],
+  "titles": {
+    "en": "Netherlands"
+  },
+  "iso2": "nl",
+  "iso3": "DUT",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:55:26.750Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b690"
+  },
+  "id": "honduras",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Honduras"
+  },
+  "iso2": "hn",
+  "iso3": "HON",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:02.561Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b691"
+  },
+  "id": "hong-kong",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Hong Kong"
+  },
+  "iso2": "hk",
+  "iso3": "HKG",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:04:54.115Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b692"
+  },
+  "id": "hungary",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Hungary"
+  },
+  "iso2": "hu",
+  "iso3": "HUN",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:53.820Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b693"
+  },
+  "id": "iceland",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Iceland"
+  },
+  "iso2": "is",
+  "iso3": "ICE",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:53.832Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b694"
+  },
+  "id": "india",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "India"
+  },
+  "iso2": "in",
+  "iso3": "IND",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:04.162Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b695"
+  },
+  "id": "indonesia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Indonesia"
+  },
+  "iso2": "id",
+  "iso3": "IDN",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:06:02.238Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b696"
+  },
+  "id": "international",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "International"
+  },
+  "iso2": null,
+  "iso3": "INT",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:56:16.029Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b697"
+  },
+  "id": "iran",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Iran"
+  },
+  "iso2": "ir",
+  "iso3": "IRI",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:41:44.133Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b698"
+  },
+  "id": "iraq",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Iraq"
+  },
+  "iso2": "iq",
+  "iso3": "IRQ",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.771Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:07.227Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b699"
+  },
+  "id": "ireland",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Ireland"
+  },
+  "iso2": "ie",
+  "iso3": "IRE",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:08.270Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b69a"
+  },
+  "id": "israel",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Israel"
+  },
+  "iso2": "il",
+  "iso3": "ISR",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:06.265Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b69b"
+  },
+  "id": "italy",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Italy"
+  },
+  "iso2": "it",
+  "iso3": "ITA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:53.854Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b69c"
+  },
+  "id": "jamaica",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Jamaica"
+  },
+  "iso2": "jm",
+  "iso3": "JAM",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:41:57.264Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b69d"
+  },
+  "id": "japan",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Japan"
+  },
+  "iso2": "jp",
+  "iso3": "JPN",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:15.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b69e"
+  },
+  "id": "jordan",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Jordan"
+  },
+  "iso2": "jo",
+  "iso3": "JOR",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:41:57.183Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b69f"
+  },
+  "id": "kazakhstan",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Kazakhstan"
+  },
+  "iso2": "kz",
+  "iso3": "KAZ",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:53.861Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6a0"
+  },
+  "id": "kenya",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Kenya"
+  },
+  "iso2": "ke",
+  "iso3": "KEN",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:03.249Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6a1"
+  },
+  "id": "kosovo",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Kosovo"
+  },
+  "iso2": "xk",
+  "iso3": "KOS",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:53.868Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6a2"
+  },
+  "id": "kuwait",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Kuwait"
+  },
+  "iso2": "kw",
+  "iso3": "KUW",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:03:00.159Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6a3"
+  },
+  "id": "kyrgyzstan",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Kyrgyzstan"
+  },
+  "iso2": "kg",
+  "iso3": "KGZ",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:19.249Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6a4"
+  },
+  "id": "lao-peoples's-democratic-republic",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Laos"
+  },
+  "iso2": "la",
+  "iso3": "LAO",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:14:27.038Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6a5"
+  },
+  "id": "latvia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Latvia"
+  },
+  "iso2": "lv",
+  "iso3": "LAT",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:13.141Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6a6"
+  },
+  "id": "lebanon",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Lebanon"
+  },
+  "iso2": "lb",
+  "iso3": "LBN",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:41:36.158Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6a7"
+  },
+  "id": "lesotho",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Lesotho"
+  },
+  "iso2": "ls",
+  "iso3": "LSO",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:02:39.026Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6a8"
+  },
+  "id": "liberia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Liberia"
+  },
+  "iso2": "lr",
+  "iso3": "LBR",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-08T18:42:29.492Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6a9"
+  },
+  "id": "libya",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Libya"
+  },
+  "iso2": "ly",
+  "iso3": "LBY",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:04:27.147Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6aa"
+  },
+  "id": "liechtenstein",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Liechtenstein"
+  },
+  "iso2": "li",
+  "iso3": "LIE",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:04:28.095Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6ab"
+  },
+  "id": "lithuania",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Lithuania"
+  },
+  "iso2": "lt",
+  "iso3": "LTU",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:17.283Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6ac"
+  },
+  "id": "luxembourg",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Luxembourg"
+  },
+  "iso2": "lu",
+  "iso3": "LUX",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:57.801Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6ad"
+  },
+  "id": "macau",
+  "maps": [
+    "macao"
+  ],
+  "titles": {
+    "en": "Macau"
+  },
+  "iso2": "mo",
+  "iso3": "MAC",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-20T19:49:56.934Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6ae"
+  },
+  "id": "madagascar",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Madagascar"
+  },
+  "iso2": "mg",
+  "iso3": "MDG",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:59:23.363Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6af"
+  },
+  "id": "malawi",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Malawi"
+  },
+  "iso2": "mw",
+  "iso3": "MWI",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:21.128Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6b0"
+  },
+  "id": "malaysia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Malaysia"
+  },
+  "iso2": "my",
+  "iso3": "MYS",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:41:56.281Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6b1"
+  },
+  "id": "maldives",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Maldives"
+  },
+  "iso2": "mv",
+  "iso3": "MDV",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T12:59:43.050Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6b2"
+  },
+  "id": "mali",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Mali"
+  },
+  "iso2": "ml",
+  "iso3": "MLI",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:02:43.122Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6b3"
+  },
+  "id": "malta",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Malta"
+  },
+  "iso2": "mt",
+  "iso3": "MLT",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.772Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:22.298Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6b4"
+  },
+  "id": "martinique",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Martinique"
+  },
+  "iso2": "mq",
+  "iso3": "MTQ",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:03:25.245Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6b5"
+  },
+  "id": "mauritania",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Mauritania"
+  },
+  "iso2": "mr",
+  "iso3": "MRT",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:03:27.094Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6b6"
+  },
+  "id": "mauritius",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Mauritius"
+  },
+  "iso2": "mu",
+  "iso3": "MUS",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:04:28.121Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6b7"
+  },
+  "id": "mayotte",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Mayotte"
+  },
+  "iso2": "yt",
+  "iso3": "MYT",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:00:23.927Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6b8"
+  },
+  "id": "mexico",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Mexico"
+  },
+  "iso2": "mx",
+  "iso3": "MEX",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:41:56.244Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6b9"
+  },
+  "id": "moldova",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Moldova"
+  },
+  "iso2": "md",
+  "iso3": "MOL",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:03:27.115Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6ba"
+  },
+  "id": "monaco",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Monaco"
+  },
+  "iso2": "mc",
+  "iso3": "MCO",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:00:45.701Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6bb"
+  },
+  "id": "mongolia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Mongolia"
+  },
+  "iso2": "mn",
+  "iso3": "MNG",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:20.120Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6bc"
+  },
+  "id": "montenegro",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Montenegro"
+  },
+  "iso2": "me",
+  "iso3": "MNE",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:17.242Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6bd"
+  },
+  "id": "montserrat",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Montserrat"
+  },
+  "iso2": "ms",
+  "iso3": "MSR",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:01:23.780Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6be"
+  },
+  "id": "morocco",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Morocco"
+  },
+  "iso2": "ma",
+  "iso3": "MAR",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:04:14.162Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6bf"
+  },
+  "id": "mozambique",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Mozambique"
+  },
+  "iso2": "mz",
+  "iso3": "MOZ",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-15T23:31:07.011Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6c0"
+  },
+  "id": "myanmar",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Myanmar"
+  },
+  "iso2": "mm",
+  "iso3": "MMR",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T10:37:36.803Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6c1"
+  },
+  "id": "namibia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Namibia"
+  },
+  "iso2": "na",
+  "iso3": "NAM",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:04:15.141Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6c2"
+  },
+  "id": "nauru",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Nauru"
+  },
+  "iso2": "nr",
+  "iso3": "NRU",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:01:58.300Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6c3"
+  },
+  "id": "nepal",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Nepal"
+  },
+  "iso2": "np",
+  "iso3": "NPL",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:02:05.077Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6c4"
+  },
+  "id": "new-caledonia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "New Caledonia"
+  },
+  "iso2": "nc",
+  "iso3": "NCL",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:02:12.978Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6c5"
+  },
+  "id": "new-zealand",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "New Zealand"
+  },
+  "iso2": "nz",
+  "iso3": "NZL",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:41:57.271Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6c6"
+  },
+  "id": "nicaragua",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Nicaragua"
+  },
+  "iso2": "ni",
+  "iso3": "NIC",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:08.240Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6c7"
+  },
+  "id": "niger",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Niger"
+  },
+  "iso2": "ne",
+  "iso3": "NIG",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:04:29.102Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6c8"
+  },
+  "id": "nigeria",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Nigeria"
+  },
+  "iso2": "ng",
+  "iso3": "NGA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:08.167Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6ca"
+  },
+  "id": "northern-ireland",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Northern Ireland"
+  },
+  "iso2": "gb-nir",
+  "iso3": "NIR",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:04:15.126Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6cb"
+  },
+  "id": "northern-mariana-islands",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Northern Mariana Islands"
+  },
+  "iso2": "mp",
+  "iso3": "MNP",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:03:13.391Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6cc"
+  },
+  "id": "north-korea",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "North Korea"
+  },
+  "iso2": "kp",
+  "iso3": "PRK",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:03:22.053Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6cd"
+  },
+  "id": "north-macedonia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "North Macedonia"
+  },
+  "iso2": "mk",
+  "iso3": "MKD",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:57.834Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6ce"
+  },
+  "id": "norway",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Norway"
+  },
+  "iso2": "no",
+  "iso3": "NOR",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:12.546Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6d0"
+  },
+  "id": "oman",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Oman"
+  },
+  "iso2": "om",
+  "iso3": "OMA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:02:30.015Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6d1"
+  },
+  "id": "pakistan",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Pakistan"
+  },
+  "iso2": "pk",
+  "iso3": "PAK",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:41.210Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6d2"
+  },
+  "id": "panama",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Panama"
+  },
+  "iso2": "pa",
+  "iso3": "PAN",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:41:55.315Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6d3"
+  },
+  "id": "papua-new-guinea",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Papua New Guinea"
+  },
+  "iso2": "pg",
+  "iso3": "PNG",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:04:13.371Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6d4"
+  },
+  "id": "paraguay",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Paraguay"
+  },
+  "iso2": "py",
+  "iso3": "PAR",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:07.326Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6d5"
+  },
+  "id": "peru",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Peru"
+  },
+  "iso2": "pe",
+  "iso3": "PER",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:54.253Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6d6"
+  },
+  "id": "philippines",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Philippines"
+  },
+  "iso2": "ph",
+  "iso3": "PHL",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:57.898Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6d7"
+  },
+  "id": "poland",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Poland"
+  },
+  "iso2": "pl",
+  "iso3": "POL",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:57.927Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6d8"
+  },
+  "id": "portugal",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Portugal"
+  },
+  "iso2": "pt",
+  "iso3": "POR",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:58.773Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6d9"
+  },
+  "id": "puerto-rico",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Puerto Rico"
+  },
+  "iso2": "pr",
+  "iso3": "PRI",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:17.136Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6da"
+  },
+  "id": "qatar",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Qatar"
+  },
+  "iso2": "qa",
+  "iso3": "QAT",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:13.166Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6db"
+  },
+  "id": "reunion",
+  "maps": [
+    "réunion"
+  ],
+  "titles": {
+    "en": "Reunion"
+  },
+  "iso2": "re",
+  "iso3": "REU",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-15T17:31:11.971Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6dc"
+  },
+  "id": "romania",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Romania"
+  },
+  "iso2": "ro",
+  "iso3": "ROM",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:58.838Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6dd"
+  },
+  "id": "russia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Russia"
+  },
+  "iso2": "ru",
+  "iso3": "RUS",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:57.925Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6de"
+  },
+  "id": "rwanda",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Rwanda"
+  },
+  "iso2": "rw",
+  "iso3": "RWA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-07T18:59:53.865Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6df"
+  },
+  "id": "saint-lucia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Saint Lucia"
+  },
+  "iso2": "lc",
+  "iso3": "STL",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:09:39.561Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6e0"
+  },
+  "id": "saint-martin",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Saint Martin"
+  },
+  "iso2": "mf",
+  "iso3": "MAF",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:09:59.836Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6e1"
+  },
+  "id": "saint-vincent-and-the-grenadines",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Saint Vincent and The Grenadines"
+  },
+  "iso2": "vc",
+  "iso3": "VCT",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:10:19.704Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6e2"
+  },
+  "id": "samoa",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Samoa"
+  },
+  "iso2": "ws",
+  "iso3": "SAM",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:10:26.586Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6e3"
+  },
+  "id": "san-marino",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "San Marino"
+  },
+  "iso2": "sm",
+  "iso3": "SMR",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:26.203Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6e4"
+  },
+  "id": "sao-tome-e-principe",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Sao Tome e Principe"
+  },
+  "iso2": "st",
+  "iso3": "STP",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:10:46.561Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6e5"
+  },
+  "id": "saudi-arabia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Saudi Arabia"
+  },
+  "iso2": "sa",
+  "iso3": "KSA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:06.218Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6e6"
+  },
+  "id": "scotland",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Scotland"
+  },
+  "iso2": "gb-sct",
+  "iso3": "SCO",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:28.190Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6e7"
+  },
+  "id": "senegal",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Senegal"
+  },
+  "iso2": "sn",
+  "iso3": "SEN",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:03:22.091Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6e8"
+  },
+  "id": "serbia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Serbia"
+  },
+  "iso2": "rs",
+  "iso3": "SRB",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:55.210Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6e9"
+  },
+  "id": "seychelles",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Seychelles"
+  },
+  "iso2": "sc",
+  "iso3": "SYC",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:23.345Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6ea"
+  },
+  "id": "sierra-leone",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Sierra Leone"
+  },
+  "iso2": "sl",
+  "iso3": "SLE",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:00.157Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6eb"
+  },
+  "id": "singapore",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Singapore"
+  },
+  "iso2": "sg",
+  "iso3": "SGP",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:24.187Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6ec"
+  },
+  "id": "slovakia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Slovakia"
+  },
+  "iso2": "sk",
+  "iso3": "SVK",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:58.784Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6ed"
+  },
+  "id": "slovenia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Slovenia"
+  },
+  "iso2": "si",
+  "iso3": "SLO",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:58.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6ee"
+  },
+  "id": "solomon-islands",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Solomon Islands"
+  },
+  "iso2": "sb",
+  "iso3": "SLB",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:11:59.821Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6ef"
+  },
+  "id": "somalia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Somalia"
+  },
+  "iso2": "so",
+  "iso3": "SOM",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:08.153Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6f0"
+  },
+  "id": "south-africa",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "South Africa"
+  },
+  "iso2": "za",
+  "iso3": "ZAF",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.774Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:41:39.194Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6f2"
+  },
+  "id": "south-korea",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "South Korea"
+  },
+  "iso2": "kr",
+  "iso3": "KOR",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:14.274Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6f3"
+  },
+  "id": "south-sudan",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "South Sudan"
+  },
+  "iso2": "ss",
+  "iso3": "SSD",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:12:32.590Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6f4"
+  },
+  "id": "spain",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Spain"
+  },
+  "iso2": "es",
+  "iso3": "SPA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:51.850Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6f5"
+  },
+  "id": "sri-lanka",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Sri Lanka"
+  },
+  "iso2": "lk",
+  "iso3": "LKA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-07T18:59:11.962Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6f6"
+  },
+  "id": "st.-kitts-and-nevis",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "St. Kitts and Nevis"
+  },
+  "iso2": "kn",
+  "iso3": "KNA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:13:01.541Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6f7"
+  },
+  "id": "sudan",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Sudan"
+  },
+  "iso2": "sd",
+  "iso3": "SDN",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-02-20T10:43:57.501Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6f8"
+  },
+  "id": "suriname",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Suriname"
+  },
+  "iso2": "sr",
+  "iso3": "SUR",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:25.200Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6f9"
+  },
+  "id": "swaziland",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Swaziland"
+  },
+  "iso2": null,
+  "iso3": "SWZ",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:13:25.996Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6fa"
+  },
+  "id": "sweden",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Sweden"
+  },
+  "iso2": "se",
+  "iso3": "SWE",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:51.867Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6fb"
+  },
+  "id": "switzerland",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Switzerland"
+  },
+  "iso2": "ch",
+  "iso3": "SWI",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:51.926Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6fc"
+  },
+  "id": "syria",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Syria"
+  },
+  "iso2": "sy",
+  "iso3": "SYR",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-04T18:57:08.143Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6fd"
+  },
+  "id": "tahiti",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Tahiti"
+  },
+  "iso2": null,
+  "iso3": "TAH",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:14:46.929Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6fe"
+  },
+  "id": "tajikistan",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Tajikistan"
+  },
+  "iso2": "tj",
+  "iso3": "TJK",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:03:33.128Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b6ff"
+  },
+  "id": "tanzania",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Tanzania"
+  },
+  "iso2": "tz",
+  "iso3": "TZA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:08.213Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b700"
+  },
+  "id": "thailand",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Thailand"
+  },
+  "iso2": "th",
+  "iso3": "THA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:04:30.159Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b701"
+  },
+  "id": "togo",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Togo"
+  },
+  "iso2": "tg",
+  "iso3": "TGO",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:26.349Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b702"
+  },
+  "id": "tonga",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Tonga"
+  },
+  "iso2": "to",
+  "iso3": "TGA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:15:21.022Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b703"
+  },
+  "id": "trinidad-and-tobago",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Trinidad and Tobago"
+  },
+  "iso2": "tt",
+  "iso3": "TTO",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:03:07.083Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b704"
+  },
+  "id": "tunisia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Tunisia"
+  },
+  "iso2": "tn",
+  "iso3": "TUN",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:06.211Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b705"
+  },
+  "id": "turkey",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Turkey"
+  },
+  "iso2": "tr",
+  "iso3": "TUR",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:51.934Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b706"
+  },
+  "id": "turkmenistan",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Turkmenistan"
+  },
+  "iso2": "tm",
+  "iso3": "TKM",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:24.140Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b707"
+  },
+  "id": "turks-and-caicos-islands",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Turks and Caicos Islands"
+  },
+  "iso2": "tc",
+  "iso3": "TCA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:16:03.760Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b708"
+  },
+  "id": "tuvalu",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Tuvalu"
+  },
+  "iso2": "tv",
+  "iso3": "TUV",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:16:10.140Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b709"
+  },
+  "id": "uganda",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Uganda"
+  },
+  "iso2": "ug",
+  "iso3": "UGA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:28.163Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b70b"
+  },
+  "id": "ukraine",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Ukraine"
+  },
+  "iso2": "ua",
+  "iso3": "UKR",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:52.838Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b70c"
+  },
+  "id": "united-arab-emirates",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "United Arab Emirates"
+  },
+  "iso2": "ae",
+  "iso3": "UAE",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:03:40.060Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b70d"
+  },
+  "id": "uruguay",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Uruguay"
+  },
+  "iso2": "uy",
+  "iso3": "URU",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:05.337Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b70e"
+  },
+  "id": "usa",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "United States"
+  },
+  "iso2": "us",
+  "iso3": "USA",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:14.299Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b70f"
+  },
+  "id": "us-virgin-isles",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "US Virgin Isles"
+  },
+  "iso2": "vi",
+  "iso3": "VIR",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:17:22.619Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b710"
+  },
+  "id": "uzbekistan",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Uzbekistan"
+  },
+  "iso2": "uz",
+  "iso3": "UZB",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:04:19.097Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b711"
+  },
+  "id": "vanuatu",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Vanuatu"
+  },
+  "iso2": "vu",
+  "iso3": "VUT",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:17:36.832Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b712"
+  },
+  "id": "venezuela",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Venezuela"
+  },
+  "iso2": "ve",
+  "iso3": "VEN",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:41:58.198Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b713"
+  },
+  "id": "vietnam",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Vietnam"
+  },
+  "iso2": "vn",
+  "iso3": "VNM",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:03:20.041Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b714"
+  },
+  "id": "wales",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Wales"
+  },
+  "iso2": "gb-wls",
+  "iso3": "WAL",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.775Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:54.206Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b715"
+  },
+  "id": "yemen",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Yemen"
+  },
+  "iso2": "ye",
+  "iso3": "YEM",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.776Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:18:02.962Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b717"
+  },
+  "id": "zambia",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Zambia"
+  },
+  "iso2": "zm",
+  "iso3": "ZMB",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.776Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:06:08.205Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b718"
+  },
+  "id": "zanzibar",
+  "maps": [
+    ""
+  ],
+  "titles": {
+    "en": "Zanzibar"
+  },
+  "iso2": null,
+  "iso3": "EAZ",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.776Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-01T13:18:20.170Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65d83847afc2792d7223b719"
+  },
+  "id": "zimbabwe",
+  "maps": null,
+  "titles": {
+    "en": "zimbabwe"
+  },
+  "iso2": "zw",
+  "iso3": "ZWE",
+  "act": true,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:39.776Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:26.243Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "65f33d110e43ca69c9313a1d"
+  },
+  "id": "taiwan",
+  "spid": "basketball",
+  "maps": [
+    "chinese-taipei"
+  ],
+  "titles": {
+    "en": "Taiwan"
+  },
+  "act": true,
+  "createdAt": {
+    "$date": "2024-03-14T18:08:17.633Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:13.181Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66194a00e88a18abe088f0a8"
+  },
+  "id": "eswatini",
+  "spid": "soccer",
+  "maps": [],
+  "titles": {
+    "en": "Eswatini"
+  },
+  "act": true,
+  "createdAt": {
+    "$date": "2024-04-12T14:49:36.068Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:03:54.122Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66194f07e88a18abe089035e"
+  },
+  "id": "republic-of-the-congo",
+  "spid": "soccer",
+  "maps": [],
+  "titles": {
+    "en": "Republic of the-Congo"
+  },
+  "act": true,
+  "createdAt": {
+    "$date": "2024-04-12T15:11:03.432Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-05T13:02:01.536Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6625ff1924d8eea1d44db1d7"
+  },
+  "id": "light-flyweight---women",
+  "spid": "boxing",
+  "maps": [],
+  "titles": {
+    "en": "Light Flyweight - Women"
+  },
+  "act": true,
+  "createdAt": {
+    "$date": "2024-04-22T06:09:29.613Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-22T06:09:29.613Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662608b224d8eea1d44db6f3"
+  },
+  "id": "cape-verde",
+  "spid": "soccer",
+  "maps": [],
+  "titles": {
+    "en": "Cape Verde"
+  },
+  "act": true,
+  "createdAt": {
+    "$date": "2024-04-22T06:50:26.082Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-22T06:50:26.082Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66260b2324d8eea1d44db87a"
+  },
+  "id": "são-tomé-and-príncipe",
+  "spid": "soccer",
+  "maps": [],
+  "titles": {
+    "en": "São Tomé and Príncipe"
+  },
+  "act": true,
+  "createdAt": {
+    "$date": "2024-04-22T07:00:51.405Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-07T18:59:27.832Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6668289b1905fa12defb44d6"
+  },
+  "id": "2024-olympic-paris",
+  "spid": "athletics",
+  "maps": [],
+  "titles": {
+    "en": "2024 Olympic Paris"
+  },
+  "act": true,
+  "createdAt": {
+    "$date": "2024-06-11T10:36:11.527Z"
+  },
+  "updatedAt": {
+    "$date": "2024-06-11T10:36:11.527Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67626d1dbab6fdf5d275c353"
+  },
+  "id": "asia",
+  "__v": 0,
+  "act": false,
+  "createdAt": {
+    "$date": "2024-12-18T06:35:09.833Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "Asia"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:50.817Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67626d2dbab6fdf5d275c358"
+  },
+  "id": "europe",
+  "__v": 0,
+  "act": false,
+  "createdAt": {
+    "$date": "2024-12-18T06:35:25.019Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "Europe"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:54.871Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67626d5dbab6fdf5d275c35d"
+  },
+  "id": "ivory-coast",
+  "__v": 0,
+  "act": false,
+  "createdAt": {
+    "$date": "2024-12-18T06:36:13.058Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "Ivory Coast"
+  },
+  "updatedAt": {
+    "$date": "2025-04-02T18:45:55.725Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67626d69bab6fdf5d275c35f"
+  },
+  "id": "netherlands",
+  "__v": 0,
+  "act": false,
+  "createdAt": {
+    "$date": "2024-12-18T06:36:25.595Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "Netherlands"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:41:56.185Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67626d77bab6fdf5d275c360"
+  },
+  "id": "south-america",
+  "__v": 0,
+  "act": false,
+  "createdAt": {
+    "$date": "2024-12-18T06:36:39.330Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "South America"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:41:44.388Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67626d8dbab6fdf5d275c361"
+  },
+  "id": "world",
+  "__v": 0,
+  "act": false,
+  "createdAt": {
+    "$date": "2024-12-18T06:37:01.464Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "World"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:15.191Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67626de7bab6fdf5d275c36f"
+  },
+  "id": "bosnia-and-herzegovina",
+  "__v": 0,
+  "act": false,
+  "createdAt": {
+    "$date": "2024-12-18T06:38:31.838Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "Bosnia and Herzegovina"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:55.180Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67626e48bab6fdf5d275c37e"
+  },
+  "id": "united-kingdom",
+  "__v": 0,
+  "act": false,
+  "createdAt": {
+    "$date": "2024-12-18T06:40:08.160Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "United Kingdom"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:54.832Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67627262bab6fdf5d275c407"
+  },
+  "id": "itf-men---doubles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-18T06:57:38.499Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "ITF MEN - DOUBLES"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:01:00.776Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67627264bab6fdf5d275c40b"
+  },
+  "id": "itf-women---singles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-18T06:57:40.656Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "ITF WOMEN - SINGLES"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:01:00.774Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67627265bab6fdf5d275c40d"
+  },
+  "id": "antigua-&-barbuda",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-18T06:57:41.378Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "Antigua & Barbuda"
+  },
+  "updatedAt": {
+    "$date": "2025-04-01T18:40:33.919Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6762726bbab6fdf5d275c416"
+  },
+  "id": "others---men",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-18T06:57:47.620Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "OTHERS - MEN"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:00.227Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "676272adbab6fdf5d275c45a"
+  },
+  "id": "teams---men",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-18T06:58:53.021Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "TEAMS - MEN"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:02:22.061Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6762736bbab6fdf5d275c522"
+  },
+  "id": "dr-congo",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-18T07:02:03.710Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "DR Congo"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:09.147Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67627377bab6fdf5d275c532"
+  },
+  "id": "itf-women---doubles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-18T07:02:15.462Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "ITF WOMEN - DOUBLES"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:01:01.865Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6762738bbab6fdf5d275c54e"
+  },
+  "id": "itf-men---singles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-18T07:02:35.345Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "ITF MEN - SINGLES"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:57.810Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67628f8cbab6fdf5d276780e"
+  },
+  "id": "teams---mix",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-18T09:02:04.095Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "TEAMS - MIX"
+  },
+  "updatedAt": {
+    "$date": "2025-04-04T18:44:53.625Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67628f8cbab6fdf5d2767810"
+  },
+  "id": "atp---singles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-18T09:02:04.215Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "ATP - SINGLES"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:01:01.975Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67628f92bab6fdf5d2767815"
+  },
+  "id": "africa",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-18T09:02:10.116Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "Africa"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:41:54.289Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67628fc2bab6fdf5d2767986"
+  },
+  "id": "teams---women",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-18T09:02:58.103Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "TEAMS - WOMEN"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:01:01.969Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6763ef43bab6fdf5d276cfa3"
+  },
+  "id": "exhibition---men",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-19T10:02:43.117Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "EXHIBITION - MEN"
+  },
+  "updatedAt": {
+    "$date": "2024-12-21T20:31:14.141Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6763ef43bab6fdf5d276cfa8"
+  },
+  "id": "exhibition---women",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-19T10:02:43.646Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "EXHIBITION - WOMEN"
+  },
+  "updatedAt": {
+    "$date": "2024-12-21T20:31:14.081Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6763ef44bab6fdf5d276cfb7"
+  },
+  "id": "exhibition---doubles-men",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-19T10:02:44.141Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "EXHIBITION - DOUBLES MEN"
+  },
+  "updatedAt": {
+    "$date": "2024-12-21T20:31:12.239Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6763ef44bab6fdf5d276cfba"
+  },
+  "id": "exhibition---doubles-women",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-19T10:02:44.662Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "EXHIBITION - DOUBLES WOMEN"
+  },
+  "updatedAt": {
+    "$date": "2024-12-21T20:31:12.193Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6765406418d8a411c5b6267f"
+  },
+  "id": "wta---singles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-20T10:01:08.764Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "WTA - SINGLES"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:56.934Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6765426a18d8a411c5b62a20"
+  },
+  "id": "exhibition---mixed-doubles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-20T10:09:46.317Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "EXHIBITION - MIXED DOUBLES"
+  },
+  "updatedAt": {
+    "$date": "2025-03-06T15:17:27.271Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6765426a18d8a411c5b62a24"
+  },
+  "id": "others---doubles-men",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-20T10:09:46.464Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "OTHERS - DOUBLES MEN"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:02:52.063Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "677232aa18d8a411c5b847d9"
+  },
+  "id": "atp---doubles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-30T05:42:02.956Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "ATP - DOUBLES"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:58.771Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "677232ab18d8a411c5b847dc"
+  },
+  "id": "mixed-doubles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-30T05:42:03.057Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "MIXED DOUBLES"
+  },
+  "updatedAt": {
+    "$date": "2025-01-25T16:23:40.732Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "677232ab18d8a411c5b847eb"
+  },
+  "id": "challenger-men---singles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-30T05:42:03.118Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "CHALLENGER MEN - SINGLES"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:01:00.830Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "677232ab18d8a411c5b847fe"
+  },
+  "id": "challenger-women---singles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-30T05:42:03.217Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "CHALLENGER WOMEN - SINGLES"
+  },
+  "updatedAt": {
+    "$date": "2025-04-07T19:00:04.184Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "677232d518d8a411c5b849a4"
+  },
+  "id": "wta---doubles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-30T05:42:45.006Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "WTA - DOUBLES"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:00:58.793Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6772371818d8a411c5b84c4e"
+  },
+  "id": "challenger-women---doubles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-30T06:00:56.971Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "CHALLENGER WOMEN - DOUBLES"
+  },
+  "updatedAt": {
+    "$date": "2025-04-06T15:43:44.530Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6772372918d8a411c5b84f6e"
+  },
+  "id": "laos",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-30T06:01:13.006Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "Laos"
+  },
+  "updatedAt": {
+    "$date": "2025-03-02T15:42:46.855Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6772380a18d8a411c5b874d8"
+  },
+  "id": "challenger-men---doubles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2024-12-30T06:04:58.222Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "CHALLENGER MEN - DOUBLES"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T11:01:01.876Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "677520b518d8a411c5b9b190"
+  },
+  "id": "bwf-world-tour---men",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-01-01T11:02:13.597Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "BWF WORLD TOUR - MEN"
+  },
+  "updatedAt": {
+    "$date": "2025-03-24T17:26:25.132Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67752ec218d8a411c5b9df88"
+  },
+  "id": "bwf-world-tour---women",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-01-01T12:02:10.538Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "BWF WORLD TOUR - WOMEN"
+  },
+  "updatedAt": {
+    "$date": "2025-03-24T18:56:46.733Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67752ec318d8a411c5b9dfaa"
+  },
+  "id": "bwf-world-tour---doubles-men",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-01-01T12:02:11.518Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "BWF WORLD TOUR - DOUBLES MEN"
+  },
+  "updatedAt": {
+    "$date": "2025-03-24T18:56:46.668Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67752ec318d8a411c5b9dfca"
+  },
+  "id": "bwf-world-tour---doubles-women",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-01-01T12:02:11.623Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "BWF WORLD TOUR - DOUBLES WOMEN"
+  },
+  "updatedAt": {
+    "$date": "2025-03-24T16:56:22.376Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67752ec418d8a411c5b9dfec"
+  },
+  "id": "bwf-world-tour---mixed-doubles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-01-01T12:02:12.571Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "BWF WORLD TOUR - MIXED DOUBLES"
+  },
+  "updatedAt": {
+    "$date": "2025-03-24T18:56:46.627Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "677a9f1218d8a411c5bd48bb"
+  },
+  "id": "others---women",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-01-05T15:02:42.281Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "OTHERS - WOMEN"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:01.730Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "677a9f1418d8a411c5bd490f"
+  },
+  "id": "others---doubles-women",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-01-05T15:02:44.245Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "OTHERS - DOUBLES WOMEN"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:02:54.037Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "677a9f1418d8a411c5bd4919"
+  },
+  "id": "others---mixed-doubles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-01-05T15:02:44.269Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "OTHERS - MIXED DOUBLES"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:24.121Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6780c619e53e16cdef882d0e"
+  },
+  "id": "soccer/austria-amateur",
+  "maps": [
+    "catalogue",
+    null
+  ],
+  "act": true,
+  "createdAt": {
+    "$date": "2025-01-10T07:02:49.424Z"
+  },
+  "updatedAt": {
+    "$date": "2025-01-10T07:08:30.339Z"
+  },
+  "__v": 0,
+  "iso2": "catalogue",
+  "iso3": "catalogue",
+  "titles": {
+    "en": "english"
+  }
+},
+{
+  "_id": {
+    "$oid": "6786f7aeae510a1001eaa000"
+  },
+  "id": "boys---singles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-01-14T23:47:58.145Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "BOYS - SINGLES"
+  },
+  "updatedAt": {
+    "$date": "2025-01-26T15:39:17.410Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67874c63ae510a1001eb3e01"
+  },
+  "id": "girls---singles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-01-15T05:49:23.984Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "GIRLS - SINGLES"
+  },
+  "updatedAt": {
+    "$date": "2025-01-26T15:39:17.366Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "678c4ec3ae510a1001ffb8cb"
+  },
+  "id": "boys---doubles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-01-19T01:00:51.222Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "BOYS - DOUBLES"
+  },
+  "updatedAt": {
+    "$date": "2025-01-25T17:58:12.339Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "678c4ec4ae510a1001ffb8df"
+  },
+  "id": "girls---doubles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-01-19T01:00:52.035Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "GIRLS - DOUBLES"
+  },
+  "updatedAt": {
+    "$date": "2025-01-25T17:58:12.285Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "679194ccae510a100126cfc3"
+  },
+  "id": "north-&-central-america",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-01-23T01:01:00.923Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "North & Central America"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:07.301Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "679d1f78a4cc4651eeeac2de"
+  },
+  "id": "australia-&-oceania",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-01-31T19:07:36.904Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "Australia & Oceania"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:41:35.099Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a612b15aa28c22624af6b3"
+  },
+  "id": "bwf---men",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-02-07T14:03:28.815Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "BWF - MEN"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:02.138Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a612b15aa28c22624af6b5"
+  },
+  "id": "bwf---doubles-men",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-02-07T14:03:28.815Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "BWF - DOUBLES MEN"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:05.157Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a612b45aa28c22624af6d8"
+  },
+  "id": "bwf---women",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-02-07T14:03:32.701Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "BWF - WOMEN"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:01.242Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a620985aa28c22624af917"
+  },
+  "id": "bwf---doubles-women",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-02-07T15:02:48.346Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "BWF - DOUBLES WOMEN"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:03.169Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67a620995aa28c22624af91c"
+  },
+  "id": "bwf---mixed-doubles",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-02-07T15:02:49.339Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "BWF - MIXED DOUBLES"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:05.161Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67af30c15d363c127511578f"
+  },
+  "id": "macao",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-02-14T12:02:08.239Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "Macao"
+  },
+  "updatedAt": {
+    "$date": "2025-04-07T18:59:36.925Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c4ab5f5d363c1275166a1a"
+  },
+  "id": "america",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-03-02T19:02:55.594Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "America"
+  },
+  "updatedAt": {
+    "$date": "2025-03-19T18:46:08.843Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c859d05d363c1275174538"
+  },
+  "id": "bpt-futures---women",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-03-05T14:04:00.144Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "BPT FUTURES - WOMEN"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:05.211Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67c859d05d363c127517453b"
+  },
+  "id": "bpt-futures---men",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-03-05T14:04:00.169Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "BPT FUTURES - MEN"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:42:05.164Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d5dcfe3d3fa99a1b67520f"
+  },
+  "id": "réunion",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-03-15T20:03:10.102Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "Réunion"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:03:38.207Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67da6bd93d3fa99a1b6814cb"
+  },
+  "id": "bpt-challenge---men",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-03-19T07:01:45.600Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "BPT CHALLENGE - MEN"
+  },
+  "updatedAt": {
+    "$date": "2025-03-25T18:11:21.963Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67da6c4a3d3fa99a1b6814f6"
+  },
+  "id": "bpt-challenge---women",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-03-19T07:03:38.642Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "BPT CHALLENGE - WOMEN"
+  },
+  "updatedAt": {
+    "$date": "2025-03-25T12:08:17.821Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e3c26540ddfd0e9791ad0d"
+  },
+  "id": "bpt-elite16---women",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-03-26T09:01:25.337Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "BPT ELITE16 - WOMEN"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:44.134Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67e3c26640ddfd0e9791ad13"
+  },
+  "id": "bpt-elite16---men",
+  "__v": 0,
+  "act": true,
+  "createdAt": {
+    "$date": "2025-03-26T09:01:25.366Z"
+  },
+  "maps": [],
+  "titles": {
+    "en": "BPT ELITE16 - MEN"
+  },
+  "updatedAt": {
+    "$date": "2025-04-09T10:05:44.170Z"
+  }
+}]
