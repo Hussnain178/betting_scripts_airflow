@@ -2,11 +2,8 @@ import json
 from rapidfuzz import fuzz
 import scrapy
 from scrapy.crawler import CrawlerProcess
-from fixed_helper import local_to_utc, date_conversion, store_data_into_mongodb, parse_tipico_date, normalize_timestamp_for_comparison
+from helper import store_data_into_mongodb, parse_tipico_date, normalize_timestamp_for_comparison
 from pymongo import MongoClient
-import pytz
-from datetime import datetime
-
 
 def compare_matchups(
         team1_a: str,

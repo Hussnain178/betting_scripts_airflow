@@ -1,8 +1,8 @@
 import scrapy
 from scrapy.crawler import CrawlerProcess
 import json
-from fixed_helper import local_to_utc, date_conversion, store_data_into_mongodb
-from pymongo import MongoClient, UpdateOne
+from helper import store_data_into_mongodb
+from pymongo import MongoClient
 from datetime import datetime
 import pytz
 
