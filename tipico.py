@@ -77,7 +77,8 @@ class tipico(scrapy.Spider):
         self.all_country_data = list(get_country_collection.find())
         self.get_matches_data = db['matches_data']
         self.matches_data_collection = list(self.get_matches_data.find())
-        self.proxy = "http://w69d665dd756bed7bf2bc55-zone-custom-region-de:b69499b2578f41879372b0299dea50f8@p1.mangoproxy.com:2333/"
+        # self.proxy = "http://w69d665dd756bed7bf2bc55-zone-custom-region-de:b69499b2578f41879372b0299dea50f8@p1.mangoproxy.com:2333/"
+        self.proxy = "http://lXe53W9wSpWgBb2W:9rHVoP8UgHUmFoD0_country-at@geo.iproyal.com:12321/"
 
     def check_key_name(self, key):
 
