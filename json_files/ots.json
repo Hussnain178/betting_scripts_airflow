@@ -29,7 +29,9 @@
   ],
   "maps": [
     "1x2",
+    "3-way moneyline",
     "full time",
+    "3-way moneyline - match",
     "standard",
     "three-way",
     "match result",
@@ -84,7 +86,8 @@
     "half-time",
     "1x2-1h",
     "1st-half---1x2",
-    "1x2-3way-1st-half"
+    "1x2-3way-1st-half",
+    "3-way moneyline - first half"
   ],
   "__v": 0,
   "createdAt": {
@@ -129,7 +132,8 @@
     "section-win-half-2",
     "who-wins-the-2-half?",
     "1x2-2h",
-    "1x2-3way-2nd-half"
+    "1x2-3way-2nd-half",
+    "3-way moneyline - second half"
   ],
   "__v": 0,
   "createdAt": {
@@ -169,7 +173,8 @@
     }
   ],
   "maps": [
-    "1x2-3way-1st-quarter"
+    "1x2-3way-1st-quarter",
+    "3-way moneyline - 1st quarter"
   ],
   "__v": 0,
   "createdAt": {
@@ -206,7 +211,8 @@
     }
   ],
   "maps": [
-    "1x2-3way-2nd-quarter"
+    "1x2-3way-2nd-quarter",
+    "3-way moneyline - 2nd quarter"
   ],
   "__v": 0,
   "createdAt": {
@@ -243,7 +249,8 @@
     }
   ],
   "maps": [
-    "1x2-3way-3rd-quarter"
+    "1x2-3way-3rd-quarter",
+    "3-way moneyline - 3rd quarter"
   ],
   "__v": 0,
   "createdAt": {
@@ -280,7 +287,8 @@
     }
   ],
   "maps": [
-    "1x2-3way-4th-quarter"
+    "1x2-3way-4th-quarter",
+    "3-way moneyline - 4th quarter"
   ],
   "__v": 0,
   "createdAt": {
@@ -488,7 +496,8 @@
     "double-chance-first-half",
     "double-chance---1st-half",
     "1st-half---double-chance",
-    "double-chance-1st-half"
+    "double-chance-1st-half",
+    "double chance first half"
   ],
   "__v": 0,
   "createdAt": {
@@ -652,6 +661,8 @@
   "maps": [
     "asian handicap",
     "ah-fe",
+    "handicap",
+    "games handicap",
     "asian-handicap-ordinary-time"
   ],
   "__v": 0,
@@ -692,7 +703,8 @@
     "asian handicap - 1st half",
     "ah-1h",
     "1st-half---asian-handicap",
-    "asian-handicap-1st-half"
+    "asian-handicap-1st-half",
+    "double chance second half"
   ],
   "__v": 0,
   "createdAt": {
@@ -769,7 +781,8 @@
   ],
   "maps": [
     "asian-total",
-    "asian total"
+    "asian total",
+    "asian total goals"
   ],
   "__v": 0,
   "createdAt": {
@@ -803,7 +816,8 @@
     }
   ],
   "maps": [
-    "asian total - 1st half"
+    "asian total - 1st half",
+    "asian total goals - first half"
   ],
   "__v": 0,
   "createdAt": {
@@ -839,7 +853,15 @@
     }
   ],
   "maps": [
-    "spread"
+    "spread",
+    "point spread - points - match",
+    "alternate game spread - match",
+    "game spread - match",
+    "point spread - game",
+    "point spread - match",
+    "goal spread",
+    "point spread",
+    "spread - game"
   ],
   "__v": 0,
   "createdAt": {
@@ -874,7 +896,11 @@
       ]
     }
   ],
-  "maps": [],
+  "maps": [
+    "point spread - first half",
+    "goal spread - first half",
+    "spread - first half"
+  ],
   "__v": 0,
   "createdAt": {
     "$date": "2024-02-23T06:16:40.179Z"
@@ -908,7 +934,11 @@
       ]
     }
   ],
-  "maps": [],
+  "maps": [
+    "point spread - second half",
+    "goal spread - second half",
+    "spread - second half"
+  ],
   "__v": 0,
   "createdAt": {
     "$date": "2024-02-23T06:16:40.179Z"
@@ -942,7 +972,9 @@
       ]
     }
   ],
-  "maps": [],
+  "maps": [
+    "point spread - 1st quarter"
+  ],
   "__v": 0,
   "createdAt": {
     "$date": "2024-02-23T06:16:40.179Z"
@@ -976,7 +1008,9 @@
       ]
     }
   ],
-  "maps": [],
+  "maps": [
+    "point spread - 2nd quarter"
+  ],
   "__v": 0,
   "createdAt": {
     "$date": "2024-02-23T06:16:40.179Z"
@@ -1010,7 +1044,9 @@
       ]
     }
   ],
-  "maps": [],
+  "maps": [
+    "point spread - 3rd quarter"
+  ],
   "__v": 0,
   "createdAt": {
     "$date": "2024-02-23T06:16:40.179Z"
@@ -1044,7 +1080,9 @@
       ]
     }
   ],
-  "maps": [],
+  "maps": [
+    "point spread - 4th quarter"
+  ],
   "__v": 0,
   "createdAt": {
     "$date": "2024-02-23T06:16:40.179Z"
@@ -1114,13 +1152,22 @@
   ],
   "maps": [
     "total goals",
+    "total",
     "points-more-less-than",
+    "total points - game",
+    "total points - match",
+    "total - game",
+    "total goals o/u",
+    "alternate total games - match",
+    "total - match",
+    "total - points - match",
     "over/under total goals",
     "over-under",
     "total-goals",
     "ou-fe",
     "over-under-ordinary-time",
-    "sets-over-under-full-event"
+    "sets-over-under-full-event",
+    "over/under"
   ],
   "__v": 0,
   "createdAt": {
@@ -1162,7 +1209,11 @@
     "1--half-over-under",
     "ou-1h",
     "1st-half---over-under",
-    "over-under-1st-half"
+    "over-under-1st-half",
+    "total - first half",
+    "total goals o/u - first half",
+    "total points - first half",
+    "1. half over/under"
   ],
   "__v": 0,
   "createdAt": {
@@ -1202,7 +1253,11 @@
     "total goals - 2nd half",
     "2--half-over-under",
     "ou-2h",
-    "over-under-2nd-half"
+    "over-under-2nd-half",
+    "total - second half",
+    "total goals o/u - second half",
+    "total points - second half",
+    "2. half over/under"
   ],
   "__v": 0,
   "createdAt": {
@@ -1239,7 +1294,9 @@
     }
   ],
   "maps": [
-    "over-under-1st-quarter"
+    "over-under-1st-quarter",
+    "total - 1st quarter",
+    "quarter no.1 - over/unde"
   ],
   "__v": 0,
   "createdAt": {
@@ -1273,7 +1330,9 @@
     }
   ],
   "maps": [
-    "over-under-2nd-quarter"
+    "over-under-2nd-quarter",
+    "total - 2nd quarter",
+    "quarter no.2 - over/unde"
   ],
   "__v": 0,
   "createdAt": {
@@ -1307,7 +1366,9 @@
     }
   ],
   "maps": [
-    "over-under-3rd-quarter"
+    "over-under-3rd-quarter",
+    "total - 3rd quarter",
+    "quarter no.3 - over/unde"
   ],
   "__v": 0,
   "createdAt": {
@@ -1341,7 +1402,9 @@
     }
   ],
   "maps": [
-    "over-under-4th-quarter"
+    "over-under-4th-quarter",
+    "total - 4th quarter",
+    "quarter no.4 - over/unde"
   ],
   "__v": 0,
   "createdAt": {
@@ -1751,7 +1814,9 @@
       ]
     }
   ],
-  "maps": [],
+  "maps": [
+    "over/under sets in match"
+  ],
   "__v": 0,
   "createdAt": {
     "$date": "2024-02-23T06:16:40.180Z"
@@ -1786,7 +1851,8 @@
   "maps": [
     "total corners",
     "over-under-corners",
-    "corners-over-under-ordinary-time"
+    "corners-over-under-ordinary-time",
+    "over/under corners"
   ],
   "__v": 0,
   "createdAt": {
@@ -1821,7 +1887,8 @@
   ],
   "maps": [
     "over-under-corners-in-the-1-half",
-    "corners-over-under-1st-half"
+    "corners-over-under-1st-half",
+    "over/under corners in the 1.half"
   ],
   "__v": 0,
   "createdAt": {
@@ -1964,7 +2031,10 @@
   ],
   "maps": [
     "money-line",
+    "moneyline - game",
     "head-to-head",
+    "moneyline - match",
+    "moneyline",
     "12-fe",
     "12-2way-ordinary-time"
   ],
@@ -2001,7 +2071,8 @@
   ],
   "maps": [
     "money-line - 1st half",
-    "12-2way-1st-half"
+    "12-2way-1st-half",
+    "moneyline - first half"
   ],
   "__v": 0,
   "createdAt": {
@@ -2035,7 +2106,8 @@
     }
   ],
   "maps": [
-    "money-line - 2nd half"
+    "money-line - 2nd half",
+    "moneyline - second half"
   ],
   "__v": 0,
   "createdAt": {
@@ -2066,7 +2138,8 @@
     }
   ],
   "maps": [
-    "12-2way-1st-quarter"
+    "12-2way-1st-quarter",
+    "moneyline - 1st quarter"
   ],
   "__v": 0,
   "createdAt": {
@@ -2096,7 +2169,9 @@
       ]
     }
   ],
-  "maps": [],
+  "maps": [
+    "moneyline - 2nd quarter"
+  ],
   "__v": 0,
   "createdAt": {
     "$date": "2024-02-23T06:16:40.181Z"
@@ -2125,7 +2200,9 @@
       ]
     }
   ],
-  "maps": [],
+  "maps": [
+    "moneyline - 3rd quarter"
+  ],
   "__v": 0,
   "createdAt": {
     "$date": "2024-02-23T06:16:40.181Z"
@@ -2154,7 +2231,9 @@
       ]
     }
   ],
-  "maps": [],
+  "maps": [
+    "moneyline - 4th quarter"
+  ],
   "__v": 0,
   "createdAt": {
     "$date": "2024-02-23T06:16:40.181Z"
@@ -2188,7 +2267,8 @@
   "maps": [
     "draw no bet",
     "draw-no-bet",
-    "draw-no-bet-ordinary-time"
+    "draw-no-bet-ordinary-time",
+    "draw no bet"
   ],
   "__v": 0,
   "createdAt": {
@@ -2223,7 +2303,8 @@
   "maps": [
     "draw no bet - 1st half",
     "draw-no-bet---1st-half",
-    "draw-no-bet-1st-half"
+    "draw-no-bet-1st-half",
+    "draw no bet - first half"
   ],
   "__v": 0,
   "createdAt": {
@@ -2255,7 +2336,8 @@
   ],
   "maps": [
     "draw no bet - 2nd half",
-    "draw-no-bet-2nd-half"
+    "draw-no-bet-2nd-half",
+    "draw no bet - second half"
   ],
   "__v": 0,
   "createdAt": {
@@ -2990,7 +3072,10 @@
   "maps": [
     "correct score",
     "point-bet",
-    "correct-score-ordinary-time"
+    "touchdowns correct score - game",
+    "correct-score-ordinary-time",
+    "correct score range - game",
+    "correct score - game"
   ],
   "__v": 0,
   "createdAt": {
@@ -3607,7 +3692,8 @@
     }
   ],
   "maps": [
-    "12-2way-1st-set"
+    "12-2way-1st-set",
+    "moneyline - 1st set"
   ],
   "__v": 0,
   "createdAt": {
@@ -3638,7 +3724,8 @@
     }
   ],
   "maps": [
-    "12-2way-2nd-set"
+    "12-2way-2nd-set",
+    "moneyline - 2nd set"
   ],
   "__v": 0,
   "createdAt": {
@@ -3669,7 +3756,8 @@
     }
   ],
   "maps": [
-    "12-2way-3rd-set"
+    "12-2way-3rd-set",
+    "moneyline - 3rd set"
   ],
   "__v": 0,
   "createdAt": {
@@ -3709,7 +3797,8 @@
     }
   ],
   "maps": [
-    "1x2-3way-1st-period"
+    "1x2-3way-1st-period",
+    "3-way moneyline - 1st period"
   ],
   "__v": 0,
   "createdAt": {
@@ -3752,7 +3841,8 @@
     }
   ],
   "maps": [
-    "1x2-3way-2nd-period"
+    "1x2-3way-2nd-period",
+    "3-way moneyline - 2nd period"
   ],
   "__v": 0,
   "createdAt": {
@@ -3795,7 +3885,8 @@
     }
   ],
   "maps": [
-    "1x2-3way-3rd-period"
+    "1x2-3way-3rd-period",
+    "3-way moneyline - 3rd period"
   ],
   "__v": 0,
   "createdAt": {
@@ -3943,7 +4034,8 @@
     }
   ],
   "maps": [
-    "asian-handicap-1st-quarter"
+    "asian-handicap-1st-quarter",
+    "quarter no.1 - handicap"
   ],
   "__v": 0,
   "createdAt": {
@@ -3980,7 +4072,8 @@
     }
   ],
   "maps": [
-    "asian-handicap-2nd-quarter"
+    "asian-handicap-2nd-quarter",
+    "quarter no.2 - handicap"
   ],
   "__v": 0,
   "createdAt": {
@@ -4017,7 +4110,8 @@
     }
   ],
   "maps": [
-    "asian-handicap-3rd-quarter"
+    "asian-handicap-3rd-quarter",
+    "quarter no.3 - handicap"
   ],
   "__v": 0,
   "createdAt": {
@@ -4054,7 +4148,8 @@
     }
   ],
   "maps": [
-    "asian-handicap-4th-quarter"
+    "asian-handicap-4th-quarter",
+    "quarter no.4 - handicap"
   ],
   "__v": 0,
   "createdAt": {
@@ -5030,7 +5125,8 @@
     }
   ],
   "maps": [
-    "over-under-1st-period"
+    "over-under-1st-period",
+    "total - 1st period"
   ],
   "__v": 0,
   "createdAt": {
@@ -5067,7 +5163,8 @@
     }
   ],
   "maps": [
-    "over-under-2nd-period"
+    "over-under-2nd-period",
+    "total - 2nd period"
   ],
   "__v": 0,
   "createdAt": {
@@ -5104,7 +5201,8 @@
     }
   ],
   "maps": [
-    "over-under-3rd-period"
+    "over-under-3rd-period",
+    "total - 3rd period"
   ],
   "__v": 0,
   "createdAt": {
@@ -5141,7 +5239,11 @@
     }
   ],
   "maps": [
-    "over-under-1st-set"
+    "over-under-1st-set",
+    "total - points - 1st set",
+    "total - 1st set",
+    "alternate total games - 1st set",
+    "over/under games in 1.set"
   ],
   "__v": 0,
   "createdAt": {
@@ -5178,7 +5280,11 @@
     }
   ],
   "maps": [
-    "over-under-2nd-set"
+    "over-under-2nd-set",
+    "total - 2nd set",
+    "total - points - 2nd set",
+    "alternate total games - 2nd set",
+    "over/under games in 2.set"
   ],
   "__v": 0,
   "createdAt": {
@@ -5215,7 +5321,11 @@
     }
   ],
   "maps": [
-    "over-under-3rd-set"
+    "over-under-3rd-set",
+    "total - 3rd set",
+    "alternate total games - 3rd set",
+    "total - points - 3rd set",
+    "over/under games in 3.set"
   ],
   "__v": 0,
   "createdAt": {
@@ -5436,7 +5546,8 @@
     }
   ],
   "maps": [
-    "total-cards-over-under-ordinary-time"
+    "total-cards-over-under-ordinary-time",
+    "over/under cards"
   ],
   "__v": 0,
   "createdAt": {
@@ -5448,5 +5559,119 @@
   "shortTitle": "O/U Yellow",
   "titles": {
     "en": "Over/Under"
+  }
+},
+{
+  "_id": {
+    "$oid": "6887260e0cf42219df1ea1ca"
+  },
+  "id": "points-set-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "alternate game spread - 1st set",
+    "game spread - 1st set",
+    "point spread - points - 1st set"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688727980cf42219df1ea1cb"
+  },
+  "id": "points-set-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "alternate game spread - 2nd set",
+    "game spread - 2nd set",
+    "point spread - points - 2nd set"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "688727cb0cf42219df1ea1cc"
+  },
+  "id": "points-set-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "alternate game spread - 3rd set",
+    "game spread - 3rd set",
+    "point spread - points - 3rd set"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
   }
 }]

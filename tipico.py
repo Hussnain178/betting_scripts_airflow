@@ -2,8 +2,7 @@ import json
 from rapidfuzz import fuzz
 import scrapy
 from scrapy.crawler import CrawlerProcess
-from helper import store_data_into_mongodb, parse_tipico_date, \
-    normalize_timestamp_for_comparison
+from helper import store_data_into_mongodb, parse_tipico_date, normalize_timestamp_for_comparison
 from pymongo import MongoClient
 
 
@@ -49,7 +48,10 @@ def compare_matchups(
 class tipico(scrapy.Spider):
     name = "odds-tipico"
     comparsion = list()
+    key_dict = set()
+
     all_matches = list()
+
     headers = {
         "accept": "application/json",
         "accept-language": "en-US,en;q=0.9,ar;q=0.8",
@@ -77,13 +79,200 @@ class tipico(scrapy.Spider):
         self.all_country_data = list(get_country_collection.find())
         self.get_matches_data = db['matches_data']
         self.matches_data_collection = list(self.get_matches_data.find())
-        # self.proxy = "http://w69d665dd756bed7bf2bc55-zone-custom-region-de:b69499b2578f41879372b0299dea50f8@p1.mangoproxy.com:2333/"
         self.proxy = "http://lXe53W9wSpWgBb2W:9rHVoP8UgHUmFoD0_country-at@geo.iproyal.com:12321/"
 
-    def check_key_name(self, key):
+    def start_requests(self):
+        url = 'https://sports.tipico.com/json/program/navigationTree/all'
+        yield scrapy.Request(url=url, headers=self.headers, meta={'proxy': self.proxy})
+
+    def parse(self, response, **kwargs):
+        json_data = json.loads(response.text)
+        sports = json_data['children']
+        for sport in sports:
+            countries = sport['children']
+            for country in countries:
+                groups = country['children']
+                for group in groups:
+                    group_id = group['groupId']
+
+                    league_matches = 'https://sports.tipico.com/json/program/selectedEvents/all/{}?oneSectionResult=true&maxMarkets=2&language=de'.format(
+                        group_id)
+                    yield scrapy.Request(
+                        url=league_matches,
+                        callback=self.extract_matches,
+                        headers=self.headers,
+                        meta={'proxy': self.proxy}
+                    )
+
+    def extract_matches(self, response):
+        cookies = {
+            "language": 'en',
+        }
+
+        all_matches = json.loads(response.text)['SELECTION']['events'].values()
+        for match in all_matches:
+            match_id = match['id']
+
+            if match['team1Id']:
+                match_details_url = 'https://sports.tipico.com/json/services/event/{}'.format(match_id)
+                yield scrapy.Request(
+                    url=match_details_url,
+                    callback=self.extract_single_match_details_data,
+                    cookies=cookies,
+                    headers=self.headers,
+                    meta={'proxy': self.proxy}
+                )
+
+    def extract_single_match_details_data(self, response):
+        match_data = json.loads(response.text)
+        if not match_data['event']['live']:
+            match_date_str = match_data['event'].get('startDate', '')
+            if match_date_str:
+                # Use the new parse_tipico_date function for consistent parsing
+                try:
+                    match_date = parse_tipico_date(match_date_str)
+                except Exception as e:
+                    print(f"Error parsing date '{match_date_str}': {e}")
+                    # Skip this match if date parsing fails
+                    return
+
+                if match_data['event']['group'][-1].strip(' ').lower() == 'football':
+                    sport = 'soccer'
+                else:
+                    sport = match_data['event']['group'][-1].strip(' ')
+
+                temp_dic = {
+                    'website': 'tipico',
+                    'sport': sport,
+                    'country': match_data['event']['group'][-2],
+                    'group': match_data['event']['group'][0],
+                    'timestamp': match_date,  # This is now a timezone-aware UTC datetime
+                    'match_id': match_data['event']['id'],
+                    'competitor1': match_data['event']['team1'],
+                    'competitor2': match_data['event']['team2'],
+                    'status': 'sched',
+                    'prices': {},
+                    "is_country": False,
+                }
+
+                # Check if country exists
+                for country_data in self.all_country_data:
+                    if country_data['id'] == temp_dic["country"].lower():
+                        temp_dic['is_country'] = True
+                        break
+                cat_dict = {
+                    str(v['id']): v['name'] for v in match_data.get('categories', {}) if v['id'] < 100
+                }
+                for odds_group_key in match_data.get('categoryOddGroupMapSectioned', {}).keys():
+                    if odds_group_key in cat_dict.keys():
+
+                        for sub_keys in match_data['categoryOddGroupMapSectioned'][odds_group_key]:
+
+                            key = sub_keys['oddGroupTitle'].replace(match_data['event']['team1'], 'home').replace(
+                                match_data['event']['team2'], 'away')
+                            check_key_name = self.check_key(key)
+                            if check_key_name:
+                                self.key_dict.add(key)
+
+                                # check key name in mongodb mapping collection
+                                list_of_mapping = self.check_mapping_data_into_mongodb(key)
+                                all_key_value = list_of_mapping[0]
+                                key = list_of_mapping[1]
+
+                                for ids in sub_keys['oddGroupIds']:
+                                    if match_data['oddGroups'][str(ids)]['shortCaption']:
+                                        sub_key = match_data['oddGroups'][str(ids)]['shortCaption']
+                                        sub_key = sub_key.split(' ')[0].replace(',', '.')
+                                    else:
+                                        sub_key = 'null'
+
+                                    key_name = self.check_header_name(key)
+
+                                    if key_name not in temp_dic['prices'].keys():
+                                        temp_dic['prices'][key_name] = {}
+                                    if key not in temp_dic['prices'][key_name].keys():
+                                        temp_dic['prices'][key_name][key] = {}
+                                    if sub_key not in temp_dic['prices'][key_name][key].keys():
+                                        temp_dic['prices'][key_name][key][sub_key] = {}
+                                    for data_id in match_data['oddGroupResultsMap'][str(ids)]:
+                                        odds_handicap = match_data['results'][str(data_id)]['caption']
+
+                                        if all_key_value:
+                                            for key_value in all_key_value:
+                                                if key_value['id'] == odds_handicap.lower():
+                                                    # odds_handicap = key_value['id']
+                                                    break
+
+                                                elif 'maps' in key_value.keys() and odds_handicap.lower() in key_value[
+                                                    'maps']:
+                                                    odds_handicap = key_value['id']
+                                                    break
+
+                                        odds_price = match_data['results'][str(data_id)]['quoteFloatValue']
+                                        temp_dic['prices'][key_name][key][sub_key][odds_handicap] = odds_price
+
+                # Match with flashscore data using normalized timestamps
+                for matches_data in self.matches_data_collection:
+                    # Normalize both timestamps for comparison
+                    tipico_timestamp = normalize_timestamp_for_comparison(temp_dic['timestamp'])
+                    flashscore_timestamp = normalize_timestamp_for_comparison(matches_data['timestamp'])
+
+                    # Compare sports and timestamps
+                    sport_match = (temp_dic['sport'].lower().replace('-', '').replace(' ', '') ==
+                                   matches_data['sport'].replace('-', '').replace(' ', ''))
+
+                    # Use exact timestamp comparison for timezone-aware datetimes
+                    timestamp_match = tipico_timestamp == flashscore_timestamp
+
+                    if sport_match and timestamp_match:
+                        result_dict = compare_matchups(
+                            matches_data['competitor1'].lower(),
+                            matches_data['competitor2'].lower(),
+                            temp_dic['competitor1'].lower(),
+                            temp_dic['competitor2'].lower()
+                        )
+
+                        if result_dict:
+                            tipico_prices = temp_dic['prices']
+                            # Update the matched flashscore entry with tipico prices
+                            self.get_matches_data.update_one(
+                                {"match_id": matches_data["match_id"]},
+                                {"$set": {"prices.tipico": tipico_prices}}
+                            )
+                            break
+
+                self.all_matches.append(temp_dic)
+
+    def check_key(self, name):
+        used_key = ['point', 'moneyline', 'spread', 'goal', 'total', '3 way', '3-way', 'correct score', 'over', 'under',
+                    'asian', 'handicap', 'both team to score', 'double chance', 'draw no bet', 'half', 'set', 'inning',
+                    'quarter', 'period']
+        not_used_key = ['did', 'does', 'hour', 'minute', 'halves', 'scorer', 'betting', '1 .ht', '1. ht', '1.ht', 'how',
+                        'which', 'who', 'result', 'win', 'halftime', 'legs', 'tackles', 'attempts', 'final', 'frame',
+                        'side', ')', '(', 'wides', 'highest', 'run', 'four', 'sixes', 'assists', 'made', 'home', 'away',
+                        'rebounds', 'milestones', 'qualify', 'exact', 'bottom', 'top', 'wicket', 'at least', 'at end',
+                        'at the end', 'before', 'after', 'fulltime', 'lead']
+        if any(word in name.lower() for word in used_key) and not any(word in name.lower() for word in not_used_key):
+            if '2-way & over/under' in name.lower():
+                return False
+            if 'half' in name.lower():
+                if 'point spread' in name.lower() and 'o/u' in name.lower():
+                    return False
+                if 'winner' in name.lower():
+                    return False
+                return True
+            elif 'first' not in name.lower():
+                if 'point spread' in name.lower() and 'o/u' in name.lower():
+                    return False
+                if 'winner' in name.lower():
+                    return False
+                return True
+        return False
+
+    def check_header_name(self, key):
 
         checked = ['top', 'wicket', 'halftime', 'score', 'at least', 'at end', 'at the end',
-                   'before', 'after', 'total', 'fulltime', 'both', 'lead', ]
+                   'before', 'after', 'total', 'fulltime', 'both', 'lead']
         if not any(word in key.lower() for word in checked):
             half_data = ['half', '.h', '. h']
             if any(word in key.lower() for word in half_data):
@@ -236,6 +425,33 @@ class tipico(scrapy.Spider):
 
             else:
                 key_name = 'Full Match'
+        elif 'period' in key.lower():
+
+            i1 = ['1st period', 'first period', 'one period', 'period 1', 'period one',
+                  'period no. 1', 'period number 1', 'period no.1']
+            i2 = ['2nd period', 'second period', 'two period', 'period 2', 'period two',
+                  'period no. 2', 'period number 2', 'period no.2']
+            i3 = ['3rd period', 'third period', 'three period', 'period 3', 'period third',
+                  'period no. 3', 'period number 3', 'period no.3']
+
+            if any(word in key.lower() for word in i1):
+                if 'first period' in key.lower():
+                    if key.lower().count('first') == 1:
+                        key_name = '1st period'
+                    else:
+                        key_name = 'Full Match'
+                elif 'first' in key.lower():
+                    key_name = 'Full Match'
+                else:
+                    key_name = '1st period'
+            elif any(word in key.lower() for word in i2) and 'first' not in key.lower():
+                key_name = '2nd period'
+
+            elif any(word in key.lower() for word in i3) and 'first' not in key.lower():
+                key_name = '3rd period'
+
+            else:
+                key_name = 'Full Match'
         else:
             key_name = 'Full Match'
         return key_name
@@ -255,165 +471,6 @@ class tipico(scrapy.Spider):
             except Exception as e:
                 print('error ', e)
         return [all_key_value, key]
-
-    def start_requests(self):
-        url = 'https://sports.tipico.com/json/program/navigationTree/all'
-        yield scrapy.Request(url=url, headers=self.headers, meta={'proxy': self.proxy})
-
-    def parse(self, response, **kwargs):
-        json_data = json.loads(response.text)
-        sports = json_data['children']
-        for sport in sports:
-            countries = sport['children']
-            for country in countries:
-                groups = country['children']
-                for group in groups:
-                    group_id = group['groupId']
-
-                    league_matches = 'https://sports.tipico.com/json/program/selectedEvents/all/{}?oneSectionResult=true&maxMarkets=2&language=de'.format(
-                        group_id)
-                    yield scrapy.Request(
-                        url=league_matches,
-                        callback=self.extract_matches,
-                        headers=self.headers,
-                        meta={'proxy': self.proxy}
-                    )
-
-    def extract_matches(self, response):
-        cookies = {
-            "language": 'en',
-        }
-
-        all_matches = json.loads(response.text)['SELECTION']['events'].values()
-        for match in all_matches:
-            match_id = match['id']
-
-            if match['team1Id']:
-                match_details_url = 'https://sports.tipico.com/json/services/event/{}'.format(match_id)
-                yield scrapy.Request(
-                    url=match_details_url,
-                    callback=self.extract_single_match_details_data,
-                    cookies=cookies,
-                    headers=self.headers,
-                    meta={'proxy': self.proxy}
-                )
-
-    def extract_single_match_details_data(self, response):
-        match_data = json.loads(response.text)
-        if not match_data['event']['live']:
-            match_date_str = match_data['event'].get('startDate', '')
-            if match_date_str:
-                # Use the new parse_tipico_date function for consistent parsing
-                try:
-                    match_date = parse_tipico_date(match_date_str)
-                except Exception as e:
-                    print(f"Error parsing date '{match_date_str}': {e}")
-                    # Skip this match if date parsing fails
-                    return
-
-                if match_data['event']['group'][-1].strip(' ').lower() == 'football':
-                    sport = 'soccer'
-                else:
-                    sport = match_data['event']['group'][-1].strip(' ')
-
-                temp_dic = {
-                    'website': 'tipico',
-                    'sport': sport,
-                    'country': match_data['event']['group'][-2],
-                    'group': match_data['event']['group'][0],
-                    'timestamp': match_date,  # This is now a timezone-aware UTC datetime
-                    'match_id': match_data['event']['id'],
-                    'competitor1': match_data['event']['team1'],
-                    'competitor2': match_data['event']['team2'],
-                    'status': 'sched',
-                    'prices': {},
-                    "is_country": False,
-                }
-
-                # Check if country exists
-                for country_data in self.all_country_data:
-                    if country_data['id'] == temp_dic["country"].lower():
-                        temp_dic['is_country'] = True
-                        break
-                cat_dict = {
-                    str(v['id']): v['name'] for v in match_data.get('categories', {}) if v['id'] < 100
-                }
-                for odds_group_key in match_data.get('categoryOddGroupMapSectioned', {}).keys():
-                    if odds_group_key in cat_dict.keys():
-
-                        for sub_keys in match_data['categoryOddGroupMapSectioned'][odds_group_key]:
-
-                            key = sub_keys['oddGroupTitle'].replace(match_data['event']['team1'], 'home').replace(
-                                match_data['event']['team2'], 'away')
-
-                            # check key name in mongodb mapping collection
-                            list_of_mapping = self.check_mapping_data_into_mongodb(key)
-                            all_key_value = list_of_mapping[0]
-                            key = list_of_mapping[1]
-
-                            for ids in sub_keys['oddGroupIds']:
-                                if match_data['oddGroups'][str(ids)]['shortCaption']:
-                                    sub_key = match_data['oddGroups'][str(ids)]['shortCaption']
-                                    sub_key = sub_key.split(' ')[0].replace(',', '.')
-                                else:
-                                    sub_key = 'null'
-
-                                key_name = self.check_key_name(key)
-
-                                if key_name not in temp_dic['prices'].keys():
-                                    temp_dic['prices'][key_name] = {}
-                                if key not in temp_dic['prices'][key_name].keys():
-                                    temp_dic['prices'][key_name][key] = {}
-                                if sub_key not in temp_dic['prices'][key_name][key].keys():
-                                    temp_dic['prices'][key_name][key][sub_key] = {}
-                                for data_id in match_data['oddGroupResultsMap'][str(ids)]:
-                                    odds_handicap = match_data['results'][str(data_id)]['caption']
-
-                                    if all_key_value:
-                                        for key_value in all_key_value:
-                                            if key_value['id'] == odds_handicap.lower():
-                                                # odds_handicap = key_value['id']
-                                                break
-
-                                            elif 'maps' in key_value.keys() and odds_handicap.lower() in key_value[
-                                                'maps']:
-                                                odds_handicap = key_value['id']
-                                                break
-
-                                    odds_price = match_data['results'][str(data_id)]['quoteFloatValue']
-                                    temp_dic['prices'][key_name][key][sub_key][odds_handicap] = odds_price
-
-                # Match with flashscore data using normalized timestamps
-                for matches_data in self.matches_data_collection:
-                    # Normalize both timestamps for comparison
-                    tipico_timestamp = normalize_timestamp_for_comparison(temp_dic['timestamp'])
-                    flashscore_timestamp = normalize_timestamp_for_comparison(matches_data['timestamp'])
-
-                    # Compare sports and timestamps
-                    sport_match = (temp_dic['sport'].lower().replace('-', '').replace(' ', '') ==
-                                   matches_data['sport'].replace('-', '').replace(' ', ''))
-
-                    # Use exact timestamp comparison for timezone-aware datetimes
-                    timestamp_match = tipico_timestamp == flashscore_timestamp
-
-                    if sport_match and timestamp_match:
-                        result_dict = compare_matchups(
-                            matches_data['competitor1'].lower(),
-                            matches_data['competitor2'].lower(),
-                            temp_dic['competitor1'].lower(),
-                            temp_dic['competitor2'].lower()
-                        )
-
-                        if result_dict:
-                            tipico_prices = temp_dic['prices']
-                            # Update the matched flashscore entry with tipico prices
-                            self.get_matches_data.update_one(
-                                {"match_id": matches_data["match_id"]},
-                                {"$set": {"prices.tipico": tipico_prices}}
-                            )
-                            break
-
-                self.all_matches.append(temp_dic)
 
     def close(self, reason):
         try:
