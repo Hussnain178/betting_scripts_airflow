@@ -2585,7 +2585,8 @@
   ],
   "maps": [
     "both teams to score in both halves",
-    "score-both-halves"
+    "score-both-halves",
+    "both teams to score in the 1st & 2nd half?"
   ],
   "__v": 0,
   "createdAt": {

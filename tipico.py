@@ -247,11 +247,13 @@ class tipico(scrapy.Spider):
         used_key = ['point', 'moneyline', 'spread', 'goal', 'total', '3 way', '3-way', 'correct score', 'over', 'under',
                     'asian', 'handicap', 'both team to score', 'double chance', 'draw no bet', 'half', 'set', 'inning',
                     'quarter', 'period']
-        not_used_key = ['did', 'does', 'hour', 'minute', 'halves', 'scorer', 'betting', '1 .ht', '1. ht', '1.ht', 'how',
-                        'which', 'who', 'result', 'win', 'halftime', 'legs', 'tackles', 'attempts', 'final', 'frame',
-                        'side', ')', '(', 'wides', 'highest', 'run', 'four', 'sixes', 'assists', 'made', 'home', 'away',
-                        'rebounds', 'milestones', 'qualify', 'exact', 'bottom', 'top', 'wicket', 'at least', 'at end',
-                        'at the end', 'before', 'after', 'fulltime', 'lead']
+        not_used_key = ['touchdowns', 'range', 'will', '?', 'did', 'does', 'hour', 'minute', 'halves', 'scorer',
+                        'betting', '1 .ht', '1. ht', '1.ht', 'how', 'which', 'who', 'result', 'win', 'halftime', 'legs',
+                        'tackles', 'attempts', 'final', 'frame', 'side', ')', '(', 'wides', 'highest', 'run', 'four',
+                        'sixes', 'assists', 'made', 'home', 'away', 'rebounds', 'milestones', 'qualify', 'exact',
+                        'bottom', 'top', 'wicket', 'at least', 'at end', 'at the end', 'before', 'after', 'fulltime',
+                        'lead']
+
         if any(word in name.lower() for word in used_key) and not any(word in name.lower() for word in not_used_key):
             if '2-way & over/under' in name.lower():
                 return False
