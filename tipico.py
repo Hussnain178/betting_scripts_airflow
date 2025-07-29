@@ -2,7 +2,7 @@ import json
 from rapidfuzz import fuzz
 import scrapy
 from scrapy.crawler import CrawlerProcess
-from helper import store_data_into_mongodb, parse_tipico_date, normalize_timestamp_for_comparison
+from helper import parse_tipico_date, normalize_timestamp_for_comparison
 from pymongo import MongoClient
 
 
@@ -180,9 +180,14 @@ class tipico(scrapy.Spider):
                                 key = list_of_mapping[1]
 
                                 for ids in sub_keys['oddGroupIds']:
+
                                     if match_data['oddGroups'][str(ids)]['shortCaption']:
-                                        sub_key = match_data['oddGroups'][str(ids)]['shortCaption']
-                                        sub_key = sub_key.split(' ')[0].replace(',', '.')
+                                        if "over" in sub_keys['oddGroupTitle'].lower() or 'under' in sub_keys['oddGroupTitle'].lower() or 'total' in sub_keys['oddGroupTitle'].lower():
+                                            sub_key = match_data['oddGroups'][str(ids)]['shortCaption']
+                                            sub_key = 'O '+sub_key.split(' ')[0].replace(',', '.')
+                                        else:
+                                            sub_key = match_data['oddGroups'][str(ids)]['shortCaption']
+                                            sub_key = sub_key.split(' ')[0].replace(',', '.')
                                     else:
                                         sub_key = 'null'
 
@@ -200,6 +205,7 @@ class tipico(scrapy.Spider):
                                         if all_key_value:
                                             for key_value in all_key_value:
                                                 if key_value['id'] == odds_handicap.lower():
+
                                                     # odds_handicap = key_value['id']
                                                     break
 
@@ -207,6 +213,7 @@ class tipico(scrapy.Spider):
                                                     'maps']:
                                                     odds_handicap = key_value['id']
                                                     break
+
 
                                         odds_price = match_data['results'][str(data_id)]['quoteFloatValue']
                                         temp_dic['prices'][key_name][key][sub_key][odds_handicap] = odds_price
@@ -476,7 +483,7 @@ class tipico(scrapy.Spider):
 
     def close(self, reason):
         try:
-            store_data_into_mongodb(self.all_matches, 'website_data')
+            # store_data_into_mongodb(self.all_matches, 'website_data')
             print('ok')
         except Exception as e:
             print('error', e)

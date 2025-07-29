@@ -12,8 +12,13 @@ class BOVADA(scrapy.Spider):
     name = 'bovada_data'
     key_dict = set()
     all_sports = dict()
+    l = set()
 
     custom_settings = {
+        # 'DOWNLOAD_DELAY': 1,
+        # 'CONCURRENT_REQUESTS': 1,
+        # 'CONCURRENT_REQUESTS_PER_DOMAIN': 1,
+        # 'CONCURRENT_REQUESTS_PER_IP': 1,
         "DUPEFILTER_CLASS": "scrapy.dupefilters.BaseDupeFilter"
     }
     main_hierarchy = []
@@ -261,10 +266,10 @@ class BOVADA(scrapy.Spider):
                                                 else:
                                                     handicap = 'null'
                                                 temp_dict['odds'][sub_key_name][name][handicap] = {
-                                                    cp1: market_data['outcomes'][0]['price']['american'].replace('EVEN',
-                                                                                                                 '+100'),
-                                                    cp2: market_data['outcomes'][1]['price']['american'].replace('EVEN',
-                                                                                                                 '+100')}
+                                                    cp1: round(float(market_data['outcomes'][0]['price']['decimal']),
+                                                               1),
+                                                    cp2: round(float(market_data['outcomes'][1]['price']['decimal']),
+                                                               1)}
 
                                             else:
                                                 if 'handicap' in market_data['outcomes'][0]['price']:
@@ -277,10 +282,10 @@ class BOVADA(scrapy.Spider):
                                                     handicap = 'null'
 
                                                 temp_dict['odds'][sub_key_name][name][handicap] = {
-                                                    cp1: market_data['outcomes'][0]['price']['american'].replace('EVEN',
-                                                                                                                 '+100'),
-                                                    cp2: market_data['outcomes'][1]['price']['american'].replace('EVEN',
-                                                                                                                 '+100')}
+                                                    cp1: round(float(market_data['outcomes'][0]['price']['decimal']),
+                                                               1),
+                                                    cp2: round(float(market_data['outcomes'][1]['price']['decimal']),
+                                                               1)}
 
                                         elif len(market_data['outcomes']) == 3:
                                             if 'handicap' in market_data['outcomes'][0]['price']:
@@ -310,12 +315,9 @@ class BOVADA(scrapy.Spider):
                                             cp2 = self.check_competitor_mapping(cp2, all_key_value)
                                             cp3 = self.check_competitor_mapping(cp3, all_key_value)
                                             temp_dict['odds'][sub_key_name][name][handicap] = {
-                                                cp1: market_data['outcomes'][0]['price']['american'].replace('EVEN',
-                                                                                                             '+100'),
-                                                cp2: market_data['outcomes'][1]['price']['american'].replace('EVEN',
-                                                                                                             '+100'),
-                                                cp3: market_data['outcomes'][2]['price']['american'].replace('EVEN',
-                                                                                                             '+100')}
+                                                cp1: round(float(market_data['outcomes'][0]['price']['decimal']), 1),
+                                                cp2: round(float(market_data['outcomes'][1]['price']['decimal']), 1),
+                                                cp3: round(float(market_data['outcomes'][2]['price']['decimal']), 1)}
 
                                         else:
                                             for outcome_data in market_data['outcomes']:
@@ -354,8 +356,10 @@ class BOVADA(scrapy.Spider):
                                                     handicap = 'O ' + handicap
                                                 if handicap not in temp_dict['odds'][sub_key_name][name]:
                                                     temp_dict['odds'][sub_key_name][name][handicap] = {}
-                                                temp_dict['odds'][sub_key_name][name][handicap][check_competitor_name] = \
-                                                outcome_data['price']['american'].replace('EVEN', '+100')
+
+                                                temp_dict['odds'][sub_key_name][name][handicap][
+                                                    check_competitor_name] = round(
+                                                    float(outcome_data['price']['decimal']), 1)
 
                     for matches_data in self.matches_data_collection:
                         bovada_timestamp = normalize_timestamp_for_comparison(temp_dict['timestamp'])
@@ -379,6 +383,7 @@ class BOVADA(scrapy.Spider):
                                 )
                                 break
 
+                    self.l.add(temp_dict['sport'])
                     self.all_matches.append(temp_dict)
         except Exception as e:
             print('error', e)
