@@ -1,7 +1,12 @@
 import requests
 from scrapy import Selector
 import json
+from pymongo import MongoClient
 
+client = MongoClient('mongodb://localhost:27017')
+db = client['betting']
+get_collection = db['ots']
+all_mapping_data = list(get_collection.find())
 url = 'https://d-cf.betsmithplayground.net/stc-1533379659/stc-1533379659'
 
 headers = {
@@ -107,6 +112,10 @@ for key, values in categories.items():
         ]
 
         for event in reversed(events):
+            participants = {}
+            for participant in event['participants']:
+                participants[participant['label'].lower()] = participant['side']
+
             event_id = event['id']
             for template in templates:
                 event_url = f'https://d-cf.betsmithplayground.net/api/sb/v1/widgets/accordion/v1?eventId={event_id}&marketTemplateIds={template}'
@@ -116,7 +125,11 @@ for key, values in categories.items():
                 )
                 odds = event_request.json()['data']
                 if odds:
-                    pass
+                    selections = odds['accordions'][template]['selections']
+                    for selection in selections:
+                        participants[selection['participantLabel'].lower()]
+
+
                 h = 1
 
         'data.widgets[1].data.data.items'
