@@ -97,17 +97,21 @@ class tipico(scrapy.Spider):
                     print(f"Error parsing date '{match_date_str}': {e}")
                     # Skip this match if date parsing fails
                     return
+                if 'group' in match_data['event'].keys():
+                    name_group='group'
+                else:
+                    name_group = 'groups'
 
-                if match_data['event']['group'][-1].strip(' ').lower() == 'football':
+                if match_data['event'][name_group][-1].strip(' ').lower() == 'football':
                     sport = 'soccer'
                 else:
-                    sport = match_data['event']['group'][-1].strip(' ')
+                    sport = match_data['event'][name_group][-1].strip(' ')
 
                 temp_dic = {
                     'website': 'tipico',
                     'sport': sport,
-                    'country': match_data['event']['group'][-2],
-                    'group': match_data['event']['group'][0],
+                    'country': match_data['event'][name_group][-2],
+                    'group': match_data['event'][name_group][0],
                     'timestamp': match_date,  # This is now a timezone-aware UTC datetime
                     'match_id': match_data['event']['id'],
                     'competitor1': match_data['event']['team1'],
@@ -134,7 +138,7 @@ class tipico(scrapy.Spider):
                                 match_data['event']['team2'], 'away')
                             check_key_name = check_key(key)
                             if check_key_name:
-                                self.key_dict.add(key)
+
 
                                 # check key name in mongodb mapping collection
                                 list_of_mapping = self.check_mapping_data_into_mongodb(key)
@@ -154,6 +158,7 @@ class tipico(scrapy.Spider):
                                         sub_key = 'null'
 
                                     key_name = check_header_name(key)
+                                    self.key_dict.add(key)
 
                                     if key_name not in temp_dic['prices'].keys():
                                         temp_dic['prices'][key_name] = {}
@@ -192,6 +197,7 @@ class tipico(scrapy.Spider):
                     # Use exact timestamp comparison for timezone-aware datetimes
                     timestamp_match = tipico_timestamp == flashscore_timestamp
 
+
                     if sport_match and timestamp_match:
                         result_dict = compare_matchups(
                             matches_data['competitor1'].lower(),
@@ -201,6 +207,8 @@ class tipico(scrapy.Spider):
                         )
 
                         if result_dict:
+                            if matches_data['competitor1'].lower()=='fc tulsa':
+                                l=1
                             tipico_prices = temp_dic['prices']
                             # Update the matched flashscore entry with tipico prices
                             self.get_matches_data.update_one(
