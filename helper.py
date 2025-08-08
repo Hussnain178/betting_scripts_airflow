@@ -4,6 +4,7 @@ import string
 import pytz
 from pymongo import MongoClient, UpdateOne
 from rapidfuzz import fuzz
+import re
 
 
 def generate_custom_key(length=20):
@@ -249,14 +250,15 @@ def update_data():
 
 
 def check_key(name):
-    not_used_key = ['and', 'remaining', 'tie', 'break', 'deuce', 'next', 'touchdowns', 'range', 'will', '?', 'did',
-                    'does', 'hour', 'minute', 'halves', 'scorer',
-                    'betting', '&', '1 .ht', '1. ht', '1.ht', 'how', 'which', 'who', 'result', 'win', 'halftime',
-                    'legs',
-                    'tackles', 'attempts', 'final', 'frame', 'side', ')', '(', 'wides', 'highest', 'run', 'four',
+    not_used_key = ['hc ', 'runs ', 'rushing', 'out', 'yards', 'receving', 'both', 'and', 'remaining', '(', ')', 'tie',
+                    'break', 'deuce', 'next', 'touchdowns', 'range', 'will', '?', 'did', 'does', 'hour', 'minute',
+                    'halves', 'scorer',
+                    'betting', '&', '1 .ht', '1. ht', '1.ht', 'number of runs in match', 'how', 'which', 'who',
+                    'result', 'win', 'halftime', 'legs', 'half time', 'full time',
+                    'tackles', 'attempts', 'final', 'frame', 'side', 'wides', 'highest', 'four',
                     'sixes', 'assists', 'made', 'home', 'away', 'rebounds', 'milestones', 'qualify', 'exact',
                     'bottom', 'top', 'wicket', 'at least', 'at end', 'at the end', 'before', 'after', 'fulltime',
-                    'lead']
+                    'lead', 'race', 'stats', 'specials', 'squares', 'puck', 'record']
 
     if not any(word in name.lower() for word in not_used_key):
         if '2-way & over/under' in name.lower():
@@ -276,7 +278,28 @@ def check_key(name):
     return False
 
 
+def check_sport_name(sport_name):
+    sport_name = sport_name.replace('-', '').replace(' ', '').lower()
+    all_sport_name = ['rugby', 'football', 'soccer', 'tennis', 'basketball', 'hockey', 'americanfootball', 'baseball',
+                      'handball', 'rugbyunion',
+                      'floorball', 'bandy', 'futsal', 'volleyball', 'cricket', 'snooker', 'beachvolleyball',
+                      'aussierules',
+                      'rugbyleague', 'badminton', 'waterpolo', 'fieldhockey', 'tabletennis', 'beachsoccer', 'netball',
+                      'pesapallo',
+                      'kabaddi']
+    # all_sport_name = ['soccer']
+    if sport_name in all_sport_name:
+        return True
+    return False
+
+
 def check_header_name(key):
+    original_key = key
+    conversion_list = ['-half-1', '-half-2', '-one-half', '-period-1', '-period-2', '-period-3', '-set-1', '-set-2',
+                       '-set-3', '-quarter-1', '-quarter-2', '-quarter-3', '-quarter-4']
+    for repl in conversion_list:
+        original_key = original_key.replace(repl, '')
+
     checked = ['top', 'wicket', 'halftime', 'at least', 'at end', 'at the end',
                'before', 'after', 'fulltime', 'lead']
     if not any(word in key.lower() for word in checked):
@@ -291,6 +314,8 @@ def check_header_name(key):
                 if 'first half' in key.lower():
                     if key.lower().count('first') == 1:
                         key_name = '1st Half'
+
+
                     else:
                         key_name = 'Full Match'
                 elif 'first' in key.lower():
@@ -299,9 +324,11 @@ def check_header_name(key):
                     key_name = '1st Half'
 
 
+
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
-                     h2) and 'first' not in key.lower() and not '1st &' in key.lower():
+                     h2) and 'first' not in key.lower():
                 key_name = '2nd Half'
+
             else:
                 key_name = 'Full Match'
 
@@ -322,6 +349,7 @@ def check_header_name(key):
                 if 'first quarter' in key.lower():
                     if key.lower().count('first') == 1:
                         key_name = '1st Quarter'
+
                     else:
                         key_name = 'Full Match'
                 elif 'first' in key.lower():
@@ -331,15 +359,19 @@ def check_header_name(key):
                     key_name = '1st Quarter'
 
 
+
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      q2) and 'first' not in key.lower():
                 key_name = '2nd Quarter'
+
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      q3) and 'first' not in key.lower():
                 key_name = '3rd Quarter'
+
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      q4) and 'first' not in key.lower():
                 key_name = '4th Quarter'
+
             else:
                 key_name = 'Full Match'
         elif 'set' in key.lower():
@@ -357,6 +389,7 @@ def check_header_name(key):
                 if 'first set' in key.lower():
                     if key.lower().count('first') == 1:
                         key_name = '1st Set'
+
                     else:
                         key_name = 'Full Match'
                 elif 'first' in key.lower():
@@ -364,20 +397,26 @@ def check_header_name(key):
                 else:
                     key_name = '1st Set'
 
+
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      s2) and 'first' not in key.lower():
                 key_name = '2nd Set'
+
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      s3) and 'first' not in key.lower():
                 key_name = '3rd Set'
+
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      s4) and 'first' not in key.lower():
                 key_name = '4th Set'
+
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      s5) and 'first' not in key.lower():
                 key_name = '5th Set'
+
             else:
                 key_name = 'Full Match'
+
 
 
         elif 'inning' in key.lower():
@@ -404,79 +443,97 @@ def check_header_name(key):
                 if 'first inning' in key.lower():
                     if key.lower().count('first') == 1:
                         key_name = '1st Innings'
+
                     else:
                         key_name = 'Full Match'
                 elif 'first' in key.lower():
                     key_name = 'Full Match'
                 else:
                     key_name = '1st Innings'
+
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      i2) and 'first' not in key.lower():
                 key_name = '2nd Innings'
+
 
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      i3) and 'first' not in key.lower():
                 key_name = '3rd Innings'
 
+
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      i4) and 'first' not in key.lower():
                 key_name = '4th Innings'
+
 
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      i5) and 'first' not in key.lower():
                 key_name = '5th Innings'
 
+
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      i6) and 'first' not in key.lower():
                 key_name = '6th Innings'
+
 
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      i7) and 'first' not in key.lower():
                 key_name = '7th Innings'
 
+
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      i8) and 'first' not in key.lower():
                 key_name = '8th Innings'
+
 
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      i9) and 'first' not in key.lower():
                 key_name = '9th Innings'
 
+
             else:
                 key_name = 'Full Match'
 
-        else:
-            key_name = 'Full Match'
-    elif 'period' in key.lower():
 
-        i1 = ['1st period', 'first period', 'one period', 'period 1', 'period one',
-              'period no. 1', 'period number 1', 'period no.1']
-        i2 = ['2nd period', 'second period', 'two period', 'period 2', 'period two',
-              'period no. 2', 'period number 2', 'period no.2']
-        i3 = ['3rd period', 'third period', 'three period', 'period 3', 'period third',
-              'period no. 3', 'period number 3', 'period no.3']
+        elif 'period' in key.lower():
 
-        if any(word.replace("-", "").replace(" ", "") in key.lower() for word in i1):
-            if 'first period' in key.lower():
-                if key.lower().count('first') == 1:
-                    key_name = '1st period'
-                else:
+            p1 = ['1st period', 'first period', 'one period', 'period 1', 'period one',
+                  'period no. 1', 'period number 1', 'period no.1']
+            p2 = ['2nd period', 'second period', 'two period', 'period 2', 'period two',
+                  'period no. 2', 'period number 2', 'period no.2']
+            p3 = ['3rd period', 'third period', 'three period', 'period 3', 'period third',
+                  'period no. 3', 'period number 3', 'period no.3']
+
+            if any(word.replace("-", "").replace(" ", "") in key.lower() for word in p1):
+                if 'first period' in key.lower():
+                    if key.lower().count('first') == 1:
+                        key_name = '1st period'
+
+                    else:
+                        key_name = 'Full Match'
+                elif 'first' in key.lower():
                     key_name = 'Full Match'
-            elif 'first' in key.lower():
-                key_name = 'Full Match'
+                else:
+                    key_name = '1st period'
+
+            elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
+                     p2) and 'first' not in key.lower():
+                key_name = '2nd period'
+
+
+            elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
+                     p3) and 'first' not in key.lower():
+                key_name = '3rd period'
+
+
             else:
-                key_name = '1st period'
-        elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in i2) and 'first' not in key.lower():
-            key_name = '2nd period'
-
-        elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in i3) and 'first' not in key.lower():
-            key_name = '3rd period'
-
+                key_name = 'Full Match'
         else:
             key_name = 'Full Match'
+
     else:
         key_name = 'Full Match'
-    return key_name
+    return [key_name, original_key]
 
 
 def compare_matchups(

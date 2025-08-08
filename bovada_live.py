@@ -1,6 +1,5 @@
 import json
-from helper import check_sport_name, parse_tipico_date, normalize_timestamp_for_comparison, compare_matchups, check_key, \
-    check_header_name
+from  helper import check_sport_name, parse_tipico_date,normalize_timestamp_for_comparison,compare_matchups,check_key,check_header_name
 import scrapy
 import re
 from datetime import datetime, timezone
@@ -8,19 +7,22 @@ from pymongo import MongoClient
 from scrapy.crawler import CrawlerProcess
 
 
+
+
 class BOVADA(scrapy.Spider):
     name = 'bovada_data'
     key_dict = set()
-    all_sports = dict()
+    all_sports=dict()
+
 
     custom_settings = {
         # 'DOWNLOAD_DELAY': 1,
-        'CONCURRENT_REQUESTS': 64,
+        # 'CONCURRENT_REQUESTS': 1,
         # 'CONCURRENT_REQUESTS_PER_DOMAIN': 1,
         # 'CONCURRENT_REQUESTS_PER_IP': 1,
         "DUPEFILTER_CLASS": "scrapy.dupefilters.BaseDupeFilter"
     }
-    proxy = "http://hafiz123-US-rotate:pucit123@p.webshare.io:us/"
+
     sport_name = ''
     all_matches = []
     headers = {
@@ -64,18 +66,18 @@ class BOVADA(scrapy.Spider):
     def parse(self, response, **kwargs):
         all_category_data = json.loads(response.text)['children']
 
-        # self.all_sports=['/badminton','/football', '/cricket', '/baseball', '/basketball', '/soccer', '/volleyball', '/table-tennis', '/hockey', '/aussie-rules', '/rugby-union', '/rugby-league', '/snooker', '/tennis']
         for category_data in all_category_data:
             if check_sport_name(category_data['description']):
-                self.sport_name = category_data['description']
-                url = f'https://services.bovada.lv/services/sports/event/v2/nav/A/description{category_data["link"]}?azSorting=true&lang=en'
-                yield scrapy.Request(
-                    url=url,
-                    headers=self.headers,
 
-                    callback=self.scrap_subcategory,
-                    meta={'proxy': self.proxy},
-                )
+                    self.sport_name = category_data['description']
+                    url = f'https://services.bovada.lv/services/sports/event/v2/nav/A/description{category_data["link"]}?azSorting=true&lang=en'
+                    yield scrapy.Request(
+                        url=url,
+                        headers=self.headers,
+
+                        callback=self.scrap_subcategory,
+                        meta={'proxy': self.proxy},
+                    )
 
     def scrap_subcategory(self, response):
         all_subcategory_data = json.loads(response.text)['children']
@@ -86,17 +88,18 @@ class BOVADA(scrapy.Spider):
         """Fixed version that properly yields requests"""
         if 'leaf' in subcategory_data:
             if subcategory_data['leaf']:
-                if 'link' in subcategory_data:
+                if 'link'in subcategory_data:
                     try:
                         match_data = [self.sport_name, subcategory_data['description'], subcategory_data['link']]
 
-                        url = f'https://www.bovada.lv/services/sports/event/coupon/events/A/description/{match_data[-1]}?marketFilterId=preMatchOnly=true&eventsLimit=5000&lang=en'
+
+                        url = f'https://www.bovada.lv/services/sports/event/coupon/events/A/description/{match_data[-1]}?marketFilterId=def&liveOnly=true&eventsLimit=5000&lang=en'
                         self.headers["x-channel"] = match_data[0][:4].upper()
                         yield scrapy.Request(
                             url=url,
                             headers=self.headers,
                             callback=self.scrap_match_data,
-                            meta={'league_hierarchy': match_data, 'proxy': self.proxy}
+                            meta={'league_hierarchy': match_data ,'proxy': self.proxy}
                         )
 
                     except Exception as e:
@@ -104,14 +107,15 @@ class BOVADA(scrapy.Spider):
                         pass
             else:
                 url = f'https://services.bovada.lv/services/sports/event/v2/nav/A/description{subcategory_data["link"]}?azSorting=true&lang=en'
-                self.headers["x-channel"] = "desktop"
+                self.headers["x-channel"]= "desktop"
                 yield scrapy.Request(
                     url=url,
                     headers=self.headers,
                     dont_filter=True,
                     callback=self.scrapy_hierarchy_category,
-                    meta={'proxy': self.proxy}
+                    meta = {'proxy': self.proxy},
                 )
+
 
     def scrapy_hierarchy_category(self, response):
         """Fixed callback for processing category hierarchy"""
@@ -134,13 +138,13 @@ class BOVADA(scrapy.Spider):
                                 # Add leaf description and link
                                 league_name_list.append(data['description'])
                                 league_name_list.append(data['link'])
-                                url = f'https://www.bovada.lv/services/sports/event/coupon/events/A/description/{league_name_list[-1]}?marketFilterId=preMatchOnly=true&eventsLimit=5000&lang=en'
+                                url = f'https://www.bovada.lv/services/sports/event/coupon/events/A/description/{league_name_list[-1]}?marketFilterId=def&liveOnly=true&eventsLimit=5000&lang=en'
                                 self.headers["x-channel"] = league_name_list[0][:4].upper()
                                 yield scrapy.Request(
                                     url=url,
                                     headers=self.headers,
                                     callback=self.scrap_match_data,
-                                    meta={'league_hierarchy': league_name_list, 'proxy': self.proxy}
+                                    meta={'league_hierarchy': league_name_list,'proxy': self.proxy}
                                 )
                         else:
                             # Recursively process non-leaf nodes
@@ -160,14 +164,8 @@ class BOVADA(scrapy.Spider):
                 print("No match data found")
                 return
             for match_data in all_match_data[0]['events']:
-                if match_data['competitors'] and not match_data['live']:
-                    gmt_time = self.convert_time(match_data['startTime'])
-                    try:
-                        match_date = parse_tipico_date(gmt_time)
-                    except Exception as e:
-                        print(f"Error parsing date '{gmt_time}': {e}")
-                        # Skip this match if date parsing fails
-                        return
+                if match_data['competitors'] and  match_data['live']:
+
                     if all_match_data[0]['path'][-1]['description'].lower() == 'football':
                         sport = 'handball'
                     else:
@@ -184,17 +182,17 @@ class BOVADA(scrapy.Spider):
                     else:
                         competitor1 = match_data['competitors'][0]['name']
                         competitor2 = match_data['competitors'][1]['name']
+
                     temp_dict = {
                         'competitor1': competitor1,
                         'competitor2': competitor2,
                         'sport': sport,
-                        "timestamp": match_date,
                         'country': country,
                         'group': group,
-                        'odds': {}
-
+                        'odds': {},
                     }
                     # types of name
+
                     descrition_type_comp1 = re.split(r'vs|@', match_data['description'])[0].strip(' ')
                     descrition_type_comp2 = re.split(r'vs|@', match_data['description'])[1].strip(' ')
                     short_name_com_1 = match_data['competitors'][0].get('shortName', '').strip(' ')
@@ -208,13 +206,16 @@ class BOVADA(scrapy.Spider):
                                     if 'o/u' in name.lower() and '-' in name.lower():
                                         continue
                                     if 'period' in market_data:
-                                        if market_data['period']['description'] != 'Regulation Time':
-                                            name = name + ' - ' + market_data['period']["description"]
+                                        if   market_data['period']['description'] == 'Live Regulation Time':
+                                            name=name
 
+                                        else:
+                                            name = name + ' - ' + market_data['period']["description"].replace('Live ','')
+
+                                    # name = name.replace(' - Live Match','').replace(' - Live Game','').replace(' - Live Regulation Time','')
                                     name = name.replace(competitor1, 'home').replace(competitor2, 'away')
                                     name = name.replace(short_name_com_1, 'home').replace(short_name_com_2, 'away')
-                                    name = name.replace(descrition_type_comp1, 'home').replace(descrition_type_comp2,
-                                                                                               'away')
+                                    name = name.replace(descrition_type_comp1, 'home').replace(descrition_type_comp2,'away')
 
                                     check_key_name = check_key(name)
                                     if check_key_name and '(' not in name:
@@ -222,24 +223,21 @@ class BOVADA(scrapy.Spider):
                                         list_of_mapping = self.check_mapping_data_into_mongodb(name)
                                         all_key_value = list_of_mapping[0]
                                         name = list_of_mapping[1]
-
                                         key_name_list = check_header_name(name)
                                         sub_key_name = key_name_list[0]
                                         name = key_name_list[1]
                                         if sub_key_name not in temp_dict['odds']:
                                             temp_dict['odds'][sub_key_name] = {}
-
                                         self.key_dict.add(name)
-
                                         if name not in temp_dict['odds'][sub_key_name]:
                                             temp_dict['odds'][sub_key_name][name] = {}
                                         if len(market_data['outcomes']) == 2:
-                                            cp1 = market_data['outcomes'][0]['description'].replace(
-                                                temp_dict['competitor1'], 'home').replace(temp_dict['competitor2'],
-                                                                                          'away').strip(' ')
-                                            cp2 = market_data['outcomes'][1]['description'].replace(
-                                                temp_dict['competitor1'], 'home').replace(temp_dict['competitor2'],
-                                                                                          'away').strip(' ')
+                                            cp1 = market_data['outcomes'][0]['description'].replace(temp_dict['competitor1'],
+                                                                                                    'home').replace(
+                                                temp_dict['competitor2'], 'away').strip(' ')
+                                            cp2 = market_data['outcomes'][1]['description'].replace(temp_dict['competitor1'],
+                                                                                                    'home').replace(
+                                                temp_dict['competitor2'], 'away').strip(' ')
 
                                             if descrition_type_comp1.lower() in cp1.lower() or cp1.lower() in descrition_type_comp1.lower() or short_name_com_1.lower() in cp1.lower() or cp1.lower() in short_name_com_1.lower():
                                                 cp1 = '1'
@@ -249,55 +247,46 @@ class BOVADA(scrapy.Spider):
                                             cp2 = self.check_competitor_mapping(cp2, all_key_value)
                                             if 'over' in market_data['outcomes'][0]['description'].lower():
                                                 if 'handicap' in market_data['outcomes'][0]['price']:
-                                                    handicap = market_data['outcomes'][0]['price']['handicap']
+                                                    handicap =market_data['outcomes'][0]['price']['handicap']
                                                     if 'handicap2' in market_data['outcomes'][0]['price']:
-                                                        handicap = str((float(
-                                                            market_data['outcomes'][0]['price']['handicap']) + float(
-                                                            market_data['outcomes'][0]['price']['handicap2'])) / 2)
+                                                        handicap = str((float( market_data['outcomes'][0]['price']['handicap']) + float( market_data['outcomes'][0]['price']['handicap2'])) / 2)
+
                                                 else:
                                                     handicap = 'null'
                                                 temp_dict['odds'][sub_key_name][name][handicap] = {
-                                                    cp1: round(float(market_data['outcomes'][0]['price']['decimal']),
-                                                               1),
-                                                    cp2: round(float(market_data['outcomes'][1]['price']['decimal']),
-                                                               1)}
+                                                    cp1: round(float(market_data['outcomes'][0]['price']['decimal']), 1),
+                                                    cp2: round(float(market_data['outcomes'][1]['price']['decimal']), 1)}
                                             else:
                                                 if 'handicap' in market_data['outcomes'][0]['price']:
                                                     handicap = market_data['outcomes'][0]['price']['handicap']
                                                     if 'handicap2' in market_data['outcomes'][0]['price']:
-                                                        handicap = str((float(
-                                                            market_data['outcomes'][0]['price']['handicap']) + float(
-                                                            market_data['outcomes'][0]['price']['handicap2'])) / 2)
+                                                        handicap = str((float(market_data['outcomes'][0]['price']['handicap']) + float(market_data['outcomes'][0]['price']['handicap2'])) / 2)
 
                                                 else:
                                                     handicap = 'null'
 
                                                 temp_dict['odds'][sub_key_name][name][handicap] = {
-                                                    cp1: round(float(market_data['outcomes'][0]['price']['decimal']),
-                                                               1),
-                                                    cp2: round(float(market_data['outcomes'][1]['price']['decimal']),
-                                                               1)}
+                                                    cp1: round(float(market_data['outcomes'][0]['price']['decimal']), 1),
+                                                    cp2: round(float(market_data['outcomes'][1]['price']['decimal']), 1)}
 
                                         elif len(market_data['outcomes']) == 3:
                                             if 'handicap' in market_data['outcomes'][0]['price']:
                                                 handicap = market_data['outcomes'][0]['price']['handicap']
                                                 if 'handicap2' in market_data['outcomes'][0]['price']:
-                                                    handicap = str((float(
-                                                        market_data['outcomes'][0]['price']['handicap']) + float(
-                                                        market_data['outcomes'][0]['price']['handicap2'])) / 2)
+                                                    handicap = str((float(market_data['outcomes'][0]['price']['handicap']) + float(market_data['outcomes'][0]['price']['handicap2'])) / 2)
 
                                             else:
                                                 handicap = 'null'
 
-                                            cp1 = market_data['outcomes'][0]['description'].replace(
-                                                temp_dict['competitor1'], 'home').replace(temp_dict['competitor2'],
-                                                                                          'away').strip(' ')
-                                            cp2 = market_data['outcomes'][1]['description'].replace(
-                                                temp_dict['competitor1'], 'home').replace(temp_dict['competitor2'],
-                                                                                          'away').strip(' ')
-                                            cp3 = market_data['outcomes'][2]['description'].replace(
-                                                temp_dict['competitor1'], 'home').replace(temp_dict['competitor2'],
-                                                                                          'away').strip(' ')
+                                            cp1 = market_data['outcomes'][0]['description'].replace(temp_dict['competitor1'],
+                                                                                                    'home').replace(
+                                                temp_dict['competitor2'], 'away').strip(' ')
+                                            cp2 = market_data['outcomes'][1]['description'].replace(temp_dict['competitor1'],
+                                                                                                    'home').replace(
+                                                temp_dict['competitor2'], 'away').strip(' ')
+                                            cp3 = market_data['outcomes'][2]['description'].replace(temp_dict['competitor1'],
+                                                                                                    'home').replace(
+                                                temp_dict['competitor2'], 'away').strip(' ')
 
                                             if descrition_type_comp1.lower() in cp1.lower() or cp1.lower() in descrition_type_comp1.lower() or short_name_com_1.lower() in cp1.lower() or cp1.lower() in short_name_com_1.lower():
                                                 cp1 = '1'
@@ -314,16 +303,15 @@ class BOVADA(scrapy.Spider):
                                         else:
                                             for outcome_data in market_data['outcomes']:
                                                 check_competitor_name = outcome_data["description"].replace(
-                                                    temp_dict['competitor1'], 'home').replace(temp_dict['competitor2'],
-                                                                                              'away')
+                                                    temp_dict['competitor1'], 'home').replace(temp_dict['competitor2'], 'away')
                                                 check_competitor_name = check_competitor_name.replace(short_name_com_1,
                                                                                                       'home').replace(
                                                     short_name_com_2, 'away')
-                                                check_competitor_name = check_competitor_name.replace(
-                                                    descrition_type_comp1, 'home').replace(descrition_type_comp2,
-                                                                                           'away')
-                                                check_competitor_name = self.check_competitor_mapping(
-                                                    check_competitor_name, all_key_value)
+                                                check_competitor_name = check_competitor_name.replace(descrition_type_comp1,
+                                                                                                      'home').replace(
+                                                    descrition_type_comp2, 'away')
+                                                check_competitor_name = self.check_competitor_mapping(check_competitor_name,
+                                                                                                      all_key_value)
 
                                                 if 'period' in outcome_data:
                                                     if outcome_data['period']['description'] == 'Regulation Time':
@@ -334,11 +322,10 @@ class BOVADA(scrapy.Spider):
                                                 if 'handicap' in outcome_data['price']:
                                                     handicap = outcome_data['price']['handicap']
                                                     if 'handicap2' in outcome_data['price']:
-                                                        handicap = str((float(handicap) + float(
-                                                            outcome_data['price']['handicap2'])) / 2)
+                                                        handicap = str((float(handicap) + float(outcome_data['price']['handicap2']))/2)
                                                 else:
                                                     handicap = 'null'
-                                                if handicap != 'null':
+                                                if handicap !='null':
                                                     if outcome_data['type'] == 'A':
                                                         handicap = handicap
                                                     elif outcome_data['type'] == 'H':
@@ -350,17 +337,13 @@ class BOVADA(scrapy.Spider):
                                                 if handicap not in temp_dict['odds'][sub_key_name][name]:
                                                     temp_dict['odds'][sub_key_name][name][handicap] = {}
 
-                                                temp_dict['odds'][sub_key_name][name][handicap][
-                                                    check_competitor_name] = round(
+                                                temp_dict['odds'][sub_key_name][name][handicap][check_competitor_name] = round(
                                                     float(outcome_data['price']['decimal']), 1)
-
+                    #
                     for matches_data in self.matches_data_collection:
-                        bovada_timestamp = normalize_timestamp_for_comparison(temp_dict['timestamp'])
-                        flashscore_timestamp = normalize_timestamp_for_comparison(matches_data['timestamp'])
                         sport_match = (temp_dict['sport'].lower().replace('-', '').replace(' ', '') ==
                                        matches_data['sport'].replace('-', '').replace(' ', ''))
-                        timestamp_match = bovada_timestamp == flashscore_timestamp
-                        if sport_match and timestamp_match:
+                        if sport_match :
                             result_dict = compare_matchups(
                                 matches_data['competitor1'].lower(),
                                 matches_data['competitor2'].lower(),
@@ -372,15 +355,19 @@ class BOVADA(scrapy.Spider):
                                 # Update the matched flashscore entry with tipico prices
                                 self.get_matches_data.update_one(
                                     {"match_id": matches_data["match_id"]},
-                                    {"$set": {"prices.bovada": bovada_prices}}
+                                    {"$set": {
+                                        "prices.bovada": bovada_prices,
+                                        "status": "live",
+                                              }}
                                 )
                                 break
 
                     self.all_matches.append(temp_dict)
         except Exception as e:
-            print('error', e)
+            print(e)
 
-    def negate_handicap_string(self, handicap_str):
+
+    def negate_handicap_string(self,handicap_str):
         try:
             parts = handicap_str.split(',')
             negated_parts = []
@@ -394,17 +381,22 @@ class BOVADA(scrapy.Spider):
         except ValueError:
             return '0'
 
-    def check_competitor_mapping(self, name, all_key_value):
+
+
+
+
+
+    def check_competitor_mapping(self,name,all_key_value):
         if 'home' in name.lower():
-            name = '1'
+            name='1'
         elif 'away' in name.lower():
-            name = '2'
+            name='2'
         elif 'tie' in name.lower():
-            name = 'x'
+            name='x'
         elif 'under' in name.lower():
-            name = '-'
+            name='-'
         elif 'over' in name.lower():
-            name = '+'
+            name='+'
         if all_key_value:
             for key_value in all_key_value:
                 if key_value['id'] == name:
@@ -414,18 +406,14 @@ class BOVADA(scrapy.Spider):
 
                 elif 'maps' in key_value.keys() and (
                         any(name.lower() in word.strip('[]') for word in key_value['maps']) or any(
-                    word.strip('[]') in name.lower() for word in key_value['maps'])):
+                        word.strip('[]') in name.lower() for word in key_value['maps'])):
                     name = key_value['id']
                     break
 
+
         return name
 
-    def convert_time(self, timestamp_ms):
-        dt = datetime.fromtimestamp(timestamp_ms / 1000, tz=timezone.utc)
-        gmt_str = dt.strftime('%d %b %Y %H:%M:%S GMT')
-        return gmt_str
-
-    def check_mapping_data_into_mongodb(self, key):
+    def check_mapping_data_into_mongodb(self,key):
         all_key_value = ''
         for mapping_data in self.all_mapping_data:
             try:
@@ -441,7 +429,7 @@ class BOVADA(scrapy.Spider):
                 print('error ', e)
         return [all_key_value, key]
 
-    def close(self, reason):
+    def close(self,reason):
         print('hello')
         pass
 

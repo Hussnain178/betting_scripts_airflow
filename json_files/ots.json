@@ -37,7 +37,8 @@
     "match result",
     "full-time",
     "match-result",
-    "1x2-3way-ordinary-time"
+    "1x2-3way-ordinary-time",
+    "3-way moneyline - live regulation time"
   ],
   "__v": 0,
   "createdAt": {
@@ -855,13 +856,15 @@
   "maps": [
     "spread",
     "point spread - points - match",
+    "runline - game",
     "alternate game spread - match",
     "game spread - match",
     "point spread - game",
     "point spread - match",
     "goal spread",
     "point spread",
-    "spread - game"
+    "spread - game",
+    "point spread - points"
   ],
   "__v": 0,
   "createdAt": {
@@ -973,7 +976,8 @@
     }
   ],
   "maps": [
-    "point spread - 1st quarter"
+    "point spread - 1st quarter",
+    "point spread - points - 1st game"
   ],
   "__v": 0,
   "createdAt": {
@@ -1152,6 +1156,8 @@
   ],
   "maps": [
     "total goals",
+    "over/under points",
+    "total points",
     "total",
     "points-more-less-than",
     "total points - game",
@@ -1296,7 +1302,7 @@
   "maps": [
     "over-under-1st-quarter",
     "total - 1st quarter",
-    "quarter no.1 - over/unde"
+    "quarter no.1 - over/under"
   ],
   "__v": 0,
   "createdAt": {
@@ -1332,7 +1338,7 @@
   "maps": [
     "over-under-2nd-quarter",
     "total - 2nd quarter",
-    "quarter no.2 - over/unde"
+    "quarter no.2 - over/under"
   ],
   "__v": 0,
   "createdAt": {
@@ -1368,7 +1374,7 @@
   "maps": [
     "over-under-3rd-quarter",
     "total - 3rd quarter",
-    "quarter no.3 - over/unde"
+    "quarter no.3 - over/under"
   ],
   "__v": 0,
   "createdAt": {
@@ -1404,7 +1410,7 @@
   "maps": [
     "over-under-4th-quarter",
     "total - 4th quarter",
-    "quarter no.4 - over/unde"
+    "quarter no.4 - over/under"
   ],
   "__v": 0,
   "createdAt": {
@@ -2036,7 +2042,8 @@
     "moneyline - match",
     "moneyline",
     "12-fe",
-    "12-2way-ordinary-time"
+    "12-2way-ordinary-time",
+    "moneyline - live match"
   ],
   "__v": 0,
   "createdAt": {
@@ -3589,6 +3596,7 @@
   ],
   "maps": [
     "money-line - 1st period",
+    "moneyline - 1st period",
     "12-2way-1st-period"
   ],
   "__v": 0,
@@ -3624,7 +3632,8 @@
   ],
   "maps": [
     "money-line - 2nd period",
-    "12-2way-2nd-period"
+    "12-2way-2nd-period",
+    "moneyline - 2nd period"
   ],
   "__v": 0,
   "createdAt": {
@@ -3659,7 +3668,8 @@
   ],
   "maps": [
     "money-line - 3rd period",
-    "12-2way-3rd-period"
+    "12-2way-3rd-period",
+    "moneyline - 3rd period"
   ],
   "__v": 0,
   "createdAt": {
@@ -5127,7 +5137,8 @@
   ],
   "maps": [
     "over-under-1st-period",
-    "total - 1st period"
+    "total - 1st period",
+    "period no. 1 - over/under goals"
   ],
   "__v": 0,
   "createdAt": {
@@ -5165,7 +5176,8 @@
   ],
   "maps": [
     "over-under-2nd-period",
-    "total - 2nd period"
+    "total - 2nd period",
+    "period no. 2 - over/under goals"
   ],
   "__v": 0,
   "createdAt": {
@@ -5203,7 +5215,8 @@
   ],
   "maps": [
     "over-under-3rd-period",
-    "total - 3rd period"
+    "total - 3rd period",
+    "period no. 3 - over/under goals"
   ],
   "__v": 0,
   "createdAt": {
@@ -5244,7 +5257,8 @@
     "total - points - 1st set",
     "total - 1st set",
     "alternate total games - 1st set",
-    "over/under games in 1.set"
+    "over/under games in 1.set",
+    "over/under points in set no. 1"
   ],
   "__v": 0,
   "createdAt": {
@@ -5285,7 +5299,8 @@
     "total - 2nd set",
     "total - points - 2nd set",
     "alternate total games - 2nd set",
-    "over/under games in 2.set"
+    "over/under games in 2.set",
+    "over/under points in set no. 2"
   ],
   "__v": 0,
   "createdAt": {
@@ -5326,7 +5341,8 @@
     "total - 3rd set",
     "alternate total games - 3rd set",
     "total - points - 3rd set",
-    "over/under games in 3.set"
+    "over/under games in 3.set",
+    "over/under points in set no. 3"
   ],
   "__v": 0,
   "createdAt": {
@@ -5667,6 +5683,118 @@
     "alternate game spread - 3rd set",
     "game spread - 3rd set",
     "point spread - points - 3rd set"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68932b3458deca76069b1234"
+  },
+  "id": "totals-set-4",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-4th-set",
+    "over/under points in set no. 4",
+    "total - points - 4th set",
+    "total - 1st set",
+    "alternate total games - 4th set",
+    "over/under games in 4.set"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:57.954Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "68932c2758deca76069b1235"
+  },
+  "id": "2-way-set-4",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "12-2way-4th-set",
+    "moneyline - 4th set"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68932c6358deca76069b1236"
+  },
+  "id": "points-set-4",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "alternate game spread - 4th set",
+    "game spread - 4th set",
+    "point spread - points - 4th set"
   ],
   "__v": 0,
   "createdAt": {

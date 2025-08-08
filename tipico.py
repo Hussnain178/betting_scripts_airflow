@@ -1,11 +1,9 @@
 import json
 import scrapy
 from scrapy.crawler import CrawlerProcess
-from helper import parse_tipico_date, normalize_timestamp_for_comparison,check_key,check_header_name,compare_matchups
+from helper import check_sport_name, parse_tipico_date, normalize_timestamp_for_comparison, check_key, \
+    check_header_name, compare_matchups
 from pymongo import MongoClient
-
-
-
 
 
 class tipico(scrapy.Spider):
@@ -13,6 +11,8 @@ class tipico(scrapy.Spider):
     key_dict = set()
 
     all_matches = list()
+    custom_settings = {
+        'CONCURRENT_REQUESTS': 64, }
 
     headers = {
         "accept": "application/json",
@@ -41,7 +41,7 @@ class tipico(scrapy.Spider):
         self.all_country_data = list(get_country_collection.find())
         self.get_matches_data = db['matches_data']
         self.matches_data_collection = list(self.get_matches_data.find())
-        self.proxy = "http://lXe53W9wSpWgBb2W:9rHVoP8UgHUmFoD0_country-at@geo.iproyal.com:12321/"
+        self.proxy = "http://hafiz123-AT-rotate:pucit123@p.webshare.io:80/"
 
     def start_requests(self):
         url = 'https://sports.tipico.com/json/program/navigationTree/all'
@@ -51,20 +51,22 @@ class tipico(scrapy.Spider):
         json_data = json.loads(response.text)
         sports = json_data['children']
         for sport in sports:
-            countries = sport['children']
-            for country in countries:
-                groups = country['children']
-                for group in groups:
-                    group_id = group['groupId']
+            if check_sport_name(sport['title']):
+                # print(sport['title'])
+                countries = sport['children']
+                for country in countries:
+                    groups = country['children']
+                    for group in groups:
+                        group_id = group['groupId']
 
-                    league_matches = 'https://sports.tipico.com/json/program/selectedEvents/all/{}?oneSectionResult=true&maxMarkets=2&language=de'.format(
-                        group_id)
-                    yield scrapy.Request(
-                        url=league_matches,
-                        callback=self.extract_matches,
-                        headers=self.headers,
-                        meta={'proxy': self.proxy}
-                    )
+                        league_matches = 'https://sports.tipico.com/json/program/selectedEvents/all/{}?oneSectionResult=true&maxMarkets=2&language=de'.format(
+                            group_id)
+                        yield scrapy.Request(
+                            url=league_matches,
+                            callback=self.extract_matches,
+                            headers=self.headers,
+                            meta={'proxy': self.proxy}
+                        )
 
     def extract_matches(self, response):
         cookies = {
@@ -98,12 +100,16 @@ class tipico(scrapy.Spider):
                     # Skip this match if date parsing fails
                     return
                 if 'group' in match_data['event'].keys():
-                    name_group='group'
+                    name_group = 'group'
                 else:
                     name_group = 'groups'
 
-                if match_data['event'][name_group][-1].strip(' ').lower() == 'football':
+                if match_data['event'][name_group][-1].strip(' ').lower() == 'football' or \
+                        match_data['event'][name_group][-1].strip(' ').lower() == 'esports':
+
                     sport = 'soccer'
+                elif match_data['event'][name_group][-1].strip(' ').lower() == 'rugby':
+                    sport = 'rugby league'
                 else:
                     sport = match_data['event'][name_group][-1].strip(' ')
 
@@ -129,6 +135,8 @@ class tipico(scrapy.Spider):
                 cat_dict = {
                     str(v['id']): v['name'] for v in match_data.get('categories', {}) if v['id'] < 100
                 }
+                if temp_dic['sport'] == 'Cricket':
+                    l = 1
                 for odds_group_key in match_data.get('categoryOddGroupMapSectioned', {}).keys():
                     if odds_group_key in cat_dict.keys():
 
@@ -137,8 +145,8 @@ class tipico(scrapy.Spider):
                             key = sub_keys['oddGroupTitle'].replace(match_data['event']['team1'], 'home').replace(
                                 match_data['event']['team2'], 'away')
                             check_key_name = check_key(key)
-                            if check_key_name:
 
+                            if check_key_name:
 
                                 # check key name in mongodb mapping collection
                                 list_of_mapping = self.check_mapping_data_into_mongodb(key)
@@ -146,18 +154,33 @@ class tipico(scrapy.Spider):
                                 key = list_of_mapping[1]
 
                                 for ids in sub_keys['oddGroupIds']:
+                                    if key.lower() == '3-way' and len(match_data['oddGroupResultsMap'][str(ids)]) == 2:
+                                        key = '2-way'
+                                        list_of_mapping = self.check_mapping_data_into_mongodb(key)
+                                        all_key_value = list_of_mapping[0]
+                                        key = list_of_mapping[1]
 
+                                    elif key.lower() == '2-way' and len(
+                                            match_data['oddGroupResultsMap'][str(ids)]) == 3:
+                                        key = '3-way'
+                                        list_of_mapping = self.check_mapping_data_into_mongodb(key)
+                                        all_key_value = list_of_mapping[0]
+                                        key = list_of_mapping[1]
                                     if match_data['oddGroups'][str(ids)]['shortCaption']:
-                                        if "over" in sub_keys['oddGroupTitle'].lower() or 'under' in sub_keys['oddGroupTitle'].lower() or 'total' in sub_keys['oddGroupTitle'].lower():
+                                        if "over" in sub_keys['oddGroupTitle'].lower() or 'under' in sub_keys[
+                                            'oddGroupTitle'].lower() or 'total' in sub_keys['oddGroupTitle'].lower():
                                             sub_key = match_data['oddGroups'][str(ids)]['shortCaption']
-                                            sub_key = 'O '+sub_key.split(' ')[0].replace(',', '.')
+                                            sub_key = sub_key.split(' ')[0].replace(',', '.')
                                         else:
                                             sub_key = match_data['oddGroups'][str(ids)]['shortCaption']
                                             sub_key = sub_key.split(' ')[0].replace(',', '.')
                                     else:
                                         sub_key = 'null'
 
-                                    key_name = check_header_name(key)
+                                    key_name_list = check_header_name(key)
+                                    key_name = key_name_list[0]
+                                    key = key_name_list[1]
+
                                     self.key_dict.add(key)
 
                                     if key_name not in temp_dic['prices'].keys():
@@ -180,7 +203,6 @@ class tipico(scrapy.Spider):
                                                     odds_handicap = key_value['id']
                                                     break
 
-
                                         odds_price = match_data['results'][str(data_id)]['quoteFloatValue']
                                         temp_dic['prices'][key_name][key][sub_key][odds_handicap] = odds_price
 
@@ -197,7 +219,6 @@ class tipico(scrapy.Spider):
                     # Use exact timestamp comparison for timezone-aware datetimes
                     timestamp_match = tipico_timestamp == flashscore_timestamp
 
-
                     if sport_match and timestamp_match:
                         result_dict = compare_matchups(
                             matches_data['competitor1'].lower(),
@@ -207,8 +228,8 @@ class tipico(scrapy.Spider):
                         )
 
                         if result_dict:
-                            if matches_data['competitor1'].lower()=='fc tulsa':
-                                l=1
+                            if matches_data['competitor1'].lower() == 'fc tulsa':
+                                l = 1
                             tipico_prices = temp_dic['prices']
                             # Update the matched flashscore entry with tipico prices
                             self.get_matches_data.update_one(
@@ -219,7 +240,7 @@ class tipico(scrapy.Spider):
 
                 self.all_matches.append(temp_dic)
 
-    def check_mapping_data_into_mongodb(self,key):
+    def check_mapping_data_into_mongodb(self, key):
         all_key_value = ''
         for mapping_data in self.all_mapping_data:
             try:
@@ -234,6 +255,7 @@ class tipico(scrapy.Spider):
             except Exception as e:
                 print('error ', e)
         return [all_key_value, key]
+
     def close(self, reason):
         try:
             # store_data_into_mongodb(self.all_matches, 'website_data')
