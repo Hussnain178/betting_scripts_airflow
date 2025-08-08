@@ -55,8 +55,7 @@ class FlashscoreResults(scrapy.Spider):
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
         "x-fsign": "SW9D1eZo"
     }
-    all_status = set()
-    final_data = []
+    updated_count = 0
 
     def start_requests(self):
         url = 'https://www.flashscore.com/x/js/core_2_2188000000.js'
@@ -108,8 +107,10 @@ class FlashscoreResults(scrapy.Spider):
                         'currentScore_competitor2': team2_goals
 
                     }})
+                self.updated_count += 1
 
-    def close(spider: Spider, reason: str):
+    def close(self, reason):
+        print(self.updated_count)
         print('scrapper closed successfully!')
 
 
