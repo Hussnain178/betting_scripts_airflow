@@ -79,6 +79,9 @@ class FlashscoreResults(scrapy.Spider):
                     )
 
     def parse_season(self, response):
+        sport_id = int(response.url.split('feed/f_')[-1].split('_')[0])
+        sport = [v for v in self.all_sports if self.all_sports[v] == sport_id][0]
+        print(sport)
         for match in response.text.split('~'):
             if match.startswith('AA÷'):
                 match_id = match.split('¬')[0].split('÷')[-1]
@@ -88,19 +91,19 @@ class FlashscoreResults(scrapy.Spider):
                 team2_goals = match.split('¬AH÷')[-1].split('¬')[0]
                 if match_status in {'1st Half', '2nd Half', 'After Extra Time', 'After Penalties', 'Awaiting updates',
                                     'Live'}:
-                    status = 'live'
+                    final_status = 'live'
                 elif match_status in {'Cancelled', 'Postponed'}:
-                    status = match_status
+                    final_status = match_status
                     team1_goals = '-'
                     team2_goals = '-'
                 elif match_status == 'Finished':
-                    status = 'Finished'
+                    final_status = 'Finished'
                 else:
                     continue
                 self.get_matches_data.update_one(
                     {"match_id": match_id},
                     {"$set": {
-                        "status": status,
+                        "status": final_status,
                         'currentScore_competitor1': team1_goals,
                         'currentScore_competitor2': team2_goals
 
