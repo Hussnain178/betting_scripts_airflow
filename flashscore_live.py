@@ -1,15 +1,15 @@
+from typing import Union
+
 import scrapy
 import json
 from pymongo import MongoClient
+from scrapy import Spider
 from scrapy.crawler import CrawlerProcess
+from twisted.internet.defer import Deferred
 
 
 class FlashscoreResults(scrapy.Spider):
     name = 'results-flashscore'
-    all_sports = dict()
-    all_countries = dict()
-    all_matches = list()
-
     client = MongoClient('mongodb://localhost:27017')
     db = client['betting']
     get_matches_data = db['matches_data']
@@ -34,19 +34,6 @@ class FlashscoreResults(scrapy.Spider):
         '5': 'Cancelled',
         '37': 'Abandoned',
         '54': 'Awarded'
-    }
-
-    result_keys = {
-        '1st-half': 'half-1',
-        '2nd-half': 'half-2',
-        '1st-quarter': 'quarter-1',
-        '2nd-quarter': 'quarter-2',
-        '3rd-quarter': 'quarter-3',
-        '4th-quarter': 'quarter-4',
-        '1st-period': 'third-1',
-        '2nd-period': 'third-2',
-        '3rd-period': 'third-3',
-        'match': 'full-time'
     }
 
     custom_settings = {
@@ -81,7 +68,8 @@ class FlashscoreResults(scrapy.Spider):
     def parse(self, response, **kwargs):
         self.all_sports = json.loads('{' + response.text.split('sport_list":{')[-1].split('},"')[0] + '}')
         for sport in self.all_sports.items():
-            if sport[1] not in [14, 16, 23, 28, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41]:  # ids of racing sports, right now we are also ignoring darts, boxing, golf and mma
+            if sport[1] not in [14, 16, 23, 28, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+                                41]:  # ids of racing sports, right now we are also ignoring darts, boxing, golf and mma
                 for day in [0, ]:  # 0 means today
                     url = 'https://global.flashscore.ninja/2/x/feed/f_{}_{}_5_en_1'.format(sport[1], day)
                     yield scrapy.Request(
@@ -91,31 +79,15 @@ class FlashscoreResults(scrapy.Spider):
                     )
 
     def parse_season(self, response):
-        sport_id = int(response.url.split('feed/f_')[-1].split('_')[0])
-        sport = [v for v in self.all_sports if self.all_sports[v] == sport_id][0]
-        country = ''
-        league = ''
-
         for match in response.text.split('~'):
-            if match.startswith('ZA÷'):
-                if '¬ZY÷' in match:
-                    country = match.split('¬ZY÷')[-1].split('¬')[0]
-                else:
-                    country = match.split('ZA÷')[-1].split('¬')[0].split(':')[0]
-                league = ':'.join(match.split('ZA÷')[-1].split('¬')[0].split(':')[1:]).strip()
-
             if match.startswith('AA÷'):
                 match_id = match.split('¬')[0].split('÷')[-1]
                 status = match.split('¬AC÷')[-1].split('¬')[0]
-                unix_time = int(match.split('¬AD÷')[-1].split('¬')[0])
                 match_status = self.status_keys[status]
-
-                cp1 = match.split('¬CX÷')[-1].split('¬')[0]
-                cp2 = match.split('¬FK÷')[-1].split('¬')[0]
-
                 team1_goals = match.split('¬AG÷')[-1].split('¬')[0]
                 team2_goals = match.split('¬AH÷')[-1].split('¬')[0]
-                if match_status in {'1st Half', '2nd Half', 'After Extra Time', 'After Penalties', 'Awaiting updates', 'Live'}:
+                if match_status in {'1st Half', '2nd Half', 'After Extra Time', 'After Penalties', 'Awaiting updates',
+                                    'Live'}:
                     status = 'live'
                 elif match_status in {'Cancelled', 'Postponed'}:
                     status = match_status
@@ -133,6 +105,9 @@ class FlashscoreResults(scrapy.Spider):
                         'currentScore_competitor2': team2_goals
 
                     }})
+
+    def close(spider: Spider, reason: str):
+        print('scrapper closed successfully!')
 
 
 if __name__ == '__main__':
