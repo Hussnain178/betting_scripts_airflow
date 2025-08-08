@@ -56,6 +56,7 @@ class FlashscoreResults(scrapy.Spider):
         "x-fsign": "SW9D1eZo"
     }
     updated_count = 0
+    finished_count = 0
 
     def start_requests(self):
         url = 'https://www.flashscore.com/x/js/core_2_2188000000.js'
@@ -97,6 +98,7 @@ class FlashscoreResults(scrapy.Spider):
                     team2_goals = '-'
                 elif match_status == 'Finished':
                     final_status = 'Finished'
+                    self.finished_count += 1
                 else:
                     continue
                 self.get_matches_data.update_one(
@@ -111,6 +113,7 @@ class FlashscoreResults(scrapy.Spider):
 
     def close(self, reason):
         print(self.updated_count)
+        print(self.finished_count)
         print('scrapper closed successfully!')
 
 
