@@ -148,7 +148,7 @@ class FlashscoreLiveResultsSpider(scrapy.Spider):
         try:
             sport_name = response.meta['sport_name']
             sport_id = response.meta['sport_id']
-
+            matches_updated_in_sport = 0
             log_scraper_progress(
                 self.custom_logger, 'PROCESSING_LIVE_SPORT',
                 f'Processing live results for {sport_name}'
