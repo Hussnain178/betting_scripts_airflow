@@ -29,6 +29,7 @@
   ],
   "maps": [
     "1x2",
+    "3 way",
     "3-way moneyline",
     "full time",
     "3-way moneyline - match",
@@ -38,7 +39,8 @@
     "full-time",
     "match-result",
     "1x2-3way-ordinary-time",
-    "3-way moneyline - live regulation time"
+    "3-way moneyline - live regulation time",
+    "regular time 3-way"
   ],
   "__v": 0,
   "createdAt": {
@@ -88,7 +90,9 @@
     "1x2-1h",
     "1st-half---1x2",
     "1x2-3way-1st-half",
-    "3-way moneyline - first half"
+    "3-way moneyline - first half",
+    "1st half",
+    "1st half 3-way"
   ],
   "__v": 0,
   "createdAt": {
@@ -134,7 +138,9 @@
     "who-wins-the-2-half?",
     "1x2-2h",
     "1x2-3way-2nd-half",
-    "3-way moneyline - second half"
+    "3-way moneyline - second half",
+    "2nd half",
+    "2nd half 3-way"
   ],
   "__v": 0,
   "createdAt": {
@@ -175,7 +181,8 @@
   ],
   "maps": [
     "1x2-3way-1st-quarter",
-    "3-way moneyline - 1st quarter"
+    "3-way moneyline - 1st quarter",
+    "quarter 1"
   ],
   "__v": 0,
   "createdAt": {
@@ -213,7 +220,8 @@
   ],
   "maps": [
     "1x2-3way-2nd-quarter",
-    "3-way moneyline - 2nd quarter"
+    "3-way moneyline - 2nd quarter",
+    "quarter 2"
   ],
   "__v": 0,
   "createdAt": {
@@ -251,7 +259,8 @@
   ],
   "maps": [
     "1x2-3way-3rd-quarter",
-    "3-way moneyline - 3rd quarter"
+    "3-way moneyline - 3rd quarter",
+    "quarter 3"
   ],
   "__v": 0,
   "createdAt": {
@@ -289,7 +298,8 @@
   ],
   "maps": [
     "1x2-3way-4th-quarter",
-    "3-way moneyline - 4th quarter"
+    "3-way moneyline - 4th quarter",
+    "quarter 4"
   ],
   "__v": 0,
   "createdAt": {
@@ -533,7 +543,8 @@
   ],
   "maps": [
     "double chance - 2nd half",
-    "double-chance-2nd-half"
+    "double-chance-2nd-half",
+    "double chance second half"
   ],
   "__v": 0,
   "createdAt": {
@@ -704,8 +715,7 @@
     "asian handicap - 1st half",
     "ah-1h",
     "1st-half---asian-handicap",
-    "asian-handicap-1st-half",
-    "double chance second half"
+    "asian-handicap-1st-half"
   ],
   "__v": 0,
   "createdAt": {
@@ -855,6 +865,7 @@
   ],
   "maps": [
     "spread",
+    "spread-game",
     "point spread - points - match",
     "runline - game",
     "alternate game spread - match",
@@ -864,7 +875,9 @@
     "goal spread",
     "point spread",
     "spread - game",
-    "point spread - points"
+    "point spread - points",
+    "spread-game (regulation)",
+    "run line"
   ],
   "__v": 0,
   "createdAt": {
@@ -902,7 +915,9 @@
   "maps": [
     "point spread - first half",
     "goal spread - first half",
-    "spread - first half"
+    "spread - first half",
+    "spread-1st half",
+    "total points - 1st half"
   ],
   "__v": 0,
   "createdAt": {
@@ -940,7 +955,9 @@
   "maps": [
     "point spread - second half",
     "goal spread - second half",
-    "spread - second half"
+    "spread - second half",
+    "spread-2nd half",
+    "total points - 2nd half"
   ],
   "__v": 0,
   "createdAt": {
@@ -977,7 +994,8 @@
   ],
   "maps": [
     "point spread - 1st quarter",
-    "point spread - points - 1st game"
+    "point spread - points - 1st game",
+    "total points - quarter 1"
   ],
   "__v": 0,
   "createdAt": {
@@ -1013,7 +1031,8 @@
     }
   ],
   "maps": [
-    "point spread - 2nd quarter"
+    "point spread - 2nd quarter",
+    "total points - quarter 2"
   ],
   "__v": 0,
   "createdAt": {
@@ -1049,7 +1068,8 @@
     }
   ],
   "maps": [
-    "point spread - 3rd quarter"
+    "point spread - 3rd quarter",
+    "total points - quarter 3"
   ],
   "__v": 0,
   "createdAt": {
@@ -1085,7 +1105,8 @@
     }
   ],
   "maps": [
-    "point spread - 4th quarter"
+    "point spread - 4th quarter",
+    "total points - quarter 4"
   ],
   "__v": 0,
   "createdAt": {
@@ -1173,7 +1194,13 @@
     "ou-fe",
     "over-under-ordinary-time",
     "sets-over-under-full-event",
-    "over/under"
+    "over/under",
+    "total-game",
+    "total-game (regulation)",
+    "total points - including overtime",
+    "total games",
+    "total goals o/u - game",
+    "over/under points in match"
   ],
   "__v": 0,
   "createdAt": {
@@ -1219,7 +1246,8 @@
     "total - first half",
     "total goals o/u - first half",
     "total points - first half",
-    "1. half over/under"
+    "1. half over/under",
+    "total-1st half"
   ],
   "__v": 0,
   "createdAt": {
@@ -1263,7 +1291,8 @@
     "total - second half",
     "total goals o/u - second half",
     "total points - second half",
-    "2. half over/under"
+    "2. half over/under",
+    "total-2nd half"
   ],
   "__v": 0,
   "createdAt": {
@@ -1302,7 +1331,8 @@
   "maps": [
     "over-under-1st-quarter",
     "total - 1st quarter",
-    "quarter no.1 - over/under"
+    "quarter no.1 - over/under",
+    "total goals - quarter 1"
   ],
   "__v": 0,
   "createdAt": {
@@ -1338,7 +1368,8 @@
   "maps": [
     "over-under-2nd-quarter",
     "total - 2nd quarter",
-    "quarter no.2 - over/under"
+    "quarter no.2 - over/under",
+    "total goals - quarter 2"
   ],
   "__v": 0,
   "createdAt": {
@@ -1374,7 +1405,8 @@
   "maps": [
     "over-under-3rd-quarter",
     "total - 3rd quarter",
-    "quarter no.3 - over/under"
+    "quarter no.3 - over/under",
+    "total goals - quarter 3"
   ],
   "__v": 0,
   "createdAt": {
@@ -1410,7 +1442,8 @@
   "maps": [
     "over-under-4th-quarter",
     "total - 4th quarter",
-    "quarter no.4 - over/under"
+    "quarter no.4 - over/under",
+    "total goals - quarter 4"
   ],
   "__v": 0,
   "createdAt": {
@@ -1821,7 +1854,9 @@
     }
   ],
   "maps": [
-    "over/under sets in match"
+    "over/under sets in match",
+    "total sets (home vs away)",
+    "total sets"
   ],
   "__v": 0,
   "createdAt": {
@@ -1858,7 +1893,8 @@
     "total corners",
     "over-under-corners",
     "corners-over-under-ordinary-time",
-    "over/under corners"
+    "over/under corners",
+    "total corners (home vs away)"
   ],
   "__v": 0,
   "createdAt": {
@@ -1894,7 +1930,8 @@
   "maps": [
     "over-under-corners-in-the-1-half",
     "corners-over-under-1st-half",
-    "over/under corners in the 1.half"
+    "over/under corners in the 1.half",
+    "total corners - 1st half"
   ],
   "__v": 0,
   "createdAt": {
@@ -2037,13 +2074,19 @@
   ],
   "maps": [
     "money-line",
+    "2 way",
+    "match odds",
+    "regular time",
     "moneyline - game",
     "head-to-head",
     "moneyline - match",
     "moneyline",
     "12-fe",
     "12-2way-ordinary-time",
-    "moneyline - live match"
+    "moneyline - live match",
+    "moneyline-game",
+    "moneyline-game (regulation)",
+    "moneyline-game (ot)"
   ],
   "__v": 0,
   "createdAt": {
@@ -2079,7 +2122,8 @@
   "maps": [
     "money-line - 1st half",
     "12-2way-1st-half",
-    "moneyline - first half"
+    "moneyline - first half",
+    "moneyline-1st half"
   ],
   "__v": 0,
   "createdAt": {
@@ -2114,7 +2158,8 @@
   ],
   "maps": [
     "money-line - 2nd half",
-    "moneyline - second half"
+    "moneyline - second half",
+    "moneyline-2nd half"
   ],
   "__v": 0,
   "createdAt": {
@@ -2275,7 +2320,8 @@
     "draw no bet",
     "draw-no-bet",
     "draw-no-bet-ordinary-time",
-    "draw no bet"
+    "draw no bet",
+    "draw no bet - regular time"
   ],
   "__v": 0,
   "createdAt": {
@@ -2520,7 +2566,8 @@
     "both teams to score - 1st half",
     "score-both-halftime-half-1",
     "bts-1h",
-    "both-to-score-1st-half"
+    "both-to-score-1st-half",
+    "both teams to score in 1st half"
   ],
   "__v": 0,
   "createdAt": {
@@ -2557,7 +2604,8 @@
     "both teams to score - 2nd half",
     "score-both-halftime-half-2",
     "bts-2h",
-    "both-to-score-2nd-half"
+    "both-to-score-2nd-half",
+    "both teams to score in 2nd half"
   ],
   "__v": 0,
   "createdAt": {
@@ -3029,7 +3077,8 @@
     "first goal. no goal, no bet",
     "first-scorer",
     "first-goal-no-goal-no-bet",
-    "first-team-to-score-ordinary-time"
+    "first-team-to-score-ordinary-time",
+    "first team to score"
   ],
   "__v": 0,
   "createdAt": {
@@ -3347,7 +3396,8 @@
     }
   ],
   "maps": [
-    "corner-handicap-ordinary-time"
+    "corner-handicap-ordinary-time",
+    "corners handicap"
   ],
   "__v": 0,
   "createdAt": {
@@ -3704,7 +3754,8 @@
   ],
   "maps": [
     "12-2way-1st-set",
-    "moneyline - 1st set"
+    "moneyline - 1st set",
+    "set 1"
   ],
   "__v": 0,
   "createdAt": {
@@ -3736,7 +3787,8 @@
   ],
   "maps": [
     "12-2way-2nd-set",
-    "moneyline - 2nd set"
+    "moneyline - 2nd set",
+    "set 2"
   ],
   "__v": 0,
   "createdAt": {
@@ -3768,7 +3820,8 @@
   ],
   "maps": [
     "12-2way-3rd-set",
-    "moneyline - 3rd set"
+    "moneyline - 3rd set",
+    "set 3"
   ],
   "__v": 0,
   "createdAt": {
@@ -4364,7 +4417,8 @@
     }
   ],
   "maps": [
-    "corners-over-under-2nd-half"
+    "corners-over-under-2nd-half",
+    "total corners - 1st half"
   ],
   "__v": 0,
   "createdAt": {
@@ -4582,7 +4636,8 @@
     }
   ],
   "maps": [
-    "draw-no-bet-1st-quarter"
+    "draw-no-bet-1st-quarter",
+    "draw no bet - quarter 1"
   ],
   "__v": 0,
   "createdAt": {
@@ -4613,7 +4668,8 @@
     }
   ],
   "maps": [
-    "draw-no-bet-2nd-quarter"
+    "draw-no-bet-2nd-quarter",
+    "draw no bet - quarter 2"
   ],
   "__v": 0,
   "createdAt": {
@@ -4644,7 +4700,8 @@
     }
   ],
   "maps": [
-    "draw-no-bet-3rd-quarter"
+    "draw-no-bet-3rd-quarter",
+    "draw no bet - quarter 3"
   ],
   "__v": 0,
   "createdAt": {
@@ -4675,7 +4732,8 @@
     }
   ],
   "maps": [
-    "draw-no-bet-4th-quarter"
+    "draw-no-bet-4th-quarter",
+    "draw no bet - quarter 4"
   ],
   "__v": 0,
   "createdAt": {
@@ -4799,7 +4857,8 @@
     }
   ],
   "maps": [
-    "first-team-to-score-1st-half"
+    "first-team-to-score-1st-half",
+    "first team to score – 1st half"
   ],
   "__v": 0,
   "createdAt": {
@@ -4830,7 +4889,8 @@
     }
   ],
   "maps": [
-    "first-team-to-score-2nd-half"
+    "first-team-to-score-2nd-half",
+    "first team to score – 2nd half"
   ],
   "__v": 0,
   "createdAt": {
@@ -5258,7 +5318,9 @@
     "total - 1st set",
     "alternate total games - 1st set",
     "over/under games in 1.set",
-    "over/under points in set no. 1"
+    "over/under points in set no. 1",
+    "total-1st set",
+    "total games - set 1"
   ],
   "__v": 0,
   "createdAt": {
@@ -5300,7 +5362,9 @@
     "total - points - 2nd set",
     "alternate total games - 2nd set",
     "over/under games in 2.set",
-    "over/under points in set no. 2"
+    "over/under points in set no. 2",
+    "total-2nd set",
+    "total games - set 2"
   ],
   "__v": 0,
   "createdAt": {
@@ -5342,7 +5406,9 @@
     "alternate total games - 3rd set",
     "total - points - 3rd set",
     "over/under games in 3.set",
-    "over/under points in set no. 3"
+    "over/under points in set no. 3",
+    "total-3rd set",
+    "total games - set 3"
   ],
   "__v": 0,
   "createdAt": {
@@ -5564,6 +5630,7 @@
   ],
   "maps": [
     "total-cards-over-under-ordinary-time",
+    "total cards",
     "over/under cards"
   ],
   "__v": 0,
@@ -5719,9 +5786,11 @@
     "over-under-4th-set",
     "over/under points in set no. 4",
     "total - points - 4th set",
-    "total - 1st set",
+    "total - 4th set",
     "alternate total games - 4th set",
-    "over/under games in 4.set"
+    "over/under games in 4.set",
+    "total-4th set",
+    "total games - set 4"
   ],
   "__v": 0,
   "createdAt": {
@@ -5756,7 +5825,8 @@
   ],
   "maps": [
     "12-2way-4th-set",
-    "moneyline - 4th set"
+    "moneyline - 4th set",
+    "set 4"
   ],
   "__v": 0,
   "createdAt": {
@@ -5802,5 +5872,2955 @@
   },
   "updatedAt": {
     "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68970d3b11b2a20e3a469fce"
+  },
+  "id": "total-corners-half-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-corners-in-the-2-half",
+    "corners-over-under-2nd-half",
+    "over/under corners in the 2.half",
+    "total corners - 2nd half"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-05T17:57:31.644Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cba"
+  },
+  "id": "3-way-inning-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "1x2-3way-1st-inning",
+    "3-way moneyline - 1st inning",
+    "inning 1"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cbb"
+  },
+  "id": "3-way-inning-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "1x2-3way-2nd-inning",
+    "3-way moneyline - 2nd inning",
+    "inning 2"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cbc"
+  },
+  "id": "3-way-inning-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "1x2-3way-3rd-inning",
+    "3-way moneyline - 3rd inning",
+    "inning 3"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cbd"
+  },
+  "id": "3-way-inning-4",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "1x2-3way-4th-inning",
+    "3-way moneyline - 4th inning",
+    "inning 4"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cbe"
+  },
+  "id": "double-chance-inning-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1x",
+      "maps": []
+    },
+    {
+      "id": "x2",
+      "maps": []
+    },
+    {
+      "id": "12",
+      "maps": []
+    }
+  ],
+  "maps": [
+    "double-chance-1st-inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cbf"
+  },
+  "id": "double-chance-inning-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1x",
+      "maps": []
+    },
+    {
+      "id": "x2",
+      "maps": []
+    },
+    {
+      "id": "12",
+      "maps": []
+    }
+  ],
+  "maps": [
+    "double-chance-2nd-inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cc0"
+  },
+  "id": "double-chance-inning-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1x",
+      "maps": []
+    },
+    {
+      "id": "x2",
+      "maps": []
+    },
+    {
+      "id": "12",
+      "maps": []
+    }
+  ],
+  "maps": [
+    "double-chance-3rd-inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cc1"
+  },
+  "id": "points-inning-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "point spread - 1st inning",
+    "total points - inning 1"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cc2"
+  },
+  "id": "points-inning-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "point spread - 2nd inning",
+    "total points - inning 2"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cc3"
+  },
+  "id": "points-inning-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "point spread - 3rd inning",
+    "total points - inning 3"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cc4"
+  },
+  "id": "points-inning-4",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "point spread - 4th inning",
+    "total points - inning 4"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cc5"
+  },
+  "id": "totals-inning-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-1st-inning",
+    "total - 1st inning",
+    "inning no.1 - over/under",
+    "total goals - inning 1",
+    "1st innings score - match"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cc6"
+  },
+  "id": "totals-inning-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-2nd-inning",
+    "total - 2nd inning",
+    "inning no.2 - over/under",
+    "total goals - inning 2",
+    "2nd innings score - match"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cc7"
+  },
+  "id": "totals-inning-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-3rd-inning",
+    "total - 3rd inning",
+    "inning no.3 - over/under",
+    "total goals - inning 3",
+    "3rd innings score - match"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cc8"
+  },
+  "id": "totals-inning-4",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-4th-inning",
+    "total - 4th inning",
+    "inning no.4 - over/under",
+    "total goals - inning 4",
+    "4th innings score - match"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cc9"
+  },
+  "id": "2-way-inning-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "12-2way-1st-inning",
+    "moneyline - 1st inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cca"
+  },
+  "id": "2-way-inning-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "moneyline - 2nd inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626ccb"
+  },
+  "id": "2-way-inning-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "moneyline - 3rd inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626ccc"
+  },
+  "id": "2-way-inning-4",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "moneyline - 4th inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626ccd"
+  },
+  "id": "asian-handicap-inning-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "asian-handicap-1st-inning",
+    "inning no.1 - handicap"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:06.951Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cce"
+  },
+  "id": "asian-handicap-inning-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "asian-handicap-2nd-inning",
+    "inning no.2 - handicap"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:06.951Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626ccf"
+  },
+  "id": "asian-handicap-inning-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "asian-handicap-3rd-inning",
+    "inning no.3 - handicap"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:06.951Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cd0"
+  },
+  "id": "asian-handicap-inning-4",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "asian-handicap-4th-inning",
+    "inning no.4 - handicap"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:06.951Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cd1"
+  },
+  "id": "double-chance-inning-4",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1x",
+      "maps": []
+    },
+    {
+      "id": "x2",
+      "maps": []
+    },
+    {
+      "id": "12",
+      "maps": []
+    }
+  ],
+  "maps": [
+    "double-chance-4th-inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cd2"
+  },
+  "id": "draw-no-bet-inning-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "draw-no-bet-1st-inning",
+    "draw no bet - inning 1"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cd3"
+  },
+  "id": "draw-no-bet-inning-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "draw-no-bet-2nd-inning",
+    "draw no bet - inning 2"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cd4"
+  },
+  "id": "draw-no-bet-inning-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "draw-no-bet-3rd-inning",
+    "draw no bet - inning 3"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cd5"
+  },
+  "id": "draw-no-bet-inning-4",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "draw-no-bet-4th-inning",
+    "draw no bet - inning 4"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cd6"
+  },
+  "id": "totals-odd-even-inning-1",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "odd-even-1st-inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:33:33.846Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cd7"
+  },
+  "id": "totals-odd-even-inning-2",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "odd-even-2nd-inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:33:33.846Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cd8"
+  },
+  "id": "totals-odd-even-inning-3",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "odd-even-3rd-inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:33:33.846Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999574c3ec474296626cd9"
+  },
+  "id": "totals-odd-even-inning-4",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "odd-even-4th-inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:33:33.846Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb8b"
+  },
+  "id": "3-way-inning-5",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "1x2-3way-5th-inning",
+    "3-way moneyline - 5th inning",
+    "inning 5"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb8c"
+  },
+  "id": "3-way-inning-6",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "1x2-3way-6th-inning",
+    "3-way moneyline - 6th inning",
+    "inning 6"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb8d"
+  },
+  "id": "3-way-inning-7",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "1x2-3way-7th-inning",
+    "3-way moneyline - 7th inning",
+    "inning 7"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb8e"
+  },
+  "id": "3-way-inning-8",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "1x2-3way-8th-inning",
+    "3-way moneyline - 8th inning",
+    "inning 8"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb8f"
+  },
+  "id": "double-chance-inning-5",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1x",
+      "maps": []
+    },
+    {
+      "id": "x2",
+      "maps": []
+    },
+    {
+      "id": "12",
+      "maps": []
+    }
+  ],
+  "maps": [
+    "double-chance-5th-inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb90"
+  },
+  "id": "double-chance-inning-6",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1x",
+      "maps": []
+    },
+    {
+      "id": "x2",
+      "maps": []
+    },
+    {
+      "id": "12",
+      "maps": []
+    }
+  ],
+  "maps": [
+    "double-chance-6th-inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb91"
+  },
+  "id": "double-chance-inning-7",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1x",
+      "maps": []
+    },
+    {
+      "id": "x2",
+      "maps": []
+    },
+    {
+      "id": "12",
+      "maps": []
+    }
+  ],
+  "maps": [
+    "double-chance-7th-inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb92"
+  },
+  "id": "points-inning-5",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "point spread - 5th inning",
+    "point spread - points - 5th game",
+    "total points - inning 5"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb93"
+  },
+  "id": "points-inning-6",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "point spread - 6th inning",
+    "total points - inning 6"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb94"
+  },
+  "id": "points-inning-7",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "point spread - 7th inning",
+    "total points - inning 7"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb95"
+  },
+  "id": "points-inning-8",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "point spread - 8th inning",
+    "total points - inning 8"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb96"
+  },
+  "id": "totals-inning-5",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-5th-inning",
+    "total - 5th inning",
+    "inning no.5 - over/under",
+    "total goals - inning 5",
+    "5th innings score - match"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb97"
+  },
+  "id": "totals-inning-6",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-6th-inning",
+    "total - 6th inning",
+    "inning no.6 - over/under",
+    "total goals - inning 6",
+    "6th innings score - match"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb98"
+  },
+  "id": "totals-inning-7",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-7th-inning",
+    "total - 7th inning",
+    "inning no.7 - over/under",
+    "total goals - inning 7",
+    "7th innings score - match"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb99"
+  },
+  "id": "totals-inning-8",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-8th-inning",
+    "total - 8th inning",
+    "inning no.8 - over/under",
+    "total goals - inning 8",
+    "8th innings score - match"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb9a"
+  },
+  "id": "2-way-inning-5",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "12-2way-5th-inning",
+    "moneyline - 5th inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb9b"
+  },
+  "id": "2-way-inning-6",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "moneyline - 6th inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb9c"
+  },
+  "id": "2-way-inning-7",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "moneyline - 7th inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb9d"
+  },
+  "id": "2-way-inning-8",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "moneyline - 8th inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb9e"
+  },
+  "id": "asian-handicap-inning-5",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "asian-handicap-5th-inning",
+    "inning no.5 - handicap"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:06.951Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fb9f"
+  },
+  "id": "asian-handicap-inning-6",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "asian-handicap-6th-inning",
+    "inning no.6 - handicap"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:06.951Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fba0"
+  },
+  "id": "asian-handicap-inning-7",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "asian-handicap-7th-inning",
+    "inning no.7 - handicap"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:06.951Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fba1"
+  },
+  "id": "asian-handicap-inning-8",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "asian-handicap-8th-inning",
+    "inning no.8 - handicap"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:06.951Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fba2"
+  },
+  "id": "double-chance-inning-8",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1x",
+      "maps": []
+    },
+    {
+      "id": "x2",
+      "maps": []
+    },
+    {
+      "id": "12",
+      "maps": []
+    }
+  ],
+  "maps": [
+    "double-chance-8th-inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fba3"
+  },
+  "id": "draw-no-bet-inning-5",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "draw-no-bet-5th-inning",
+    "draw no bet - inning 5"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fba4"
+  },
+  "id": "draw-no-bet-inning-6",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "draw-no-bet-6th-inning",
+    "draw no bet - inning 6"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fba5"
+  },
+  "id": "draw-no-bet-inning-7",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "draw-no-bet-7th-inning",
+    "draw no bet - inning 7"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fba6"
+  },
+  "id": "draw-no-bet-inning-8",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "draw-no-bet-8th-inning",
+    "draw no bet - inning 8"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fba7"
+  },
+  "id": "totals-odd-even-inning-5",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "odd-even-5th-inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:33:33.846Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fba8"
+  },
+  "id": "totals-odd-even-inning-6",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "odd-even-6th-inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:33:33.846Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fba9"
+  },
+  "id": "totals-odd-even-inning-7",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "odd-even-7th-inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:33:33.846Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ba4f1413658fdf9fbaa"
+  },
+  "id": "totals-odd-even-inning-8",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "odd-even-8th-inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:33:33.846Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ddaf16b2630a48866b2"
+  },
+  "id": "3-way-inning-9",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "x",
+      "maps": [
+        "draw"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "1x2-3way-9th-inning",
+    "3-way moneyline - 9th inning",
+    "inning 9"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ddaf16b2630a48866b3"
+  },
+  "id": "points-inning-9",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "point spread - 9th inning",
+    "total points - inning 9"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ddaf16b2630a48866b4"
+  },
+  "id": "totals-inning-9",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-9th-inning",
+    "total - 9th inning",
+    "inning no.9 - over/under",
+    "total goals - inning 9",
+    "9th innings score - match"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ddaf16b2630a48866b5"
+  },
+  "id": "2-way-inning-9",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "moneyline - 9th inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ddaf16b2630a48866b6"
+  },
+  "id": "asian-handicap-inning-9",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "asian-handicap-9th-inning",
+    "inning no.9 - handicap"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:06.951Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ddaf16b2630a48866b7"
+  },
+  "id": "double-chance-inning-9",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1x",
+      "maps": []
+    },
+    {
+      "id": "x2",
+      "maps": []
+    },
+    {
+      "id": "12",
+      "maps": []
+    }
+  ],
+  "maps": [
+    "double-chance-9th-inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.178Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ddaf16b2630a48866b8"
+  },
+  "id": "draw-no-bet-inning-9",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "draw-no-bet-9th-inning",
+    "draw no bet - inning 9"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68999ddaf16b2630a48866b9"
+  },
+  "id": "totals-odd-even-inning-9",
+  "act": true,
+  "ovs": [
+    {
+      "id": "o",
+      "maps": [
+        "odd"
+      ]
+    },
+    {
+      "id": "e",
+      "maps": [
+        "even"
+      ]
+    }
+  ],
+  "maps": [
+    "odd-even-9th-inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-05-29T12:33:33.846Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "6899a338ef46bf93beead76d"
+  },
+  "id": "correct-score-set-1",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-1st-set",
+    "correct score - set 1"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6899a338ef46bf93beead76e"
+  },
+  "id": "correct-score-set-2",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-2nd-set",
+    "correct score - set 2"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6899a338ef46bf93beead76f"
+  },
+  "id": "correct-score-set-3",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-3rd-set",
+    "correct score - set 3"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6899a357babcd4691d359b8f"
+  },
+  "id": "correct-score-set-4",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-4th-set",
+    "correct score - set 4"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6899a57edd7749ef8e76d9d6"
+  },
+  "id": "totals-set-5",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "+",
+      "maps": [
+        "over"
+      ]
+    },
+    {
+      "id": "-",
+      "maps": [
+        "under"
+      ]
+    }
+  ],
+  "maps": [
+    "over-under-5th-set",
+    "over/under points in set no. 5",
+    "total - points - 5th set",
+    "total - 5th set",
+    "alternate total games - 5th set",
+    "over/under games in 5.set",
+    "total-5th set",
+    "total games - set 5"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T13:08:57.954Z"
+  },
+  "titles": {
+    "en": "undefined"
+  }
+},
+{
+  "_id": {
+    "$oid": "6899a57edd7749ef8e76d9d7"
+  },
+  "id": "2-way-set-5",
+  "act": true,
+  "ovs": [
+    {
+      "id": "1",
+      "maps": [
+        "[home]"
+      ]
+    },
+    {
+      "id": "2",
+      "maps": [
+        "[away]"
+      ]
+    }
+  ],
+  "maps": [
+    "12-2way-5th-set",
+    "moneyline - 5th set",
+    "set 5"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.181Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6899a57edd7749ef8e76d9d8"
+  },
+  "id": "points-set-5",
+  "act": true,
+  "ovs": [
+    {
+      "id": "hc"
+    },
+    {
+      "id": "1",
+      "brid": null,
+      "maps": [
+        "home"
+      ]
+    },
+    {
+      "id": "2",
+      "brid": null,
+      "maps": [
+        "away"
+      ]
+    }
+  ],
+  "maps": [
+    "alternate game spread - 5th set",
+    "game spread - 5th set",
+    "point spread - points - 5th set"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.179Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6899a57edd7749ef8e76d9d9"
+  },
+  "id": "correct-score-set-5",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-5th-set",
+    "correct score - set 5"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6899a7830ab864e5c48ab72f"
+  },
+  "id": "correct-score-inning-1",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-1st-inning",
+    "correct score - inning 1",
+    "inning correct score - 1st inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6899a7830ab864e5c48ab730"
+  },
+  "id": "correct-score-inning-2",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-2nd-inning",
+    "correct score - inning 2",
+    "inning correct score - 2nd inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6899a7830ab864e5c48ab731"
+  },
+  "id": "correct-score-inning-3",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-3rd-inning",
+    "correct score - inning 3",
+    "inning correct score - 3rd inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6899a7830ab864e5c48ab732"
+  },
+  "id": "correct-score-inning-4",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-4th-inning",
+    "correct score - inning 4",
+    "inning correct score - 4th inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6899a913c44e7eb4b597b29c"
+  },
+  "id": "correct-score-inning-5",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-5th-inning",
+    "correct score - inning 5",
+    "inning correct score - 5th inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6899a915c44e7eb4b597b29d"
+  },
+  "id": "correct-score-inning-6",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-6th-inning",
+    "correct score - inning 6",
+    "inning correct score - 6th inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6899a915c44e7eb4b597b29e"
+  },
+  "id": "correct-score-inning-7",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-7th-inning",
+    "correct score - inning 7",
+    "inning correct score - 7th inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6899a915c44e7eb4b597b29f"
+  },
+  "id": "correct-score-inning-8",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-8th-inning",
+    "correct score - inning 8",
+    "inning correct score - 8th inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6899a915c44e7eb4b597b2a0"
+  },
+  "id": "correct-score-inning-9",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-9th-inning",
+    "correct score - inning 9",
+    "inning correct score - 9th inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
   }
 }]

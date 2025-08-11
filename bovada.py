@@ -1,29 +1,27 @@
 import json
-from helper import check_sport_name, parse_tipico_date, normalize_timestamp_for_comparison, compare_matchups, check_key, \
-    check_header_name
 import scrapy
 import re
 from datetime import datetime, timezone
-from pymongo import MongoClient
+from pymongo import MongoClient, UpdateOne
 from scrapy.crawler import CrawlerProcess
+from helper import (
+    check_sport_name, parse_tipico_date, normalize_timestamp_for_comparison,
+    compare_matchups, check_key, check_header_name, setup_scraper_logger,
+    log_scraper_progress, execute_bulk_write_operations
+)
 
 
-class BOVADA(scrapy.Spider):
-    name = 'bovada_data'
-    key_dict = set()
-    all_sports = dict()
+class BovadaOddsSpider(scrapy.Spider):
+    name = 'bovada-odds-scraper'
 
+    # Configuration
     custom_settings = {
-        # 'DOWNLOAD_DELAY': 1,
         'CONCURRENT_REQUESTS': 64,
-        # 'CONCURRENT_REQUESTS_PER_DOMAIN': 1,
-        # 'CONCURRENT_REQUESTS_PER_IP': 1,
-        "DUPEFILTER_CLASS": "scrapy.dupefilters.BaseDupeFilter"
     }
-    proxy = "http://hafiz123-US-rotate:pucit123@p.webshare.io:us/"
-    sport_name = ''
-    all_matches = []
-    headers = {
+
+    BULK_UPDATE_BATCH_SIZE = 100
+
+    request_headers = {
         "accept": "application/json, text/plain, */*",
         "accept-language": "en-US,en;q=0.9",
         "content-type": "application/json",
@@ -42,350 +40,630 @@ class BOVADA(scrapy.Spider):
 
     def __init__(self):
         super().__init__()
-        client = MongoClient('mongodb://localhost:27017')
-        db = client['betting']
-        get_collection = db['ots']
-        self.all_mapping_data = list(get_collection.find())
-        get_country_collection = db['cos']
-        self.all_country_data = list(get_country_collection.find())
-        self.get_matches_data = db['matches_data']
-        self.matches_data_collection = list(self.get_matches_data.find())
-        self.proxy = "http://hafiz123-US-rotate:pucit123@p.webshare.io:80/"
 
-    def start_requests(self):
-        url = 'https://services.bovada.lv/services/sports/event/v2/nav/A/description?lang=en'
-        yield scrapy.Request(
-            url=url,
-            headers=self.headers,
-            callback=self.parse,
-            meta={'proxy': self.proxy},
+        # Initialize logger
+        self.custom_logger = setup_scraper_logger('bovada')
+        log_scraper_progress(self.custom_logger, 'INIT', 'Initializing Bovada scraper')
+
+        # Database connection
+        mongodb_client = MongoClient(
+            'mongodb://localhost:27017/',
+            maxPoolSize=50,  # Increase pool size
+            minPoolSize=10,  # Keep minimum connections
+            maxIdleTimeMS=30000,  # Keep connections alive longer
+            serverSelectionTimeoutMS=10000,  # 10 second timeout
+            connectTimeoutMS=10000,
+            socketTimeoutMS=0,  # No socket timeout (important!)
+            waitQueueTimeoutMS=10000,
+            retryWrites=True,
+            heartbeatFrequencyMS=10000  # Check connection every 10s
+        )
+        betting_database = mongodb_client['betting']
+
+        # Load mapping data
+        odds_mapping_collection = betting_database['ots']
+        self.odds_type_mappings = list(odds_mapping_collection.find())
+
+        country_collection = betting_database['cos']
+        self.country_data = list(country_collection.find())
+
+        # Matches collection for updates
+        self.matches_collection = betting_database['matches_data']
+
+        # Collections for storing processed data
+        self.processed_matches = []
+        self.unique_odds_keys = set()
+        self.bulk_update_operations = []
+        self.current_sport_name = ''
+
+        # Proxy configuration
+        self.proxy_url = "http://hafiz123-US-rotate:pucit123@p.webshare.io:80/"
+
+        # Counters
+        self.total_matches_processed = 0
+        self.successful_matches = 0
+        self.failed_matches = 0
+
+        log_scraper_progress(
+            self.custom_logger, 'INIT_COMPLETE',
+            f'Loaded {len(self.odds_type_mappings)} odds mappings, {len(self.country_data)} countries'
         )
 
-    def parse(self, response, **kwargs):
-        all_category_data = json.loads(response.text)['children']
+    def start_requests(self):
+        log_scraper_progress(self.custom_logger, 'START', 'Starting Bovada navigation scraping')
 
-        # self.all_sports=['/badminton','/football', '/cricket', '/baseball', '/basketball', '/soccer', '/volleyball', '/table-tennis', '/hockey', '/aussie-rules', '/rugby-union', '/rugby-league', '/snooker', '/tennis']
-        for category_data in all_category_data:
-            if check_sport_name(category_data['description']):
-                self.sport_name = category_data['description']
-                url = f'https://services.bovada.lv/services/sports/event/v2/nav/A/description{category_data["link"]}?azSorting=true&lang=en'
-                yield scrapy.Request(
-                    url=url,
-                    headers=self.headers,
+        navigation_url = 'https://services.bovada.lv/services/sports/event/v2/nav/A/description?lang=en'
+        yield scrapy.Request(
+            url=navigation_url,
+            headers=self.request_headers,
+            callback=self.parse_navigation,
+            meta={'proxy': self.proxy_url},
+        )
 
-                    callback=self.scrap_subcategory,
-                    meta={'proxy': self.proxy},
-                )
-
-    def scrap_subcategory(self, response):
-        all_subcategory_data = json.loads(response.text)['children']
-        for subcategory_data in all_subcategory_data:
-            yield from self.check_hierarchy(subcategory_data)
-
-    def check_hierarchy(self, subcategory_data):
-        """Fixed version that properly yields requests"""
-        if 'leaf' in subcategory_data:
-            if subcategory_data['leaf']:
-                if 'link' in subcategory_data:
-                    try:
-                        match_data = [self.sport_name, subcategory_data['description'], subcategory_data['link']]
-
-                        url = f'https://www.bovada.lv/services/sports/event/coupon/events/A/description/{match_data[-1]}?marketFilterId=preMatchOnly=true&eventsLimit=5000&lang=en'
-                        self.headers["x-channel"] = match_data[0][:4].upper()
-                        yield scrapy.Request(
-                            url=url,
-                            headers=self.headers,
-                            callback=self.scrap_match_data,
-                            meta={'league_hierarchy': match_data, 'proxy': self.proxy}
-                        )
-
-                    except Exception as e:
-                        print(f"Error adding leaf: {e}")
-                        pass
-            else:
-                url = f'https://services.bovada.lv/services/sports/event/v2/nav/A/description{subcategory_data["link"]}?azSorting=true&lang=en'
-                self.headers["x-channel"] = "desktop"
-                yield scrapy.Request(
-                    url=url,
-                    headers=self.headers,
-                    dont_filter=True,
-                    callback=self.scrapy_hierarchy_category,
-                    meta={'proxy': self.proxy}
-                )
-
-    def scrapy_hierarchy_category(self, response):
-        """Fixed callback for processing category hierarchy"""
+    def parse_navigation(self, response, **kwargs):
         try:
-            all_hierarchy_data = json.loads(response.text)
+            all_category_data = json.loads(response.text)['children']
+            log_scraper_progress(
+                self.custom_logger, 'NAVIGATION_PARSED',
+                f'Found {len(all_category_data)} sport categories'
+            )
 
-            for data in all_hierarchy_data['children']:
-                if 'leaf' in data:
+            sport_count = 0
+            for category_data in all_category_data:
+                if check_sport_name(category_data['description']):
+                    sport_count += 1
+                    self.current_sport_name = category_data['description']
+
+                    subcategory_url = (
+                        f'https://services.bovada.lv/services/sports/event/v2/nav/A/description'
+                        f'{category_data["link"]}?azSorting=true&lang=en'
+                    )
+
+                    yield scrapy.Request(
+                        url=subcategory_url,
+                        headers=self.request_headers,
+                        callback=self.parse_subcategories,
+                        meta={'proxy': self.proxy_url},
+                    )
+
+            log_scraper_progress(
+                self.custom_logger, 'SPORTS_FILTERED',
+                f'Processing {sport_count} valid sports out of {len(all_category_data)}'
+            )
+
+        except Exception as parsing_error:
+            log_scraper_progress(
+                self.custom_logger, 'NAVIGATION_ERROR',
+                'Failed to parse navigation',
+                error=parsing_error
+            )
+
+    def parse_subcategories(self, response):
+        try:
+            subcategory_data = json.loads(response.text)['children']
+            log_scraper_progress(
+                self.custom_logger, 'SUBCATEGORY_PARSED',
+                f'Found {len(subcategory_data)} subcategories for {self.current_sport_name}'
+            )
+
+            for subcategory in subcategory_data:
+                yield from self._process_hierarchy_node(subcategory)
+
+        except Exception as parsing_error:
+            log_scraper_progress(
+                self.custom_logger, 'SUBCATEGORY_ERROR',
+                f'Failed to parse subcategories for {self.current_sport_name}',
+                error=parsing_error
+            )
+
+    def _process_hierarchy_node(self, hierarchy_node):
+        """Process hierarchy nodes recursively to find leaf matches"""
+        if 'leaf' not in hierarchy_node:
+            return
+
+        if hierarchy_node['leaf']:
+            # This is a leaf node - get matches
+            if 'link' in hierarchy_node:
+                try:
+                    league_hierarchy_data = [
+                        self.current_sport_name,
+                        hierarchy_node['description'],
+                        hierarchy_node['link']
+                    ]
+
+                    matches_url = (
+                        f'https://www.bovada.lv/services/sports/event/coupon/events/A/description/'
+                        f'{league_hierarchy_data[-1]}?marketFilterId=preMatchOnly=true&eventsLimit=5000&lang=en'
+                    )
+
+                    updated_headers = self.request_headers.copy()
+                    updated_headers["x-channel"] = league_hierarchy_data[0][:4].upper()
+
+                    yield scrapy.Request(
+                        url=matches_url,
+                        headers=updated_headers,
+                        callback=self.extract_match_data,
+                        meta={
+                            'league_hierarchy': league_hierarchy_data,
+                            'proxy': self.proxy_url
+                        }
+                    )
+
+                except Exception as hierarchy_error:
+                    log_scraper_progress(
+                        self.custom_logger, 'HIERARCHY_ERROR',
+                        f'Error processing leaf: {hierarchy_error}',
+                        error=hierarchy_error
+                    )
+        else:
+            # This is not a leaf node - need to go deeper
+            deeper_url = (
+                f'https://services.bovada.lv/services/sports/event/v2/nav/A/description'
+                f'{hierarchy_node["link"]}?azSorting=true&lang=en'
+            )
+
+            updated_headers = self.request_headers.copy()
+            updated_headers["x-channel"] = "desktop"
+
+            yield scrapy.Request(
+                url=deeper_url,
+                headers=updated_headers,
+                dont_filter=True,
+                callback=self.parse_deeper_hierarchy,
+                meta={'proxy': self.proxy_url}
+            )
+
+    def parse_deeper_hierarchy(self, response):
+        """Parse deeper hierarchy levels"""
+        try:
+            hierarchy_data = json.loads(response.text)
+
+            for node in hierarchy_data['children']:
+                if 'leaf' in node:
                     try:
-                        if data['leaf']:
-                            if 'link' in data:
-                                league_name_list = []
+                        if node['leaf']:
+                            if 'link' in node:
+                                league_name_hierarchy = []
+
                                 # Add parent descriptions
-                                if 'parents' in all_hierarchy_data:
-                                    for parent_data in all_hierarchy_data['parents']:
-                                        league_name_list.append(parent_data['description'])
+                                if 'parents' in hierarchy_data:
+                                    for parent_data in hierarchy_data['parents']:
+                                        league_name_hierarchy.append(parent_data['description'])
+
                                 # Add current level description
-                                if 'current' in all_hierarchy_data:
-                                    league_name_list.append(all_hierarchy_data['current']['description'])
+                                if 'current' in hierarchy_data:
+                                    league_name_hierarchy.append(hierarchy_data['current']['description'])
+
                                 # Add leaf description and link
-                                league_name_list.append(data['description'])
-                                league_name_list.append(data['link'])
-                                url = f'https://www.bovada.lv/services/sports/event/coupon/events/A/description/{league_name_list[-1]}?marketFilterId=preMatchOnly=true&eventsLimit=5000&lang=en'
-                                self.headers["x-channel"] = league_name_list[0][:4].upper()
+                                league_name_hierarchy.append(node['description'])
+                                league_name_hierarchy.append(node['link'])
+
+                                matches_url = (
+                                    f'https://www.bovada.lv/services/sports/event/coupon/events/A/description/'
+                                    f'{league_name_hierarchy[-1]}?marketFilterId=preMatchOnly=true&eventsLimit=5000&lang=en'
+                                )
+
+                                updated_headers = self.request_headers.copy()
+                                updated_headers["x-channel"] = league_name_hierarchy[0][:4].upper()
+
                                 yield scrapy.Request(
-                                    url=url,
-                                    headers=self.headers,
-                                    callback=self.scrap_match_data,
-                                    meta={'league_hierarchy': league_name_list, 'proxy': self.proxy}
+                                    url=matches_url,
+                                    headers=updated_headers,
+                                    callback=self.extract_match_data,
+                                    meta={
+                                        'league_hierarchy': league_name_hierarchy,
+                                        'proxy': self.proxy_url
+                                    }
                                 )
                         else:
                             # Recursively process non-leaf nodes
-                            yield from self.check_hierarchy(data)
-                    except Exception as e:
-                        print(f"Error processing data item: {e}")
+                            yield from self._process_hierarchy_node(node)
+
+                    except Exception as node_error:
+                        log_scraper_progress(
+                            self.custom_logger, 'DEEP_HIERARCHY_ERROR',
+                            f'Error processing hierarchy node: {node_error}',
+                            error=node_error
+                        )
                         continue
-        except json.JSONDecodeError as e:
-            print(f"JSON decode error in scrapy_category: {e}")
-        except Exception as e:
-            print(f"General error in scrapy_category: {e}")
 
-    def scrap_match_data(self, response):
+        except json.JSONDecodeError as json_error:
+            log_scraper_progress(
+                self.custom_logger, 'DEEP_HIERARCHY_JSON_ERROR',
+                'JSON decode error in deeper hierarchy',
+                error=json_error
+            )
+        except Exception as general_error:
+            log_scraper_progress(
+                self.custom_logger, 'DEEP_HIERARCHY_GENERAL_ERROR',
+                'General error in deeper hierarchy parsing',
+                error=general_error
+            )
+
+    def extract_match_data(self, response):
         try:
-            all_match_data = json.loads(response.text)
-            if not all_match_data or not all_match_data[0].get('events'):
-                print("No match data found")
+            match_data_response = json.loads(response.text)
+
+            if not match_data_response or not match_data_response[0].get('events'):
+                log_scraper_progress(self.custom_logger, 'NO_MATCH_DATA', 'No match data found in response')
                 return
-            for match_data in all_match_data[0]['events']:
-                if match_data['competitors'] and not match_data['live']:
-                    gmt_time = self.convert_time(match_data['startTime'])
-                    try:
-                        match_date = parse_tipico_date(gmt_time)
-                    except Exception as e:
-                        print(f"Error parsing date '{gmt_time}': {e}")
-                        # Skip this match if date parsing fails
-                        return
-                    if all_match_data[0]['path'][-1]['description'].lower() == 'football':
-                        sport = 'handball'
-                    else:
-                        sport = all_match_data[0]['path'][-1]['description']
-                    if len(all_match_data[0]['path']) == 2:
-                        country = all_match_data[0]['path'][0]['description']
-                        group = all_match_data[0]['path'][0]['description']
-                    else:
-                        country = all_match_data[0]['path'][1]['description']
-                        group = all_match_data[0]['path'][0]['description']
-                    if match_data['awayTeamFirst']:
-                        competitor1 = match_data['competitors'][1]['name']
-                        competitor2 = match_data['competitors'][0]['name']
-                    else:
-                        competitor1 = match_data['competitors'][0]['name']
-                        competitor2 = match_data['competitors'][1]['name']
-                    temp_dict = {
-                        'competitor1': competitor1,
-                        'competitor2': competitor2,
-                        'sport': sport,
-                        "timestamp": match_date,
-                        'country': country,
-                        'group': group,
-                        'odds': {}
 
-                    }
-                    # types of name
-                    descrition_type_comp1 = re.split(r'vs|@', match_data['description'])[0].strip(' ')
-                    descrition_type_comp2 = re.split(r'vs|@', match_data['description'])[1].strip(' ')
-                    short_name_com_1 = match_data['competitors'][0].get('shortName', '').strip(' ')
-                    short_name_com_2 = match_data['competitors'][1].get('shortName', '').strip(' ')
-                    for group_data in match_data['displayGroups']:
-                        if 'props' not in group_data['description'].lower():
-                            for market_data in group_data['markets']:
-                                if market_data['outcomes']:
-                                    name = market_data["description"].replace(temp_dict['competitor1'], 'home').replace(
-                                        temp_dict['competitor2'], 'away')
-                                    if 'o/u' in name.lower() and '-' in name.lower():
-                                        continue
-                                    if 'period' in market_data:
-                                        if market_data['period']['description'] != 'Regulation Time':
-                                            name = name + ' - ' + market_data['period']["description"]
+            matches_in_league = match_data_response[0]['events']
+            log_scraper_progress(
+                self.custom_logger, 'MATCH_DATA_EXTRACTED',
+                f'Processing {len(matches_in_league)} matches from league'
+            )
 
-                                    name = name.replace(competitor1, 'home').replace(competitor2, 'away')
-                                    name = name.replace(short_name_com_1, 'home').replace(short_name_com_2, 'away')
-                                    name = name.replace(descrition_type_comp1, 'home').replace(descrition_type_comp2,
-                                                                                               'away')
+            for individual_match in matches_in_league:
+                if individual_match['competitors'] and not individual_match['live']:
+                    self._process_single_match(individual_match, match_data_response[0])
 
-                                    check_key_name = check_key(name)
-                                    if check_key_name and '(' not in name:
+        except Exception as extraction_error:
+            log_scraper_progress(
+                self.custom_logger, 'MATCH_EXTRACTION_ERROR',
+                'Error extracting match data',
+                error=extraction_error
+            )
 
-                                        list_of_mapping = self.check_mapping_data_into_mongodb(name)
-                                        all_key_value = list_of_mapping[0]
-                                        name = list_of_mapping[1]
+    def _process_single_match(self, match_info, league_data):
+        """Process individual match and extract odds"""
+        try:
+            self.total_matches_processed += 1
 
-                                        key_name_list = check_header_name(name)
-                                        sub_key_name = key_name_list[0]
-                                        name = key_name_list[1]
-                                        if sub_key_name not in temp_dict['odds']:
-                                            temp_dict['odds'][sub_key_name] = {}
+            # Convert timestamp
+            gmt_timestamp = self._convert_timestamp(match_info['startTime'])
+            try:
+                parsed_match_datetime = parse_tipico_date(gmt_timestamp)
+            except Exception as date_error:
+                log_scraper_progress(
+                    self.custom_logger, 'DATE_PARSE_ERROR',
+                    f'Error parsing date {gmt_timestamp}',
+                    error=date_error
+                )
+                return
 
-                                        self.key_dict.add(name)
+            # Determine sport name
+            sport_name = self._normalize_sport_name(league_data['path'][-1]['description'])
 
-                                        if name not in temp_dict['odds'][sub_key_name]:
-                                            temp_dict['odds'][sub_key_name][name] = {}
-                                        if len(market_data['outcomes']) == 2:
-                                            cp1 = market_data['outcomes'][0]['description'].replace(
-                                                temp_dict['competitor1'], 'home').replace(temp_dict['competitor2'],
-                                                                                          'away').strip(' ')
-                                            cp2 = market_data['outcomes'][1]['description'].replace(
-                                                temp_dict['competitor1'], 'home').replace(temp_dict['competitor2'],
-                                                                                          'away').strip(' ')
+            # Determine country and group
+            if len(league_data['path']) == 2:
+                country_name = league_data['path'][0]['description']
+                group_name = league_data['path'][0]['description']
+            else:
+                country_name = league_data['path'][1]['description']
+                group_name = league_data['path'][0]['description']
 
-                                            if descrition_type_comp1.lower() in cp1.lower() or cp1.lower() in descrition_type_comp1.lower() or short_name_com_1.lower() in cp1.lower() or cp1.lower() in short_name_com_1.lower():
-                                                cp1 = '1'
-                                            if descrition_type_comp2.lower() in cp2.lower() or cp2.lower() in descrition_type_comp2.lower() or short_name_com_2.lower() in cp2.lower() or cp2.lower() in short_name_com_2.lower():
-                                                cp2 = '2'
-                                            cp1 = self.check_competitor_mapping(cp1, all_key_value)
-                                            cp2 = self.check_competitor_mapping(cp2, all_key_value)
-                                            if 'over' in market_data['outcomes'][0]['description'].lower():
-                                                if 'handicap' in market_data['outcomes'][0]['price']:
-                                                    handicap = market_data['outcomes'][0]['price']['handicap']
-                                                    if 'handicap2' in market_data['outcomes'][0]['price']:
-                                                        handicap = str((float(
-                                                            market_data['outcomes'][0]['price']['handicap']) + float(
-                                                            market_data['outcomes'][0]['price']['handicap2'])) / 2)
-                                                else:
-                                                    handicap = 'null'
-                                                temp_dict['odds'][sub_key_name][name][handicap] = {
-                                                    cp1: round(float(market_data['outcomes'][0]['price']['decimal']),
-                                                               1),
-                                                    cp2: round(float(market_data['outcomes'][1]['price']['decimal']),
-                                                               1)}
-                                            else:
-                                                if 'handicap' in market_data['outcomes'][0]['price']:
-                                                    handicap = market_data['outcomes'][0]['price']['handicap']
-                                                    if 'handicap2' in market_data['outcomes'][0]['price']:
-                                                        handicap = str((float(
-                                                            market_data['outcomes'][0]['price']['handicap']) + float(
-                                                            market_data['outcomes'][0]['price']['handicap2'])) / 2)
+            # Determine competitor order
+            if match_info['awayTeamFirst']:
+                competitor1_name = match_info['competitors'][1]['name']
+                competitor2_name = match_info['competitors'][0]['name']
+            else:
+                competitor1_name = match_info['competitors'][0]['name']
+                competitor2_name = match_info['competitors'][1]['name']
 
-                                                else:
-                                                    handicap = 'null'
+            match_information = {
+                'competitor1': competitor1_name,
+                'competitor2': competitor2_name,
+                'sport': sport_name,
+                "timestamp": parsed_match_datetime,
+                'country': country_name,
+                'group': group_name,
+                'odds': {}
+            }
 
-                                                temp_dict['odds'][sub_key_name][name][handicap] = {
-                                                    cp1: round(float(market_data['outcomes'][0]['price']['decimal']),
-                                                               1),
-                                                    cp2: round(float(market_data['outcomes'][1]['price']['decimal']),
-                                                               1)}
+            # Extract various team name formats for replacement
+            description_components = re.split(r'vs|@', match_info['description'])
+            description_team1 = description_components[0].strip()
+            description_team2 = description_components[1].strip()
 
-                                        elif len(market_data['outcomes']) == 3:
-                                            if 'handicap' in market_data['outcomes'][0]['price']:
-                                                handicap = market_data['outcomes'][0]['price']['handicap']
-                                                if 'handicap2' in market_data['outcomes'][0]['price']:
-                                                    handicap = str((float(
-                                                        market_data['outcomes'][0]['price']['handicap']) + float(
-                                                        market_data['outcomes'][0]['price']['handicap2'])) / 2)
+            short_name_team1 = match_info['competitors'][0].get('shortName', '').strip()
+            short_name_team2 = match_info['competitors'][1].get('shortName', '').strip()
 
-                                            else:
-                                                handicap = 'null'
+            # Process odds data
+            self._extract_odds_from_match(
+                match_info, match_information,
+                description_team1, description_team2,
+                short_name_team1, short_name_team2
+            )
 
-                                            cp1 = market_data['outcomes'][0]['description'].replace(
-                                                temp_dict['competitor1'], 'home').replace(temp_dict['competitor2'],
-                                                                                          'away').strip(' ')
-                                            cp2 = market_data['outcomes'][1]['description'].replace(
-                                                temp_dict['competitor1'], 'home').replace(temp_dict['competitor2'],
-                                                                                          'away').strip(' ')
-                                            cp3 = market_data['outcomes'][2]['description'].replace(
-                                                temp_dict['competitor1'], 'home').replace(temp_dict['competitor2'],
-                                                                                          'away').strip(' ')
+            # Try to match with flashscore data
+            self._match_with_flashscore_data(match_information)
 
-                                            if descrition_type_comp1.lower() in cp1.lower() or cp1.lower() in descrition_type_comp1.lower() or short_name_com_1.lower() in cp1.lower() or cp1.lower() in short_name_com_1.lower():
-                                                cp1 = '1'
-                                            if descrition_type_comp2.lower() in cp2.lower() or cp2.lower() in descrition_type_comp2.lower() or short_name_com_2.lower() in cp2.lower() or cp2.lower() in short_name_com_2.lower():
-                                                cp2 = '2'
-                                            cp1 = self.check_competitor_mapping(cp1, all_key_value)
-                                            cp2 = self.check_competitor_mapping(cp2, all_key_value)
-                                            cp3 = self.check_competitor_mapping(cp3, all_key_value)
-                                            temp_dict['odds'][sub_key_name][name][handicap] = {
-                                                cp1: round(float(market_data['outcomes'][0]['price']['decimal']), 1),
-                                                cp2: round(float(market_data['outcomes'][1]['price']['decimal']), 1),
-                                                cp3: round(float(market_data['outcomes'][2]['price']['decimal']), 1)}
+            # Process bulk updates if needed
+            self._process_bulk_updates_if_needed()
 
-                                        else:
-                                            for outcome_data in market_data['outcomes']:
-                                                check_competitor_name = outcome_data["description"].replace(
-                                                    temp_dict['competitor1'], 'home').replace(temp_dict['competitor2'],
-                                                                                              'away')
-                                                check_competitor_name = check_competitor_name.replace(short_name_com_1,
-                                                                                                      'home').replace(
-                                                    short_name_com_2, 'away')
-                                                check_competitor_name = check_competitor_name.replace(
-                                                    descrition_type_comp1, 'home').replace(descrition_type_comp2,
-                                                                                           'away')
-                                                check_competitor_name = self.check_competitor_mapping(
-                                                    check_competitor_name, all_key_value)
+            self.processed_matches.append(match_information)
+            self.successful_matches += 1
 
-                                                if 'period' in outcome_data:
-                                                    if outcome_data['period']['description'] == 'Regulation Time':
-                                                        check_competitor_name = outcome_data["description"]
-                                                    else:
-                                                        check_competitor_name = outcome_data['description'] + ' - ' + \
-                                                                                outcome_data['period']['description']
-                                                if 'handicap' in outcome_data['price']:
-                                                    handicap = outcome_data['price']['handicap']
-                                                    if 'handicap2' in outcome_data['price']:
-                                                        handicap = str((float(handicap) + float(
-                                                            outcome_data['price']['handicap2'])) / 2)
-                                                else:
-                                                    handicap = 'null'
-                                                if handicap != 'null':
-                                                    if outcome_data['type'] == 'A':
-                                                        handicap = handicap
-                                                    elif outcome_data['type'] == 'H':
-                                                        handicap = self.negate_handicap_string(handicap)
-                                                    if outcome_data['type'] == 'O':
-                                                        handicap = handicap
-                                                    elif outcome_data['type'] == 'U':
-                                                        handicap = handicap
-                                                if handicap not in temp_dict['odds'][sub_key_name][name]:
-                                                    temp_dict['odds'][sub_key_name][name][handicap] = {}
+            if self.total_matches_processed % 50 == 0:
+                log_scraper_progress(
+                    self.custom_logger, 'PROGRESS_UPDATE',
+                    f'Processed {self.total_matches_processed} matches, '
+                    f'Success: {self.successful_matches}, Failed: {self.failed_matches}'
+                )
 
-                                                temp_dict['odds'][sub_key_name][name][handicap][
-                                                    check_competitor_name] = round(
-                                                    float(outcome_data['price']['decimal']), 1)
+        except Exception as match_error:
+            self.failed_matches += 1
+            log_scraper_progress(
+                self.custom_logger, 'MATCH_PROCESS_ERROR',
+                'Error processing individual match',
+                error=match_error
+            )
 
-                    for matches_data in self.matches_data_collection:
-                        bovada_timestamp = normalize_timestamp_for_comparison(temp_dict['timestamp'])
-                        flashscore_timestamp = normalize_timestamp_for_comparison(matches_data['timestamp'])
-                        sport_match = (temp_dict['sport'].lower().replace('-', '').replace(' ', '') ==
-                                       matches_data['sport'].replace('-', '').replace(' ', ''))
-                        timestamp_match = bovada_timestamp == flashscore_timestamp
-                        if sport_match and timestamp_match:
-                            result_dict = compare_matchups(
-                                matches_data['competitor1'].lower(),
-                                matches_data['competitor2'].lower(),
-                                temp_dict['competitor1'].lower(),
-                                temp_dict['competitor2'].lower()
-                            )
-                            if result_dict:
-                                bovada_prices = temp_dict['odds']
-                                # Update the matched flashscore entry with tipico prices
-                                self.get_matches_data.update_one(
-                                    {"match_id": matches_data["match_id"]},
-                                    {"$set": {"prices.bovada": bovada_prices}}
-                                )
-                                break
+    def _normalize_sport_name(self, sport_name):
+        """Normalize sport names to standard format"""
+        if sport_name.lower() == 'football':
+            return 'handball'
+        else:
+            return sport_name
 
-                    self.all_matches.append(temp_dict)
-        except Exception as e:
-            print('error', e)
+    def _convert_timestamp(self, timestamp_milliseconds):
+        """Convert timestamp from milliseconds to GMT string format"""
+        datetime_object = datetime.fromtimestamp(timestamp_milliseconds / 1000, tz=timezone.utc)
+        gmt_string = datetime_object.strftime('%d %b %Y %H:%M:%S GMT')
+        return gmt_string
 
-    def negate_handicap_string(self, handicap_str):
+    def _extract_odds_from_match(self, match_info, match_data, desc_team1, desc_team2, short_team1, short_team2):
+        """Extract odds information from match display groups"""
+        for display_group in match_info['displayGroups']:
+            if 'props' in display_group['description'].lower():
+                continue
+
+            for market_info in display_group['markets']:
+                if not market_info['outcomes']:
+                    continue
+
+                # Process market name
+                market_name = self._process_market_name(
+                    market_info, match_data, desc_team1, desc_team2, short_team1, short_team2
+                )
+
+                if not market_name:
+                    continue
+
+                # Check if market is valid
+                if not self._is_valid_market(market_name):
+                    continue
+
+                # Get mapping data
+                mapping_result = self._get_odds_mapping_data(market_name)
+                odds_value_mappings = mapping_result[0]
+                standardized_market_name = mapping_result[1]
+
+                # Get header categorization
+                header_result = check_header_name(standardized_market_name)
+                market_header_category = header_result[0]
+                final_market_name = header_result[1]
+
+                self.unique_odds_keys.add(final_market_name)
+
+                # Initialize nested structure
+                if market_header_category not in match_data['odds']:
+                    match_data['odds'][market_header_category] = {}
+
+                # Process outcomes based on count
+                self._process_market_outcomes(
+                    market_info, match_data, market_header_category, final_market_name,
+                    odds_value_mappings, desc_team1, desc_team2, short_team1, short_team2
+                )
+
+    def _process_market_name(self, market_info, match_data, desc_team1, desc_team2, short_team1, short_team2):
+        """Process and normalize market name"""
+        market_name = market_info["description"].replace(
+            match_data['competitor1'], 'home'
+        ).replace(match_data['competitor2'], 'away')
+
+        # Skip certain market types
+        if 'o/u' in market_name.lower() and '-' in market_name.lower():
+            return None
+
+        # Handle period-specific markets
+        if 'period' in market_info:
+            if market_info['period']['description'] != 'Regulation Time':
+                market_name = market_name + ' - ' + market_info['period']["description"]
+
+        # Replace various team name formats
+        market_name = market_name.replace(match_data['competitor1'], 'home').replace(match_data['competitor2'], 'away')
+        market_name = market_name.replace(short_team1, 'home').replace(short_team2, 'away')
+        market_name = market_name.replace(desc_team1, 'home').replace(desc_team2, 'away')
+
+        return market_name
+
+    def _is_valid_market(self, market_name):
+        """Check if market should be processed"""
+        if 'point' in market_name.lower() and 'game' in market_name.lower():
+            return False
+
+        # Check for game-specific exclusions
+        for number in ['1st', '2nd', '3rd', '4th', '5th']:
+            excluded_value = f'{number} game'
+            if excluded_value in market_name.lower():
+                return False
+
+        return check_key(market_name)
+
+    def _process_market_outcomes(self, market_info, match_data, header_category, market_name,
+                                 value_mappings, desc_team1, desc_team2, short_team1, short_team2):
+        """Process market outcomes based on number of outcomes"""
+        outcomes_list = market_info['outcomes']
+
+        if market_name not in match_data['odds'][header_category]:
+            match_data['odds'][header_category][market_name] = {}
+
+        if len(outcomes_list) == 2:
+            self._process_two_outcome_market(
+                outcomes_list, match_data, header_category, market_name,
+                value_mappings, desc_team1, desc_team2, short_team1, short_team2
+            )
+        elif len(outcomes_list) == 3:
+            self._process_three_outcome_market(
+                outcomes_list, match_data, header_category, market_name,
+                value_mappings, desc_team1, desc_team2, short_team1, short_team2
+            )
+        else:
+            self._process_multiple_outcome_market(
+                outcomes_list, market_info, match_data, header_category, market_name,
+                value_mappings, desc_team1, desc_team2, short_team1, short_team2
+            )
+
+    def _process_two_outcome_market(self, outcomes, match_data, header_category, market_name,
+                                    value_mappings, desc_team1, desc_team2, short_team1, short_team2):
+        """Process market with exactly 2 outcomes"""
+        outcome1_description = outcomes[0]['description'].replace(
+            match_data['competitor1'], 'home'
+        ).replace(match_data['competitor2'], 'away').strip()
+
+        outcome2_description = outcomes[1]['description'].replace(
+            match_data['competitor1'], 'home'
+        ).replace(match_data['competitor2'], 'away').strip()
+
+        # Map team names to standard format
+        outcome1_mapped = self._map_competitor_name(
+            outcome1_description, desc_team1, short_team1, '1'
+        )
+        outcome2_mapped = self._map_competitor_name(
+            outcome2_description, desc_team2, short_team2, '2'
+        )
+
+        outcome1_mapped = self._apply_value_mapping(outcome1_mapped, value_mappings)
+        outcome2_mapped = self._apply_value_mapping(outcome2_mapped, value_mappings)
+
+        # Get handicap value
+        handicap_value = self._extract_handicap_value(outcomes[0])
+
+        match_data['odds'][header_category][market_name][handicap_value] = {
+            outcome1_mapped: round(float(outcomes[0]['price']['decimal']), 1),
+            outcome2_mapped: round(float(outcomes[1]['price']['decimal']), 1)
+        }
+
+    def _process_three_outcome_market(self, outcomes, match_data, header_category, market_name,
+                                      value_mappings, desc_team1, desc_team2, short_team1, short_team2):
+        """Process market with exactly 3 outcomes"""
+        # Get handicap value
+        handicap_value = self._extract_handicap_value(outcomes[0])
+
+        outcome1_description = outcomes[0]['description'].replace(
+            match_data['competitor1'], 'home'
+        ).replace(match_data['competitor2'], 'away').strip()
+
+        outcome2_description = outcomes[1]['description'].replace(
+            match_data['competitor1'], 'home'
+        ).replace(match_data['competitor2'], 'away').strip()
+
+        outcome3_description = outcomes[2]['description'].replace(
+            match_data['competitor1'], 'home'
+        ).replace(match_data['competitor2'], 'away').strip()
+
+        # Map team names
+        outcome1_mapped = self._map_competitor_name(
+            outcome1_description, desc_team1, short_team1, '1'
+        )
+        outcome2_mapped = self._map_competitor_name(
+            outcome2_description, desc_team2, short_team2, '2'
+        )
+
+        outcome1_mapped = self._apply_value_mapping(outcome1_mapped, value_mappings)
+        outcome2_mapped = self._apply_value_mapping(outcome2_mapped, value_mappings)
+        outcome3_mapped = self._apply_value_mapping(outcome3_description, value_mappings)
+
+        match_data['odds'][header_category][market_name][handicap_value] = {
+            outcome1_mapped: round(float(outcomes[0]['price']['decimal']), 1),
+            outcome2_mapped: round(float(outcomes[1]['price']['decimal']), 1),
+            outcome3_mapped: round(float(outcomes[2]['price']['decimal']), 1)
+        }
+
+    def _process_multiple_outcome_market(self, outcomes, market_info, match_data, header_category,
+                                         market_name, value_mappings, desc_team1, desc_team2,
+                                         short_team1, short_team2):
+        """Process market with multiple outcomes"""
+        for individual_outcome in outcomes:
+            competitor_name = individual_outcome["description"].replace(
+                match_data['competitor1'], 'home'
+            ).replace(match_data['competitor2'], 'away')
+
+            competitor_name = competitor_name.replace(short_team1, 'home').replace(short_team2, 'away')
+            competitor_name = competitor_name.replace(desc_team1, 'home').replace(desc_team2, 'away')
+            competitor_name = self._apply_value_mapping(competitor_name, value_mappings)
+
+            # Handle period-specific outcomes
+            if 'period' in individual_outcome:
+                if individual_outcome['period']['description'] == 'Regulation Time':
+                    competitor_name = individual_outcome["description"]
+                else:
+                    competitor_name = (individual_outcome['description'] + ' - ' +
+                                       individual_outcome['period']['description'])
+
+            # Extract and process handicap
+            handicap_value = self._extract_handicap_value(individual_outcome)
+
+            # Handle handicap direction based on outcome type
+            if handicap_value != 'null':
+                if individual_outcome['type'] == 'A':
+                    handicap_value = handicap_value
+                elif individual_outcome['type'] == 'H':
+                    handicap_value = self._negate_handicap_string(handicap_value)
+
+            # Initialize nested structure
+            if handicap_value not in match_data['odds'][header_category][market_name]:
+                match_data['odds'][header_category][market_name][handicap_value] = {}
+
+            match_data['odds'][header_category][market_name][handicap_value][competitor_name] = round(
+                float(individual_outcome['price']['decimal']), 1
+            )
+
+    def _map_competitor_name(self, competitor_description, desc_team, short_team, standard_number):
+        """Map competitor description to standard format"""
+        desc_lower = competitor_description.lower()
+        desc_team_lower = desc_team.lower()
+        short_team_lower = short_team.lower()
+
+        if (desc_team_lower in desc_lower or desc_lower in desc_team_lower or
+                short_team_lower in desc_lower or desc_lower in short_team_lower):
+            return standard_number
+
+        return competitor_description
+
+    def _apply_value_mapping(self, competitor_name, value_mappings):
+        """Apply value mappings if available"""
+        if 'home' in competitor_name.lower():
+            return '1'
+        elif 'away' in competitor_name.lower():
+            return '2'
+        elif 'tie' in competitor_name.lower():
+            return 'x'
+        elif 'under' in competitor_name.lower():
+            return '-'
+        elif 'over' in competitor_name.lower():
+            return '+'
+
+        if value_mappings:
+            for mapping_entry in value_mappings:
+                if mapping_entry['id'] == competitor_name:
+                    return mapping_entry['id']
+                elif ('maps' in mapping_entry and
+                      (any(competitor_name.lower() in word.strip('[]') for word in mapping_entry['maps']) or
+                       any(word.strip('[]') in competitor_name.lower() for word in mapping_entry['maps']))):
+                    return mapping_entry['id']
+
+        return competitor_name
+
+    def _extract_handicap_value(self, outcome_info):
+        """Extract handicap value from outcome"""
+        if 'handicap' in outcome_info['price']:
+            handicap = outcome_info['price']['handicap']
+            if 'handicap2' in outcome_info['price']:
+                handicap = str((float(handicap) + float(outcome_info['price']['handicap2'])) / 2)
+            return handicap
+        else:
+            return 'null'
+
+    def _negate_handicap_string(self, handicap_str):
+        """Negate handicap string values"""
         try:
             parts = handicap_str.split(',')
             negated_parts = []
-            for p in parts:
-                val = float(p.strip()) * -1
+            for part in parts:
+                val = float(part.strip()) * -1
                 # Normalize -0.0 to 0.0
                 if val == 0.0:
                     val = 0.0
@@ -394,59 +672,130 @@ class BOVADA(scrapy.Spider):
         except ValueError:
             return '0'
 
-    def check_competitor_mapping(self, name, all_key_value):
-        if 'home' in name.lower():
-            name = '1'
-        elif 'away' in name.lower():
-            name = '2'
-        elif 'tie' in name.lower():
-            name = 'x'
-        elif 'under' in name.lower():
-            name = '-'
-        elif 'over' in name.lower():
-            name = '+'
-        if all_key_value:
-            for key_value in all_key_value:
-                if key_value['id'] == name:
-                    name = key_value['id']
+    def _match_with_flashscore_data(self, bovada_match_info):
+        """Match bovada data with flashscore data and prepare bulk update"""
+        normalized_bovada_timestamp = normalize_timestamp_for_comparison(bovada_match_info['timestamp'])
+        bovada_sport_normalized = (bovada_match_info['sport'].lower()
+                                   .replace('-', '').replace(' ', ''))
+
+        # Query database for potential matches instead of loading all into memory
+        potential_matches_cursor = self.matches_collection.find({
+            "timestamp": normalized_bovada_timestamp,
+        })
+
+        for flashscore_match in potential_matches_cursor:
+            # Check sport compatibility
+            flashscore_sport_normalized = (flashscore_match['sport']
+                                           .replace('-', '').replace(' ', ''))
+
+            sport_matches = bovada_sport_normalized == flashscore_sport_normalized
+
+            if sport_matches:
+                matchup_compatibility = compare_matchups(
+                    flashscore_match['competitor1'].lower(),
+                    flashscore_match['competitor2'].lower(),
+                    bovada_match_info['competitor1'].lower(),
+                    bovada_match_info['competitor2'].lower()
+                )
+
+                if matchup_compatibility:
+                    # Prepare bulk update operation
+                    update_operation = UpdateOne(
+                        {"match_id": flashscore_match["match_id"]},
+                        {"$set": {"prices.bovada": bovada_match_info['odds']}}
+                    )
+                    self.bulk_update_operations.append(update_operation)
+
+                    log_scraper_progress(
+                        self.custom_logger, 'MATCH_FOUND',
+                        f'Matched {bovada_match_info["competitor1"]} vs {bovada_match_info["competitor2"]}'
+                    )
                     break
 
+    def _get_odds_mapping_data(self, odds_key):
+        """Get mapping data for odds key from MongoDB"""
+        odds_value_mappings = None
+        standardized_key = odds_key
 
-                elif 'maps' in key_value.keys() and (
-                        any(name.lower() in word.strip('[]') for word in key_value['maps']) or any(
-                    word.strip('[]') in name.lower() for word in key_value['maps'])):
-                    name = key_value['id']
-                    break
-
-        return name
-
-    def convert_time(self, timestamp_ms):
-        dt = datetime.fromtimestamp(timestamp_ms / 1000, tz=timezone.utc)
-        gmt_str = dt.strftime('%d %b %Y %H:%M:%S GMT')
-        return gmt_str
-
-    def check_mapping_data_into_mongodb(self, key):
-        all_key_value = ''
-        for mapping_data in self.all_mapping_data:
+        for mapping_entry in self.odds_type_mappings:
             try:
-                if key.lower() == mapping_data['id']:
-                    key = mapping_data['id']
-                    all_key_value = mapping_data['ovs']
+                if odds_key.lower() == mapping_entry['id']:
+                    standardized_key = mapping_entry['id']
+                    odds_value_mappings = mapping_entry.get('ovs')
                     break
-                elif 'maps' in mapping_data.keys() and key.lower() in mapping_data['maps']:
-                    key = mapping_data['id']
-                    all_key_value = mapping_data['ovs']
+                elif 'maps' in mapping_entry and odds_key.lower() in mapping_entry['maps']:
+                    standardized_key = mapping_entry['id']
+                    odds_value_mappings = mapping_entry.get('ovs')
                     break
-            except Exception as e:
-                print('error ', e)
-        return [all_key_value, key]
+            except Exception as mapping_error:
+                log_scraper_progress(
+                    self.custom_logger, 'MAPPING_ERROR',
+                    f'Error in odds mapping: {mapping_error}',
+                    error=mapping_error
+                )
+
+        return [odds_value_mappings, standardized_key]
+
+    def _process_bulk_updates_if_needed(self):
+        """Process bulk updates if batch size is reached"""
+        if len(self.bulk_update_operations) >= self.BULK_UPDATE_BATCH_SIZE:
+            self._execute_bulk_updates()
+
+    def _execute_bulk_updates(self):
+        """Execute bulk update operations"""
+        if not self.bulk_update_operations:
+            return
+
+        try:
+            bulk_result = execute_bulk_write_operations(
+                self.matches_collection,
+                self.bulk_update_operations,
+                "bovada_updates",
+                self.custom_logger
+            )
+
+            self.bulk_update_operations = []  # Clear operations list
+
+        except Exception as bulk_error:
+            log_scraper_progress(
+                self.custom_logger, 'BULK_UPDATE_ERROR',
+                'Error executing bulk updates',
+                error=bulk_error
+            )
+            self.bulk_update_operations = []  # Clear operations list even on error
 
     def close(self, reason):
-        print('hello')
-        pass
+        """Final cleanup and bulk update execution"""
+        try:
+            # Execute any remaining bulk operations
+            if self.bulk_update_operations:
+                log_scraper_progress(
+                    self.custom_logger, 'FINAL_BULK_UPDATE',
+                    f'Executing final {len(self.bulk_update_operations)} bulk operations'
+                )
+                self._execute_bulk_updates()
+
+            log_scraper_progress(
+                self.custom_logger, 'SCRAPER_COMPLETED',
+                f'Bovada scraper completed successfully',
+                match_count=len(self.processed_matches)
+            )
+
+            log_scraper_progress(
+                self.custom_logger, 'FINAL_STATS',
+                f'Total: {self.total_matches_processed}, Success: {self.successful_matches}, '
+                f'Failed: {self.failed_matches}, Unique odds: {len(self.unique_odds_keys)}'
+            )
+
+        except Exception as cleanup_error:
+            log_scraper_progress(
+                self.custom_logger, 'CLEANUP_ERROR',
+                'Error during cleanup',
+                error=cleanup_error
+            )
 
 
 if __name__ == '__main__':
-    process = CrawlerProcess()
-    process.crawl(BOVADA)
-    process.start()
+    crawler_process = CrawlerProcess()
+    crawler_process.crawl(BovadaOddsSpider)
+    crawler_process.start()

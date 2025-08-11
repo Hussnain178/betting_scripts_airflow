@@ -1,3 +1,5 @@
+import logging
+import os
 from datetime import datetime, timedelta
 import secrets
 import string
@@ -5,6 +7,85 @@ import pytz
 from pymongo import MongoClient, UpdateOne
 from rapidfuzz import fuzz
 import re
+
+
+def setup_scraper_logger(scraper_name):
+    """
+    Set up logging configuration for scrapers
+    Creates persistent log files that append to same file
+    Truncates file when it exceeds 10MB
+
+    :param scraper_name: str - name of the scraper (e.g., 'tipico', 'bovada')
+    :return: logger object
+    """
+    # Create logs directory if it doesn't exist
+    log_directory = 'scraper_logs'
+    if not os.path.exists(log_directory):
+        os.makedirs(log_directory)
+
+    # Create persistent log filename (no timestamp)
+    log_filename = f"{log_directory}/{scraper_name}.log"
+
+    # Check file size and truncate if over 10MB
+    max_size = 10 * 1024 * 1024  # 10MB in bytes
+    if os.path.exists(log_filename):
+        file_size = os.path.getsize(log_filename)
+        if file_size > max_size:
+            # Truncate the file (start fresh)
+            open(log_filename, 'w').close()
+
+    # Create logger
+    logger = logging.getLogger(scraper_name)
+    logger.setLevel(logging.INFO)
+
+    # Clear existing handlers to avoid duplicate logs
+    logger.handlers.clear()
+
+    # Create file handler (append mode)
+    file_handler = logging.FileHandler(log_filename, mode='a', encoding='utf-8')
+    file_handler.setLevel(logging.INFO)
+
+    # Create console handler
+    console_handler = logging.StreamHandler()
+    console_handler.setLevel(logging.INFO)
+
+    # Create formatter
+    log_formatter = logging.Formatter(
+        '%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+        datefmt='%Y-%m-%d %H:%M:%S'
+    )
+
+    file_handler.setFormatter(log_formatter)
+    console_handler.setFormatter(log_formatter)
+
+    # Add handlers to logger
+    logger.addHandler(file_handler)
+    logger.addHandler(console_handler)
+
+    logger.info(f"Logger initialized for {scraper_name} scraper")
+    logger.info(f"Log file: {log_filename}")
+
+    return logger
+
+def log_scraper_progress(logger, stage, details="", match_count=0, error=None):
+    """
+    Log scraper progress with consistent format
+
+    :param logger: logger object
+    :param stage: str - current stage (e.g., 'START', 'PARSING', 'MATCHING', 'BULK_UPDATE')
+    :param details: str - additional details
+    :param match_count: int - number of matches processed
+    :param error: Exception - error object if any
+    """
+    if error:
+        logger.error(f"[{stage}] ERROR: {str(error)} | Details: {details}")
+    else:
+        message = f"[{stage}]"
+        if match_count > 0:
+            message += f" Matches: {match_count}"
+        if details:
+            message += f" | {details}"
+        logger.info(message)
 
 
 def generate_custom_key(length=20):
@@ -156,9 +237,44 @@ def is_next_8_day_match(match_date, date_format=None):
     return time_difference <= timedelta(days=8) and time_difference >= timedelta(0)
 
 
-def store_data_into_mongodb(matches_data, database_name):
+def execute_bulk_write_operations(collection, bulk_operations, operation_type="update", logger=None):
     """
-    Store match data into MongoDB with consistent timestamp handling
+    Execute bulk write operations with logging
+
+    :param collection: MongoDB collection
+    :param bulk_operations: list of bulk operations
+    :param operation_type: str - type of operation (update, insert, etc.)
+    :param logger: logger object
+    :return: bulk write result
+    """
+    if not bulk_operations:
+        if logger:
+            logger.warning(f"No bulk {operation_type} operations to execute")
+        return None
+
+    try:
+        if logger:
+            logger.info(f"Executing {len(bulk_operations)} bulk {operation_type} operations")
+
+        bulk_result = collection.bulk_write(bulk_operations)
+
+        if logger:
+            logger.info(f"Bulk {operation_type} completed successfully:")
+            logger.info(f"  - Modified: {getattr(bulk_result, 'modified_count', 0)}")
+            logger.info(f"  - Upserted: {getattr(bulk_result, 'upserted_count', 0)}")
+            logger.info(f"  - Inserted: {getattr(bulk_result, 'inserted_count', 0)}")
+
+        return bulk_result
+
+    except Exception as bulk_error:
+        if logger:
+            logger.error(f"Bulk {operation_type} error: {bulk_error}")
+        raise bulk_error
+
+
+def store_data_into_mongodb(matches_data, database_name, logger=None):
+    """
+    Store match data into MongoDB with consistent timestamp handling and bulk operations
     """
     client = MongoClient('mongodb://localhost:27017')
     db = client['betting']
@@ -188,10 +304,10 @@ def store_data_into_mongodb(matches_data, database_name):
         operations.append(UpdateOne(filter_query, {'$set': match}, upsert=True))
 
     if operations:
-        collection.bulk_write(operations)
+        execute_bulk_write_operations(collection, operations, "upsert", logger)
 
 
-def store_competitor_mapping_data(docs):
+def store_competitor_mapping_data(docs, logger=None):
     client = MongoClient('mongodb://localhost:27017')
     db = client['betting']
     collection = db['competitor_mapping']
@@ -212,8 +328,9 @@ def store_competitor_mapping_data(docs):
         )
 
     if operations:
-        result = collection.bulk_write(operations)
-        print(f"Bulk write completed: {result.bulk_api_result}")
+        result = execute_bulk_write_operations(collection, operations, "competitor_mapping", logger)
+        if logger:
+            logger.info(f"Competitor mapping bulk write completed: {result.bulk_api_result}")
 
 
 def normalize_timestamp_for_comparison(timestamp):
@@ -250,9 +367,15 @@ def update_data():
 
 
 def check_key(name):
-    not_used_key = ['hc ', 'runs ', 'rushing', 'out', 'yards', 'receving', 'both', 'and', 'remaining', '(', ')', 'tie',
-                    'break', 'deuce', 'next', 'touchdowns', 'range', 'will', '?', 'did', 'does', 'hour', 'minute',
-                    'halves', 'scorer',
+    not_used_key = ['go', 'never', 'niether', 'total runs', 'to score', 'get', 'including overtime', 'own', 'retain',
+                    ':', '0:', 'award', 'kick',
+                    'penalty', 'target', 'shots', 'series', 'yellow', 'super over',
+                    'header', '4s', 'touchdown', 'of the match', 'hero', 'tries', 'more', '6s', 'fifty', 'scored',
+                    'century', 'last', "player's total runs", 'given', 'red', 'retain', 'most', 'odd/even',
+                    'performance', 'converted', 'listed', 'center', 'margin', 'try', 'either', 'hc ', 'runs ',
+                    'rushing', 'out', 'yards', 'receving', 'both', 'and', 'remaining', '(', ')', 'tie', 'break',
+                    'deuce', 'next', 'touchdowns', 'range', 'will', '?', 'did', 'does', 'hour', 'minute', 'halves',
+                    'scorer',
                     'betting', '&', '1 .ht', '1. ht', '1.ht', 'number of runs in match', 'how', 'which', 'who',
                     'result', 'win', 'halftime', 'legs', 'half time', 'full time',
                     'tackles', 'attempts', 'final', 'frame', 'side', 'wides', 'highest', 'four',
@@ -296,7 +419,10 @@ def check_sport_name(sport_name):
 def check_header_name(key):
     original_key = key
     conversion_list = ['-half-1', '-half-2', '-one-half', '-period-1', '-period-2', '-period-3', '-set-1', '-set-2',
-                       '-set-3', '-quarter-1', '-quarter-2', '-quarter-3', '-quarter-4']
+                       '-set-3', '-set-4', '-set-5', '-quarter-1', '-quarter-2', '-quarter-3', '-quarter-4',
+                       '-inning-1',
+                       '-inning-2', '-inning-3', '-inning-4', '-inning-5', '-inning-6', '-inning-7', '-inning-8',
+                       '-inning-9']
     for repl in conversion_list:
         original_key = original_key.replace(repl, '')
 
@@ -442,53 +568,53 @@ def check_header_name(key):
             if any(word.replace("-", "").replace(" ", "") in key.lower() for word in i1):
                 if 'first inning' in key.lower():
                     if key.lower().count('first') == 1:
-                        key_name = '1st Innings'
+                        key_name = '1st Inning'
 
                     else:
                         key_name = 'Full Match'
                 elif 'first' in key.lower():
                     key_name = 'Full Match'
                 else:
-                    key_name = '1st Innings'
+                    key_name = '1st Inning'
 
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      i2) and 'first' not in key.lower():
-                key_name = '2nd Innings'
+                key_name = '2nd Inning'
 
 
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      i3) and 'first' not in key.lower():
-                key_name = '3rd Innings'
+                key_name = '3rd Inning'
 
 
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      i4) and 'first' not in key.lower():
-                key_name = '4th Innings'
+                key_name = '4th Inning'
 
 
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      i5) and 'first' not in key.lower():
-                key_name = '5th Innings'
+                key_name = '5th Inning'
 
 
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      i6) and 'first' not in key.lower():
-                key_name = '6th Innings'
+                key_name = '6th Inning'
 
 
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      i7) and 'first' not in key.lower():
-                key_name = '7th Innings'
+                key_name = '7th Inning'
 
 
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      i8) and 'first' not in key.lower():
-                key_name = '8th Innings'
+                key_name = '8th Inning'
 
 
             elif any(word.replace("-", "").replace(" ", "") in key.lower() for word in
                      i9) and 'first' not in key.lower():
-                key_name = '9th Innings'
+                key_name = '9th Inning'
 
 
             else:
