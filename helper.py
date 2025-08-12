@@ -699,3 +699,35 @@ def compare_matchups(
     # return result
     check = True if sim_combined_set >= 80 else False
     return check
+def remove_empty_dicts(obj):
+    """
+    Recursively removes:
+    1. Completely empty dicts {}
+    2. Dicts where all values are empty strings, only spaces, or None
+    """
+    if isinstance(obj, dict):
+        # First, clean nested values
+        cleaned = {k: remove_empty_dicts(v) for k, v in obj.items()}
+
+        # Remove keys whose values became None after cleaning
+        cleaned = {k: v for k, v in cleaned.items() if v is not None}
+
+        # Check if dict is completely empty
+        if not cleaned:
+            return None
+
+        # Check if all values are empty string, space string, or None
+        if all((v is None) or (isinstance(v, str) and v.strip() == '') for v in cleaned.values()):
+            return None
+
+        return cleaned
+
+    elif isinstance(obj, list):
+        # Process each element in the list
+        cleaned_list = [remove_empty_dicts(v) for v in obj]
+        # Remove None values from the list
+        cleaned_list = [v for v in cleaned_list if v is not None]
+        return cleaned_list
+
+    else:
+        return obj

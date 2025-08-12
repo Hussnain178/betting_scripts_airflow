@@ -2,7 +2,7 @@ import json
 from pymongo import MongoClient, UpdateOne
 import scrapy
 from scrapy.crawler import CrawlerProcess
-from helper import (
+from helper import (remove_empty_dicts,
     check_sport_name, parse_tipico_date, normalize_timestamp_for_comparison,
     check_key, check_header_name, compare_matchups, setup_scraper_logger,
     log_scraper_progress, execute_bulk_write_operations
@@ -324,6 +324,7 @@ class UnibetOddsSpider(scrapy.Spider):
 
                 # if duplicate_handling_result:
                 #     ignored_category_id = category_id
+            match_information['prices']=remove_empty_dicts(match_information['prices'])
 
             # Try to match with flashscore data
             self._match_with_flashscore_data(match_information)
@@ -365,6 +366,8 @@ class UnibetOddsSpider(scrapy.Spider):
 
         if 'set' in market_name.lower() and 'game' in market_name.lower():
             return False
+        if ' - extra time' in market_name.lower() and ' including extra time' in market_name.lower():
+            market_name=market_name.replace(' - extra time','').replace(' including extra time','')
 
         # Check for game-specific exclusions
         for number in range(1, 10):
@@ -404,7 +407,20 @@ class UnibetOddsSpider(scrapy.Spider):
 
             for outcome in betting_offer['outcomes']:
                 outcome_key = self._map_outcome_name(outcome['label'], match_info, value_mappings)
-                odds_value = outcome.get('oddsAmerican')
+                odds_value = outcome.get('oddsFractional')
+
+                if odds_value is not None:
+                    odds_str = str(odds_value).strip()
+
+                    if odds_str.lower() == "evens":
+                        odds_value = "2.0"  # Evens = 1/1 fractional = decimal 2.0
+                    elif "/" in odds_str:  # Fractional odds
+                        num, den = map(int, odds_str.split("/"))
+                        odds_value = str((num / den) + 1)
+                    else:  # Whole number
+                        odds_value = str(int(odds_str) + 1)
+                else:
+                    odds_value = None
                 match_info['prices'][header_category][market_name][handicap_value][outcome_key] = odds_value
 
             return False  # Not a duplicate

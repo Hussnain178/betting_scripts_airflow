@@ -2,9 +2,9 @@ import json
 from pymongo import MongoClient, UpdateOne
 import scrapy
 from scrapy.crawler import CrawlerProcess
-from helper import (
+from helper import (remove_empty_dicts,
     check_sport_name, check_key, check_header_name, compare_matchups,
-    setup_scraper_logger, log_scraper_progress, execute_bulk_write_operations
+    setup_scraper_logger, log_scraper_progress, execute_bulk_write_operations,parse_tipico_date,normalize_timestamp_for_comparison
 )
 
 
@@ -226,6 +226,7 @@ class UnibetLiveOddsSpider(scrapy.Spider):
         """Process individual LIVE match and prepare for odds extraction"""
         try:
             self.total_live_matches_processed += 1
+            match_timestamp = parse_tipico_date(match_event['event']['start'])
 
             live_match_information = {
                 'website': 'unibet',
@@ -235,6 +236,7 @@ class UnibetLiveOddsSpider(scrapy.Spider):
                 'competitor1': match_event['event']['homeName'],
                 'competitor2': match_event['event']['awayName'],
                 'match_id': match_event['event']['id'],
+                'timestamp': match_timestamp,
                 'status': 'live',
                 'prices': {}
             }
@@ -317,6 +319,7 @@ class UnibetLiveOddsSpider(scrapy.Spider):
 
                 # if duplicate_handling_result:
                 #     ignored_category_id = category_id
+            live_match_information['prices'] =remove_empty_dicts(live_match_information['prices'])
 
             # Try to match with flashscore data (no timestamp needed for live matches)
             self._match_live_data_with_flashscore(live_match_information)
@@ -358,6 +361,8 @@ class UnibetLiveOddsSpider(scrapy.Spider):
 
         if 'set' in market_name.lower() and 'game' in market_name.lower():
             return False
+        if ' - extra time' in market_name.lower() and ' including extra time' in market_name.lower():
+            market_name=market_name.replace(' - extra time','').replace(' including extra time','')
 
         # Check for game-specific exclusions
         for number in range(1, 10):
@@ -397,7 +402,20 @@ class UnibetLiveOddsSpider(scrapy.Spider):
 
             for outcome in betting_offer['outcomes']:
                 outcome_key = self._map_live_outcome_name(outcome['label'], match_info, value_mappings)
-                odds_value = outcome.get('oddsAmerican')
+                odds_value = outcome.get('oddsFractional')
+
+                if odds_value is not None:
+                    odds_str = str(odds_value).strip()
+
+                    if odds_str.lower() == "evens":
+                        odds_value = "2.0"  # Evens = 1/1 fractional = decimal 2.0
+                    elif "/" in odds_str:  # Fractional odds
+                        num, den = map(int, odds_str.split("/"))
+                        odds_value = str((num / den) + 1)
+                    else:  # Whole number
+                        odds_value = str(int(odds_str) + 1)
+                else:
+                    odds_value = None
                 match_info['prices'][header_category][market_name][handicap_value][outcome_key] = odds_value
 
             return False  # Not a duplicate
@@ -478,11 +496,14 @@ class UnibetLiveOddsSpider(scrapy.Spider):
 
     def _match_live_data_with_flashscore(self, unibet_live_match_info):
         """Match unibet LIVE data with flashscore data and prepare bulk update"""
+        normalized_unibet_timestamp = normalize_timestamp_for_comparison(unibet_live_match_info['timestamp'])
         unibet_sport_normalized = (unibet_live_match_info['sport'].lower()
                                    .replace('-', '').replace(' ', ''))
 
         # Query database for potential matches (no timestamp needed for live matches)
-        potential_matches_cursor = self.matches_collection.find({})
+        potential_matches_cursor = self.matches_collection.find({
+            "timestamp": normalized_unibet_timestamp,
+        })
 
         for flashscore_match in potential_matches_cursor:
             # Check sport compatibility

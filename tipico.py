@@ -2,7 +2,7 @@ import json
 import scrapy
 from scrapy.crawler import CrawlerProcess
 from pymongo import MongoClient, UpdateOne
-from helper import (
+from helper import (remove_empty_dicts,
     check_sport_name, parse_tipico_date, normalize_timestamp_for_comparison,
     check_key, check_header_name, compare_matchups, setup_scraper_logger,
     log_scraper_progress, execute_bulk_write_operations
@@ -240,6 +240,8 @@ class TipicoOddsSpider(scrapy.Spider):
             # Extract odds data
             self._extract_odds_information(match_data, match_information)
 
+            match_information['prices']=remove_empty_dicts(match_information['prices'])
+
             # Try to match with existing flashscore data and prepare bulk update
             self._match_with_flashscore_data(match_information)
 
@@ -307,6 +309,8 @@ class TipicoOddsSpider(scrapy.Spider):
                     .replace(event_info['team1'], 'home')
                     .replace(event_info['team2'], 'away')
                 )
+                if ' - extra time' in normalized_odds_key.lower() and ' including extra time' in normalized_odds_key.lower():
+                    normalized_odds_key = normalized_odds_key.replace(' - extra time', '').replace(' including extra time', '')
 
                 if not check_key(normalized_odds_key):
                     continue

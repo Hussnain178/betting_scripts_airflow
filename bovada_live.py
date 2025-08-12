@@ -4,9 +4,9 @@ import re
 from datetime import datetime, timezone
 from pymongo import MongoClient, UpdateOne
 from scrapy.crawler import CrawlerProcess
-from helper import (
+from helper import (remove_empty_dicts,
     check_sport_name, compare_matchups, check_key, check_header_name,
-    setup_scraper_logger, log_scraper_progress, execute_bulk_write_operations
+    setup_scraper_logger, log_scraper_progress, execute_bulk_write_operations,normalize_timestamp_for_comparison,parse_tipico_date
 )
 
 
@@ -311,6 +311,16 @@ class BovadaLiveOddsSpider(scrapy.Spider):
         """Process individual LIVE match and extract odds"""
         try:
             self.total_live_matches_processed += 1
+            gmt_timestamp = self._convert_timestamp(live_match_info['startTime'])
+            try:
+                parsed_match_datetime = parse_tipico_date(gmt_timestamp)
+            except Exception as date_error:
+                log_scraper_progress(
+                    self.custom_logger, 'DATE_PARSE_ERROR',
+                    f'Error parsing date {gmt_timestamp}',
+                    error=date_error
+                )
+                return
 
             # Determine sport name
             sport_name = self._normalize_sport_name(league_data['path'][-1]['description'])
@@ -336,6 +346,7 @@ class BovadaLiveOddsSpider(scrapy.Spider):
                 'competitor2': competitor2_name,
                 'sport': sport_name,
                 'country': country_name,
+                "timestamp": parsed_match_datetime,
                 'group': group_name,
                 'odds': {},
                 'status': 'live'  # Mark as live match
@@ -355,6 +366,7 @@ class BovadaLiveOddsSpider(scrapy.Spider):
                 description_team1, description_team2,
                 short_name_team1, short_name_team2
             )
+            live_match_information['odds'] = remove_empty_dicts(live_match_information['odds'])
 
             # Try to match with flashscore data
             self._match_live_data_with_flashscore(live_match_information)
@@ -379,7 +391,11 @@ class BovadaLiveOddsSpider(scrapy.Spider):
                 'Error processing individual live match',
                 error=live_match_error
             )
-
+    def _convert_timestamp(self, timestamp_milliseconds):
+        """Convert timestamp from milliseconds to GMT string format"""
+        datetime_object = datetime.fromtimestamp(timestamp_milliseconds / 1000, tz=timezone.utc)
+        gmt_string = datetime_object.strftime('%d %b %Y %H:%M:%S GMT')
+        return gmt_string
     def _normalize_sport_name(self, sport_name):
         """Normalize sport names to standard format"""
         if sport_name.lower() == 'football':
@@ -469,6 +485,8 @@ class BovadaLiveOddsSpider(scrapy.Spider):
             excluded_value = f'{number} game'
             if excluded_value in market_name.lower():
                 return False
+        if ' - extra time' in market_name.lower() and ' including extra time' in market_name.lower():
+            market_name = market_name.replace(' - extra time', '').replace(' including extra time', '')
 
         return check_key(market_name)
 
@@ -664,11 +682,14 @@ class BovadaLiveOddsSpider(scrapy.Spider):
 
     def _match_live_data_with_flashscore(self, bovada_live_match_info):
         """Match bovada LIVE data with flashscore data and prepare bulk update"""
+        normalized_bovada_timestamp = normalize_timestamp_for_comparison(bovada_live_match_info['timestamp'])
         bovada_sport_normalized = (bovada_live_match_info['sport'].lower()
                                    .replace('-', '').replace(' ', ''))
 
         # Query database for potential matches (no timestamp needed for live matches)
-        potential_matches_cursor = self.matches_collection.find({})
+        potential_matches_cursor = self.matches_collection.find({
+            "timestamp": normalized_bovada_timestamp,
+        })
 
         for flashscore_match in potential_matches_cursor:
             # Check sport compatibility

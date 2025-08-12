@@ -1,223 +1,246 @@
-2025-08-12 12:13:54 - unibet - INFO - Logger initialized for unibet scraper
-2025-08-12 12:13:54 - unibet - INFO - Log file: scraper_logs/unibet.log
-2025-08-12 12:13:54 - unibet - INFO - [INIT] | Initializing Unibet scraper
-2025-08-12 12:13:54 - unibet - INFO - [INIT_COMPLETE] | Loaded 255 odds mappings, 293 countries
-2025-08-12 12:13:55 - unibet - INFO - [START] | Starting Unibet sports navigation
-2025-08-12 12:13:59 - unibet - INFO - [SPORTS_NAVIGATION_PARSED] | Found 37 sports in navigation
-2025-08-12 12:13:59 - unibet - INFO - [VALID_SPORTS_FILTERED] | Processing 14 valid sports
-2025-08-12 12:13:59 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for VOLLEYBALL (1 groups)
-2025-08-12 12:13:59 - unibet - INFO - [SPORT_COMPLETED] | Sport: VOLLEYBALL, Matches processed: 6
-2025-08-12 12:14:00 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for soccer (25 groups)
-2025-08-12 12:14:00 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for SNOOKER (1 groups)
-2025-08-12 12:20:39 - unibet - INFO - Logger initialized for unibet scraper
-2025-08-12 12:20:39 - unibet - INFO - Log file: scraper_logs/unibet.log
-2025-08-12 12:20:39 - unibet - INFO - [INIT] | Initializing Unibet scraper
-2025-08-12 12:20:39 - unibet - INFO - [INIT_COMPLETE] | Loaded 255 odds mappings, 293 countries
-2025-08-12 12:20:40 - unibet - INFO - [START] | Starting Unibet sports navigation
-2025-08-12 12:20:44 - unibet - INFO - [SPORTS_NAVIGATION_PARSED] | Found 37 sports in navigation
-2025-08-12 12:20:44 - unibet - INFO - [VALID_SPORTS_FILTERED] | Processing 14 valid sports
-2025-08-12 12:20:44 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for VOLLEYBALL (1 groups)
-2025-08-12 12:20:44 - unibet - INFO - [SPORT_COMPLETED] | Sport: VOLLEYBALL, Matches processed: 6
-2025-08-12 12:20:45 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for soccer (25 groups)
-2025-08-12 12:20:45 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for RUGBY_LEAGUE (2 groups)
-2025-08-12 12:20:45 - unibet - INFO - [SPORT_COMPLETED] | Sport: RUGBY_LEAGUE, Matches processed: 13
-2025-08-12 12:20:45 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for RUGBY_UNION (2 groups)
-2025-08-12 12:20:45 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for PESAPALLO (1 groups)
-2025-08-12 12:20:46 - unibet - INFO - [MATCH_FOUND] | Matched Brazil U21 (W) vs Japan U21 (W)
-2025-08-12 12:20:46 - unibet - INFO - [MATCH_FOUND] | Matched Indonesia U21 (W) vs Argentina U21 (W)
-2025-08-12 12:20:46 - unibet - INFO - [MATCH_FOUND] | Matched Tunisia U21 (W) vs Chile U21 (W)
-2025-08-12 12:20:46 - unibet - INFO - [MATCH_FOUND] | Matched Thailand U21 (W) vs Bulgaria U21 (W)
-2025-08-12 12:20:46 - unibet - INFO - [SPORT_COMPLETED] | Sport: RUGBY_UNION, Matches processed: 9
-2025-08-12 12:20:46 - unibet - INFO - [SPORT_COMPLETED] | Sport: PESAPALLO, Matches processed: 6
-2025-08-12 12:20:46 - unibet - INFO - [MATCH_FOUND] | Matched Poland U21 (W) vs Czech Republic U21 (W)
-2025-08-12 12:20:46 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for TABLE_TENNIS (2 groups)
-2025-08-12 12:20:46 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for SNOOKER (1 groups)
-2025-08-12 12:20:46 - unibet - INFO - [MATCH_FOUND] | Matched Dominican Republic U21 (W) vs Croatia U21 (W)
-2025-08-12 12:20:46 - unibet - INFO - [SPORT_COMPLETED] | Sport: SNOOKER, Matches processed: 16
-2025-08-12 12:20:46 - unibet - INFO - [MATCH_FOUND] | Matched Chengdu Rongcheng vs Bangkok United
-2025-08-12 12:20:46 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for TENNIS (10 groups)
-2025-08-12 12:20:46 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for BASEBALL (4 groups)
-2025-08-12 12:20:46 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for FIELD_HOCKEY (1 groups)
-2025-08-12 12:20:46 - unibet - INFO - [SPORT_COMPLETED] | Sport: FIELD_HOCKEY, Matches processed: 4
-2025-08-12 12:20:47 - unibet - INFO - [SPORT_COMPLETED] | Sport: TABLE_TENNIS, Matches processed: 56
-2025-08-12 12:20:47 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for BASKETBALL (3 groups)
-2025-08-12 12:20:47 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for CRICKET (6 groups)
-2025-08-12 12:20:47 - unibet - INFO - [SPORT_COMPLETED] | Sport: BASEBALL, Matches processed: 23
-2025-08-12 12:20:47 - unibet - INFO - [SPORT_COMPLETED] | Sport: CRICKET, Matches processed: 13
-2025-08-12 12:20:47 - unibet - INFO - [SPORT_COMPLETED] | Sport: BASKETBALL, Matches processed: 20
-2025-08-12 12:20:47 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for AMERICAN_FOOTBALL (4 groups)
-2025-08-12 12:20:47 - unibet - INFO - [MATCH_FOUND] | Matched Crvena Zvezda vs Lech Poznań
-2025-08-12 12:20:47 - unibet - INFO - [MATCH_FOUND] | Matched Benfica vs Nice
-2025-08-12 12:20:47 - unibet - INFO - [MATCH_FOUND] | Matched Slovan Bratislava vs Kairat Almaty
-2025-08-12 12:20:47 - unibet - INFO - [MATCH_FOUND] | Matched Club Brugge vs Red Bull Salzburg
-2025-08-12 12:20:48 - unibet - INFO - [SPORT_COMPLETED] | Sport: soccer, Matches processed: 175
-2025-08-12 12:20:48 - unibet - INFO - [MATCH_FOUND] | Matched FC Copenhagen vs Malmö FF
-2025-08-12 12:20:48 - unibet - INFO - [SPORT_COMPLETED] | Sport: AMERICAN_FOOTBALL, Matches processed: 87
-2025-08-12 12:20:48 - unibet - INFO - [SPORT_COMPLETED] | Sport: TENNIS, Matches processed: 142
-2025-08-12 12:20:49 - unibet - INFO - [MATCH_FOUND] | Matched Monza vs Inter
-2025-08-12 12:20:50 - unibet - INFO - [MATCH_FOUND] | Matched Huracán (W) vs Boca Juniors (W)
-2025-08-12 12:20:50 - unibet - INFO - [MATCH_FOUND] | Matched Shelbourne vs Rijeka
-2025-08-12 12:20:51 - unibet - INFO - [MATCH_FOUND] | Matched CA Aldosivi Reserves vs Belgrano Reserves
-2025-08-12 12:20:51 - unibet - INFO - [MATCH_FOUND] | Matched Brisbane City vs Olympic Kingsway SC
-2025-08-12 12:20:51 - unibet - INFO - [MATCH_FOUND] | Matched Independiente Rivadavia Reserves vs Boca Juniors Reserves
-2025-08-12 12:20:51 - unibet - INFO - [MATCH_FOUND] | Matched Banfield Reserves vs Estudiantes Reserves
-2025-08-12 12:20:51 - unibet - INFO - [MATCH_FOUND] | Matched Ferro Reserves vs Instituto AC Córdoba Reserves
-2025-08-12 12:20:51 - unibet - INFO - [MATCH_FOUND] | Matched XV de Jaú-SP U20 vs Grêmio Prudente-SP U20
-2025-08-12 12:20:51 - unibet - INFO - [MATCH_FOUND] | Matched RB Bragantino-SP U20 vs Sertãozinho-SP U20
-2025-08-12 12:20:51 - unibet - INFO - [MATCH_FOUND] | Matched EC Sao Bento U20 vs Rio Claro-SP U20
-2025-08-12 12:20:51 - unibet - INFO - [MATCH_FOUND] | Matched San Francisco Giants vs San Diego Padres
-2025-08-12 12:20:52 - unibet - INFO - [MATCH_FOUND] | Matched New York Mets vs Atlanta Braves
-2025-08-12 12:20:59 - unibet - INFO - [MATCH_FOUND] | Matched Marumo Gallants vs Orlando Pirates
-2025-08-12 12:20:59 - unibet - INFO - [MATCH_FOUND] | Matched Mamelodi Sundowns vs Amazulu FC
-2025-08-12 12:20:59 - unibet - INFO - [MATCH_FOUND] | Matched Orbit College FC vs Siwelele F.C.
-2025-08-12 12:21:00 - unibet - INFO - [MATCH_FOUND] | Matched Ružomberok vs MFK Skalica
-2025-08-12 12:21:00 - unibet - INFO - [MATCH_FOUND] | Matched Montrose vs Dundee FC U21
-2025-08-12 12:21:01 - unibet - INFO - [MATCH_FOUND] | Matched East Kilbride vs Queen of the South
-2025-08-12 12:21:01 - unibet - INFO - [MATCH_FOUND] | Matched Stenhousemuir vs Rangers B
-2025-08-12 12:21:01 - unibet - INFO - [MATCH_FOUND] | Matched Stirling Albion vs Dundee United Reserves
-2025-08-12 12:21:01 - unibet - INFO - [MATCH_FOUND] | Matched Peterhead vs Aberdeen U21
-2025-08-12 12:21:01 - unibet - INFO - [MATCH_FOUND] | Matched Forfar Athletic vs Hibernian Reserves
-2025-08-12 12:21:01 - unibet - INFO - [MATCH_FOUND] | Matched Elgin City vs Inverness CT
-2025-08-12 12:21:01 - unibet - INFO - [MATCH_FOUND] | Matched Dumbarton vs St Mirren Reserves
-2025-08-12 12:21:01 - unibet - INFO - [MATCH_FOUND] | Matched FC Vizela U23 vs Leixoes U23
-2025-08-12 12:21:02 - unibet - INFO - [MATCH_FOUND] | Matched Académico Viseu U23 vs Marítimo U23
-2025-08-12 12:21:02 - unibet - INFO - [MATCH_FOUND] | Matched Acad Viitorul Cluj vs Bihor Oradea
-2025-08-12 12:21:02 - unibet - INFO - [MATCH_FOUND] | Matched Cruz Azul (W) vs CF Monterrey (W)
-2025-08-12 12:21:02 - unibet - INFO - [MATCH_FOUND] | Matched Club Sportivo Limpeño vs Sportivo Trinidense
-2025-08-12 12:21:02 - unibet - INFO - [MATCH_FOUND] | Matched River Plate (Asunción) vs Deportivo Santaní
-2025-08-12 12:21:03 - unibet - INFO - [MATCH_FOUND] | Matched Indonesia (W) vs Cambodia (W)
-2025-08-12 12:21:03 - unibet - INFO - [MATCH_FOUND] | Matched Sudan vs Nigeria
-2025-08-12 12:21:03 - unibet - INFO - [MATCH_FOUND] | Matched Senegal vs Congo
-2025-08-12 12:21:03 - unibet - INFO - [MATCH_FOUND] | Matched Seattle Storm (W) vs Atlanta Dream (W)
-2025-08-12 12:21:03 - unibet - INFO - [MATCH_FOUND] | Matched Vietnam (W) vs Thailand (W)
-2025-08-12 12:21:03 - unibet - INFO - [MATCH_FOUND] | Matched Las Vegas Aces (W) vs New York Liberty (W)
-2025-08-12 12:21:03 - unibet - INFO - [MATCH_FOUND] | Matched Washington Mystics (W) vs Golden State Valkyries (W)
-2025-08-12 12:21:04 - unibet - INFO - [MATCH_FOUND] | Matched Dorchester Town vs Tiverton Town FC
-2025-08-12 12:21:04 - unibet - INFO - [MATCH_FOUND] | Matched Víkingur Reykjavík (W) vs Breidablik (W)
-2025-08-12 12:21:04 - unibet - INFO - [MATCH_FOUND] | Matched Plymouth Parkway F.C vs Weymouth
-2025-08-12 12:21:04 - unibet - INFO - [MATCH_FOUND] | Matched Hanwell Town vs Walton & Hersham
-2025-08-12 12:21:04 - unibet - INFO - [MATCH_FOUND] | Matched West Indies vs Pakistan
-2025-08-12 12:21:04 - unibet - INFO - [MATCH_FOUND] | Matched London Spirit (W) vs Trent Rockets (W)
-2025-08-12 12:21:04 - unibet - INFO - [MATCH_FOUND] | Matched Welsh Fire (W) vs Manchester Originals (W)
-2025-08-12 12:21:04 - unibet - INFO - [MATCH_FOUND] | Matched Southern Brave (W) vs Northern Superchargers (W)
-2025-08-12 12:21:04 - unibet - INFO - [MATCH_FOUND] | Matched Australia vs South Africa
-2025-08-12 12:21:05 - unibet - INFO - [MATCH_FOUND] | Matched Connecticut Sun (W) vs Chicago Sky (W)
-2025-08-12 12:21:05 - unibet - INFO - [MATCH_FOUND] | Matched Los Angeles Sparks (W) vs New York Liberty (W)
-2025-08-12 12:21:05 - unibet - INFO - [MATCH_FOUND] | Matched Indiana Fever (W) vs Dallas Wings (W)
-2025-08-12 12:21:05 - unibet - INFO - [MATCH_FOUND] | Matched Hungerford Town vs Gloucester City
-2025-08-12 12:21:05 - unibet - INFO - [MATCH_FOUND] | Matched Chertsey Town vs Berkhamsted FC
-2025-08-12 12:21:05 - unibet - INFO - [MATCH_FOUND] | Matched Sholing FC vs Poole Town
-2025-08-12 12:21:05 - unibet - INFO - [MATCH_FOUND] | Matched Spalding United vs Harborough Town FC
-2025-08-12 12:21:05 - unibet - INFO - [MATCH_FOUND] | Matched Needham Market vs Real Bedford
-2025-08-12 12:21:06 - unibet - INFO - [MATCH_FOUND] | Matched Birmingham Phoenix (W) vs Oval Invincibles (W)
-2025-08-12 12:21:06 - unibet - INFO - [MATCH_FOUND] | Matched Welsh Fire vs Manchester Originals
-2025-08-12 12:21:06 - unibet - INFO - [MATCH_FOUND] | Matched Halesowen Town vs Barwell
-2025-08-12 12:21:06 - unibet - INFO - [MATCH_FOUND] | Matched Bury Town vs Royston Town
-2025-08-12 12:21:06 - unibet - INFO - [MATCH_FOUND] | Matched London Spirit vs Trent Rockets
-2025-08-12 12:21:06 - unibet - INFO - [MATCH_FOUND] | Matched Kettering Town vs Leiston
-2025-08-12 12:21:06 - unibet - INFO - [MATCH_FOUND] | Matched Bishop's Stortford vs Sudbury
-2025-08-12 12:21:06 - unibet - INFO - [MATCH_FOUND] | Matched Alvechurch FC vs Bromsgrove Sporting FC
-2025-08-12 12:21:06 - unibet - INFO - [MATCH_FOUND] | Matched Southern Brave vs Northern Superchargers
-2025-08-12 12:21:06 - unibet - INFO - [MATCH_FOUND] | Matched Birmingham Phoenix vs Oval Invincibles
-2025-08-12 12:21:06 - unibet - INFO - [MATCH_FOUND] | Matched Yorkshire vs Lancashire
-2025-08-12 12:21:06 - unibet - INFO - [MATCH_FOUND] | Matched Fubon Guardians vs Uni-Lions
-2025-08-12 12:21:06 - unibet - INFO - [MATCH_FOUND] | Matched Samsung Lions vs KIA Tigers
-2025-08-12 12:21:06 - unibet - INFO - [MATCH_FOUND] | Matched SSG Landers vs Kiwoom Heroes
-2025-08-12 12:21:06 - unibet - INFO - [MATCH_FOUND] | Matched Rakuten Monkeys vs TSG Hawks
-2025-08-12 12:21:06 - unibet - INFO - [MATCH_FOUND] | Matched Hanwha Eagles vs Lotte Giants
-2025-08-12 12:21:07 - unibet - INFO - [MATCH_FOUND] | Matched KT Wiz Suwon vs LG Twins
-2025-08-12 12:21:07 - unibet - INFO - [MATCH_FOUND] | Matched Tokyo Yomiuri Giants vs Chunichi Dragons
-2025-08-12 12:21:07 - unibet - INFO - [MATCH_FOUND] | Matched Athletics vs Tampa Bay Rays
-2025-08-12 12:21:07 - unibet - INFO - [MATCH_FOUND] | Matched Hiroshima Toyo Carp vs Hanshin Tigers
-2025-08-12 12:21:07 - unibet - INFO - [MATCH_FOUND] | Matched Tokyo Yakult Swallows vs Yokohama Bay Stars
-2025-08-12 12:21:07 - unibet - INFO - [MATCH_FOUND] | Matched Doosan Bears vs NC Dinos
-2025-08-12 12:21:07 - unibet - INFO - [MATCH_FOUND] | Matched Wimborne Town vs Havant & Waterlooville
-2025-08-12 12:21:08 - unibet - INFO - [MATCH_FOUND] | Matched Colchester United U21 vs Wigan Athletic U21
-2025-08-12 12:21:08 - unibet - INFO - [MATCH_FOUND] | Matched Queens Park Rangers U21 vs Coventry City U21
-2025-08-12 12:21:08 - unibet - INFO - [MATCH_FOUND] | Matched Ashton United vs Prescot Cables FC
-2025-08-12 12:21:08 - unibet - INFO - [MATCH_FOUND] | Matched Millwall U21 vs Barnsley U21
-2025-08-12 12:21:08 - unibet - INFO - [MATCH_FOUND] | Matched Cardiff City U21 vs Sheffield United U21
-2025-08-12 12:21:08 - unibet - INFO - [MATCH_FOUND] | Matched Charlton Athletic U21 vs Sheffield Wednesday U21
-2025-08-12 12:21:08 - unibet - INFO - [MATCH_FOUND] | Matched Bristol City U21 vs Peterborough United U21
-2025-08-12 12:21:08 - unibet - INFO - [MATCH_FOUND] | Matched Houston Astros vs Boston Red Sox
-2025-08-12 12:21:08 - unibet - INFO - [MATCH_FOUND] | Matched Milwaukee Brewers vs Pittsburgh Pirates
-2025-08-12 12:21:08 - unibet - INFO - [MATCH_FOUND] | Matched Los Angeles Angels vs Los Angeles Dodgers
-2025-08-12 12:21:08 - unibet - INFO - Executing 100 bulk unibet_updates operations
-2025-08-12 12:21:09 - unibet - INFO - Bulk unibet_updates completed successfully:
-2025-08-12 12:21:09 - unibet - INFO -   - Modified: 5
-2025-08-12 12:21:09 - unibet - INFO -   - Upserted: 0
-2025-08-12 12:21:09 - unibet - INFO -   - Inserted: 0
-2025-08-12 12:21:09 - unibet - INFO - [MATCH_FOUND] | Matched Kansas City Royals vs Washington Nationals
-2025-08-12 12:21:09 - unibet - INFO - [MATCH_FOUND] | Matched St. Louis Cardinals vs Colorado Rockies
-2025-08-12 12:21:09 - unibet - INFO - [MATCH_FOUND] | Matched Texas Rangers vs Arizona Diamondbacks
-2025-08-12 12:21:09 - unibet - INFO - [MATCH_FOUND] | Matched Guiseley vs Hebburn Town
-2025-08-12 12:21:09 - unibet - INFO - [MATCH_FOUND] | Matched Ilkeston FC vs Gainsborough Trinity
-2025-08-12 12:21:10 - unibet - INFO - [MATCH_FOUND] | Matched Toronto Blue Jays vs Chicago Cubs
-2025-08-12 12:21:10 - unibet - INFO - [MATCH_FOUND] | Matched Cleethorpes Town vs Hyde FC
-2025-08-12 12:21:10 - unibet - INFO - [MATCH_FOUND] | Matched Aldershot vs Brighton U21
-2025-08-12 12:21:10 - unibet - INFO - [MATCH_FOUND] | Matched Leek Town vs Rushall Olympic
-2025-08-12 12:21:10 - unibet - INFO - [MATCH_FOUND] | Matched Cleveland Guardians vs Miami Marlins
-2025-08-12 12:21:10 - unibet - INFO - [MATCH_FOUND] | Matched Warrington Rylands 1906 FC vs Bamber Bridge
-2025-08-12 12:21:10 - unibet - INFO - [MATCH_FOUND] | Matched Boston United vs Leeds United U21
-2025-08-12 12:21:10 - unibet - INFO - [MATCH_FOUND] | Matched Stockton Town FC vs Workington
-2025-08-12 12:21:10 - unibet - INFO - [MATCH_FOUND] | Matched Cincinnati Reds vs Philadelphia Phillies
-2025-08-12 12:21:10 - unibet - INFO - [MATCH_FOUND] | Matched Baltimore Orioles vs Seattle Mariners
-2025-08-12 12:21:11 - unibet - INFO - [MATCH_FOUND] | Matched Sutton United vs Fulham U21
-2025-08-12 12:21:11 - unibet - INFO - [MATCH_FOUND] | Matched Whitehawk vs Chichester City FC
-2025-08-12 12:21:11 - unibet - INFO - [MATCH_FOUND] | Matched Wingate & Finchley vs Dulwich Hamlet
-2025-08-12 12:21:11 - unibet - INFO - [MATCH_FOUND] | Matched Hashtag United F.C. vs Potters Bar Town FC
-2025-08-12 12:21:11 - unibet - INFO - [MATCH_FOUND] | Matched Brentwood Town vs St Albans City
-2025-08-12 12:21:11 - unibet - INFO - [MATCH_FOUND] | Matched Wealdstone vs Wolverhampton Wanderers U21
-2025-08-12 12:21:11 - unibet - INFO - [MATCH_FOUND] | Matched Welling United vs Aveley
-2025-08-12 12:21:11 - unibet - INFO - [MATCH_FOUND] | Matched Canvey Island vs Cheshunt
-2025-08-12 12:21:11 - unibet - INFO - [MATCH_FOUND] | Matched Cray Wanderers vs Folkestone Invicta
-2025-08-12 12:21:11 - unibet - INFO - [MATCH_FOUND] | Matched Chatham Town vs Ramsgate
-2025-08-12 12:21:12 - unibet - INFO - [MATCH_FOUND] | Matched Bristol City vs Milton Keynes Dons
-2025-08-12 12:21:12 - unibet - INFO - [MATCH_FOUND] | Matched Dartford vs Billericay Town
-2025-08-12 12:21:12 - unibet - INFO - [MATCH_FOUND] | Matched Bromley FC vs Ipswich Town
-2025-08-12 12:21:12 - unibet - INFO - [MATCH_FOUND] | Matched Cray Valley PM vs Burgess Hill Town
-2025-08-12 12:21:12 - unibet - INFO - [MATCH_FOUND] | Matched Accrington Stanley vs Peterborough United
-2025-08-12 12:21:12 - unibet - INFO - [MATCH_FOUND] | Matched Blackburn Rovers vs Bradford City
-2025-08-12 12:21:12 - unibet - INFO - [MATCH_FOUND] | Matched Charlton Athletic vs Stevenage FC
-2025-08-12 12:21:13 - unibet - INFO - [MATCH_FOUND] | Matched Gillingham vs AFC Wimbledon
-2025-08-12 12:21:13 - unibet - INFO - [MATCH_FOUND] | Matched Wigan Athletic vs Notts County
-2025-08-12 12:21:13 - unibet - INFO - [MATCH_FOUND] | Matched West Bromwich vs Derby County
-2025-08-12 12:21:13 - unibet - INFO - [MATCH_FOUND] | Matched Leyton Orient vs Wycombe Wanderers
-2025-08-12 12:21:13 - unibet - INFO - [MATCH_FOUND] | Matched Oxford United vs Colchester United
-2025-08-12 12:21:13 - unibet - INFO - [MATCH_FOUND] | Matched Northampton Town vs Southampton
-2025-08-12 12:21:13 - unibet - INFO - [MATCH_FOUND] | Matched Plymouth Argyle vs Queens Park Rangers
-2025-08-12 12:21:14 - unibet - INFO - [MATCH_FOUND] | Matched Harrogate Town vs Lincoln City
-2025-08-12 12:21:14 - unibet - INFO - [MATCH_FOUND] | Matched Stoke City vs Walsall
-2025-08-12 12:21:14 - unibet - INFO - [MATCH_FOUND] | Matched Blackpool vs Port Vale
-2025-08-12 12:21:14 - unibet - INFO - [MATCH_FOUND] | Matched Coventry City vs Luton Town
-2025-08-12 12:21:14 - unibet - INFO - [MATCH_FOUND] | Matched Grimsby Town vs Shrewsbury Town
-2025-08-12 12:21:14 - unibet - INFO - [MATCH_FOUND] | Matched Cardiff City vs Swindon Town
-2025-08-12 12:21:14 - unibet - INFO - [MATCH_FOUND] | Matched Tranmere Rovers vs Burton Albion
-2025-08-12 12:21:15 - unibet - INFO - [MATCH_FOUND] | Matched Chesterfield vs Mansfield Town
-2025-08-12 12:21:15 - unibet - INFO - [MATCH_FOUND] | Matched Watford vs Norwich City
-2025-08-12 12:21:15 - unibet - INFO - [MATCH_FOUND] | Matched Wrexham vs Hull City
-2025-08-12 12:21:15 - unibet - INFO - [MATCH_FOUND] | Matched Bristol Rovers vs Cambridge United
-2025-08-12 12:21:15 - unibet - INFO - [MATCH_FOUND] | Matched Newport County vs Millwall
-2025-08-12 12:21:15 - unibet - INFO - [MATCH_FOUND] | Matched Salford City FC vs Rotherham United
-2025-08-12 12:21:15 - unibet - INFO - [MATCH_FOUND] | Matched Portsmouth vs Reading
-2025-08-12 12:21:16 - unibet - INFO - [MATCH_FOUND] | Matched Stockport County vs Crewe Alexandra
-2025-08-12 12:21:16 - unibet - INFO - [MATCH_FOUND] | Matched Middlesbrough vs Doncaster Rovers
-2025-08-12 12:21:16 - unibet - INFO - [MATCH_FOUND] | Matched Swansea City vs Crawley Town
-2025-08-12 12:21:17 - unibet - INFO - [MATCH_FOUND] | Matched Barrow vs Preston North End
-2025-08-12 12:21:17 - unibet - INFO - [MATCH_FOUND] | Matched Povltavska FA vs FK MAS Táborsko
-2025-08-12 12:21:17 - unibet - INFO - [MATCH_FOUND] | Matched PFC Spartak Pleven vs Dunav Ruse
-2025-08-12 12:21:17 - unibet - INFO - [MATCH_FOUND] | Matched Oeste-SP U20 vs AA Portuguesa Santista U20
-2025-08-12 12:21:17 - unibet - INFO - [MATCH_FOUND] | Matched Água Santa-SP U20 vs Uniao Suzano AC U20
-2025-08-12 12:21:17 - unibet - INFO - [MATCH_FOUND] | Matched Corinthians-SP U20 vs Jabaquara-SP U20
-2025-08-12 12:21:17 - unibet - INFO - [MATCH_FOUND] | Matched Palmeiras-SP U20 vs União São João-SP U20
-2025-08-12 12:21:17 - unibet - INFO - [MATCH_FOUND] | Matched Associacao Portuguesa de Desportos U20 vs EC Santo André U20
-2025-08-12 12:21:17 - unibet - INFO - [MATCH_FOUND] | Matched Ibrachina FC SP U20 vs Bandeirante SP U20
-2025-08-12 12:21:17 - unibet - INFO - [MATCH_FOUND] | Matched Guarani-SP U20 vs Flamengo-SP U20
-2025-08-12 12:21:17 - unibet - INFO - [MATCH_FOUND] | Matched Desportivo Brasil U20 vs Comercial Futebol Clube Tiete U20
-2025-08-12 12:21:18 - unibet - INFO - [MATCH_FOUND] | Matched AA Inter Limeira U20 vs SC Aguai U20
-2025-08-12 12:21:18 - unibet - INFO - [MATCH_FOUND] | Matched AD Sao Caetano do Sul U20 vs SE Itapirense U20
-2025-08-12 12:21:18 - unibet - INFO - [MATCH_FOUND] | Matched CRB-AL vs Athletic Club-MG
-2025-08-12 12:21:18 - unibet - INFO - [MATCH_FOUND] | Matched Santos-SP U20 vs Velo Clube-SP U20
-2025-08-12 12:21:18 - unibet - INFO - [MATCH_FOUND] | Matched Heidelberg United vs Western Sydney Wanderers
-2025-08-12 12:21:18 - unibet - INFO - [MATCH_FOUND] | Matched Nacional Potosí vs Univ De Vinto
-2025-08-12 12:21:18 - unibet - INFO - [MATCH_FOUND] | Matched Monaro Panthers FC vs Cooma Tigers
+2025-08-12 19:33:56 - unibet - INFO - Logger initialized for unibet scraper
+2025-08-12 19:33:56 - unibet - INFO - Log file: scraper_logs/unibet.log
+2025-08-12 19:33:56 - unibet - INFO - [INIT] | Initializing Unibet scraper
+2025-08-12 19:33:56 - unibet - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings, 293 countries
+2025-08-12 19:33:56 - unibet - INFO - [START] | Starting Unibet sports navigation
+2025-08-12 19:33:58 - unibet - INFO - [SPORTS_NAVIGATION_PARSED] | Found 37 sports in navigation
+2025-08-12 19:33:58 - unibet - INFO - [VALID_SPORTS_FILTERED] | Processing 14 valid sports
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for soccer (25 groups)
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for HANDBALL (2 groups)
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_COMPLETED] | Sport: HANDBALL, Matches processed: 1
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for RUGBY_UNION (2 groups)
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_COMPLETED] | Sport: RUGBY_UNION, Matches processed: 9
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_COMPLETED] | Sport: soccer, Matches processed: 186
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for CRICKET (7 groups)
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for FIELD_HOCKEY (1 groups)
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_COMPLETED] | Sport: FIELD_HOCKEY, Matches processed: 2
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_COMPLETED] | Sport: CRICKET, Matches processed: 15
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for BASKETBALL (5 groups)
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_COMPLETED] | Sport: BASKETBALL, Matches processed: 26
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for RUGBY_LEAGUE (2 groups)
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_COMPLETED] | Sport: RUGBY_LEAGUE, Matches processed: 13
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for FUTSAL (1 groups)
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_COMPLETED] | Sport: FUTSAL, Matches processed: 2
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for SNOOKER (1 groups)
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_COMPLETED] | Sport: SNOOKER, Matches processed: 8
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for BASEBALL (1 groups)
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_COMPLETED] | Sport: BASEBALL, Matches processed: 15
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for TABLE_TENNIS (3 groups)
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_COMPLETED] | Sport: TABLE_TENNIS, Matches processed: 69
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for AMERICAN_FOOTBALL (4 groups)
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_COMPLETED] | Sport: AMERICAN_FOOTBALL, Matches processed: 87
+2025-08-12 19:34:00 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for TENNIS (13 groups)
+2025-08-12 19:34:01 - unibet - INFO - [SPORT_COMPLETED] | Sport: TENNIS, Matches processed: 92
+2025-08-12 19:34:01 - unibet - INFO - [MATCH_FOUND] | Matched Melilla vs FC Cartagena
+2025-08-12 19:34:01 - unibet - INFO - [MATCH_FOUND] | Matched Crvena Zvezda vs Lech Poznań
+2025-08-12 19:34:01 - unibet - INFO - [MATCH_FOUND] | Matched RCS Brainois vs Royale Union Tubize-Braine
+2025-08-12 19:34:01 - unibet - INFO - [MATCH_FOUND] | Matched Benfica vs Nice
+2025-08-12 19:34:01 - unibet - INFO - [MATCH_FOUND] | Matched Club Brugge vs Red Bull Salzburg
+2025-08-12 19:34:01 - unibet - INFO - [MATCH_FOUND] | Matched Slovan Bratislava vs Kairat Almaty
+2025-08-12 19:34:01 - unibet - INFO - [MATCH_FOUND] | Matched FC Copenhagen vs Malmö FF
+2025-08-12 19:34:02 - unibet - INFO - [MATCH_FOUND] | Matched Shelbourne vs Rijeka
+2025-08-12 19:34:02 - unibet - INFO - [MATCH_FOUND] | Matched Nea Salamis Famagusta vs Ypsonas FC
+2025-08-12 19:34:02 - unibet - INFO - [MATCH_FOUND] | Matched Monza vs Inter
+2025-08-12 19:34:02 - unibet - INFO - [MATCH_FOUND] | Matched Oviedo Moderno (W) vs Real Sociedad (W)
+2025-08-12 19:34:03 - unibet - INFO - [MATCH_FOUND] | Matched CA Aldosivi Reserves vs Belgrano Reserves
+2025-08-12 19:34:03 - unibet - INFO - [MATCH_FOUND] | Matched Ferro Reserves vs Instituto AC Córdoba Reserves
+2025-08-12 19:34:03 - unibet - INFO - [MATCH_FOUND] | Matched Huracán (W) vs Boca Juniors (W)
+2025-08-12 19:34:03 - unibet - INFO - [MATCH_FOUND] | Matched AD Sao Caetano do Sul U20 vs SE Itapirense U20
+2025-08-12 19:34:03 - unibet - INFO - [MATCH_FOUND] | Matched Santos-SP U20 vs Velo Clube-SP U20
+2025-08-12 19:34:03 - unibet - INFO - [MATCH_FOUND] | Matched Colchester United U21 vs Wigan Athletic U21
+2025-08-12 19:34:03 - unibet - INFO - [MATCH_FOUND] | Matched Welling United vs Aveley
+2025-08-12 19:34:03 - unibet - INFO - [MATCH_FOUND] | Matched Australia vs South Africa
+2025-08-12 19:34:04 - unibet - INFO - [MATCH_FOUND] | Matched Seattle Storm (W) vs Atlanta Dream (W)
+2025-08-12 19:34:04 - unibet - INFO - [MATCH_FOUND] | Matched Cruzeiro Esporte Clube vs Tubarao
+2025-08-12 19:34:04 - unibet - INFO - [MATCH_FOUND] | Matched Praia Clube vs Marreco
+2025-08-12 19:34:04 - unibet - INFO - [MATCH_FOUND] | Matched Jiri Lehecka vs Adam Walton
+2025-08-12 19:34:04 - unibet - INFO - [MATCH_FOUND] | Matched Barry Hawkins vs Martin O'Donnell
+2025-08-12 19:34:04 - unibet - INFO - [MATCH_FOUND] | Matched Athletics vs Tampa Bay Rays
+2025-08-12 19:34:04 - unibet - INFO - [MATCH_FOUND] | Matched Yoshihito Nishioka vs Sho Shimabukuro
+2025-08-12 19:34:04 - unibet - INFO - [MATCH_FOUND] | Matched Clara Tauson vs Veronika Kudermetova
+2025-08-12 19:34:04 - unibet - INFO - [MATCH_FOUND] | Matched Magda Linette vs Jessica Pegula
+2025-08-12 19:34:04 - unibet - INFO - [MATCH_FOUND] | Matched Lucia Bronzetti vs Jelena Ostapenko
+2025-08-12 19:34:04 - unibet - INFO - [MATCH_FOUND] | Matched Dayana Yastremska vs Coco Gauff
+2025-08-12 19:34:04 - unibet - INFO - [MATCH_FOUND] | Matched Varvara Gracheva vs Karolina Muchova
+2025-08-12 19:34:04 - unibet - INFO - [MATCH_FOUND] | Matched Jasmine Paolini vs Ashlyn Krueger
+2025-08-12 19:34:04 - unibet - INFO - [MATCH_FOUND] | Matched Iva Jovic vs Barbora Krejcikova
+2025-08-12 19:34:04 - unibet - INFO - [MATCH_FOUND] | Matched Ella Seidel vs Mccartney Kessler
+2025-08-12 19:34:04 - unibet - INFO - [MATCH_FOUND] | Matched Raphaelle Lacasse vs Hiroko Kuwata
+2025-08-12 19:34:04 - unibet - INFO - [MATCH_FOUND] | Matched Olivia Gadecki vs Gabriella Mikaul
+2025-08-12 19:34:04 - unibet - INFO - [MATCH_FOUND] | Matched Charo Esquiva Banuls vs Eva Guerrero Alvarez
+2025-08-12 19:34:05 - unibet - INFO - [MATCH_FOUND] | Matched Camilla Rosatello vs Marie Vogt
+2025-08-12 19:34:05 - unibet - INFO - [MATCH_FOUND] | Matched Buvaysar Gadamauri vs Kylian Collignon
+2025-08-12 19:34:05 - unibet - INFO - [MATCH_FOUND] | Matched Pedro Vives Marcos vs Andres Santamarta Roig
+2025-08-12 19:34:05 - unibet - INFO - [MATCH_FOUND] | Matched Jacob Fearnley vs Quinn Vandecasteele
+2025-08-12 19:34:05 - unibet - INFO - [MATCH_FOUND] | Matched Borna Gojo vs Strong Kirchheimer
+2025-08-12 19:34:06 - unibet - INFO - [MATCH_FOUND] | Matched Nicolas Mejia vs Adhithya Ganesan
+2025-08-12 19:34:06 - unibet - INFO - [MATCH_FOUND] | Matched Miguel Tobon vs Adolfo Daniel Vallejo
+2025-08-12 19:34:06 - unibet - INFO - [MATCH_FOUND] | Matched Andres Andrade vs Samuel Alejandro Linde Palacios
+2025-08-12 19:34:06 - unibet - INFO - [MATCH_FOUND] | Matched Kenta Miyoshi vs Marcelo Tomas Barrios Vera
+2025-08-12 19:34:06 - unibet - INFO - [MATCH_FOUND] | Matched Bruno Kuzuhara vs Pol Martin Tiffon
+2025-08-12 19:34:06 - unibet - INFO - [MATCH_FOUND] | Matched N. Borges/T. Machac vs J. Cash/L. Glasspool
+2025-08-12 19:34:07 - unibet - INFO - [MATCH_FOUND] | Matched S. Bolelli/A. Vavassori vs N. Lammons/D. Pel
+2025-08-12 19:34:07 - unibet - INFO - [MATCH_FOUND] | Matched Brandon Nakashima vs Alexander Zverev
+2025-08-12 19:34:07 - unibet - INFO - [MATCH_FOUND] | Matched Alexei Popyrin vs Andrey Rublev
+2025-08-12 19:34:07 - unibet - INFO - [MATCH_FOUND] | Matched Reilly Opelka vs Francisco Comesana
+2025-08-12 19:34:13 - unibet - INFO - [MATCH_FOUND] | Matched San Francisco Giants vs San Diego Padres
+2025-08-12 19:34:13 - unibet - INFO - [MATCH_FOUND] | Matched Los Angeles Angels vs Los Angeles Dodgers
+2025-08-12 19:34:13 - unibet - INFO - [MATCH_FOUND] | Matched Texas Rangers vs Arizona Diamondbacks
+2025-08-12 19:34:13 - unibet - INFO - [MATCH_FOUND] | Matched St. Louis Cardinals vs Colorado Rockies
+2025-08-12 19:34:13 - unibet - INFO - [MATCH_FOUND] | Matched Houston Astros vs Boston Red Sox
+2025-08-12 19:34:14 - unibet - INFO - [MATCH_FOUND] | Matched Milwaukee Brewers vs Pittsburgh Pirates
+2025-08-12 19:34:14 - unibet - INFO - [MATCH_FOUND] | Matched Chicago White Sox vs Detroit Tigers
+2025-08-12 19:34:14 - unibet - INFO - [MATCH_FOUND] | Matched Kansas City Royals vs Washington Nationals
+2025-08-12 19:34:14 - unibet - INFO - [MATCH_FOUND] | Matched Cleveland Guardians vs Miami Marlins
+2025-08-12 19:34:14 - unibet - INFO - [MATCH_FOUND] | Matched New York Yankees vs Minnesota Twins
+2025-08-12 19:34:14 - unibet - INFO - [MATCH_FOUND] | Matched New York Mets vs Atlanta Braves
+2025-08-12 19:34:14 - unibet - INFO - [MATCH_FOUND] | Matched Toronto Blue Jays vs Chicago Cubs
+2025-08-12 19:34:14 - unibet - INFO - [MATCH_FOUND] | Matched Cincinnati Reds vs Philadelphia Phillies
+2025-08-12 19:34:14 - unibet - INFO - [MATCH_FOUND] | Matched Baltimore Orioles vs Seattle Mariners
+2025-08-12 19:34:14 - unibet - INFO - [MATCH_FOUND] | Matched Zhao Xintong vs Steven Hallworth
+2025-08-12 19:34:14 - unibet - INFO - [MATCH_FOUND] | Matched Kyren Wilson vs Iulian Boiko
+2025-08-12 19:34:14 - unibet - INFO - [MATCH_FOUND] | Matched Chris Wakelin vs Farakh Ajaib
+2025-08-12 19:34:14 - unibet - INFO - [MATCH_FOUND] | Matched Si Jiahui vs Wu Yize
+2025-08-12 19:34:14 - unibet - INFO - [MATCH_FOUND] | Matched Mark Allen vs Chang Bingyu
+2025-08-12 19:34:14 - unibet - INFO - [MATCH_FOUND] | Matched Ronnie O'Sullivan vs Joe O'Connor
+2025-08-12 19:34:14 - unibet - INFO - [MATCH_FOUND] | Matched Ding Junhui vs Stephen Maguire
+2025-08-12 19:34:15 - unibet - INFO - [MATCH_FOUND] | Matched Washington Mystics (W) vs Golden State Valkyries (W)
+2025-08-12 19:34:15 - unibet - INFO - [MATCH_FOUND] | Matched Connecticut Sun (W) vs Chicago Sky (W)
+2025-08-12 19:34:15 - unibet - INFO - [MATCH_FOUND] | Matched Las Vegas Aces (W) vs New York Liberty (W)
+2025-08-12 19:34:15 - unibet - INFO - [MATCH_FOUND] | Matched Austria vs Netherlands
+2025-08-12 19:34:15 - unibet - INFO - [MATCH_FOUND] | Matched Switzerland vs Slovakia
+2025-08-12 19:34:15 - unibet - INFO - [MATCH_FOUND] | Matched Romania vs North Macedonia
+2025-08-12 19:34:15 - unibet - INFO - [MATCH_FOUND] | Matched Australia vs Philippines
+2025-08-12 19:34:15 - unibet - INFO - [MATCH_FOUND] | Matched Indiana Fever (W) vs Dallas Wings (W)
+2025-08-12 19:34:15 - unibet - INFO - [MATCH_FOUND] | Matched Los Angeles Sparks (W) vs New York Liberty (W)
+2025-08-12 19:34:15 - unibet - INFO - [MATCH_FOUND] | Matched Iran vs Chinese Taipei
+2025-08-12 19:34:15 - unibet - INFO - [MATCH_FOUND] | Matched Norway vs Denmark
+2025-08-12 19:34:15 - unibet - INFO - [MATCH_FOUND] | Matched Japan vs Lebanon
+2025-08-12 19:34:15 - unibet - INFO - [MATCH_FOUND] | Matched Angola vs Libya
+2025-08-12 19:34:16 - unibet - INFO - [MATCH_FOUND] | Matched London Spirit (W) vs Trent Rockets (W)
+2025-08-12 19:34:16 - unibet - INFO - [MATCH_FOUND] | Matched Welsh Fire (W) vs Manchester Originals (W)
+2025-08-12 19:34:16 - unibet - INFO - [MATCH_FOUND] | Matched Southern Brave (W) vs Northern Superchargers (W)
+2025-08-12 19:34:16 - unibet - INFO - [MATCH_FOUND] | Matched Welsh Fire vs Manchester Originals
+2025-08-12 19:34:16 - unibet - INFO - [MATCH_FOUND] | Matched Southern Brave vs Northern Superchargers
+2025-08-12 19:34:16 - unibet - INFO - [MATCH_FOUND] | Matched Birmingham Phoenix vs Oval Invincibles
+2025-08-12 19:34:16 - unibet - INFO - [MATCH_FOUND] | Matched Worcestershire vs Hampshire
+2025-08-12 19:34:16 - unibet - INFO - [MATCH_FOUND] | Matched London Spirit vs Trent Rockets
+2025-08-12 19:34:16 - unibet - INFO - [MATCH_FOUND] | Matched Surrey vs Glamorgan
+2025-08-12 19:34:16 - unibet - INFO - [MATCH_FOUND] | Matched Warwickshire vs Kent
+2025-08-12 19:34:16 - unibet - INFO - [MATCH_FOUND] | Matched St Kitts & Nevis Patriots vs Antigua & Barbuda Falcons
+2025-08-12 19:34:16 - unibet - INFO - [MATCH_FOUND] | Matched Durham vs Middlesex
+2025-08-12 19:34:16 - unibet - INFO - [MATCH_FOUND] | Matched Leicestershire vs Nottinghamshire
+2025-08-12 19:34:16 - unibet - INFO - [MATCH_FOUND] | Matched Orbit College FC vs Siwelele F.C.
+2025-08-12 19:34:16 - unibet - INFO - Executing 100 bulk unibet_updates operations
+2025-08-12 19:34:17 - unibet - INFO - Bulk unibet_updates completed successfully:
+2025-08-12 19:34:17 - unibet - INFO -   - Modified: 26
+2025-08-12 19:34:17 - unibet - INFO -   - Upserted: 0
+2025-08-12 19:34:17 - unibet - INFO -   - Inserted: 0
+2025-08-12 19:34:17 - unibet - INFO - [MATCH_FOUND] | Matched East Kilbride vs Queen of the South
+2025-08-12 19:34:17 - unibet - INFO - [MATCH_FOUND] | Matched Stirling Albion vs Dundee United Reserves
+2025-08-12 19:34:17 - unibet - INFO - [MATCH_FOUND] | Matched Forfar Athletic vs Hibernian Reserves
+2025-08-12 19:34:17 - unibet - INFO - [MATCH_FOUND] | Matched Ružomberok vs MFK Skalica
+2025-08-12 19:34:17 - unibet - INFO - [MATCH_FOUND] | Matched Mamelodi Sundowns vs Amazulu FC
+2025-08-12 19:34:17 - unibet - INFO - [MATCH_FOUND] | Matched Montrose vs Dundee FC U21
+2025-08-12 19:34:17 - unibet - INFO - [MATCH_FOUND] | Matched Marumo Gallants vs Orlando Pirates
+2025-08-12 19:34:17 - unibet - INFO - [MATCH_FOUND] | Matched Stenhousemuir vs Rangers B
+2025-08-12 19:34:17 - unibet - INFO - [MATCH_FOUND] | Matched Elgin City vs Inverness CT
+2025-08-12 19:34:17 - unibet - INFO - [MATCH_FOUND] | Matched Club Sportivo Limpeño vs Sportivo Trinidense
+2025-08-12 19:34:17 - unibet - INFO - [MATCH_FOUND] | Matched River Plate (Asunción) vs Deportivo Santaní
+2025-08-12 19:34:17 - unibet - INFO - [MATCH_FOUND] | Matched Tigres UANL (W) vs Club Tijuana (W)
+2025-08-12 19:34:17 - unibet - INFO - [MATCH_FOUND] | Matched Peterhead vs Aberdeen U21
+2025-08-12 19:34:17 - unibet - INFO - [MATCH_FOUND] | Matched Dumbarton vs St Mirren Reserves
+2025-08-12 19:34:18 - unibet - INFO - [MATCH_FOUND] | Matched Atletico San Luis (W) vs Atlas (W)
+2025-08-12 19:34:18 - unibet - INFO - [MATCH_FOUND] | Matched Cruz Azul (W) vs CF Monterrey (W)
+2025-08-12 19:34:18 - unibet - INFO - [MATCH_FOUND] | Matched Víkingur Reykjavík (W) vs Breidablik (W)
+2025-08-12 19:34:18 - unibet - INFO - [MATCH_FOUND] | Matched Madagascar vs Central African Republic
+2025-08-12 19:34:18 - unibet - INFO - [MATCH_FOUND] | Matched Plymouth Parkway F.C vs Weymouth
+2025-08-12 19:34:18 - unibet - INFO - [MATCH_FOUND] | Matched Dorchester Town vs Tiverton Town FC
+2025-08-12 19:34:18 - unibet - INFO - [MATCH_FOUND] | Matched Hanwell Town vs Walton & Hersham
+2025-08-12 19:34:18 - unibet - INFO - [MATCH_FOUND] | Matched Chertsey Town vs Berkhamsted FC
+2025-08-12 19:34:18 - unibet - INFO - [MATCH_FOUND] | Matched Hungerford Town vs Gloucester City
+2025-08-12 19:34:18 - unibet - INFO - [MATCH_FOUND] | Matched Sholing FC vs Poole Town
+2025-08-12 19:34:18 - unibet - INFO - [MATCH_FOUND] | Matched Needham Market vs Real Bedford
+2025-08-12 19:34:18 - unibet - INFO - [MATCH_FOUND] | Matched Bishop's Stortford vs Sudbury
+2025-08-12 19:34:18 - unibet - INFO - [MATCH_FOUND] | Matched Bury Town vs Royston Town
+2025-08-12 19:34:18 - unibet - INFO - [MATCH_FOUND] | Matched Kettering Town vs Leiston
+2025-08-12 19:34:18 - unibet - INFO - [MATCH_FOUND] | Matched Halesowen Town vs Barwell
+2025-08-12 19:34:18 - unibet - INFO - [MATCH_FOUND] | Matched Alvechurch FC vs Bromsgrove Sporting FC
+2025-08-12 19:34:18 - unibet - INFO - [MATCH_FOUND] | Matched Wimborne Town vs Havant & Waterlooville
+2025-08-12 19:34:18 - unibet - INFO - [MATCH_FOUND] | Matched Brentford U21 vs Hull City U21
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Ashton United vs Prescot Cables FC
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Leek Town vs Rushall Olympic
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Warrington Rylands 1906 FC vs Bamber Bridge
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Cleethorpes Town vs Hyde FC
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Aldershot vs Brighton U21
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Guiseley vs Hebburn Town
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Stockton Town FC vs Workington
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Ilkeston FC vs Gainsborough Trinity
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Boston United vs Leeds United U21
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Whitehawk vs Chichester City FC
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Canvey Island vs Cheshunt
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Wingate & Finchley vs Dulwich Hamlet
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Hashtag United F.C. vs Potters Bar Town FC
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Brentwood Town vs St Albans City
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Sutton United vs Fulham U21
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Wealdstone vs Wolverhampton Wanderers U21
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Chatham Town vs Ramsgate
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Dartford vs Billericay Town
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Bromley FC vs Ipswich Town
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Accrington Stanley vs Peterborough United
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Bristol City vs Milton Keynes Dons
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Blackburn Rovers vs Bradford City
+2025-08-12 19:34:19 - unibet - INFO - [MATCH_FOUND] | Matched Cray Valley PM vs Burgess Hill Town
+2025-08-12 19:34:20 - unibet - INFO - [MATCH_FOUND] | Matched Cray Wanderers vs Folkestone Invicta
+2025-08-12 19:34:20 - unibet - INFO - [MATCH_FOUND] | Matched Gillingham vs AFC Wimbledon
+2025-08-12 19:34:20 - unibet - INFO - [MATCH_FOUND] | Matched Oxford United vs Colchester United
+2025-08-12 19:34:20 - unibet - INFO - [MATCH_FOUND] | Matched Leyton Orient vs Wycombe Wanderers
+2025-08-12 19:34:20 - unibet - INFO - [MATCH_FOUND] | Matched West Bromwich vs Derby County
+2025-08-12 19:34:20 - unibet - INFO - [MATCH_FOUND] | Matched Charlton Athletic vs Stevenage FC
+2025-08-12 19:34:20 - unibet - INFO - [MATCH_FOUND] | Matched Northampton Town vs Southampton
+2025-08-12 19:34:20 - unibet - INFO - [MATCH_FOUND] | Matched Wigan Athletic vs Notts County
+2025-08-12 19:34:21 - unibet - INFO - [MATCH_FOUND] | Matched Plymouth Argyle vs Queens Park Rangers
+2025-08-12 19:34:21 - unibet - INFO - [MATCH_FOUND] | Matched Tranmere Rovers vs Burton Albion
+2025-08-12 19:34:21 - unibet - INFO - [MATCH_FOUND] | Matched Coventry City vs Luton Town
+2025-08-12 19:34:21 - unibet - INFO - [MATCH_FOUND] | Matched Blackpool vs Port Vale
+2025-08-12 19:34:21 - unibet - INFO - [MATCH_FOUND] | Matched Grimsby Town vs Shrewsbury Town
+2025-08-12 19:34:21 - unibet - INFO - [MATCH_FOUND] | Matched Harrogate Town vs Lincoln City
+2025-08-12 19:34:21 - unibet - INFO - [MATCH_FOUND] | Matched Stoke City vs Walsall
+2025-08-12 19:34:21 - unibet - INFO - [MATCH_FOUND] | Matched Cardiff City vs Swindon Town
+2025-08-12 19:34:21 - unibet - INFO - [MATCH_FOUND] | Matched Chesterfield vs Mansfield Town
+2025-08-12 19:34:21 - unibet - INFO - [MATCH_FOUND] | Matched Newport County vs Millwall
+2025-08-12 19:34:21 - unibet - INFO - [MATCH_FOUND] | Matched Bristol Rovers vs Cambridge United
+2025-08-12 19:34:21 - unibet - INFO - [MATCH_FOUND] | Matched Salford City FC vs Rotherham United
+2025-08-12 19:34:22 - unibet - INFO - [MATCH_FOUND] | Matched Watford vs Norwich City
+2025-08-12 19:34:22 - unibet - INFO - [MATCH_FOUND] | Matched Wrexham vs Hull City
+2025-08-12 19:34:22 - unibet - INFO - [MATCH_FOUND] | Matched Portsmouth vs Reading
+2025-08-12 19:34:22 - unibet - INFO - [MATCH_FOUND] | Matched Middlesbrough vs Doncaster Rovers
+2025-08-12 19:34:22 - unibet - INFO - [MATCH_FOUND] | Matched Stockport County vs Crewe Alexandra
+2025-08-12 19:34:22 - unibet - INFO - [MATCH_FOUND] | Matched Barrow vs Preston North End
+2025-08-12 19:34:22 - unibet - INFO - [MATCH_FOUND] | Matched Swansea City vs Crawley Town
+2025-08-12 19:34:22 - unibet - INFO - [MATCH_FOUND] | Matched PFC Spartak Pleven vs Dunav Ruse
+2025-08-12 19:34:22 - unibet - INFO - [MATCH_FOUND] | Matched EC Sao Bento U20 vs Rio Claro-SP U20
+2025-08-12 19:34:22 - unibet - INFO - [MATCH_FOUND] | Matched Oeste-SP U20 vs AA Portuguesa Santista U20
+2025-08-12 19:34:22 - unibet - INFO - [MATCH_FOUND] | Matched Água Santa-SP U20 vs Uniao Suzano AC U20
+2025-08-12 19:34:22 - unibet - INFO - [MATCH_FOUND] | Matched Povltavska FA vs FK MAS Táborsko
+2025-08-12 19:34:22 - unibet - INFO - [MATCH_FOUND] | Matched AD San Carlos vs AD Cariari
+2025-08-12 19:34:23 - unibet - INFO - [MATCH_FOUND] | Matched RB Bragantino-SP U20 vs Sertãozinho-SP U20
+2025-08-12 19:34:23 - unibet - INFO - [MATCH_FOUND] | Matched Corinthians-SP U20 vs Jabaquara-SP U20
+2025-08-12 19:34:23 - unibet - INFO - [MATCH_FOUND] | Matched Ibrachina FC SP U20 vs Bandeirante SP U20
+2025-08-12 19:34:23 - unibet - INFO - [MATCH_FOUND] | Matched Desportivo Brasil U20 vs Comercial Futebol Clube Tiete U20
+2025-08-12 19:34:23 - unibet - INFO - [MATCH_FOUND] | Matched XV de Jaú-SP U20 vs Grêmio Prudente-SP U20
+2025-08-12 19:34:23 - unibet - INFO - [MATCH_FOUND] | Matched Palmeiras-SP U20 vs União São João-SP U20
+2025-08-12 19:34:23 - unibet - INFO - [MATCH_FOUND] | Matched Associacao Portuguesa de Desportos U20 vs EC Santo André U20
+2025-08-12 19:34:23 - unibet - INFO - [MATCH_FOUND] | Matched Guarani-SP U20 vs Flamengo-SP U20
+2025-08-12 19:34:23 - unibet - INFO - [MATCH_FOUND] | Matched AA Inter Limeira U20 vs SC Aguai U20
+2025-08-12 19:34:23 - unibet - INFO - [MATCH_FOUND] | Matched Logan Lightning vs Rochedale Rovers
+2025-08-12 19:34:23 - unibet - INFO - [MATCH_FOUND] | Matched Independiente Rivadavia Reserves vs Boca Juniors Reserves
+2025-08-12 19:34:23 - unibet - INFO - [MATCH_FOUND] | Matched Nacional Potosí vs Univ De Vinto
+2025-08-12 19:34:23 - unibet - INFO - Executing 100 bulk unibet_updates operations
+2025-08-12 19:34:23 - unibet - INFO - Bulk unibet_updates completed successfully:
+2025-08-12 19:34:23 - unibet - INFO -   - Modified: 30
+2025-08-12 19:34:23 - unibet - INFO -   - Upserted: 0
+2025-08-12 19:34:23 - unibet - INFO -   - Inserted: 0
+2025-08-12 19:34:23 - unibet - INFO - [MATCH_FOUND] | Matched Central Coast Mariners Academy vs Marconi Stallions
+2025-08-12 19:34:23 - unibet - INFO - [MATCH_FOUND] | Matched Banfield Reserves vs Estudiantes Reserves
+2025-08-12 19:34:23 - unibet - INFO - [MATCH_FOUND] | Matched CRB-AL vs Athletic Club-MG

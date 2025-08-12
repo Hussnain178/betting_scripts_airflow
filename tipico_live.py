@@ -2,9 +2,9 @@ import json
 import scrapy
 from scrapy.crawler import CrawlerProcess
 from pymongo import MongoClient, UpdateOne
-from helper import (
+from helper import (remove_empty_dicts,
     check_key, compare_matchups, check_header_name, setup_scraper_logger,
-    log_scraper_progress, execute_bulk_write_operations
+    log_scraper_progress, execute_bulk_write_operations,parse_tipico_date,normalize_timestamp_for_comparison
 )
 
 
@@ -208,6 +208,21 @@ class TipicoLiveOddsSpider(scrapy.Spider):
                 return
 
             self.total_live_matches_processed += 1
+            match_start_date = event_info.get('startDate', '')
+            if not match_start_date:
+                self.failed_live_matches += 1
+                return
+
+            try:
+                parsed_match_datetime = parse_tipico_date(match_start_date)
+            except Exception as date_error:
+                log_scraper_progress(
+                    self.custom_logger, 'DATE_PARSE_ERROR',
+                    f'Error parsing date {match_start_date}',
+                    error=date_error
+                )
+                self.failed_live_matches += 1
+                return
 
             # Determine sport category
             sport_group_key = 'group' if 'group' in event_info else 'groups'
@@ -223,6 +238,7 @@ class TipicoLiveOddsSpider(scrapy.Spider):
                 'country': sport_categories[-2],
                 'group': sport_categories[0],
                 'match_id': event_info['id'],
+                'timestamp': parsed_match_datetime,
                 'competitor1': event_info['team1'],
                 'competitor2': event_info['team2'],
                 'status': 'live',
@@ -232,6 +248,9 @@ class TipicoLiveOddsSpider(scrapy.Spider):
 
             # Extract live odds data
             self._extract_live_odds_information(match_data, live_match_information)
+
+
+            live_match_information['prices']=remove_empty_dicts(live_match_information['prices'])
 
             # Try to match with existing flashscore data and prepare bulk update
             self._match_live_data_with_flashscore(live_match_information)
@@ -298,6 +317,8 @@ class TipicoLiveOddsSpider(scrapy.Spider):
                     .replace(event_info['team1'], 'home')
                     .replace(event_info['team2'], 'away')
                 )
+                if ' - extra time' in normalized_odds_key.lower() and ' including extra time' in normalized_odds_key.lower():
+                    normalized_odds_key = normalized_odds_key.replace(' - extra time', '').replace(' including extra time', '')
 
                 if not check_key(normalized_odds_key):
                     continue
@@ -395,11 +416,11 @@ class TipicoLiveOddsSpider(scrapy.Spider):
 
     def _match_live_data_with_flashscore(self, tipico_live_match_info):
         """Match tipico LIVE data with flashscore data and prepare bulk update"""
-        tipico_sport_normalized = (tipico_live_match_info['sport'].lower()
-                                   .replace('-', '').replace(' ', ''))
+        normalized_tipico_timestamp = normalize_timestamp_for_comparison(tipico_live_match_info['timestamp'])
+        tipico_sport_normalized = (tipico_live_match_info['sport'].lower().replace('-', '').replace(' ', ''))
 
         # Query database for potential matches (no timestamp needed for live matches)
-        potential_matches_cursor = self.matches_collection.find({})
+        potential_matches_cursor = self.matches_collection.find({"timestamp": normalized_tipico_timestamp,})
 
         for flashscore_match in potential_matches_cursor:
             # Check sport compatibility

@@ -4,7 +4,7 @@ import re
 from datetime import datetime, timezone
 from pymongo import MongoClient, UpdateOne
 from scrapy.crawler import CrawlerProcess
-from helper import (
+from helper import (remove_empty_dicts,
     check_sport_name, parse_tipico_date, normalize_timestamp_for_comparison,
     compare_matchups, check_key, check_header_name, setup_scraper_logger,
     log_scraper_progress, execute_bulk_write_operations
@@ -365,7 +365,7 @@ class BovadaOddsSpider(scrapy.Spider):
                 description_team1, description_team2,
                 short_name_team1, short_name_team2
             )
-
+            match_information['odds'] = remove_empty_dicts(match_information['odds'])
             # Try to match with flashscore data
             self._match_with_flashscore_data(match_information)
 
@@ -473,12 +473,15 @@ class BovadaOddsSpider(scrapy.Spider):
         """Check if market should be processed"""
         if 'point' in market_name.lower() and 'game' in market_name.lower():
             return False
+        
 
         # Check for game-specific exclusions
         for number in ['1st', '2nd', '3rd', '4th', '5th']:
             excluded_value = f'{number} game'
             if excluded_value in market_name.lower():
                 return False
+        if ' - extra time' in market_name.lower() and ' including extra time' in market_name.lower():
+            market_name = market_name.replace(' - extra time', '').replace(' including extra time', '')
 
         return check_key(market_name)
 
