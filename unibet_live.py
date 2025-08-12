@@ -159,7 +159,8 @@ class UnibetLiveOddsSpider(scrapy.Spider):
 
             # Get sport name from first group
             actual_sport_name = match_groups[0]['sport']
-
+            if actual_sport_name.lower() == 'football':
+                actual_sport_name = 'soccer'
             log_scraper_progress(
                 self.custom_logger, 'LIVE_SPORT_DATA_EXTRACTED',
                 f'Processing LIVE matches for {actual_sport_name} ({len(match_groups)} groups)'
@@ -167,7 +168,10 @@ class UnibetLiveOddsSpider(scrapy.Spider):
 
             live_matches_in_sport = 0
             for match_group in match_groups:
-                live_matches_in_sport += self._process_live_match_group(match_group, actual_sport_name)
+                # Process live match group and yield requests
+                for request in self._process_live_match_group(match_group, actual_sport_name):
+                    live_matches_in_sport += 1
+                    yield request
 
             log_scraper_progress(
                 self.custom_logger, 'LIVE_SPORT_COMPLETED',
@@ -182,30 +186,30 @@ class UnibetLiveOddsSpider(scrapy.Spider):
             )
 
     def _process_live_match_group(self, match_group, sport_name):
-        """Process LIVE matches within a group (league/country)"""
-        live_matches_processed = 0
-
+        """Process LIVE matches within a group (league/country) and yield requests"""
         try:
             if match_group.get('subGroups'):
                 # Group has subgroups (leagues within countries)
                 for subgroup in match_group['subGroups']:
                     for match_event in subgroup['events']:
                         if self._should_process_live_match(match_event):
-                            self._process_individual_live_match(
+                            # Yield the request from _process_individual_live_match
+                            for request in self._process_individual_live_match(
                                 match_event, sport_name,
                                 match_group['name'], subgroup['name']
-                            )
-                            live_matches_processed += 1
+                            ):
+                                yield request
             else:
                 # Group has direct events (no subgroups)
                 league_name = match_group['name']
                 for match_event in match_group['events']:
                     if self._should_process_live_match(match_event):
-                        self._process_individual_live_match(
+                        # Yield the request from _process_individual_live_match
+                        for request in self._process_individual_live_match(
                             match_event, sport_name,
                             league_name, league_name
-                        )
-                        live_matches_processed += 1
+                        ):
+                            yield request
 
         except Exception as group_error:
             log_scraper_progress(
@@ -213,8 +217,6 @@ class UnibetLiveOddsSpider(scrapy.Spider):
                 f'Error processing live match group',
                 error=group_error
             )
-
-        return live_matches_processed
 
     def _should_process_live_match(self, match_event):
         """Check if match should be processed (LIVE matches only)"""
@@ -358,7 +360,7 @@ class UnibetLiveOddsSpider(scrapy.Spider):
             return False
 
         # Check for game-specific exclusions
-        for number in range(1, 6):
+        for number in range(1, 10):
             excluded_value = f'game {number}'
             if excluded_value in market_name.lower():
                 return False
