@@ -40,7 +40,8 @@
     "match-result",
     "1x2-3way-ordinary-time",
     "3-way moneyline - live regulation time",
-    "regular time 3-way"
+    "regular time 3-way",
+    "extra time"
   ],
   "__v": 0,
   "createdAt": {
@@ -575,7 +576,8 @@
     }
   ],
   "maps": [
-    "double-chance-1st-quarter"
+    "double-chance-1st-quarter",
+    "double chance - quarter 1"
   ],
   "__v": 0,
   "createdAt": {
@@ -606,7 +608,8 @@
     }
   ],
   "maps": [
-    "double-chance-2nd-quarter"
+    "double-chance-2nd-quarter",
+    "double chance - quarter 2"
   ],
   "__v": 0,
   "createdAt": {
@@ -637,7 +640,8 @@
     }
   ],
   "maps": [
-    "double-chance-3rd-quarter"
+    "double-chance-3rd-quarter",
+    "double chance - quarter 3"
   ],
   "__v": 0,
   "createdAt": {
@@ -4605,7 +4609,8 @@
     }
   ],
   "maps": [
-    "double-chance-4th-quarter"
+    "double-chance-4th-quarter",
+    "double chance - quarter 4"
   ],
   "__v": 0,
   "createdAt": {
@@ -8815,6 +8820,82 @@
     "correct-score-9th-inning",
     "correct score - inning 9",
     "inning correct score - 9th inning"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "689b39a901a67f8d796b5f26"
+  },
+  "id": "correct-score-quarter-1",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-1st-quarter",
+    "correct score - quarter 1"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "689b39df01a67f8d796b5f27"
+  },
+  "id": "correct-score-quarter-2",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-2nd-quarter",
+    "correct score - quarter 2"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "689b3a1101a67f8d796b5f28"
+  },
+  "id": "correct-score-quarter-3",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-3rd-quarter",
+    "correct score - quarter 3"
+  ],
+  "__v": 0,
+  "createdAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-23T06:16:40.182Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "689b3a3801a67f8d796b5f29"
+  },
+  "id": "correct-score-quarter-4",
+  "act": true,
+  "ovs": [],
+  "maps": [
+    "correct-score-4th-quarter",
+    "correct score - quarter 4"
   ],
   "__v": 0,
   "createdAt": {
