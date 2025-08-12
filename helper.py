@@ -367,7 +367,7 @@ def update_data():
 
 
 def check_key(name):
-    not_used_key = ['go', 'never', 'niether', 'total runs', 'to score', 'get', 'including overtime', 'own', 'retain',
+    not_used_key = ['scoreless','end','go', 'never', 'niether', 'total runs', 'to score', 'get', 'including overtime', 'own', 'retain',
                     ':', '0:', 'award', 'kick',
                     'penalty', 'target', 'shots', 'series', 'yellow', 'super over',
                     'header', '4s', 'touchdown', 'of the match', 'hero', 'tries', 'more', '6s', 'fifty', 'scored',

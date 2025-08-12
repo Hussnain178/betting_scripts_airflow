@@ -1,0 +1,35 @@
+2025-08-12 12:25:55 - unibet_live - INFO - Logger initialized for unibet_live scraper
+2025-08-12 12:25:55 - unibet_live - INFO - Log file: scraper_logs/unibet_live.log
+2025-08-12 12:25:55 - unibet_live - INFO - [INIT] | Initializing Unibet Live scraper
+2025-08-12 12:25:55 - unibet_live - INFO - [INIT_COMPLETE] | Loaded 255 odds mappings for live matches
+2025-08-12 12:25:56 - unibet_live - INFO - [START] | Starting Unibet Live sports navigation
+2025-08-12 12:25:58 - unibet_live - INFO - [LIVE_SPORTS_NAVIGATION_PARSED] | Found 37 sports in navigation for live matches
+2025-08-12 12:25:58 - unibet_live - INFO - [VALID_LIVE_SPORTS_FILTERED] | Processing 14 valid sports for live matches
+2025-08-12 12:25:58 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for SNOOKER (1 groups)
+2025-08-12 12:25:58 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: SNOOKER, LIVE matches processed: 0
+2025-08-12 12:25:59 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BASKETBALL (3 groups)
+2025-08-12 12:25:59 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASKETBALL, LIVE matches processed: 0
+2025-08-12 12:26:00 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BASEBALL (4 groups)
+2025-08-12 12:26:00 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASEBALL, LIVE matches processed: 0
+2025-08-12 12:26:00 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for RUGBY_UNION (2 groups)
+2025-08-12 12:26:00 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: RUGBY_UNION, LIVE matches processed: 0
+2025-08-12 12:26:00 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for PESAPALLO (1 groups)
+2025-08-12 12:26:00 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: PESAPALLO, LIVE matches processed: 0
+2025-08-12 12:26:00 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for FIELD_HOCKEY (1 groups)
+2025-08-12 12:26:00 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: FIELD_HOCKEY, LIVE matches processed: 0
+2025-08-12 12:26:00 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for CRICKET (6 groups)
+2025-08-12 12:26:00 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: CRICKET, LIVE matches processed: 0
+2025-08-12 12:26:00 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for RUGBY_LEAGUE (2 groups)
+2025-08-12 12:26:00 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: RUGBY_LEAGUE, LIVE matches processed: 0
+2025-08-12 12:26:00 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for AMERICAN_FOOTBALL (4 groups)
+2025-08-12 12:26:00 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: AMERICAN_FOOTBALL, LIVE matches processed: 0
+2025-08-12 12:26:00 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for soccer (25 groups)
+2025-08-12 12:26:00 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: soccer, LIVE matches processed: 0
+2025-08-12 12:26:00 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for VOLLEYBALL (1 groups)
+2025-08-12 12:26:00 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: VOLLEYBALL, LIVE matches processed: 0
+2025-08-12 12:26:01 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TENNIS (9 groups)
+2025-08-12 12:26:01 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TABLE_TENNIS (2 groups)
+2025-08-12 12:26:01 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TENNIS, LIVE matches processed: 12
+2025-08-12 12:26:01 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TABLE_TENNIS, LIVE matches processed: 1
+2025-08-12 12:26:07 - unibet_live - INFO - [LIVE_SCRAPER_COMPLETED] Matches: 13 | Unibet Live scraper completed successfully
+2025-08-12 12:26:07 - unibet_live - INFO - [FINAL_LIVE_STATS] | Total LIVE: 13, Success: 13, Failed: 0, Unique odds: 4

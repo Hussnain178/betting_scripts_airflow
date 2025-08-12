@@ -285,15 +285,15 @@ class UnibetOddsSpider(scrapy.Spider):
                 return
 
             # Track ignored category IDs to handle duplicates
-            ignored_category_id = 0
+            # ignored_category_id = 0
 
             # Process each betting offer
             for betting_offer in odds_data['betOffers']:
-                category_id = betting_offer['criterion']['id']
+                # category_id = betting_offer['criterion']['id']
 
                 # Skip duplicate categories
-                if ignored_category_id == category_id:
-                    continue
+                # if ignored_category_id == category_id:
+                #     continue
 
                 # Process market name
                 market_name = self._process_market_name(betting_offer, match_information)
@@ -322,8 +322,8 @@ class UnibetOddsSpider(scrapy.Spider):
                     market_header_category, final_market_name, odds_value_mappings
                 )
 
-                if duplicate_handling_result:
-                    ignored_category_id = category_id
+                # if duplicate_handling_result:
+                #     ignored_category_id = category_id
 
             # Try to match with flashscore data
             self._match_with_flashscore_data(match_information)
@@ -389,15 +389,15 @@ class UnibetOddsSpider(scrapy.Spider):
                 match_info['prices'][header_category][market_name] = {}
 
             # Check if this market already has data (indicating duplicate)
-            try:
-                if match_info['prices'][header_category][market_name][handicap_value]:
-                    # Handle as duplicate market
-                    return self._process_duplicate_market(
-                        betting_offer, all_odds_data, match_info,
-                        header_category, market_name, value_mappings
-                    )
-            except KeyError:
-                pass
+            # try:
+            #     if match_info['prices'][header_category][market_name][handicap_value]:
+            #         # Handle as duplicate market
+            #         return self._process_duplicate_market(
+            #             betting_offer, all_odds_data, match_info,
+            #             header_category, market_name, value_mappings
+            #         )
+            # except KeyError:
+            #     pass
 
             # Process as regular market
             match_info['prices'][header_category][market_name][handicap_value] = {}
@@ -417,49 +417,53 @@ class UnibetOddsSpider(scrapy.Spider):
             )
             return False
 
-    def _process_duplicate_market(self, betting_offer, all_odds_data, match_info,
-                                  header_category, market_name, value_mappings):
-        """Process market with duplicates by participant"""
-        try:
-            # Clear existing market data
-            match_info['prices'][header_category][market_name] = {}
-
-            # Find all betting offers with same criterion ID
-            criterion_id = betting_offer['criterion']['id']
-            related_offers = [offer for offer in all_odds_data['betOffers']
-                              if offer['criterion']['id'] == criterion_id]
-
-            # Process each related offer by participant
-            for offer in related_offers:
-                try:
-                    handicap_value = str(offer['outcomes'][0]['line'] / 1000) if offer['outcomes'][0][
-                        'line'] else 'null'
-                except (KeyError, TypeError):
-                    handicap_value = 'null'
-
-                participant_key = offer['outcomes'][0]['participant']
-
-                if participant_key not in match_info['prices'][header_category][market_name]:
-                    match_info['prices'][header_category][market_name][participant_key] = {}
-
-                if handicap_value not in match_info['prices'][header_category][market_name][participant_key]:
-                    match_info['prices'][header_category][market_name][participant_key][handicap_value] = {}
-
-                for outcome in offer['outcomes']:
-                    outcome_key = self._map_outcome_name(outcome['label'], match_info, value_mappings)
-                    odds_value = outcome.get('oddsAmerican')
-                    match_info['prices'][header_category][market_name][participant_key][handicap_value][
-                        outcome_key] = odds_value
-
-            return True  # Was a duplicate
-
-        except Exception as duplicate_error:
-            log_scraper_progress(
-                self.custom_logger, 'DUPLICATE_MARKET_ERROR',
-                f'Error processing duplicate market: {market_name}',
-                error=duplicate_error
-            )
-            return False
+    # def _process_duplicate_market(self, betting_offer, all_odds_data, match_info,
+    #                               header_category, market_name, value_mappings):
+    #     """Process market with duplicates by participant"""
+    #     try:
+    #         # Clear existing market data
+    #         match_info['prices'][header_category][market_name] = {}
+    #
+    #         # Find all betting offers with same criterion ID
+    #         criterion_id = betting_offer['criterion']['id']
+    #         related_offers = [offer for offer in all_odds_data['betOffers']
+    #                           if offer['criterion']['id'] == criterion_id]
+    #
+    #         # Process each related offer by participant
+    #         for offer in related_offers:
+    #             try:
+    #                 handicap_value = str(offer['outcomes'][0]['line'] / 1000) if offer['outcomes'][0][
+    #                     'line'] else 'null'
+    #             except (KeyError, TypeError):
+    #                 handicap_value = 'null'
+    #
+    #             participant_key = offer['outcomes'][0]['participant']
+    #
+    #
+    #
+    #
+    #
+    #             if participant_key not in match_info['prices'][header_category][market_name]:
+    #                 match_info['prices'][header_category][market_name][participant_key] = {}
+    #
+    #             if handicap_value not in match_info['prices'][header_category][market_name][participant_key]:
+    #                 match_info['prices'][header_category][market_name][participant_key][handicap_value] = {}
+    #
+    #             for outcome in offer['outcomes']:
+    #                 outcome_key = self._map_outcome_name(outcome['label'], match_info, value_mappings)
+    #                 odds_value = outcome.get('oddsAmerican')
+    #                 match_info['prices'][header_category][market_name][participant_key][handicap_value][
+    #                     outcome_key] = odds_value
+    #
+    #         return True  # Was a duplicate
+    #
+    #     except Exception as duplicate_error:
+    #         log_scraper_progress(
+    #             self.custom_logger, 'DUPLICATE_MARKET_ERROR',
+    #             f'Error processing duplicate market: {market_name}',
+    #             error=duplicate_error
+    #         )
+    #         return False
 
     def _map_outcome_name(self, outcome_label, match_info, value_mappings):
         """Map outcome label to standard format"""
