@@ -417,7 +417,7 @@ class UnibetOddsSpider(scrapy.Spider):
                     elif "/" in odds_str:  # Fractional odds
                         num, den = map(int, odds_str.split("/"))
                         odds_value = str(round((num / den) + 1, 1))
-                    else:  # Already a whole number or decimal-like string
+                    else:  # Whole number or decimal-like string
                         odds_value = str(round(float(odds_str), 1))
                 else:
                     odds_value = None

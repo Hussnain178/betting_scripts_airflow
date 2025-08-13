@@ -406,16 +406,18 @@ class UnibetLiveOddsSpider(scrapy.Spider):
 
                 if odds_value is not None:
                     odds_str = str(odds_value).strip().lower()
+                    if odds_value is not None:
+                        odds_str = str(odds_value).strip().lower()
 
-                    if odds_str == "evens":
-                        odds_value = "2.0"  # Evens = 1/1 fractional = decimal 2.0
-                    elif "/" in odds_str:  # Fractional odds
-                        num, den = map(int, odds_str.split("/"))
-                        odds_value = str(round((num / den) + 1, 1))
-                    else:  # Already a whole number or decimal-like string
-                        odds_value = str(round(float(odds_str), 1))
-                else:
-                    odds_value = None
+                        if odds_str == "evens":
+                            odds_value = "2.0"  # Evens = 1/1 fractional = decimal 2.0
+                        elif "/" in odds_str:  # Fractional odds
+                            num, den = map(int, odds_str.split("/"))
+                            odds_value = str(round((num / den) + 1, 1))
+                        else:  # Whole number or decimal-like string
+                            odds_value = str(round(float(odds_str), 1))
+                    else:
+                        odds_value = None
                 match_info['prices'][header_category][market_name][handicap_value][outcome_key] = odds_value
 
             return False  # Not a duplicate

@@ -378,8 +378,8 @@ class TipicoLiveOddsSpider(scrapy.Spider):
         for result_id in odds_results:
             result_info = match_data['results'][str(result_id)]
 
-            # Skip if odds value is empty or invalid
             odds_value =str(round(float(result_info['quoteFloatValue']), 1))
+
             if odds_value == '' or odds_value == ' ' or odds_value is None:
                 break
 
