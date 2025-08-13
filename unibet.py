@@ -410,15 +410,15 @@ class UnibetOddsSpider(scrapy.Spider):
                 odds_value = outcome.get('oddsFractional')
 
                 if odds_value is not None:
-                    odds_str = str(odds_value).strip()
+                    odds_str = str(odds_value).strip().lower()
 
-                    if odds_str.lower() == "evens":
+                    if odds_str == "evens":
                         odds_value = "2.0"  # Evens = 1/1 fractional = decimal 2.0
                     elif "/" in odds_str:  # Fractional odds
                         num, den = map(int, odds_str.split("/"))
-                        odds_value = str((num / den) + 1)
-                    else:  # Whole number
-                        odds_value = str(int(odds_str) + 1)
+                        odds_value = str(round((num / den) + 1, 1))
+                    else:  # Already a whole number or decimal-like string
+                        odds_value = str(round(float(odds_str), 1))
                 else:
                     odds_value = None
                 match_info['prices'][header_category][market_name][handicap_value][outcome_key] = odds_value
