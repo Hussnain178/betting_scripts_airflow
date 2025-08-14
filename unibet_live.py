@@ -237,6 +237,7 @@ class UnibetLiveOddsSpider(scrapy.Spider):
                 'competitor2': match_event['event']['awayName'],
                 'match_id': match_event['event']['id'],
                 'timestamp': match_timestamp,
+                'unibet_match_id': str(match_event['event']['id']),
                 'status': 'live',
                 'prices': {}
             }
@@ -497,48 +498,67 @@ class UnibetLiveOddsSpider(scrapy.Spider):
         return outcome_label.lower()
 
     def _match_live_data_with_flashscore(self, unibet_live_match_info):
-        """Match unibet LIVE data with flashscore data and prepare bulk update"""
-        normalized_unibet_timestamp = normalize_timestamp_for_comparison(unibet_live_match_info['timestamp'])
-        unibet_sport_normalized = (unibet_live_match_info['sport'].lower()
-                                   .replace('-', '').replace(' ', ''))
-
-        # Query database for potential matches (no timestamp needed for live matches)
-        potential_matches_cursor = self.matches_collection.find({
-            "timestamp": normalized_unibet_timestamp,
+        # """Match unibet LIVE data with flashscore data and prepare bulk update"""
+        # normalized_unibet_timestamp = normalize_timestamp_for_comparison(unibet_live_match_info['timestamp'])
+        # unibet_sport_normalized = (unibet_live_match_info['sport'].lower()
+        #                            .replace('-', '').replace(' ', ''))
+        # 
+        # # Query database for potential matches (no timestamp needed for live matches)
+        # potential_matches_cursor = self.matches_collection.find({
+        #     "timestamp": normalized_unibet_timestamp,
+        # })
+        # 
+        # for flashscore_match in potential_matches_cursor:
+        #     # Check sport compatibility
+        #     flashscore_sport_normalized = (flashscore_match['sport']
+        #                                    .replace('-', '').replace(' ', ''))
+        # 
+        #     sport_matches = unibet_sport_normalized == flashscore_sport_normalized
+        # 
+        #     if sport_matches:
+        #         matchup_compatibility = compare_matchups(
+        #             flashscore_match['competitor1'].lower(),
+        #             flashscore_match['competitor2'].lower(),
+        #             unibet_live_match_info['competitor1'].lower(),
+        #             unibet_live_match_info['competitor2'].lower()
+        #         )
+        # 
+        #         if matchup_compatibility:
+        #             # Prepare bulk update operation for LIVE match
+        #             update_operation = UpdateOne(
+        #                 {"match_id": flashscore_match["match_id"]},
+        #                 {"$set": {
+        #                     "prices.unibet": unibet_live_match_info['prices'],
+        #                     # Optionally update status to live if needed
+        #                     # "status": "live"
+        #                 }}
+        #             )
+        #             self.bulk_update_operations.append(update_operation)
+        # 
+        #             log_scraper_progress(
+        #                 self.custom_logger, 'LIVE_MATCH_FOUND',
+        #                 f'Matched LIVE {unibet_live_match_info["competitor1"]} vs {unibet_live_match_info["competitor2"]}'
+        #             )
+        #             break
+        flashscore_match = self.matches_collection.find_one({
+            "unibet_match_id": unibet_live_match_info["unibet_match_id"],
         })
+        if flashscore_match:
+            # Prepare bulk update operation for LIVE match
+            update_operation = UpdateOne(
+                {"match_id": flashscore_match["match_id"]},
+                {"$set": {
+                    "prices.unibet": unibet_live_match_info['odds'],
+                    # Optionally update status to live if needed
+                    # "status": "live"
+                }}
+            )
+            self.bulk_update_operations.append(update_operation)
 
-        for flashscore_match in potential_matches_cursor:
-            # Check sport compatibility
-            flashscore_sport_normalized = (flashscore_match['sport']
-                                           .replace('-', '').replace(' ', ''))
-
-            sport_matches = unibet_sport_normalized == flashscore_sport_normalized
-
-            if sport_matches:
-                matchup_compatibility = compare_matchups(
-                    flashscore_match['competitor1'].lower(),
-                    flashscore_match['competitor2'].lower(),
-                    unibet_live_match_info['competitor1'].lower(),
-                    unibet_live_match_info['competitor2'].lower()
-                )
-
-                if matchup_compatibility:
-                    # Prepare bulk update operation for LIVE match
-                    update_operation = UpdateOne(
-                        {"match_id": flashscore_match["match_id"]},
-                        {"$set": {
-                            "prices.unibet": unibet_live_match_info['prices'],
-                            # Optionally update status to live if needed
-                            # "status": "live"
-                        }}
-                    )
-                    self.bulk_update_operations.append(update_operation)
-
-                    log_scraper_progress(
-                        self.custom_logger, 'LIVE_MATCH_FOUND',
-                        f'Matched LIVE {unibet_live_match_info["competitor1"]} vs {unibet_live_match_info["competitor2"]}'
-                    )
-                    break
+            log_scraper_progress(
+                self.custom_logger, 'LIVE_MATCH_FOUND',
+                f'Matched LIVE {unibet_live_match_info["competitor1"]} vs {unibet_live_match_info["competitor2"]}'
+            )
 
     def _get_odds_mapping_data(self, odds_key):
         """Get mapping data for odds key from MongoDB"""

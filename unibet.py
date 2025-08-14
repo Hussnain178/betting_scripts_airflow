@@ -241,7 +241,7 @@ class UnibetOddsSpider(scrapy.Spider):
                 'competitor1': match_event['event']['homeName'],
                 'competitor2': match_event['event']['awayName'],
                 'timestamp': match_timestamp,
-                'match_id': match_event['event']['id'],
+                'unibet_match_id': str(match_event['event']['id']),
                 'status': 'sched',
                 'prices': {}
             }
@@ -533,7 +533,9 @@ class UnibetOddsSpider(scrapy.Spider):
                     # Prepare bulk update operation
                     update_operation = UpdateOne(
                         {"match_id": flashscore_match["match_id"]},
-                        {"$set": {"prices.unibet": unibet_match_info['prices']}}
+                        {"$set": {"prices.unibet": unibet_match_info['prices'],
+                                  'unibet_match_id':unibet_match_info['unibet_match_id'],
+                                  }}
                     )
                     self.bulk_update_operations.append(update_operation)
 

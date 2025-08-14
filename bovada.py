@@ -348,6 +348,7 @@ class BovadaOddsSpider(scrapy.Spider):
                 "timestamp": parsed_match_datetime,
                 'country': country_name,
                 'group': group_name,
+                'bovada_match_id':str(match_info['id']),
                 'odds': {}
             }
 
@@ -703,7 +704,9 @@ class BovadaOddsSpider(scrapy.Spider):
                     # Prepare bulk update operation
                     update_operation = UpdateOne(
                         {"match_id": flashscore_match["match_id"]},
-                        {"$set": {"prices.bovada": bovada_match_info['odds']}}
+                        {"$set": {"prices.bovada": bovada_match_info['odds'],
+                                  'bovada_match_id':bovada_match_info['bovada_match_id']
+                                  }}
                     )
                     self.bulk_update_operations.append(update_operation)
 

@@ -229,12 +229,12 @@ class TipicoOddsSpider(scrapy.Spider):
                 'country': sport_categories[-2],
                 'group': sport_categories[0],
                 'timestamp': parsed_match_datetime,
-                'match_id': event_info['id'],
+                'tipico_match_id': str(event_info['id']),
                 'competitor1': event_info['team1'],
                 'competitor2': event_info['team2'],
                 'status': 'sched',
                 'prices': {},
-                "is_country": self._check_if_valid_country(sport_categories[-2]),
+
             }
 
             # Extract odds data
@@ -438,7 +438,11 @@ class TipicoOddsSpider(scrapy.Spider):
                     # Prepare bulk update operation
                     update_operation = UpdateOne(
                         {"match_id": flashscore_match["match_id"]},
-                        {"$set": {"prices.tipico": tipico_match_info['prices']}}
+                        {"$set": {"prices.tipico": tipico_match_info['prices'],
+                                  'tipico_match_id':tipico_match_info['tipico_match_id']
+
+
+                                  }}
                     )
                     self.bulk_update_operations.append(update_operation)
 

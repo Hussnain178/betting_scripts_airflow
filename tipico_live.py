@@ -237,7 +237,7 @@ class TipicoLiveOddsSpider(scrapy.Spider):
                 'sport': normalized_sport,
                 'country': sport_categories[-2],
                 'group': sport_categories[0],
-                'match_id': event_info['id'],
+                'tipico_match_id': str(event_info['id']),
                 'timestamp': parsed_match_datetime,
                 'competitor1': event_info['team1'],
                 'competitor2': event_info['team2'],
@@ -416,44 +416,64 @@ class TipicoLiveOddsSpider(scrapy.Spider):
 
     def _match_live_data_with_flashscore(self, tipico_live_match_info):
         """Match tipico LIVE data with flashscore data and prepare bulk update"""
-        normalized_tipico_timestamp = normalize_timestamp_for_comparison(tipico_live_match_info['timestamp'])
-        tipico_sport_normalized = (tipico_live_match_info['sport'].lower().replace('-', '').replace(' ', ''))
+        # normalized_tipico_timestamp = normalize_timestamp_for_comparison(tipico_live_match_info['timestamp'])
+        # tipico_sport_normalized = (tipico_live_match_info['sport'].lower().replace('-', '').replace(' ', ''))
+        #
+        # # Query database for potential matches (no timestamp needed for live matches)
+        # potential_matches_cursor = self.matches_collection.find({"timestamp": normalized_tipico_timestamp,})
+        #
+        # for flashscore_match in potential_matches_cursor:
+        #     # Check sport compatibility
+        #     flashscore_sport_normalized = (flashscore_match['sport']
+        #                                    .replace('-', '').replace(' ', ''))
+        #
+        #     sport_matches = tipico_sport_normalized == flashscore_sport_normalized
+        #
+        #     if sport_matches:
+        #         matchup_compatibility = compare_matchups(
+        #             flashscore_match['competitor1'].lower(),
+        #             flashscore_match['competitor2'].lower(),
+        #             tipico_live_match_info['competitor1'].lower(),
+        #             tipico_live_match_info['competitor2'].lower()
+        #         )
+        #
+        #         if matchup_compatibility:
+        #             # Prepare bulk update operation for LIVE match
+        #             update_operation = UpdateOne(
+        #                 {"match_id": flashscore_match["match_id"]},
+        #                 {"$set": {
+        #                     "prices.tipico": tipico_live_match_info['prices'],
+        #                     # Optionally update status to live if needed
+        #                     # "status": "live"
+        #                 }}
+        #             )
+        #             self.bulk_update_operations.append(update_operation)
+        #
+        #             log_scraper_progress(
+        #                 self.custom_logger, 'LIVE_MATCH_FOUND',
+        #                 f'Matched LIVE {tipico_live_match_info["competitor1"]} vs {tipico_live_match_info["competitor2"]}'
+        #             )
+        #             break
 
-        # Query database for potential matches (no timestamp needed for live matches)
-        potential_matches_cursor = self.matches_collection.find({"timestamp": normalized_tipico_timestamp,})
+        flashscore_match = self.matches_collection.find_one({
+            "tipico_match_id": tipico_live_match_info["tipico_match_id"],
+        })
+        if flashscore_match:
+            # Prepare bulk update operation for LIVE match
+            update_operation = UpdateOne(
+                {"match_id": flashscore_match["match_id"]},
+                {"$set": {
+                    "prices.bovada": tipico_live_match_info['odds'],
+                    # Optionally update status to live if needed
+                    # "status": "live"
+                }}
+            )
+            self.bulk_update_operations.append(update_operation)
 
-        for flashscore_match in potential_matches_cursor:
-            # Check sport compatibility
-            flashscore_sport_normalized = (flashscore_match['sport']
-                                           .replace('-', '').replace(' ', ''))
-
-            sport_matches = tipico_sport_normalized == flashscore_sport_normalized
-
-            if sport_matches:
-                matchup_compatibility = compare_matchups(
-                    flashscore_match['competitor1'].lower(),
-                    flashscore_match['competitor2'].lower(),
-                    tipico_live_match_info['competitor1'].lower(),
-                    tipico_live_match_info['competitor2'].lower()
-                )
-
-                if matchup_compatibility:
-                    # Prepare bulk update operation for LIVE match
-                    update_operation = UpdateOne(
-                        {"match_id": flashscore_match["match_id"]},
-                        {"$set": {
-                            "prices.tipico": tipico_live_match_info['prices'],
-                            # Optionally update status to live if needed
-                            # "status": "live"
-                        }}
-                    )
-                    self.bulk_update_operations.append(update_operation)
-
-                    log_scraper_progress(
-                        self.custom_logger, 'LIVE_MATCH_FOUND',
-                        f'Matched LIVE {tipico_live_match_info["competitor1"]} vs {tipico_live_match_info["competitor2"]}'
-                    )
-                    break
+            log_scraper_progress(
+                self.custom_logger, 'LIVE_MATCH_FOUND',
+                f'Matched LIVE {tipico_live_match_info["competitor1"]} vs {tipico_live_match_info["competitor2"]}'
+            )
 
     def _get_odds_mapping_data(self, odds_key):
         """Get mapping data for odds key from MongoDB"""
