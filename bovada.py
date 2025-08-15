@@ -536,8 +536,8 @@ class BovadaOddsSpider(scrapy.Spider):
         handicap_value = self._extract_handicap_value(outcomes[0])
 
         match_data['odds'][header_category][market_name][handicap_value] = {
-            outcome1_mapped: self.check_float_value(outcomes[0]['price']['decimal']),
-            outcome2_mapped:  self.check_float_value(outcomes[1]['price']['decimal'])
+            outcome1_mapped: self.check_float_value(outcomes[0]['price']['american']),
+            outcome2_mapped:  self.check_float_value(outcomes[1]['price']['american'])
         }
 
     def _process_three_outcome_market(self, outcomes, match_data, header_category, market_name,
@@ -571,9 +571,9 @@ class BovadaOddsSpider(scrapy.Spider):
         outcome3_mapped = self._apply_value_mapping(outcome3_description, value_mappings)
 
         match_data['odds'][header_category][market_name][handicap_value] = {
-            outcome1_mapped:  self.check_float_value(outcomes[0]['price']['decimal']),
-            outcome2_mapped:  self.check_float_value(outcomes[1]['price']['decimal']),
-            outcome3_mapped:  self.check_float_value(outcomes[2]['price']['decimal'])
+            outcome1_mapped:  self.check_float_value(outcomes[0]['price']['american']),
+            outcome2_mapped:  self.check_float_value(outcomes[1]['price']['american']),
+            outcome3_mapped:  self.check_float_value(outcomes[2]['price']['american'])
         }
 
     def _process_multiple_outcome_market(self, outcomes, market_info, match_data, header_category,
@@ -611,7 +611,7 @@ class BovadaOddsSpider(scrapy.Spider):
             if handicap_value not in match_data['odds'][header_category][market_name]:
                 match_data['odds'][header_category][market_name][handicap_value] = {}
 
-            match_data['odds'][header_category][market_name][handicap_value][competitor_name] =  self.check_float_value(individual_outcome['price']['decimal'])
+            match_data['odds'][header_category][market_name][handicap_value][competitor_name] =  self.check_float_value(individual_outcome['price']['american'])
 
     def _map_competitor_name(self, competitor_description, desc_team, short_team, standard_number):
         """Map competitor description to standard format"""
@@ -768,11 +768,16 @@ class BovadaOddsSpider(scrapy.Spider):
             )
             self.bulk_update_operations = []  # Clear operations list even on error
     def check_float_value(self,odds_value):
+        
         if odds_value is None:
             return  odds_value
-        if odds_value.lower() == "evens":
+        elif odds_value.lower() == "evens" or odds_value.lower() == "even":
             return "2.0"
-        return str(round(float(odds_value),1))
+        odds_value=int(odds_value)
+        if odds_value > 0:
+            return str(round((odds_value / 100) + 1,1))
+        else:
+            return str(round((100 / abs(odds_value)) + 1, 1))
 
     def close(self, reason):
         """Final cleanup and bulk update execution"""
