@@ -16,7 +16,7 @@ class FlashscoreLiveResultsSpider(scrapy.Spider):
         'CONCURRENT_REQUESTS': 50,
         "LOG_ENABLED": False  # Disable scrapy's default logging since we have our own
     }
-
+    # final_data = []
     # Match status mapping from Flashscore
     status_mapping = {
         '1': 'sched',
@@ -38,7 +38,8 @@ class FlashscoreLiveResultsSpider(scrapy.Spider):
         '4': 'postponed',
         '5': 'cancelled',
         '37': 'abandoned',
-        '54': 'awarded'
+        '54': 'awarded',
+        '14': 'break_time'
     }
 
     BULK_UPDATE_BATCH_SIZE = 100
@@ -123,14 +124,16 @@ class FlashscoreLiveResultsSpider(scrapy.Spider):
                 if sport_id not in excluded_sport_ids:
                     valid_sports_count += 1
                     # Only scrape today (day 0) for live results
-                    live_results_url = f'https://global.flashscore.ninja/2/x/feed/f_{sport_id}_0_5_en_1'
+                    # now I will do for today and yestarday
+                    for day_id in [0, -1]:
+                        live_results_url = f'https://global.flashscore.ninja/2/x/feed/f_{sport_id}_{day_id}_5_en_1'
 
-                    yield scrapy.Request(
-                        url=live_results_url,
-                        callback=self.parse_live_sport_results,
-                        headers=self.request_headers,
-                        meta={'sport_name': sport_name, 'sport_id': sport_id}
-                    )
+                        yield scrapy.Request(
+                            url=live_results_url,
+                            callback=self.parse_live_sport_results,
+                            headers=self.request_headers,
+                            meta={'sport_name': sport_name, 'sport_id': sport_id}
+                        )
 
             log_scraper_progress(
                 self.custom_logger, 'LIVE_SPORTS_FILTERED',
@@ -205,7 +208,9 @@ class FlashscoreLiveResultsSpider(scrapy.Spider):
 
             # Determine final status and process accordingly
             if readable_match_status in ['first_half', 'second_half', 'after_extra_time',
-                                         'after_penalties', 'awaiting_updates', 'live']:
+                                         'after_penalties', 'awaiting_updates', 'live',
+                                         'break_time'
+                                         ]:
                 final_status = 'live'
                 self.live_matches_count += 1
             elif readable_match_status in ['cancelled', 'postponed']:
@@ -213,13 +218,23 @@ class FlashscoreLiveResultsSpider(scrapy.Spider):
                 team1_score = '-'
                 team2_score = '-'
                 self.cancelled_postponed_count += 1
-            elif readable_match_status == 'finished':
+            elif readable_match_status in ['finished', 'unknown']:
                 final_status = 'finished'
                 self.finished_matches_count += 1
+            # elif readable_match_status == 'sched':
+            #     # Skip matches that don't need updating
+            #     return False
+            #     # final_status = readable_match_status
+            #     # final_status = readable_match_status
             else:
                 # Skip matches that don't need updating
                 return False
-
+                # final_status = readable_match_status
+            # self.final_data.append({"match_id": match_id,
+            #                         "status": final_status,
+            #                         'currentScore_competitor1': team1_score,
+            #                         'currentScore_competitor2': team2_score
+            #                         })
             # Prepare bulk update operation
             update_operation = UpdateOne(
                 {"match_id": match_id},
