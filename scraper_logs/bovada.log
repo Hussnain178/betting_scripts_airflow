@@ -3507,3 +3507,130 @@
 2025-08-20 11:50:32 - bovada - INFO -   - Inserted: 0
 2025-08-20 11:50:32 - bovada - INFO - [SCRAPER_COMPLETED] Matches: 1960 | Bovada scraper completed successfully
 2025-08-20 11:50:32 - bovada - INFO - [FINAL_STATS] | Total: 1960, Success: 1960, Failed: 0, Unique odds: 6
+2025-08-20 12:28:44 - bovada - INFO - Logger initialized for bovada scraper
+2025-08-20 12:28:44 - bovada - INFO - Log file: scraper_logs/bovada.log
+2025-08-20 12:28:44 - bovada - INFO - [INIT] | Initializing Bovada scraper
+2025-08-20 12:28:44 - bovada - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings, 293 countries
+2025-08-20 12:28:45 - bovada - INFO - [START] | Starting Bovada navigation scraping
+2025-08-20 12:28:51 - bovada - INFO - [NAVIGATION_PARSED] | Found 26 sport categories
+2025-08-20 12:28:51 - bovada - INFO - [SPORTS_FILTERED] | Processing 14 valid sports out of 26
+2025-08-20 12:28:52 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 7 subcategories for Snooker
+2025-08-20 12:28:53 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 5 subcategories for Snooker
+2025-08-20 12:28:53 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 22 subcategories for Snooker
+2025-08-20 12:28:53 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 10 subcategories for Snooker
+2025-08-20 12:28:54 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 2 subcategories for Snooker
+2025-08-20 12:28:54 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 10 subcategories for Snooker
+2025-08-20 12:28:54 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 19 subcategories for Snooker
+2025-08-20 12:28:54 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 1 subcategories for Snooker
+2025-08-20 12:28:54 - bovada - ERROR - [SUBCATEGORY_ERROR] ERROR: 'link' | Details: Failed to parse subcategories for Snooker
+2025-08-20 12:28:54 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 2 subcategories for Snooker
+2025-08-20 12:28:54 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 8 subcategories for Snooker
+2025-08-20 12:28:54 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 10 subcategories for Snooker
+2025-08-20 12:28:54 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-20 12:28:55 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 3 subcategories for Snooker
+2025-08-20 12:28:55 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-20 12:28:55 - bovada - INFO - [MATCH_FOUND] | Matched Leeds Rhinos vs Hull KR
+2025-08-20 12:28:55 - bovada - INFO - [MATCH_FOUND] | Matched St Helens vs Hull FC
+2025-08-20 12:28:55 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-20 12:28:55 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 15 subcategories for Snooker
+2025-08-20 12:28:55 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 17 matches from league
+2025-08-20 12:28:55 - bovada - INFO - [MATCH_FOUND] | Matched South Sydney Rabbitohs vs St George Illawarra Dragons
+2025-08-20 12:28:55 - bovada - INFO - [MATCH_FOUND] | Matched Penrith Panthers vs Canberra Raiders
+2025-08-20 12:28:55 - bovada - INFO - [MATCH_FOUND] | Matched Melbourne Storm vs Canterbury Bulldogs
+2025-08-20 12:28:55 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-20 12:28:55 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 7 matches from league
+2025-08-20 12:28:55 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-20 12:28:55 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-20 12:28:55 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-20 12:28:56 - bovada - INFO - [MATCH_FOUND] | Matched Ukraine vs Slovakia
+2025-08-20 12:28:56 - bovada - INFO - [MATCH_FOUND] | Matched Croatia vs Denmark
+2025-08-20 12:28:56 - bovada - INFO - [MATCH_FOUND] | Matched Hungary vs North Macedonia
+2025-08-20 12:28:56 - bovada - INFO - [MATCH_FOUND] | Matched Bulgaria vs Netherlands
+2025-08-20 12:28:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-20 12:28:56 - bovada - INFO - [MATCH_FOUND] | Matched Dallas Wings vs Los Angeles Sparks
+2025-08-20 12:28:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-20 12:28:56 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 2 subcategories for Snooker
+2025-08-20 12:28:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-20 12:28:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-20 12:28:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-20 12:28:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-20 12:28:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-20 12:28:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-20 12:28:56 - bovada - INFO - [PROGRESS_UPDATE] | Processed 50 matches, Success: 50, Failed: 0
+2025-08-20 12:28:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 14 matches from league
+2025-08-20 12:28:56 - bovada - INFO - [MATCH_FOUND] | Matched Toronto Blue Jays vs Pittsburgh Pirates
+2025-08-20 12:28:56 - bovada - INFO - [MATCH_FOUND] | Matched Seattle Mariners vs Philadelphia Phillies
+2025-08-20 12:28:56 - bovada - INFO - [MATCH_FOUND] | Matched Houston Astros vs Detroit Tigers
+2025-08-20 12:28:56 - bovada - INFO - [MATCH_FOUND] | Matched Cleveland Guardians vs Arizona Diamondbacks
+2025-08-20 12:28:56 - bovada - INFO - [MATCH_FOUND] | Matched St. Louis Cardinals vs Miami Marlins
+2025-08-20 12:28:56 - bovada - INFO - [MATCH_FOUND] | Matched New York Mets vs Washington Nationals
+2025-08-20 12:28:57 - bovada - INFO - [MATCH_FOUND] | Matched Chicago White Sox vs Atlanta Braves
+2025-08-20 12:28:57 - bovada - INFO - [MATCH_FOUND] | Matched New York Yankees vs Tampa Bay Rays
+2025-08-20 12:28:57 - bovada - INFO - [MATCH_FOUND] | Matched Athletics vs Minnesota Twins
+2025-08-20 12:28:57 - bovada - INFO - [MATCH_FOUND] | Matched Texas Rangers vs Kansas City Royals
+2025-08-20 12:28:57 - bovada - INFO - [MATCH_FOUND] | Matched Milwaukee Brewers vs Chicago Cubs
+2025-08-20 12:28:57 - bovada - INFO - [MATCH_FOUND] | Matched Los Angeles Dodgers vs Colorado Rockies
+2025-08-20 12:28:57 - bovada - INFO - [MATCH_FOUND] | Matched Cincinnati Reds vs Los Angeles Angels
+2025-08-20 12:28:57 - bovada - INFO - [MATCH_FOUND] | Matched San Francisco Giants vs San Diego Padres
+2025-08-20 12:28:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-20 12:28:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-20 12:28:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 16 matches from league
+2025-08-20 12:28:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-20 12:28:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 9 matches from league
+2025-08-20 12:28:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-20 12:28:58 - bovada - INFO - [MATCH_FOUND] | Matched Welsh Fire Women vs Southern Brave Women
+2025-08-20 12:28:58 - bovada - INFO - [MATCH_FOUND] | Matched London Spirit Women vs Northern Superchargers Women
+2025-08-20 12:28:58 - bovada - INFO - [MATCH_FOUND] | Matched Oval Invincibles Women vs Trent Rockets Women
+2025-08-20 12:28:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-20 12:28:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-20 12:28:58 - bovada - INFO - [MATCH_FOUND] | Matched Welsh Fire vs Southern Brave
+2025-08-20 12:28:58 - bovada - INFO - [MATCH_FOUND] | Matched London Spirit vs Northern Superchargers
+2025-08-20 12:28:58 - bovada - INFO - [MATCH_FOUND] | Matched Oval Invincibles vs Trent Rockets
+2025-08-20 12:28:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-20 12:28:59 - bovada - INFO - [MATCH_FOUND] | Matched Fubon Guardians vs Rakuten Monkeys
+2025-08-20 12:28:59 - bovada - INFO - [MATCH_FOUND] | Matched Wei Chuan Dragons vs TSG Hawks
+2025-08-20 12:28:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-20 12:28:59 - bovada - INFO - [PROGRESS_UPDATE] | Processed 100 matches, Success: 100, Failed: 0
+2025-08-20 12:28:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-20 12:28:59 - bovada - INFO - [MATCH_FOUND] | Matched Chunichi Dragons vs Hanshin Tigers
+2025-08-20 12:28:59 - bovada - INFO - [MATCH_FOUND] | Matched Hiroshima Toyo Carp vs Yokohama DeNa BayStars
+2025-08-20 12:28:59 - bovada - INFO - [MATCH_FOUND] | Matched Orix Buffaloes vs Hokkaido Nippon-Ham Fighters
+2025-08-20 12:28:59 - bovada - INFO - [MATCH_FOUND] | Matched Saitama Seibu Lions vs Fukuoka SoftBank Hawks
+2025-08-20 12:28:59 - bovada - INFO - [MATCH_FOUND] | Matched Tohoku Rakuten Golden Eagles vs Chiba Lotte Marines
+2025-08-20 12:28:59 - bovada - INFO - [MATCH_FOUND] | Matched Yomiuri Giants vs Tokyo Yakult Swallows
+2025-08-20 12:28:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-20 12:28:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-20 12:28:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-20 12:29:00 - bovada - INFO - [MATCH_FOUND] | Matched Doosan Bears vs Hanwha Eagles
+2025-08-20 12:29:00 - bovada - INFO - [MATCH_FOUND] | Matched Kiwoom Heroes vs Kia Tigers
+2025-08-20 12:29:00 - bovada - INFO - [MATCH_FOUND] | Matched Lotte Giants vs LG Twins
+2025-08-20 12:29:00 - bovada - INFO - [MATCH_FOUND] | Matched SSG Landers vs KT Wiz
+2025-08-20 12:29:00 - bovada - INFO - [MATCH_FOUND] | Matched Samsung Lions vs NC Dinos
+2025-08-20 12:29:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-20 12:29:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-20 12:29:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-20 12:29:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-20 12:29:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-20 12:29:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-20 12:29:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-20 12:29:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-20 12:29:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-20 12:29:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-20 12:29:01 - bovada - INFO - [PROGRESS_UPDATE] | Processed 150 matches, Success: 150, Failed: 0
+2025-08-20 12:29:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-20 12:29:02 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 49 matches from league
+2025-08-20 12:29:03 - bovada - INFO - [PROGRESS_UPDATE] | Processed 200 matches, Success: 200, Failed: 0
+2025-08-20 12:29:03 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 30 matches from league
+2025-08-20 12:29:04 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 32 matches from league
+2025-08-20 12:29:04 - bovada - INFO - [PROGRESS_UPDATE] | Processed 250 matches, Success: 250, Failed: 0
+2025-08-20 12:29:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-20 12:29:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 28 matches from league
+2025-08-20 12:29:05 - bovada - INFO - [PROGRESS_UPDATE] | Processed 300 matches, Success: 300, Failed: 0
+2025-08-20 12:29:06 - bovada - INFO - [FINAL_BULK_UPDATE] | Executing final 43 bulk operations
+2025-08-20 12:29:06 - bovada - INFO - Executing 43 bulk bovada_updates operations
+2025-08-20 12:29:06 - bovada - INFO - Bulk bovada_updates completed successfully:
+2025-08-20 12:29:06 - bovada - INFO -   - Modified: 13
+2025-08-20 12:29:06 - bovada - INFO -   - Upserted: 0
+2025-08-20 12:29:06 - bovada - INFO -   - Inserted: 0
+2025-08-20 12:29:06 - bovada - INFO - [SCRAPER_COMPLETED] Matches: 300 | Bovada scraper completed successfully
+2025-08-20 12:29:06 - bovada - INFO - [FINAL_STATS] | Total: 300, Success: 300, Failed: 0, Unique odds: 5
