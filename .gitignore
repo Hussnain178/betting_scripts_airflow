@@ -4,4 +4,4 @@ venv/
 .idea/
 .env
 airflow_venv/
-
+.log
