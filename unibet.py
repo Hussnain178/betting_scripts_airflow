@@ -16,6 +16,7 @@ class UnibetOddsSpider(scrapy.Spider):
     custom_settings = {
         'CONCURRENT_REQUESTS': 64
     }
+    final=[]
 
     BULK_UPDATE_BATCH_SIZE = 100
 
@@ -325,6 +326,8 @@ class UnibetOddsSpider(scrapy.Spider):
                 # if duplicate_handling_result:
                 #     ignored_category_id = category_id
             match_information['prices']=remove_empty_dicts(match_information['prices'])
+            if match_information['prices'] is None:
+                match_information['prices']={}
 
             # Try to match with flashscore data
             self._match_with_flashscore_data(match_information)
@@ -505,6 +508,7 @@ class UnibetOddsSpider(scrapy.Spider):
 
     def _match_with_flashscore_data(self, unibet_match_info):
         """Match unibet data with flashscore data and prepare bulk update"""
+        self.final.append(unibet_match_info)
         normalized_unibet_timestamp = normalize_timestamp_for_comparison(unibet_match_info['timestamp'])
         unibet_sport_normalized = (unibet_match_info['sport'].lower()
                                    .replace('-', '').replace(' ', ''))

@@ -10,6 +10,7 @@ from helper import (remove_empty_dicts,
 
 class TipicoLiveOddsSpider(scrapy.Spider):
     name = "tipico-live-odds-scraper"
+    final=[]
 
     # Configuration
     custom_settings = {
@@ -251,6 +252,8 @@ class TipicoLiveOddsSpider(scrapy.Spider):
 
 
             live_match_information['prices']=remove_empty_dicts(live_match_information['prices'])
+            if live_match_information['prices'] is None:
+                live_match_information['prices']={}
 
             # Try to match with existing flashscore data and prepare bulk update
             self._match_live_data_with_flashscore(live_match_information)
@@ -454,7 +457,7 @@ class TipicoLiveOddsSpider(scrapy.Spider):
         #                 f'Matched LIVE {tipico_live_match_info["competitor1"]} vs {tipico_live_match_info["competitor2"]}'
         #             )
         #             break
-
+        self.final.append(tipico_live_match_info)
         flashscore_match = self.matches_collection.find_one({
             "tipico_match_id": tipico_live_match_info["tipico_match_id"],
         })

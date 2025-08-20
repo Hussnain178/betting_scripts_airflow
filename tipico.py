@@ -11,6 +11,7 @@ from helper import (remove_empty_dicts,
 
 class TipicoOddsSpider(scrapy.Spider):
     name = "tipico-odds-scraper"
+    final=[]
 
     # Configuration
     custom_settings = {
@@ -241,6 +242,8 @@ class TipicoOddsSpider(scrapy.Spider):
             self._extract_odds_information(match_data, match_information)
 
             match_information['prices']=remove_empty_dicts(match_information['prices'])
+            if match_information['prices'] is None:
+                match_information['prices']={}
 
             # Try to match with existing flashscore data and prepare bulk update
             self._match_with_flashscore_data(match_information)
@@ -410,6 +413,7 @@ class TipicoOddsSpider(scrapy.Spider):
 
     def _match_with_flashscore_data(self, tipico_match_info):
         """Match tipico data with flashscore data and prepare bulk update"""
+        self.final.append(tipico_match_info)
         normalized_tipico_timestamp = normalize_timestamp_for_comparison(tipico_match_info['timestamp'])
         tipico_sport_normalized = (tipico_match_info['sport'].lower()
                                    .replace('-', '').replace(' ', ''))

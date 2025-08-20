@@ -10,6 +10,7 @@ from helper import (remove_empty_dicts,
 
 class UnibetLiveOddsSpider(scrapy.Spider):
     name = "unibet-live-odds-scraper"
+    final=[]
 
     # Configuration
     custom_settings = {
@@ -321,6 +322,8 @@ class UnibetLiveOddsSpider(scrapy.Spider):
                 # if duplicate_handling_result:
                 #     ignored_category_id = category_id
             live_match_information['prices'] =remove_empty_dicts(live_match_information['prices'])
+            if live_match_information['prices'] is None:
+                live_match_information['prices']={}
 
             # Try to match with flashscore data (no timestamp needed for live matches)
             self._match_live_data_with_flashscore(live_match_information)
@@ -538,6 +541,7 @@ class UnibetLiveOddsSpider(scrapy.Spider):
         #                 f'Matched LIVE {unibet_live_match_info["competitor1"]} vs {unibet_live_match_info["competitor2"]}'
         #             )
         #             break
+        self.final.append(unibet_live_match_info)
         flashscore_match = self.matches_collection.find_one({
             "unibet_match_id": unibet_live_match_info["unibet_match_id"],
         })

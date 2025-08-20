@@ -13,6 +13,7 @@ from helper import (remove_empty_dicts,
 
 class BovadaOddsSpider(scrapy.Spider):
     name = 'bovada-odds-scraper'
+    final=[]
 
     # Configuration
     custom_settings = {
@@ -340,6 +341,8 @@ class BovadaOddsSpider(scrapy.Spider):
             else:
                 competitor1_name = match_info['competitors'][0]['name']
                 competitor2_name = match_info['competitors'][1]['name']
+            if country_name.lower() == 'esoccer':
+                return
 
             match_information = {
                 'competitor1': competitor1_name,
@@ -367,6 +370,8 @@ class BovadaOddsSpider(scrapy.Spider):
                 short_name_team1, short_name_team2
             )
             match_information['odds'] = remove_empty_dicts(match_information['odds'])
+            if match_information['odds'] is None:
+                match_information['odds']={}
             # Try to match with flashscore data
             self._match_with_flashscore_data(match_information)
 
@@ -536,8 +541,8 @@ class BovadaOddsSpider(scrapy.Spider):
         handicap_value = self._extract_handicap_value(outcomes[0])
 
         match_data['odds'][header_category][market_name][handicap_value] = {
-            outcome1_mapped: self.check_float_value(outcomes[0]['price']['american']),
-            outcome2_mapped:  self.check_float_value(outcomes[1]['price']['american'])
+            outcome1_mapped: self.check_float_value(outcomes[0]['price']['decimal']),
+            outcome2_mapped:  self.check_float_value(outcomes[1]['price']['decimal'])
         }
 
     def _process_three_outcome_market(self, outcomes, match_data, header_category, market_name,
@@ -571,9 +576,9 @@ class BovadaOddsSpider(scrapy.Spider):
         outcome3_mapped = self._apply_value_mapping(outcome3_description, value_mappings)
 
         match_data['odds'][header_category][market_name][handicap_value] = {
-            outcome1_mapped:  self.check_float_value(outcomes[0]['price']['american']),
-            outcome2_mapped:  self.check_float_value(outcomes[1]['price']['american']),
-            outcome3_mapped:  self.check_float_value(outcomes[2]['price']['american'])
+            outcome1_mapped:  self.check_float_value(outcomes[0]['price']['decimal']),
+            outcome2_mapped:  self.check_float_value(outcomes[1]['price']['decimal']),
+            outcome3_mapped:  self.check_float_value(outcomes[2]['price']['decimal'])
         }
 
     def _process_multiple_outcome_market(self, outcomes, market_info, match_data, header_category,
@@ -611,7 +616,7 @@ class BovadaOddsSpider(scrapy.Spider):
             if handicap_value not in match_data['odds'][header_category][market_name]:
                 match_data['odds'][header_category][market_name][handicap_value] = {}
 
-            match_data['odds'][header_category][market_name][handicap_value][competitor_name] =  self.check_float_value(individual_outcome['price']['american'])
+            match_data['odds'][header_category][market_name][handicap_value][competitor_name] =  self.check_float_value(individual_outcome['price']['decimal'])
 
     def _map_competitor_name(self, competitor_description, desc_team, short_team, standard_number):
         """Map competitor description to standard format"""
@@ -676,6 +681,7 @@ class BovadaOddsSpider(scrapy.Spider):
 
     def _match_with_flashscore_data(self, bovada_match_info):
         """Match bovada data with flashscore data and prepare bulk update"""
+        self.final.append(bovada_match_info)
         normalized_bovada_timestamp = normalize_timestamp_for_comparison(bovada_match_info['timestamp'])
         bovada_sport_normalized = (bovada_match_info['sport'].lower()
                                    .replace('-', '').replace(' ', ''))
@@ -767,18 +773,14 @@ class BovadaOddsSpider(scrapy.Spider):
                 error=bulk_error
             )
             self.bulk_update_operations = []  # Clear operations list even on error
-    def check_float_value(self,odds_value):
-        
+
+    def check_float_value(self, odds_value):
         if odds_value is None:
-            return  odds_value
+            return odds_value
         elif odds_value.lower() == "evens" or odds_value.lower() == "even":
             return "2.0"
-        odds_value=int(odds_value)
-        if odds_value > 0:
-            return str(round((odds_value / 100) + 1,1))
-        else:
-            return str(round((100 / abs(odds_value)) + 1, 1))
-
+        odds_value = float(odds_value)
+        return str(round(odds_value, 1))
     def close(self, reason):
         """Final cleanup and bulk update execution"""
         try:

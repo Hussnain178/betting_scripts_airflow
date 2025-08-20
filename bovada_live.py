@@ -12,6 +12,7 @@ from helper import (remove_empty_dicts,
 
 class BovadaLiveOddsSpider(scrapy.Spider):
     name = 'bovada-live-odds-scraper'
+    final=[]
 
     # Configuration
     custom_settings = {
@@ -298,7 +299,7 @@ class BovadaLiveOddsSpider(scrapy.Spider):
             for individual_live_match in live_matches_in_league:
                 # IMPORTANT: Only process matches that are LIVE
                 if individual_live_match['competitors'] and individual_live_match['live']:
-                    self._process_single_live_match(individual_live_match, match_data_response[0])
+                    yield from self._process_single_live_match(individual_live_match, match_data_response[0])
 
         except Exception as extraction_error:
             log_scraper_progress(
@@ -340,6 +341,8 @@ class BovadaLiveOddsSpider(scrapy.Spider):
             else:
                 competitor1_name = live_match_info['competitors'][0]['name']
                 competitor2_name = live_match_info['competitors'][1]['name']
+            if country_name.lower()=='esoccer':
+                return
 
             live_match_information = {
                 'competitor1': competitor1_name,
@@ -352,22 +355,58 @@ class BovadaLiveOddsSpider(scrapy.Spider):
                 'odds': {},
                 'status': 'live'  # Mark as live match
             }
+            url = f'https://www.bovada.lv/services/sports/event/coupon/events/A/description{live_match_info["link"]}?lang=en'
 
-            # Extract various team name formats for replacement
-            description_components = re.split(r'vs|@', live_match_info['description'])
-            description_team1 = description_components[0].strip()
-            description_team2 = description_components[1].strip()
+            new_headers = {
+                "sec-ch-ua-platform": "\"Windows\"",
+                "Referer": "https://www.bovada.lv/",
+                "sec-ch-ua": "\"Not;A=Brand\";v=\"99\", \"Google Chrome\";v=\"139\", \"Chromium\";v=\"139\"",
+                "sec-ch-ua-mobile": "?0",
+                "Accept": "application/json, text/plain, */*",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36",
+                "X-CHANNEL": "desktop"
+            }
 
-            short_name_team1 = live_match_info['competitors'][0].get('shortName', '').strip()
-            short_name_team2 = live_match_info['competitors'][1].get('shortName', '').strip()
-
-            # Process live odds data
-            self._extract_odds_from_live_match(
-                live_match_info, live_match_information,
-                description_team1, description_team2,
-                short_name_team1, short_name_team2
+            # res=requests.get(
+            yield scrapy.Request(
+                url=url,
+                headers=new_headers,
+                dont_filter=True,
+                callback=self.single_match_data,
+                meta={'live_match_information': live_match_information, 'proxy': self.proxy_url, }
             )
+        except Exception as live_match_error:
+            self.failed_live_matches += 1
+            log_scraper_progress(
+                self.custom_logger, 'LIVE_MATCH_PROCESS_ERROR',
+                'Error processing individual live match',
+                error=live_match_error
+            )
+    def single_match_data(self,response):
+        try:
+            live_match_information = response.meta['live_match_information']
+            if json.loads(response.text):
+                live_match_info=json.loads(response.text)[0]['events'][0]
+
+                # Extract various team name formats for replacement
+                description_components = re.split(r'vs|@', live_match_info['description'])
+                description_team1 = description_components[0].strip()
+                description_team2 = description_components[1].strip()
+
+                short_name_team1 = live_match_info['competitors'][0].get('shortName', '').strip()
+                short_name_team2 = live_match_info['competitors'][1].get('shortName', '').strip()
+
+                # Process live odds data
+                self._extract_odds_from_live_match(
+                    live_match_info, live_match_information,
+                    description_team1, description_team2,
+                    short_name_team1, short_name_team2
+                )
+            else:
+                l=1
             live_match_information['odds'] = remove_empty_dicts(live_match_information['odds'])
+            if live_match_information['odds'] is None:
+                live_match_information['odds']={}
 
             # Try to match with flashscore data
             self._match_live_data_with_flashscore(live_match_information)
@@ -385,13 +424,11 @@ class BovadaLiveOddsSpider(scrapy.Spider):
                     f'Success: {self.successful_live_matches}, Failed: {self.failed_live_matches}'
                 )
 
-        except Exception as live_match_error:
-            self.failed_live_matches += 1
-            log_scraper_progress(
-                self.custom_logger, 'LIVE_MATCH_PROCESS_ERROR',
-                'Error processing individual live match',
-                error=live_match_error
-            )
+        except Exception as e:
+            l=1
+
+
+
     def _convert_timestamp(self, timestamp_milliseconds):
         """Convert timestamp from milliseconds to GMT string format"""
         datetime_object = datetime.fromtimestamp(timestamp_milliseconds / 1000, tz=timezone.utc)
@@ -543,8 +580,8 @@ class BovadaLiveOddsSpider(scrapy.Spider):
         handicap_value = self._extract_handicap_value(outcomes[0])
 
         match_data['odds'][header_category][market_name][handicap_value] = {
-            outcome1_mapped: self.check_float_value(outcomes[0]['price']['american']),
-            outcome2_mapped:  self.check_float_value(outcomes[1]['price']['american'])
+            outcome1_mapped: self.check_float_value(outcomes[0]['price']['decimal']),
+            outcome2_mapped:  self.check_float_value(outcomes[1]['price']['decimal'])
         }
 
     def _process_three_outcome_live_market(self, outcomes, match_data, header_category, market_name,
@@ -578,9 +615,9 @@ class BovadaLiveOddsSpider(scrapy.Spider):
         outcome3_mapped = self._apply_value_mapping(outcome3_description, value_mappings)
 
         match_data['odds'][header_category][market_name][handicap_value] = {
-            outcome1_mapped:  self.check_float_value(outcomes[0]['price']['american']),
-            outcome2_mapped:  self.check_float_value(outcomes[1]['price']['american']),
-            outcome3_mapped:  self.check_float_value(outcomes[2]['price']['american'])
+            outcome1_mapped:  self.check_float_value(outcomes[0]['price']['decimal']),
+            outcome2_mapped:  self.check_float_value(outcomes[1]['price']['decimal']),
+            outcome3_mapped:  self.check_float_value(outcomes[2]['price']['decimal'])
         }
 
     def _process_multiple_outcome_live_market(self, outcomes, market_info, match_data, header_category,
@@ -618,7 +655,7 @@ class BovadaLiveOddsSpider(scrapy.Spider):
             if handicap_value not in match_data['odds'][header_category][market_name]:
                 match_data['odds'][header_category][market_name][handicap_value] = {}
 
-            match_data['odds'][header_category][market_name][handicap_value][competitor_name] =  self.check_float_value(individual_outcome['price']['american'])
+            match_data['odds'][header_category][market_name][handicap_value][competitor_name] =  self.check_float_value(individual_outcome['price']['decimal'])
 
     def _map_competitor_name(self, competitor_description, desc_team, short_team, standard_number):
         """Map competitor description to standard format"""
@@ -724,7 +761,7 @@ class BovadaLiveOddsSpider(scrapy.Spider):
         #         f'Matched LIVE {bovada_live_match_info["competitor1"]} vs {bovada_live_match_info["competitor2"]}'
         #     )
         #     break
-
+        self.final.append(bovada_live_match_info)
         flashscore_match = self.matches_collection.find_one({
             "bovada_match_id": bovada_live_match_info["bovada_match_id"],
         })
@@ -803,11 +840,9 @@ class BovadaLiveOddsSpider(scrapy.Spider):
             return odds_value
         elif odds_value.lower() == "evens" or odds_value.lower() == "even":
             return "2.0"
-        odds_value = int(odds_value)
-        if odds_value > 0:
-            return str(round((odds_value / 100) + 1,1))
-        else:
-            return str(round((100 / abs(odds_value)) + 1, 1))
+        odds_value = float(odds_value)
+        return str(round(odds_value ,1))
+
 
     # Clear operations list even on error
 
