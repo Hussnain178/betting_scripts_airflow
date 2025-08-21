@@ -208,7 +208,7 @@ class FlashscoreLiveResultsSpider(scrapy.Spider):
 
             # Determine final status and process accordingly
             if readable_match_status in ['first_half', 'second_half', 'after_extra_time',
-                                         'after_penalties', 'awaiting_updates', 'live',
+                                          'awaiting_updates', 'live',
                                          'break_time'
                                          ]:
                 final_status = 'live'
@@ -218,7 +218,7 @@ class FlashscoreLiveResultsSpider(scrapy.Spider):
                 team1_score = '-'
                 team2_score = '-'
                 self.cancelled_postponed_count += 1
-            elif readable_match_status in ['finished', 'unknown']:
+            elif readable_match_status in ['finished', 'unknown', 'after_penalties']:
                 final_status = 'finished'
                 self.finished_matches_count += 1
             # elif readable_match_status == 'sched':
