@@ -17,6 +17,7 @@ class FlashscoreLiveResultsSpider(scrapy.Spider):
         "LOG_ENABLED": False  # Disable scrapy's default logging since we have our own
     }
     # final_data = []
+    # new_keys = []
     # Match status mapping from Flashscore
     status_mapping = {
         '1': 'sched',
@@ -195,10 +196,12 @@ class FlashscoreLiveResultsSpider(scrapy.Spider):
         try:
             # Extract match ID
             match_id = match_segment.split('¬')[0].split('÷')[-1]
-
+            # if match_id == 'j5g1mQhc':
+            #     h = 1
             # Extract match status code
             status_code = match_segment.split('¬AC÷')[-1].split('¬')[0]
-
+            # if status_code not in list(self.status_mapping.keys()):
+            #     self.new_keys.append(status_code)
             # Map status code to readable status
             readable_match_status = self.status_mapping.get(status_code, 'unknown')
 
@@ -208,7 +211,7 @@ class FlashscoreLiveResultsSpider(scrapy.Spider):
 
             # Determine final status and process accordingly
             if readable_match_status in ['first_half', 'second_half', 'after_extra_time',
-                                          'awaiting_updates', 'live',
+                                         'awaiting_updates', 'live',
                                          'break_time'
                                          ]:
                 final_status = 'live'
@@ -218,7 +221,7 @@ class FlashscoreLiveResultsSpider(scrapy.Spider):
                 team1_score = '-'
                 team2_score = '-'
                 self.cancelled_postponed_count += 1
-            elif readable_match_status in ['finished', 'unknown', 'after_penalties']:
+            elif readable_match_status in ['finished', 'unknown', 'after_penalties', 'to_finish']:
                 final_status = 'finished'
                 self.finished_matches_count += 1
             # elif readable_match_status == 'sched':
