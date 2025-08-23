@@ -445,8 +445,10 @@ class BovadaOddsSpider(scrapy.Spider):
                 market_header_category = header_result[0]
                 final_market_name = header_result[1]
                 if 'o/u' in market_name.lower() and '-' in market_name.lower():
-                    continue
-
+                    check_list=['set','half','period','quarter','inning','game','odd','match','extra','overtime']
+                    for check in check_list:
+                        if check not in market_name.lower():
+                            continue
                 self.unique_odds_keys.add(final_market_name)
 
                 # Initialize nested structure
