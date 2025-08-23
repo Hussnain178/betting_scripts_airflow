@@ -11,6 +11,8 @@ from helper import (remove_empty_dicts,
 
 class UnibetOddsSpider(scrapy.Spider):
     name = "unibet-odds-scraper"
+    before=set()
+    after=set()
 
     # Configuration
     custom_settings = {
@@ -299,8 +301,10 @@ class UnibetOddsSpider(scrapy.Spider):
                 # Process market name
                 market_name = self._process_market_name(betting_offer, match_information)
 
+                self.before.add(market_name)
                 if not market_name or not self._is_valid_market(market_name):
                     continue
+                self.after.add(market_name)
 
                 # Get mapping data
                 mapping_result = self._get_odds_mapping_data(market_name)
@@ -367,10 +371,10 @@ class UnibetOddsSpider(scrapy.Spider):
         if 'point' in market_name.lower() and 'game' in market_name.lower() and '-' in market_name:
             return False
 
-        if 'set' in market_name.lower() and 'game' in market_name.lower():
-            return False
-        if ' - extra time' in market_name.lower() and ' including extra time' in market_name.lower():
-            market_name=market_name.replace(' - extra time','').replace(' including extra time','')
+        if 'set' in market_name.lower() and 'point' in market_name.lower():
+            for number in range(40):
+                if f'point {str(number)}' in market_name.lower():
+                    return False
 
         # Check for game-specific exclusions
         for number in range(1, 10):

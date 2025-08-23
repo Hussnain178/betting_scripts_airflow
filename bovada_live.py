@@ -13,6 +13,8 @@ from helper import (remove_empty_dicts,
 class BovadaLiveOddsSpider(scrapy.Spider):
     name = 'bovada-live-odds-scraper'
     final=[]
+    before=set()
+    after=set()
 
     # Configuration
     custom_settings = {
@@ -460,9 +462,12 @@ class BovadaLiveOddsSpider(scrapy.Spider):
                 if not market_name:
                     continue
 
+                market_name=market_name.lower().replace(' - regulation time','')
                 # Check if market is valid
+                self.before.add(market_name)
                 if not self._is_valid_market(market_name):
                     continue
+                self.after.add(market_name)
 
                 # Get mapping data
                 mapping_result = self._get_odds_mapping_data(market_name)
@@ -473,10 +478,14 @@ class BovadaLiveOddsSpider(scrapy.Spider):
                 header_result = check_header_name(standardized_market_name)
                 market_header_category = header_result[0]
                 final_market_name = header_result[1]
+                if 'o/u' in market_name.lower() and '-' in market_name.lower():
+                    continue
 
                 self.unique_odds_keys.add(final_market_name)
 
+
                 # Initialize nested structure
+
                 if market_header_category not in match_data['odds']:
                     match_data['odds'][market_header_category] = {}
 
@@ -493,8 +502,7 @@ class BovadaLiveOddsSpider(scrapy.Spider):
         ).replace(match_data['competitor2'], 'away')
 
         # Skip certain market types
-        if 'o/u' in market_name.lower() and '-' in market_name.lower():
-            return None
+
 
         # Handle period-specific markets for LIVE matches
         if 'period' in market_info:
@@ -505,8 +513,7 @@ class BovadaLiveOddsSpider(scrapy.Spider):
                 # Remove 'Live ' prefix from period description
                 period_description = market_info['period']["description"].replace('Live ', '')
                 market_name = market_name + ' - ' + period_description
-        if ' - extra time' in market_name.lower() and ' including extra time' in market_name.lower():
-            market_name = market_name.replace(' - extra time', '').replace(' including extra time', '')
+
 
         # Replace various team name formats
         market_name = market_name.replace(match_data['competitor1'], 'home').replace(match_data['competitor2'], 'away')
@@ -517,16 +524,14 @@ class BovadaLiveOddsSpider(scrapy.Spider):
 
     def _is_valid_market(self, market_name):
         """Check if market should be processed"""
-        if 'point' in market_name.lower() and 'game' in market_name.lower():
-            return False
+
 
         # Check for game-specific exclusions
         for number in ['1st', '2nd', '3rd', '4th', '5th']:
             excluded_value = f'{number} game'
             if excluded_value in market_name.lower():
                 return False
-        if ' - extra time' in market_name.lower() and ' including extra time' in market_name.lower():
-            market_name = market_name.replace(' - extra time', '').replace(' including extra time', '')
+
 
         return check_key(market_name)
 
@@ -534,6 +539,7 @@ class BovadaLiveOddsSpider(scrapy.Spider):
                                       value_mappings, desc_team1, desc_team2, short_team1, short_team2):
         """Process live market outcomes based on number of outcomes"""
         outcomes_list = market_info['outcomes']
+
 
         if market_name not in match_data['odds'][header_category]:
             match_data['odds'][header_category][market_name] = {}

@@ -13,6 +13,9 @@ from helper import (remove_empty_dicts,
 
 class BovadaOddsSpider(scrapy.Spider):
     name = 'bovada-odds-scraper'
+    final=[]
+    before = set()
+    after = set()
 
     # Configuration
     custom_settings = {
@@ -423,10 +426,14 @@ class BovadaOddsSpider(scrapy.Spider):
 
                 if not market_name:
                     continue
-
+                market_name=market_name.lower().replace(' - regulation time','')
                 # Check if market is valid
+                self.before.add(market_name)
                 if not self._is_valid_market(market_name):
                     continue
+                self.after.add(market_name)
+                if market_name=='total goals o/u - united nordic':
+                    l=1
 
                 # Get mapping data
                 mapping_result = self._get_odds_mapping_data(market_name)
@@ -437,6 +444,8 @@ class BovadaOddsSpider(scrapy.Spider):
                 header_result = check_header_name(standardized_market_name)
                 market_header_category = header_result[0]
                 final_market_name = header_result[1]
+                if 'o/u' in market_name.lower() and '-' in market_name.lower():
+                    continue
 
                 self.unique_odds_keys.add(final_market_name)
 
@@ -457,8 +466,7 @@ class BovadaOddsSpider(scrapy.Spider):
         ).replace(match_data['competitor2'], 'away')
 
         # Skip certain market types
-        if 'o/u' in market_name.lower() and '-' in market_name.lower():
-            return None
+
 
         # Handle period-specific markets
         if 'period' in market_info:
@@ -474,8 +482,7 @@ class BovadaOddsSpider(scrapy.Spider):
 
     def _is_valid_market(self, market_name):
         """Check if market should be processed"""
-        if 'point' in market_name.lower() and 'game' in market_name.lower():
-            return False
+
         
 
         # Check for game-specific exclusions
@@ -483,8 +490,7 @@ class BovadaOddsSpider(scrapy.Spider):
             excluded_value = f'{number} game'
             if excluded_value in market_name.lower():
                 return False
-        if ' - extra time' in market_name.lower() and ' including extra time' in market_name.lower():
-            market_name = market_name.replace(' - extra time', '').replace(' including extra time', '')
+
 
         return check_key(market_name)
 
@@ -678,6 +684,7 @@ class BovadaOddsSpider(scrapy.Spider):
 
     def _match_with_flashscore_data(self, bovada_match_info):
         """Match bovada data with flashscore data and prepare bulk update"""
+        self.final.append(bovada_match_info)
         normalized_bovada_timestamp = normalize_timestamp_for_comparison(bovada_match_info['timestamp'])
         bovada_sport_normalized = (bovada_match_info['sport'].lower()
                                    .replace('-', '').replace(' ', ''))

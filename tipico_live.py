@@ -11,6 +11,8 @@ from helper import (remove_empty_dicts,
 class TipicoLiveOddsSpider(scrapy.Spider):
     name = "tipico-live-odds-scraper"
     final=[]
+    before=set()
+    after=set()
 
     # Configuration
     custom_settings = {
@@ -320,11 +322,10 @@ class TipicoLiveOddsSpider(scrapy.Spider):
                     .replace(event_info['team1'], 'home')
                     .replace(event_info['team2'], 'away')
                 )
-                if ' - extra time' in normalized_odds_key.lower() and ' including extra time' in normalized_odds_key.lower():
-                    normalized_odds_key = normalized_odds_key.replace(' - extra time', '').replace(' including extra time', '')
-
+                self.before.add(normalized_odds_key)
                 if not check_key(normalized_odds_key):
                     continue
+                self.after.add(normalized_odds_key)
 
                 # Get mapping data for this odds type
                 mapping_result = self._get_odds_mapping_data(normalized_odds_key)

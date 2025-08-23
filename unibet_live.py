@@ -11,6 +11,9 @@ from helper import (remove_empty_dicts,
 class UnibetLiveOddsSpider(scrapy.Spider):
     name = "unibet-live-odds-scraper"
     final=[]
+    before=set()
+    after=set()
+    final_key=set()
 
     # Configuration
     custom_settings = {
@@ -271,8 +274,11 @@ class UnibetLiveOddsSpider(scrapy.Spider):
 
     def extract_live_match_odds_data(self, response):
         try:
+
             live_odds_data = json.loads(response.text)
             live_match_information = response.meta['live_match_info']
+            if live_match_information['country'].lower()=='bhutan':
+                l=1
 
             if not live_odds_data.get('betOffers'):
                 log_scraper_progress(
@@ -294,9 +300,10 @@ class UnibetLiveOddsSpider(scrapy.Spider):
 
                 # Process market name
                 market_name = self._process_live_market_name(betting_offer, live_match_information)
-
+                self.before.add(market_name)
                 if not market_name or not self._is_valid_live_market(market_name):
                     continue
+                self.after.add(market_name)
 
                 # Get mapping data
                 mapping_result = self._get_odds_mapping_data(market_name)
@@ -362,11 +369,12 @@ class UnibetLiveOddsSpider(scrapy.Spider):
         # Skip certain market types for live matches
         if 'point' in market_name.lower() and 'game' in market_name.lower() and '-' in market_name:
             return False
-
-        if 'set' in market_name.lower() and 'game' in market_name.lower():
-            return False
-        if ' - extra time' in market_name.lower() and ' including extra time' in market_name.lower():
-            market_name=market_name.replace(' - extra time','').replace(' including extra time','')
+        if 'set' in market_name.lower() and 'point' in market_name.lower():
+            for number in range(40):
+                if f'point {str(number)}' in market_name.lower():
+                    return False
+        # if ' - extra time' in market_name.lower() and ' including extra time' in market_name.lower():
+        #     market_name=market_name.replace(' - extra time','').replace(' including extra time','')
 
         # Check for game-specific exclusions
         for number in range(1, 10):

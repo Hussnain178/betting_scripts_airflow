@@ -367,23 +367,37 @@ def update_data():
 
 
 def check_key(name):
-    not_used_key = ['scoreless','end','go', 'never', 'niether', 'total runs', 'to score', 'get', 'including overtime', 'own', 'retain',
-                    ':', '0:', 'award', 'kick',
-                    'penalty', 'target', 'shots', 'series', 'yellow', 'super over',
-                    'header', '4s', 'touchdown', 'of the match', 'hero', 'tries', 'more', '6s', 'fifty', 'scored',
-                    'century', 'last', "player's total runs", 'given', 'red', 'retain', 'most', 'odd/even',
-                    'performance', 'converted', 'listed', 'center', 'margin', 'try', 'either', 'hc ', 'runs ',
-                    'rushing', 'out', 'yards', 'receving', 'both', 'and', 'remaining', '(', ')', 'tie', 'break',
-                    'deuce', 'next', 'touchdowns', 'range', 'will', '?', 'did', 'does', 'hour', 'minute', 'halves',
-                    'scorer',
+    # name = name.lower().replace(' - include overtime','').replace('- include overtime','')
+    not_used_key = ['scoreless', 'never', 'niether', 'total runs', 'retain','corner','odd/even',' bands ',
+                    ':', '0:','penalty', 'target', 'shots', 'series', 'yellow', 'super over',
+                    'header', '4s', 'touchdown', 'of the match',  '6s', 'fifty','successful','cards',
+                    'century', "player's total runs",  'retain','through','to go ','halfback',
+                    'performance', 'converted', 'listed', 'center', 'margin',  'either', 'hc ', 'runs ',
+                    'rushing',  'yards', 'receving', 'remaining', '(', ')','tiebreak',
+                    'deuce', 'next', 'touchdowns', 'range', 'will', '?', 'did', 'does', 'hour', 'minute', 'halves','scorer',
+                    ' end', ' get', ' own', ' award', ' kick', ' hero', ' tries', ' more', ' last', ' given',
+                    ' red', ' most', ' try', ' out', ' tie', ' break', ' win', ' side', ' four',' and','and ',
+                    ' sixes', ' top', ' lead', ' race', ' stats', 'end ', 'get ', 'own ', 'award ', 'kick ',
+                    'hero ', 'tries ', 'more ', 'last ', 'given ', 'red ', 'most ', 'try ', 'out ', 'tie ', 'break ',
+                    'win ', 'side ', 'four ', 'sixes ', 'top ', 'lead ', 'race ', 'stats ','offsides'
                     'betting', '&', '1 .ht', '1. ht', '1.ht', 'number of runs in match', 'how', 'which', 'who',
-                    'result', 'win', 'halftime', 'legs', 'half time', 'full time',
-                    'tackles', 'attempts', 'final', 'frame', 'side', 'wides', 'highest', 'four',
-                    'sixes', 'assists', 'made', 'home', 'away', 'rebounds', 'milestones', 'qualify', 'exact',
-                    'bottom', 'top', 'wicket', 'at least', 'at end', 'at the end', 'before', 'after', 'fulltime',
-                    'lead', 'race', 'stats', 'specials', 'squares', 'puck', 'record']
+                    'result',  'halftime', 'legs', 'half time', 'full time','halftime', 'fulltime',
+                    'tackles', 'attempts', 'final', 'frame', 'wides', 'highest',  'assists', 'made', 'home', 'away', 'rebounds', 'milestones', 'qualify', 'exact',
+                    'bottom',  'wicket', 'at least', 'at end', 'at the end', 'before', 'after', 'fulltime',
+                   'specials', 'squares', 'puck', 'record','first team','first-team','last team','last-team']
+    for word in not_used_key:
+        if word in name.lower():
+            l=1
 
-    if not any(word in name.lower() for word in not_used_key):
+    excat_not_used=['total match points','to score','total offsides ']
+    if name.lower() in excat_not_used:
+        return False
+    if not any(word in name.lower() for word in not_used_key) :
+        if 'set' in name.lower() and 'point' in name.lower():
+            for number in range(40):
+                if f'point {str(number)}' in name.lower():
+                    return False
+
         if '2-way & over/under' in name.lower():
             return False
         if 'half' in name.lower():

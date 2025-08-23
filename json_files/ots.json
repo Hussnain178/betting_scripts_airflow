@@ -16,7 +16,8 @@
       "id": "x",
       "maps": [
         "draw",
-        "X"
+        "X",
+        "draw - lET"
       ]
     },
     {
@@ -41,7 +42,8 @@
     "1x2-3way-ordinary-time",
     "3-way moneyline - live regulation time",
     "regular time 3-way",
-    "extra time"
+    "extra time",
+    "3-way moneyline - extra time"
   ],
   "__v": 0,
   "createdAt": {
@@ -93,7 +95,8 @@
     "1x2-3way-1st-half",
     "3-way moneyline - first half",
     "1st half",
-    "1st half 3-way"
+    "1st half 3-way",
+    "1st half - including overtime"
   ],
   "__v": 0,
   "createdAt": {
@@ -141,7 +144,8 @@
     "1x2-3way-2nd-half",
     "3-way moneyline - second half",
     "2nd half",
-    "2nd half 3-way"
+    "2nd half 3-way",
+    "2nd half - including overtime"
   ],
   "__v": 0,
   "createdAt": {
@@ -345,7 +349,9 @@
     "3-way handicap",
     "handicap",
     "3-way-handicap",
-    "3way-handicap-ordinary-time"
+    "3way-handicap-ordinary-time",
+    "3-way handicap - regular time",
+    "3-way handicap - including overtime"
   ],
   "__v": 0,
   "createdAt": {
@@ -869,6 +875,7 @@
   ],
   "maps": [
     "spread",
+    "handicap - including overtime",
     "spread-game",
     "point spread - points - match",
     "runline - game",
@@ -881,7 +888,10 @@
     "spread - game",
     "point spread - points",
     "spread-game (regulation)",
-    "run line"
+    "run line",
+    "point spread - including overtime",
+    "goal spread - extra time",
+    "handicap - points - match"
   ],
   "__v": 0,
   "createdAt": {
@@ -921,7 +931,9 @@
     "goal spread - first half",
     "spread - first half",
     "spread-1st half",
-    "total points - 1st half"
+    "total points - 1st half",
+    "handicap - 1st half",
+    "handicap for the 1. half"
   ],
   "__v": 0,
   "createdAt": {
@@ -961,7 +973,9 @@
     "goal spread - second half",
     "spread - second half",
     "spread-2nd half",
-    "total points - 2nd half"
+    "total points - 2nd half",
+    "handicap - 2nd half",
+    "handicap for the 2. half"
   ],
   "__v": 0,
   "createdAt": {
@@ -999,7 +1013,8 @@
   "maps": [
     "point spread - 1st quarter",
     "point spread - points - 1st game",
-    "total points - quarter 1"
+    "total points - quarter 1",
+    "handicap - quarter 1"
   ],
   "__v": 0,
   "createdAt": {
@@ -1036,7 +1051,8 @@
   ],
   "maps": [
     "point spread - 2nd quarter",
-    "total points - quarter 2"
+    "total points - quarter 2",
+    "handicap - quarter 2"
   ],
   "__v": 0,
   "createdAt": {
@@ -1073,7 +1089,8 @@
   ],
   "maps": [
     "point spread - 3rd quarter",
-    "total points - quarter 3"
+    "total points - quarter 3",
+    "handicap - quarter 3"
   ],
   "__v": 0,
   "createdAt": {
@@ -1110,7 +1127,8 @@
   ],
   "maps": [
     "point spread - 4th quarter",
-    "total points - quarter 4"
+    "total points - quarter 4",
+    "handicap - quarter 4"
   ],
   "__v": 0,
   "createdAt": {
@@ -1203,8 +1221,11 @@
     "total-game (regulation)",
     "total points - including overtime",
     "total games",
+    "over/under points in match",
+    "total goals o/u - extra time",
+    "total - extra time",
     "total goals o/u - game",
-    "over/under points in match"
+    "total goals o/u - odd"
   ],
   "__v": 0,
   "createdAt": {
@@ -1251,7 +1272,8 @@
     "total goals o/u - first half",
     "total points - first half",
     "1. half over/under",
-    "total-1st half"
+    "total-1st half",
+    "total points - 1st half - including overtime"
   ],
   "__v": 0,
   "createdAt": {
@@ -1296,7 +1318,8 @@
     "total goals o/u - second half",
     "total points - second half",
     "2. half over/under",
-    "total-2nd half"
+    "total-2nd half",
+    "total points - 2nd half - including overtime"
   ],
   "__v": 0,
   "createdAt": {
@@ -2078,6 +2101,7 @@
   ],
   "maps": [
     "money-line",
+    "including overtime",
     "2 way",
     "match odds",
     "regular time",
@@ -2090,7 +2114,8 @@
     "moneyline - live match",
     "moneyline-game",
     "moneyline-game (regulation)",
-    "moneyline-game (ot)"
+    "moneyline-game (ot)",
+    "moneyline - including overtime"
   ],
   "__v": 0,
   "createdAt": {
@@ -2361,7 +2386,8 @@
     "draw no bet - 1st half",
     "draw-no-bet---1st-half",
     "draw-no-bet-1st-half",
-    "draw no bet - first half"
+    "draw no bet - first half",
+    "draw no bet - 1st half - including overtime"
   ],
   "__v": 0,
   "createdAt": {
@@ -2394,7 +2420,8 @@
   "maps": [
     "draw no bet - 2nd half",
     "draw-no-bet-2nd-half",
-    "draw no bet - second half"
+    "draw no bet - second half",
+    "draw no bet - 2nd half - including overtime"
   ],
   "__v": 0,
   "createdAt": {
@@ -3136,7 +3163,8 @@
     "touchdowns correct score - game",
     "correct-score-ordinary-time",
     "correct score range - game",
-    "correct score - game"
+    "correct score - game",
+    "correct score - match"
   ],
   "__v": 0,
   "createdAt": {
@@ -3468,7 +3496,10 @@
       ]
     }
   ],
-  "maps": [],
+  "maps": [
+    "set handicap",
+    "game handicap"
+  ],
   "__v": 0,
   "createdAt": {
     "$date": "2024-02-23T06:16:40.183Z"
@@ -5203,7 +5234,8 @@
   "maps": [
     "over-under-1st-period",
     "total - 1st period",
-    "period no. 1 - over/under goals"
+    "period no. 1 - over/under goals",
+    "total goals o/u - 1st period"
   ],
   "__v": 0,
   "createdAt": {
@@ -5242,7 +5274,8 @@
   "maps": [
     "over-under-2nd-period",
     "total - 2nd period",
-    "period no. 2 - over/under goals"
+    "period no. 2 - over/under goals",
+    "total goals o/u - 2nd period"
   ],
   "__v": 0,
   "createdAt": {
@@ -5281,7 +5314,8 @@
   "maps": [
     "over-under-3rd-period",
     "total - 3rd period",
-    "period no. 3 - over/under goals"
+    "period no. 3 - over/under goals",
+    "total goals o/u - 3rd period"
   ],
   "__v": 0,
   "createdAt": {
@@ -5325,7 +5359,9 @@
     "over/under games in 1.set",
     "over/under points in set no. 1",
     "total-1st set",
-    "total games - set 1"
+    "total games - set 1",
+    "total points - set 1",
+    "total games o/u - 1st set"
   ],
   "__v": 0,
   "createdAt": {
@@ -5369,7 +5405,9 @@
     "over/under games in 2.set",
     "over/under points in set no. 2",
     "total-2nd set",
-    "total games - set 2"
+    "total games - set 2",
+    "total points - set 2",
+    "total games o/u - 2nd set"
   ],
   "__v": 0,
   "createdAt": {
@@ -5413,7 +5451,9 @@
     "over/under games in 3.set",
     "over/under points in set no. 3",
     "total-3rd set",
-    "total games - set 3"
+    "total games - set 3",
+    "total points - set 3",
+    "total games o/u - 3rd set"
   ],
   "__v": 0,
   "createdAt": {
@@ -5678,7 +5718,9 @@
   "maps": [
     "alternate game spread - 1st set",
     "game spread - 1st set",
-    "point spread - points - 1st set"
+    "point spread - points - 1st set",
+    "game handicap - set 1",
+    "point handicap - set 1"
   ],
   "__v": 0,
   "createdAt": {
@@ -5716,7 +5758,9 @@
   "maps": [
     "alternate game spread - 2nd set",
     "game spread - 2nd set",
-    "point spread - points - 2nd set"
+    "point spread - points - 2nd set",
+    "game handicap - set 2",
+    "point handicap - set 2"
   ],
   "__v": 0,
   "createdAt": {
@@ -5754,7 +5798,9 @@
   "maps": [
     "alternate game spread - 3rd set",
     "game spread - 3rd set",
-    "point spread - points - 3rd set"
+    "point spread - points - 3rd set",
+    "game handicap - set 3",
+    "point handicap - set 3"
   ],
   "__v": 0,
   "createdAt": {
@@ -5795,7 +5841,9 @@
     "alternate total games - 4th set",
     "over/under games in 4.set",
     "total-4th set",
-    "total games - set 4"
+    "total games - set 4",
+    "total points - set 4",
+    "total games o/u - 4th set"
   ],
   "__v": 0,
   "createdAt": {
@@ -5869,7 +5917,9 @@
   "maps": [
     "alternate game spread - 4th set",
     "game spread - 4th set",
-    "point spread - points - 4th set"
+    "point spread - points - 4th set",
+    "game handicap - set 4",
+    "point handicap - set 4"
   ],
   "__v": 0,
   "createdAt": {
@@ -6192,7 +6242,8 @@
   ],
   "maps": [
     "point spread - 1st inning",
-    "total points - inning 1"
+    "total points - inning 1",
+    "runline - 1st inning"
   ],
   "__v": 0,
   "createdAt": {
@@ -6229,7 +6280,8 @@
   ],
   "maps": [
     "point spread - 2nd inning",
-    "total points - inning 2"
+    "total points - inning 2",
+    "runline - 2nd inning"
   ],
   "__v": 0,
   "createdAt": {
@@ -6266,7 +6318,8 @@
   ],
   "maps": [
     "point spread - 3rd inning",
-    "total points - inning 3"
+    "total points - inning 3",
+    "runline - 3rd inning"
   ],
   "__v": 0,
   "createdAt": {
@@ -6303,7 +6356,8 @@
   ],
   "maps": [
     "point spread - 4th inning",
-    "total points - inning 4"
+    "total points - inning 4",
+    "runline - 4th inning"
   ],
   "__v": 0,
   "createdAt": {
@@ -7314,7 +7368,8 @@
   "maps": [
     "point spread - 5th inning",
     "point spread - points - 5th game",
-    "total points - inning 5"
+    "total points - inning 5",
+    "runline - 5th inning"
   ],
   "__v": 0,
   "createdAt": {
@@ -7351,7 +7406,8 @@
   ],
   "maps": [
     "point spread - 6th inning",
-    "total points - inning 6"
+    "total points - inning 6",
+    "runline - 6th inning"
   ],
   "__v": 0,
   "createdAt": {
@@ -7388,7 +7444,8 @@
   ],
   "maps": [
     "point spread - 7th inning",
-    "total points - inning 7"
+    "total points - inning 7",
+    "runline - 7th inning"
   ],
   "__v": 0,
   "createdAt": {
@@ -7425,7 +7482,8 @@
   ],
   "maps": [
     "point spread - 8th inning",
-    "total points - inning 8"
+    "total points - inning 8",
+    "runline - 8th inning"
   ],
   "__v": 0,
   "createdAt": {
@@ -8225,7 +8283,8 @@
   ],
   "maps": [
     "point spread - 9th inning",
-    "total points - inning 9"
+    "total points - inning 9",
+    "runline - 9th inning"
   ],
   "__v": 0,
   "createdAt": {
@@ -8546,7 +8605,9 @@
     "alternate total games - 5th set",
     "over/under games in 5.set",
     "total-5th set",
-    "total games - set 5"
+    "total games - set 5",
+    "total points - set 5",
+    "total games o/u - 5th set"
   ],
   "__v": 0,
   "createdAt": {
@@ -8620,7 +8681,9 @@
   "maps": [
     "alternate game spread - 5th set",
     "game spread - 5th set",
-    "point spread - points - 5th set"
+    "point spread - points - 5th set",
+    "game handicap - set 5",
+    "point handicap - set 5"
   ],
   "__v": 0,
   "createdAt": {
