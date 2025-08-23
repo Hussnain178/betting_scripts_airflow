@@ -1,0 +1,99 @@
+2025-08-23 18:55:24 - bovada_live - INFO - Logger initialized for bovada_live scraper
+2025-08-23 18:55:24 - bovada_live - INFO - Log file: scraper_logs/bovada_live.log
+2025-08-23 18:55:24 - bovada_live - INFO - [INIT] | Initializing Bovada Live scraper
+2025-08-23 18:55:24 - bovada_live - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings for live matches
+2025-08-23 18:55:25 - bovada_live - INFO - [START] | Starting Bovada Live navigation scraping
+2025-08-23 18:55:28 - bovada_live - INFO - [NAVIGATION_PARSED] | Found 27 sport categories for live matches
+2025-08-23 18:55:28 - bovada_live - INFO - [LIVE_SPORTS_FILTERED] | Processing 14 valid sports for live matches
+2025-08-23 18:55:29 - bovada_live - INFO - [SUBCATEGORY_PARSED] | Found 2 subcategories for live Snooker
+2025-08-23 18:55:30 - bovada_live - INFO - [SUBCATEGORY_PARSED] | Found 21 subcategories for live Snooker
+2025-08-23 18:55:30 - bovada_live - INFO - [SUBCATEGORY_PARSED] | Found 6 subcategories for live Snooker
+2025-08-23 18:55:30 - bovada_live - INFO - [SUBCATEGORY_PARSED] | Found 9 subcategories for live Snooker
+2025-08-23 18:55:30 - bovada_live - INFO - [SUBCATEGORY_PARSED] | Found 11 subcategories for live Snooker
+2025-08-23 18:55:31 - bovada_live - INFO - [SUBCATEGORY_PARSED] | Found 10 subcategories for live Snooker
+2025-08-23 18:55:31 - bovada_live - INFO - [SUBCATEGORY_PARSED] | Found 7 subcategories for live Snooker
+2025-08-23 18:55:31 - bovada_live - INFO - [SUBCATEGORY_PARSED] | Found 1 subcategories for live Snooker
+2025-08-23 18:55:31 - bovada_live - INFO - [SUBCATEGORY_PARSED] | Found 16 subcategories for live Snooker
+2025-08-23 18:55:31 - bovada_live - INFO - [SUBCATEGORY_PARSED] | Found 2 subcategories for live Snooker
+2025-08-23 18:55:31 - bovada_live - INFO - [SUBCATEGORY_PARSED] | Found 9 subcategories for live Snooker
+2025-08-23 18:55:32 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:32 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:32 - bovada_live - INFO - [SUBCATEGORY_PARSED] | Found 5 subcategories for live Snooker
+2025-08-23 18:55:32 - bovada_live - INFO - [LIVE_MATCH_DATA_EXTRACTED] | Processing 3 LIVE matches from league
+2025-08-23 18:55:32 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:32 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:32 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:33 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:33 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:33 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:33 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:33 - bovada_live - INFO - [LIVE_MATCH_DATA_EXTRACTED] | Processing 1 LIVE matches from league
+2025-08-23 18:55:33 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:34 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:34 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:34 - bovada_live - INFO - [LIVE_MATCH_DATA_EXTRACTED] | Processing 1 LIVE matches from league
+2025-08-23 18:55:34 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:34 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:34 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:34 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:34 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:35 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:36 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:36 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:36 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:36 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:37 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:37 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:37 - bovada_live - INFO - [SUBCATEGORY_PARSED] | Found 3 subcategories for live Snooker
+2025-08-23 18:55:37 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:37 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:37 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:37 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:37 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:38 - bovada_live - INFO - [LIVE_MATCH_DATA_EXTRACTED] | Processing 2 LIVE matches from league
+2025-08-23 18:55:38 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:39 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:39 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:39 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:39 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:39 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:40 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:40 - bovada_live - INFO - [LIVE_MATCH_DATA_EXTRACTED] | Processing 4 LIVE matches from league
+2025-08-23 18:55:40 - bovada_live - INFO - [LIVE_MATCH_DATA_EXTRACTED] | Processing 2 LIVE matches from league
+2025-08-23 18:55:40 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:41 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:41 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:41 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:41 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:41 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:43 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:43 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:43 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:43 - bovada_live - INFO - [LIVE_MATCH_DATA_EXTRACTED] | Processing 1 LIVE matches from league
+2025-08-23 18:55:44 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:44 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:46 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:46 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:46 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:46 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:47 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:47 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:47 - bovada_live - INFO - [LIVE_MATCH_DATA_EXTRACTED] | Processing 2 LIVE matches from league
+2025-08-23 18:55:47 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:47 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:47 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:47 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:47 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:47 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:47 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:47 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:47 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:48 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:48 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:48 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:48 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:48 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:48 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:48 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:48 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
+2025-08-23 18:55:48 - bovada_live - INFO - [NO_LIVE_MATCH_DATA] | No live match data found in response
