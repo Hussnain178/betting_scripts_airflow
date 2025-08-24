@@ -230,7 +230,7 @@ class UnibetLiveOddsSpider(scrapy.Spider):
         """Process individual LIVE match and prepare for odds extraction"""
         try:
             self.total_live_matches_processed += 1
-            match_timestamp = parse_tipico_date(match_event['event']['start'])
+            # match_timestamp = parse_tipico_date(match_event['event']['start'])
 
             live_match_information = {
                 'website': 'unibet',
@@ -240,7 +240,7 @@ class UnibetLiveOddsSpider(scrapy.Spider):
                 'competitor1': match_event['event']['homeName'],
                 'competitor2': match_event['event']['awayName'],
                 'match_id': match_event['event']['id'],
-                'timestamp': match_timestamp,
+                # 'timestamp': match_timestamp,
                 'unibet_match_id': str(match_event['event']['id']),
                 'status': 'live',
                 'prices': {}

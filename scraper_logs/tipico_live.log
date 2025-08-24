@@ -1,0 +1,87 @@
+2025-08-24 16:20:54 - tipico_live - INFO - Logger initialized for tipico_live scraper
+2025-08-24 16:20:54 - tipico_live - INFO - Log file: scraper_logs/tipico_live.log
+2025-08-24 16:20:54 - tipico_live - INFO - [INIT] | Initializing Tipico Live scraper
+2025-08-24 16:20:54 - tipico_live - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings for live matches
+2025-08-24 16:20:55 - tipico_live - INFO - [START] | Starting Tipico Live navigation scraping
+2025-08-24 16:21:01 - tipico_live - INFO - [LIVE_NAVIGATION_PARSED] | Found 20 sports categories for live matches
+2025-08-24 16:21:01 - tipico_live - INFO - [LIVE_SPORTS_QUEUED] | Queued live match requests for 20 sports
+2025-08-24 16:21:02 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:21:02 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 1 live matches
+2025-08-24 16:21:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:21:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:21:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:21:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:21:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 3 live matches
+2025-08-24 16:21:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:21:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:21:04 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 1 live matches
+2025-08-24 16:21:04 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 60 live matches
+2025-08-24 16:21:04 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 1 live matches
+2025-08-24 16:21:04 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:21:04 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 7 live matches
+2025-08-24 16:21:04 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:21:04 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:21:05 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:21:05 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:21:05 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:21:05 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:21:10 - tipico_live - INFO - [LIVE_PROGRESS_UPDATE] | Processed 25 LIVE matches, Success: 25, Failed: 0
+2025-08-24 16:21:27 - tipico_live - INFO - [LIVE_PROGRESS_UPDATE] | Processed 50 LIVE matches, Success: 50, Failed: 0
+2025-08-24 16:40:08 - tipico_live - INFO - Logger initialized for tipico_live scraper
+2025-08-24 16:40:08 - tipico_live - INFO - Log file: scraper_logs/tipico_live.log
+2025-08-24 16:40:08 - tipico_live - INFO - [INIT] | Initializing Tipico Live scraper
+2025-08-24 16:40:08 - tipico_live - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings for live matches
+2025-08-24 16:40:09 - tipico_live - INFO - [START] | Starting Tipico Live navigation scraping
+2025-08-24 16:40:15 - tipico_live - INFO - [LIVE_NAVIGATION_PARSED] | Found 19 sports categories for live matches
+2025-08-24 16:40:15 - tipico_live - INFO - [LIVE_SPORTS_QUEUED] | Queued live match requests for 19 sports
+2025-08-24 16:40:15 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:16 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:16 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:16 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:16 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:17 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:17 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 1 live matches
+2025-08-24 16:40:17 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 6 live matches
+2025-08-24 16:40:17 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:17 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 2 live matches
+2025-08-24 16:40:17 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:17 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 3 live matches
+2025-08-24 16:40:17 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:17 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 1 live matches
+2025-08-24 16:40:17 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:17 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:18 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 74 live matches
+2025-08-24 16:40:18 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:18 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:19 - tipico_live - INFO - [LIVE_PROGRESS_UPDATE] | Processed 25 LIVE matches, Success: 25, Failed: 0
+2025-08-24 16:40:21 - tipico_live - INFO - [LIVE_PROGRESS_UPDATE] | Processed 50 LIVE matches, Success: 50, Failed: 0
+2025-08-24 16:40:23 - tipico_live - INFO - [LIVE_PROGRESS_UPDATE] | Processed 75 LIVE matches, Success: 75, Failed: 0
+2025-08-24 16:40:46 - tipico_live - INFO - Logger initialized for tipico_live scraper
+2025-08-24 16:40:46 - tipico_live - INFO - Log file: scraper_logs/tipico_live.log
+2025-08-24 16:40:46 - tipico_live - INFO - [INIT] | Initializing Tipico Live scraper
+2025-08-24 16:40:46 - tipico_live - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings for live matches
+2025-08-24 16:40:47 - tipico_live - INFO - [START] | Starting Tipico Live navigation scraping
+2025-08-24 16:40:50 - tipico_live - INFO - [LIVE_NAVIGATION_PARSED] | Found 19 sports categories for live matches
+2025-08-24 16:40:50 - tipico_live - INFO - [LIVE_SPORTS_QUEUED] | Queued live match requests for 19 sports
+2025-08-24 16:40:50 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 3 live matches
+2025-08-24 16:40:51 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 1 live matches
+2025-08-24 16:40:52 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:52 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 2 live matches
+2025-08-24 16:40:52 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:52 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:52 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 6 live matches
+2025-08-24 16:40:52 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:52 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:52 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 1 live matches
+2025-08-24 16:40:53 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 74 live matches
+2025-08-24 16:40:53 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:53 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:53 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:53 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:53 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:53 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:53 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:54 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-24 16:40:55 - tipico_live - INFO - [LIVE_PROGRESS_UPDATE] | Processed 25 LIVE matches, Success: 25, Failed: 0
+2025-08-24 16:40:58 - tipico_live - INFO - [LIVE_PROGRESS_UPDATE] | Processed 50 LIVE matches, Success: 50, Failed: 0
+2025-08-24 16:41:00 - tipico_live - INFO - [LIVE_PROGRESS_UPDATE] | Processed 75 LIVE matches, Success: 75, Failed: 0

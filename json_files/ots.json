@@ -347,7 +347,6 @@
   ],
   "maps": [
     "3-way handicap",
-    "handicap",
     "3-way-handicap",
     "3way-handicap-ordinary-time",
     "3-way handicap - regular time",
@@ -891,7 +890,8 @@
     "run line",
     "point spread - including overtime",
     "goal spread - extra time",
-    "handicap - points - match"
+    "handicap - points - match",
+    "handicap"
   ],
   "__v": 0,
   "createdAt": {
@@ -1014,7 +1014,8 @@
     "point spread - 1st quarter",
     "point spread - points - 1st game",
     "total points - quarter 1",
-    "handicap - quarter 1"
+    "handicap - quarter 1",
+    "spread - 1st quarter"
   ],
   "__v": 0,
   "createdAt": {
@@ -1052,7 +1053,8 @@
   "maps": [
     "point spread - 2nd quarter",
     "total points - quarter 2",
-    "handicap - quarter 2"
+    "handicap - quarter 2",
+    "spread - 2nd quarter"
   ],
   "__v": 0,
   "createdAt": {
@@ -1090,7 +1092,8 @@
   "maps": [
     "point spread - 3rd quarter",
     "total points - quarter 3",
-    "handicap - quarter 3"
+    "handicap - quarter 3",
+    "spread - 3rd quarter"
   ],
   "__v": 0,
   "createdAt": {
@@ -1128,7 +1131,8 @@
   "maps": [
     "point spread - 4th quarter",
     "total points - quarter 4",
-    "handicap - quarter 4"
+    "handicap - quarter 4",
+    "spread - 4th quarter"
   ],
   "__v": 0,
   "createdAt": {
@@ -1359,7 +1363,8 @@
     "over-under-1st-quarter",
     "total - 1st quarter",
     "quarter no.1 - over/under",
-    "total goals - quarter 1"
+    "total goals - quarter 1",
+    "total points - 1st quarter"
   ],
   "__v": 0,
   "createdAt": {
@@ -1396,7 +1401,8 @@
     "over-under-2nd-quarter",
     "total - 2nd quarter",
     "quarter no.2 - over/under",
-    "total goals - quarter 2"
+    "total goals - quarter 2",
+    "total points - 2nd quarter"
   ],
   "__v": 0,
   "createdAt": {
@@ -1433,7 +1439,8 @@
     "over-under-3rd-quarter",
     "total - 3rd quarter",
     "quarter no.3 - over/under",
-    "total goals - quarter 3"
+    "total goals - quarter 3",
+    "total points - 3rd quarter"
   ],
   "__v": 0,
   "createdAt": {
@@ -1470,7 +1477,8 @@
     "over-under-4th-quarter",
     "total - 4th quarter",
     "quarter no.4 - over/under",
-    "total goals - quarter 4"
+    "total goals - quarter 4",
+    "total points - 4th quarter"
   ],
   "__v": 0,
   "createdAt": {
@@ -5720,7 +5728,8 @@
     "game spread - 1st set",
     "point spread - points - 1st set",
     "game handicap - set 1",
-    "point handicap - set 1"
+    "point handicap - set 1",
+    "handicap in set 1"
   ],
   "__v": 0,
   "createdAt": {
@@ -5760,7 +5769,8 @@
     "game spread - 2nd set",
     "point spread - points - 2nd set",
     "game handicap - set 2",
-    "point handicap - set 2"
+    "point handicap - set 2",
+    "handicap in set 2"
   ],
   "__v": 0,
   "createdAt": {
@@ -5800,7 +5810,8 @@
     "game spread - 3rd set",
     "point spread - points - 3rd set",
     "game handicap - set 3",
-    "point handicap - set 3"
+    "point handicap - set 3",
+    "handicap in set 3"
   ],
   "__v": 0,
   "createdAt": {
@@ -5919,7 +5930,8 @@
     "game spread - 4th set",
     "point spread - points - 4th set",
     "game handicap - set 4",
-    "point handicap - set 4"
+    "point handicap - set 4",
+    "handicap in set 4"
   ],
   "__v": 0,
   "createdAt": {
@@ -6243,7 +6255,9 @@
   "maps": [
     "point spread - 1st inning",
     "total points - inning 1",
-    "runline - 1st inning"
+    "runline - 1st inning",
+    "runline - 1 inning line",
+    "spread - 1 inning line"
   ],
   "__v": 0,
   "createdAt": {
@@ -6281,7 +6295,9 @@
   "maps": [
     "point spread - 2nd inning",
     "total points - inning 2",
-    "runline - 2nd inning"
+    "runline - 2nd inning",
+    "runline - 2 inning line",
+    "spread - 2 inning line"
   ],
   "__v": 0,
   "createdAt": {
@@ -6319,7 +6335,9 @@
   "maps": [
     "point spread - 3rd inning",
     "total points - inning 3",
-    "runline - 3rd inning"
+    "runline - 3rd inning",
+    "runline - 3 inning line",
+    "spread - 3 inning line"
   ],
   "__v": 0,
   "createdAt": {
@@ -6357,7 +6375,9 @@
   "maps": [
     "point spread - 4th inning",
     "total points - inning 4",
-    "runline - 4th inning"
+    "runline - 4th inning",
+    "runline - 4 inning line",
+    "spread - 4 inning line"
   ],
   "__v": 0,
   "createdAt": {
@@ -6395,7 +6415,8 @@
     "total - 1st inning",
     "inning no.1 - over/under",
     "total goals - inning 1",
-    "1st innings score - match"
+    "1st innings score - match",
+    "total - 1 inning line"
   ],
   "__v": 0,
   "createdAt": {
@@ -6433,7 +6454,8 @@
     "total - 2nd inning",
     "inning no.2 - over/under",
     "total goals - inning 2",
-    "2nd innings score - match"
+    "2nd innings score - match",
+    "total - 2 inning line"
   ],
   "__v": 0,
   "createdAt": {
@@ -6471,7 +6493,8 @@
     "total - 3rd inning",
     "inning no.3 - over/under",
     "total goals - inning 3",
-    "3rd innings score - match"
+    "3rd innings score - match",
+    "total - 3 inning line"
   ],
   "__v": 0,
   "createdAt": {
@@ -6509,7 +6532,8 @@
     "total - 4th inning",
     "inning no.4 - over/under",
     "total goals - inning 4",
-    "4th innings score - match"
+    "4th innings score - match",
+    "total - 4 inning line"
   ],
   "__v": 0,
   "createdAt": {
@@ -7369,7 +7393,9 @@
     "point spread - 5th inning",
     "point spread - points - 5th game",
     "total points - inning 5",
-    "runline - 5th inning"
+    "runline - 5th inning",
+    "spread - 5 inning line",
+    "runline - 5 inning line"
   ],
   "__v": 0,
   "createdAt": {
@@ -7407,7 +7433,9 @@
   "maps": [
     "point spread - 6th inning",
     "total points - inning 6",
-    "runline - 6th inning"
+    "runline - 6th inning",
+    "spread - 6 inning line",
+    "runline - 6 inning line"
   ],
   "__v": 0,
   "createdAt": {
@@ -7445,7 +7473,9 @@
   "maps": [
     "point spread - 7th inning",
     "total points - inning 7",
-    "runline - 7th inning"
+    "runline - 7th inning",
+    "spread - 7 inning line",
+    "runline - 7 inning line"
   ],
   "__v": 0,
   "createdAt": {
@@ -7483,7 +7513,9 @@
   "maps": [
     "point spread - 8th inning",
     "total points - inning 8",
-    "runline - 8th inning"
+    "runline - 8th inning",
+    "spread - 8 inning line",
+    "runline - 8 inning line"
   ],
   "__v": 0,
   "createdAt": {
@@ -7521,7 +7553,8 @@
     "total - 5th inning",
     "inning no.5 - over/under",
     "total goals - inning 5",
-    "5th innings score - match"
+    "5th innings score - match",
+    "total - 5 inning line"
   ],
   "__v": 0,
   "createdAt": {
@@ -7559,7 +7592,8 @@
     "total - 6th inning",
     "inning no.6 - over/under",
     "total goals - inning 6",
-    "6th innings score - match"
+    "6th innings score - match",
+    "total - 6 inning line"
   ],
   "__v": 0,
   "createdAt": {
@@ -7597,7 +7631,8 @@
     "total - 7th inning",
     "inning no.7 - over/under",
     "total goals - inning 7",
-    "7th innings score - match"
+    "7th innings score - match",
+    "total - 7 inning line"
   ],
   "__v": 0,
   "createdAt": {
@@ -7635,7 +7670,8 @@
     "total - 8th inning",
     "inning no.8 - over/under",
     "total goals - inning 8",
-    "8th innings score - match"
+    "8th innings score - match",
+    "total - 8 inning line"
   ],
   "__v": 0,
   "createdAt": {
@@ -8284,7 +8320,9 @@
   "maps": [
     "point spread - 9th inning",
     "total points - inning 9",
-    "runline - 9th inning"
+    "runline - 9th inning",
+    "runline - 9 inning line",
+    "spread - 9 inning line"
   ],
   "__v": 0,
   "createdAt": {
@@ -8322,7 +8360,8 @@
     "total - 9th inning",
     "inning no.9 - over/under",
     "total goals - inning 9",
-    "9th innings score - match"
+    "9th innings score - match",
+    "total - 9 inning line"
   ],
   "__v": 0,
   "createdAt": {
@@ -8683,7 +8722,8 @@
     "game spread - 5th set",
     "point spread - points - 5th set",
     "game handicap - set 5",
-    "point handicap - set 5"
+    "point handicap - set 5",
+    "handicap in set 5"
   ],
   "__v": 0,
   "createdAt": {

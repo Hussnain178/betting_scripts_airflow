@@ -350,6 +350,16 @@ class TipicoOddsSpider(scrapy.Spider):
             mapping_result = self._get_odds_mapping_data(odds_key)
             value_mappings = mapping_result[0]
             odds_key = mapping_result[1]
+        elif odds_key.lower() == '3-way-hc' and len(odds_results) == 2:
+            odds_key = 'points'
+            mapping_result = self._get_odds_mapping_data(odds_key)
+            value_mappings = mapping_result[0]
+            odds_key = mapping_result[1]
+        elif odds_key.lower() == 'points' and len(odds_results) == 3:
+            odds_key = '3-way-hc'
+            mapping_result = self._get_odds_mapping_data(odds_key)
+            value_mappings = mapping_result[0]
+            odds_key = mapping_result[1]
 
         # Get subtitle/handicap information
         odds_subtitle = self._extract_odds_subtitle(match_data, odds_group_id_str, odds_key)

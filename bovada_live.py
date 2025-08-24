@@ -314,16 +314,16 @@ class BovadaLiveOddsSpider(scrapy.Spider):
         """Process individual LIVE match and extract odds"""
         try:
             self.total_live_matches_processed += 1
-            gmt_timestamp = self._convert_timestamp(live_match_info['startTime'])
-            try:
-                parsed_match_datetime = parse_tipico_date(gmt_timestamp)
-            except Exception as date_error:
-                log_scraper_progress(
-                    self.custom_logger, 'DATE_PARSE_ERROR',
-                    f'Error parsing date {gmt_timestamp}',
-                    error=date_error
-                )
-                return
+            # gmt_timestamp = self._convert_timestamp(live_match_info['startTime'])
+            # try:
+            #     parsed_match_datetime = parse_tipico_date(gmt_timestamp)
+            # except Exception as date_error:
+            #     log_scraper_progress(
+            #         self.custom_logger, 'DATE_PARSE_ERROR',
+            #         f'Error parsing date {gmt_timestamp}',
+            #         error=date_error
+            #     )
+            #     return
 
             # Determine sport name
             sport_name = self._normalize_sport_name(league_data['path'][-1]['description'])
@@ -351,7 +351,7 @@ class BovadaLiveOddsSpider(scrapy.Spider):
                 'competitor2': competitor2_name,
                 'sport': sport_name,
                 'country': country_name,
-                "timestamp": parsed_match_datetime,
+                # "timestamp": parsed_match_datetime,
                 'group': group_name,
                 'bovada_match_id': str(live_match_info['id']),
                 'odds': {},
@@ -404,8 +404,7 @@ class BovadaLiveOddsSpider(scrapy.Spider):
                     description_team1, description_team2,
                     short_name_team1, short_name_team2
                 )
-            else:
-                l=1
+
             live_match_information['odds'] = remove_empty_dicts(live_match_information['odds'])
             if live_match_information['odds'] is None:
                 live_match_information['odds']={}

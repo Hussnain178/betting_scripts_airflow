@@ -373,13 +373,13 @@ def check_key(name):
                     'header', '4s', 'touchdown', 'of the match',  '6s', 'fifty','successful','cards',
                     'century', "player's total runs",  'retain','through','to go ','halfback',
                     'performance', 'converted', 'listed', 'center', 'margin',  'either', 'hc ', 'runs ',
-                    'rushing',  'yards', 'receving', 'remaining', '(', ')','tiebreak',
+                    'rushing',  'yards', 'receving', 'remaining', '(', ')','tiebreak','caught','individual',
                     'deuce', 'next', 'touchdowns', 'range', 'will', '?', 'did', 'does', 'hour', 'minute', 'halves','scorer',
                     ' end', ' get', ' own', ' award', ' kick', ' hero', ' tries', ' more', ' last', ' given',
                     ' red', ' most', ' try', ' out', ' tie', ' break', ' win', ' side', ' four',' and','and ',
                     ' sixes', ' top', ' lead', ' race', ' stats', 'end ', 'get ', 'own ', 'award ', 'kick ',
                     'hero ', 'tries ', 'more ', 'last ', 'given ', 'red ', 'most ', 'try ', 'out ', 'tie ', 'break ',
-                    'win ', 'side ', 'four ', 'sixes ', 'top ', 'lead ', 'race ', 'stats ','offsides'
+                    'win ', 'side ', 'four ', 'sixes ', 'top ', 'lead ', 'race ', 'stats ','offsides',
                     'betting', '&', '1 .ht', '1. ht', '1.ht', 'number of runs in match', 'how', 'which', 'who',
                     'result',  'halftime', 'legs', 'half time', 'full time','halftime', 'fulltime',
                     'tackles', 'attempts', 'final', 'frame', 'wides', 'highest',  'assists', 'made', 'home', 'away', 'rebounds', 'milestones', 'qualify', 'exact',
@@ -389,7 +389,7 @@ def check_key(name):
         if word in name.lower():
             l=1
 
-    excat_not_used=['total match points','to score','total offsides ']
+    excat_not_used=['total match points','to score','total offsides ','set betting']
     if name.lower() in excat_not_used:
         return False
     if not any(word in name.lower() for word in not_used_key) :
@@ -516,15 +516,15 @@ def check_header_name(key):
                 key_name = 'Full Match'
         elif 'set' in key.lower():
             s1 = ['1st set', 'set 1', 'set one', 'first set', 'set no. 1', 'set number 1',
-                  '1.set', '1 .set', '1. set', 'set no.1']
+                  '1.set', '1 .set', '1. set', 'set no.1','1 set']
             s2 = ['2nd set', 'set 2', 'set two', 'second set', 'set no. 2', 'set number 2',
-                  '2.set', '2 .set', '2. set', 'set no.2']
+                  '2.set', '2 .set', '2. set', 'set no.2','2 set']
             s3 = ['3rd set', 'set 3', 'set three', 'third set', 'set no. 3', 'set number 3',
-                  '3.set', '3 .set', '3. set', 'set no.3']
+                  '3.set', '3 .set', '3. set', 'set no.3','3 set']
             s4 = ['4th set', 'set 4', 'set four', 'fourth set', 'set no. 4', 'set number 4',
-                  '4.set', '4 .set', '4. set', 'set no.4']
+                  '4.set', '4 .set', '4. set', 'set no.4','4 set']
             s5 = ['5th set', 'set 5', 'set five', 'fifth set', 'set no. 5', 'set number 5',
-                  '5.set', '5 .set', '5. set', 'set no.5']
+                  '5.set', '5 .set', '5. set', 'set no.5','5 set']
             if any(word.replace("-", "").replace(" ", "") in key.lower() for word in s1):
                 if 'first set' in key.lower():
                     if key.lower().count('first') == 1:
@@ -562,23 +562,23 @@ def check_header_name(key):
         elif 'inning' in key.lower():
 
             i1 = ['1st inning', 'first inning', 'one inning', 'inning 1', 'inning one',
-                  'inning no. 1', 'inning number 1', 'inning no.1']
+                  'inning no. 1', 'inning number 1', 'inning no.1','1 inning']
             i2 = ['2nd inning', 'second inning', 'two inning', 'inning 2', 'inning two',
-                  'inning no. 2', 'inning number 2', 'inning no.2']
+                  'inning no. 2', 'inning number 2', 'inning no.2','2 inning']
             i3 = ['3rd inning', 'third inning', 'three inning', 'inning 3', 'inning third',
-                  'inning no. 3', 'inning number 3', 'inning no.3']
+                  'inning no. 3', 'inning number 3', 'inning no.3','3 inning']
             i4 = ['4th inning', 'fourth inning', 'four inning', 'inning 4', 'inning fourth',
-                  'inning no. 4', 'inning number 4', 'inning no.4']
+                  'inning no. 4', 'inning number 4', 'inning no.4','4 inning']
             i5 = ['5th inning', 'fifth inning', 'five inning', 'inning 5', 'inning fifth',
-                  'inning no. 5', 'inning number 5', 'inning no.5']
+                  'inning no. 5', 'inning number 5', 'inning no.5','5 inning']
             i6 = ['6th inning', 'sixth inning', 'six inning', 'inning 6', 'inning sixth',
-                  'inning no. 6', 'inning number 6', 'inning no.6']
+                  'inning no. 6', 'inning number 6', 'inning no.6','6 inning']
             i7 = ['7th inning', 'seventh inning', 'seven inning', 'inning 7',
-                  'inning seventh', 'inning no. 7', 'inning number 7', 'inning no.7']
+                  'inning seventh', 'inning no. 7', 'inning number 7', 'inning no.7','7 inning']
             i8 = ['8th inning', 'eighth inning', 'eight inning', 'inning 8',
-                  'inning eighth', 'inning no. 8', 'inning number 8', 'inning no.8']
+                  'inning eighth', 'inning no. 8', 'inning number 8', 'inning no.8','8 inning']
             i9 = ['9th inning', 'ninth inning', 'nine inning', 'inning 9', 'inning ninth',
-                  'inning no. 9', 'inning number 9', 'inning no.9']
+                  'inning no. 9', 'inning number 9', 'inning no.9','9 inning']
             if any(word.replace("-", "").replace(" ", "") in key.lower() for word in i1):
                 if 'first inning' in key.lower():
                     if key.lower().count('first') == 1:
@@ -638,11 +638,11 @@ def check_header_name(key):
         elif 'period' in key.lower():
 
             p1 = ['1st period', 'first period', 'one period', 'period 1', 'period one',
-                  'period no. 1', 'period number 1', 'period no.1']
+                  'period no. 1', 'period number 1', 'period no.1','1 period']
             p2 = ['2nd period', 'second period', 'two period', 'period 2', 'period two',
-                  'period no. 2', 'period number 2', 'period no.2']
+                  'period no. 2', 'period number 2', 'period no.2','2 period']
             p3 = ['3rd period', 'third period', 'three period', 'period 3', 'period third',
-                  'period no. 3', 'period number 3', 'period no.3']
+                  'period no. 3', 'period number 3', 'period no.3','3 period']
 
             if any(word.replace("-", "").replace(" ", "") in key.lower() for word in p1):
                 if 'first period' in key.lower():

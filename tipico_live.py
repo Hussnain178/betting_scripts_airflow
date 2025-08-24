@@ -211,21 +211,21 @@ class TipicoLiveOddsSpider(scrapy.Spider):
                 return
 
             self.total_live_matches_processed += 1
-            match_start_date = event_info.get('startDate', '')
-            if not match_start_date:
-                self.failed_live_matches += 1
-                return
-
-            try:
-                parsed_match_datetime = parse_tipico_date(match_start_date)
-            except Exception as date_error:
-                log_scraper_progress(
-                    self.custom_logger, 'DATE_PARSE_ERROR',
-                    f'Error parsing date {match_start_date}',
-                    error=date_error
-                )
-                self.failed_live_matches += 1
-                return
+            # match_start_date = event_info.get('startDate', '')
+            # if not match_start_date:
+            #     self.failed_live_matches += 1
+            #     return
+            #
+            # try:
+            #     parsed_match_datetime = parse_tipico_date(match_start_date)
+            # except Exception as date_error:
+            #     log_scraper_progress(
+            #         self.custom_logger, 'DATE_PARSE_ERROR',
+            #         f'Error parsing date {match_start_date}',
+            #         error=date_error
+            #     )
+            #     self.failed_live_matches += 1
+            #     return
 
             # Determine sport category
             sport_group_key = 'group' if 'group' in event_info else 'groups'
@@ -241,7 +241,7 @@ class TipicoLiveOddsSpider(scrapy.Spider):
                 'country': sport_categories[-2],
                 'group': sport_categories[0],
                 'tipico_match_id': str(event_info['id']),
-                'timestamp': parsed_match_datetime,
+                # 'timestamp': parsed_match_datetime,
                 'competitor1': event_info['team1'],
                 'competitor2': event_info['team2'],
                 'status': 'live',
@@ -358,6 +358,17 @@ class TipicoLiveOddsSpider(scrapy.Spider):
             mapping_result = self._get_odds_mapping_data(odds_key)
             value_mappings = mapping_result[0]
             odds_key = mapping_result[1]
+        elif   odds_key.lower() == '3-way-hc' and len(odds_results) == 2  :
+            odds_key = 'points'
+            mapping_result = self._get_odds_mapping_data(odds_key)
+            value_mappings = mapping_result[0]
+            odds_key = mapping_result[1]
+        elif   odds_key.lower() == 'points' and len(odds_results) == 3 :
+            odds_key = '3-way-hc'
+            mapping_result = self._get_odds_mapping_data(odds_key)
+            value_mappings = mapping_result[0]
+            odds_key = mapping_result[1]
+
 
         # Get subtitle/handicap information
         odds_subtitle = self._extract_live_odds_subtitle(match_data, odds_group_id_str)
