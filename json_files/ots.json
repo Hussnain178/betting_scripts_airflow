@@ -879,6 +879,7 @@
     "spread-game",
     "point spread - points - match",
     "runline - game",
+    "game handicap",
     "alternate game spread - match",
     "game spread - match",
     "point spread - game",
@@ -1274,6 +1275,7 @@
   "maps": [
     "total goals - 1st half",
     "1--half-over-under",
+    "over/under remaining time in the half",
     "ou-1h",
     "1st-half---over-under",
     "over-under-1st-half",
@@ -3511,7 +3513,7 @@
   ],
   "maps": [
     "set handicap",
-    "game handicap"
+
   ],
   "__v": 0,
   "createdAt": {
@@ -8943,7 +8945,7 @@
   },
   "id": "correct-score-quarter-1",
   "act": true,
-  "ovs": [],
+  "ovs": []
   "maps": [
     "correct-score-1st-quarter",
     "correct score - quarter 1"

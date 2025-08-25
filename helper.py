@@ -450,7 +450,7 @@ def check_header_name(key):
                   'halfnumber1', 'halfno1', 'half1', '1half']
             h2 = ['2ndhalf', 'secondhalf', '2h', '2h', '2h',
                   'halfnumber2', 'halfno2', 'half2', '2half']
-            if any(word.replace("-", "").replace(" ", "") in key.lower() for word in h1):
+            if any(word.replace("-", "").replace(" ", "") in key.lower() for word in h1) or ' half' in key.lower() :
                 if 'first half' in key.lower():
                     if key.lower().count('first') == 1:
                         key_name = '1st Half'
