@@ -373,7 +373,7 @@ def check_key(name):
                     'header', '4s', 'touchdown', 'of the match',  '6s', 'fifty','successful','cards',
                     'century', "player's total runs",  'retain','through','to go ','halfback',
                     'performance', 'converted', 'listed', 'center', 'margin',  'either', 'hc ', 'runs ',
-                    'rushing',  'yards', 'receving', 'remaining', '(', ')','tiebreak','caught','individual',
+                    'rushing',  'yards', 'receving', '(', ')','tiebreak','caught','individual',
                     'deuce', 'next', 'touchdowns', 'range', 'will', '?', 'did', 'does', 'hour', 'minute', 'halves','scorer',
                     ' end', ' get', ' own', ' award', ' kick', ' hero', ' tries', ' more', ' last', ' given',
                     ' red', ' most', ' try', ' out', ' tie', ' break', ' win', ' side', ' four',' and','and ',

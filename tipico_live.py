@@ -286,8 +286,10 @@ class TipicoLiveOddsSpider(scrapy.Spider):
         """Normalize sport names to standard format"""
         normalized_name = sport_name.strip().lower()
 
-        if normalized_name in ['football', 'esports']:
+        if normalized_name == 'football':
             return 'soccer'
+        elif normalized_name == 'rugby':
+            return 'rugby league'
         else:
             return sport_name.strip()
 
@@ -372,40 +374,41 @@ class TipicoLiveOddsSpider(scrapy.Spider):
 
         # Get subtitle/handicap information
         odds_subtitle = self._extract_live_odds_subtitle(match_data, odds_group_id_str)
+        if ':' not in odds_subtitle:
 
-        # Determine header categorization
-        header_result = check_header_name(odds_key)
-        odds_header_category = header_result[0]
-        final_odds_key = header_result[1]
+            # Determine header categorization
+            header_result = check_header_name(odds_key)
+            odds_header_category = header_result[0]
+            final_odds_key = header_result[1]
 
-        self.unique_odds_keys.add(final_odds_key)
+            self.unique_odds_keys.add(final_odds_key)
 
-        # Initialize nested dictionary structure
-        prices_dict = match_info['prices']
-        if odds_header_category not in prices_dict:
-            prices_dict[odds_header_category] = {}
-        if final_odds_key not in prices_dict[odds_header_category]:
-            prices_dict[odds_header_category][final_odds_key] = {}
-        if odds_subtitle not in prices_dict[odds_header_category][final_odds_key]:
-            prices_dict[odds_header_category][final_odds_key][odds_subtitle] = {}
+            # Initialize nested dictionary structure
+            prices_dict = match_info['prices']
+            if odds_header_category not in prices_dict:
+                prices_dict[odds_header_category] = {}
+            if final_odds_key not in prices_dict[odds_header_category]:
+                prices_dict[odds_header_category][final_odds_key] = {}
+            if odds_subtitle not in prices_dict[odds_header_category][final_odds_key]:
+                prices_dict[odds_header_category][final_odds_key][odds_subtitle] = {}
 
-        # Extract individual odds values for live match
-        for result_id in odds_results:
-            result_info = match_data['results'][str(result_id)]
+            # Extract individual odds values for live match
+            for result_id in odds_results:
+                result_info = match_data['results'][str(result_id)]
 
-            odds_value =str(round(float(result_info['quoteFloatValue']), 1))
+                odds_value =str(round(float(result_info['quoteFloatValue']), 1))
 
-            if odds_value == '' or odds_value == ' ' or odds_value is None:
-                break
+                if odds_value == '' or odds_value == ' ' or odds_value is None:
+                    break
 
-            outcome_name = result_info['caption']
+                outcome_name = result_info['caption']
 
-            # Map outcome name if mappings exist
-            if value_mappings:
-                mapped_outcome = self._map_outcome_name(outcome_name, value_mappings)
-                outcome_name = mapped_outcome
+                # Map outcome name if mappings exist
+                if value_mappings:
+                    mapped_outcome = self._map_outcome_name(outcome_name, value_mappings)
+                    outcome_name = mapped_outcome
 
-            prices_dict[odds_header_category][final_odds_key][odds_subtitle][outcome_name] = odds_value
+                prices_dict[odds_header_category][final_odds_key][odds_subtitle][outcome_name] = odds_value
 
     def _extract_live_odds_subtitle(self, match_data, odds_group_id):
         """Extract subtitle/handicap information from live odds group"""

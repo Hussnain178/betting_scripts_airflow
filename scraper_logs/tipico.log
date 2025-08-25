@@ -675,3 +675,1206 @@
 2025-08-24 16:44:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
 2025-08-24 16:44:05 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1150 matches, Success: 1150, Failed: 0
 2025-08-24 16:44:09 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1200 matches, Success: 1200, Failed: 0
+2025-08-25 11:12:07 - tipico - INFO - Logger initialized for tipico scraper
+2025-08-25 11:12:07 - tipico - INFO - Log file: scraper_logs/tipico.log
+2025-08-25 11:12:07 - tipico - INFO - [INIT] | Initializing Tipico scraper
+2025-08-25 11:12:07 - tipico - INFO - [DB_CONNECTED] | MongoDB connection established
+2025-08-25 11:12:07 - tipico - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings, 293 countries
+2025-08-25 11:12:07 - tipico - INFO - [START] | Starting Tipico navigation scraping
+2025-08-25 11:12:11 - tipico - INFO - [NAVIGATION_PARSED] | Found 21 sports categories
+2025-08-25 11:12:12 - tipico - INFO - [VALID_SPORTS_FILTERED] | Processing 13 valid sports
+2025-08-25 11:12:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-25 11:12:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-25 11:12:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:12:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:12:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-25 11:12:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-25 11:12:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:12:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:12:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:12:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 20 matches in league
+2025-08-25 11:12:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:12:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:12:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:12:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:12:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:12:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:12:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:12:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 24 matches in league
+2025-08-25 11:12:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:12:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:12:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 24 matches in league
+2025-08-25 11:12:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 21 matches in league
+2025-08-25 11:12:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:12:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:12:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:12:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-25 11:12:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:12:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:12:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:12:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 19 matches in league
+2025-08-25 11:12:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:12:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:12:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:12:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:12:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:12:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:12:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:12:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:12:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:12:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:12:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:12:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:12:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:12:18 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-25 11:12:18 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:12:18 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 15 matches in league
+2025-08-25 11:12:18 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:12:18 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:12:18 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:12:18 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:12:18 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:12:18 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:12:18 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:12:18 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:12:19 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:12:19 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:12:19 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:12:19 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:12:19 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:12:19 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:12:19 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:12:19 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:12:19 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:12:19 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:12:19 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:12:25 - tipico - INFO - [PROGRESS_UPDATE] | Processed 50 matches, Success: 50, Failed: 0
+2025-08-25 11:12:33 - tipico - INFO - [PROGRESS_UPDATE] | Processed 100 matches, Success: 100, Failed: 0
+2025-08-25 11:12:40 - tipico - INFO - [PROGRESS_UPDATE] | Processed 150 matches, Success: 150, Failed: 0
+2025-08-25 11:12:45 - tipico - INFO - [PROGRESS_UPDATE] | Processed 200 matches, Success: 200, Failed: 0
+2025-08-25 11:12:51 - tipico - INFO - [PROGRESS_UPDATE] | Processed 250 matches, Success: 250, Failed: 0
+2025-08-25 11:12:56 - tipico - INFO - [PROGRESS_UPDATE] | Processed 300 matches, Success: 300, Failed: 0
+2025-08-25 11:13:01 - tipico - INFO - [PROGRESS_UPDATE] | Processed 350 matches, Success: 350, Failed: 0
+2025-08-25 11:13:06 - tipico - INFO - [PROGRESS_UPDATE] | Processed 400 matches, Success: 400, Failed: 0
+2025-08-25 11:13:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 27 matches in league
+2025-08-25 11:13:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:13:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:13:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:13:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:13:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 68 matches in league
+2025-08-25 11:13:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:13:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:13:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-25 11:13:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:13:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:13:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 22 matches in league
+2025-08-25 11:13:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 16 matches in league
+2025-08-25 11:13:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:13:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 15 matches in league
+2025-08-25 11:13:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:13:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-25 11:13:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:13:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:13:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:13:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-25 11:13:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:13:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:13:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:13:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:13:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:13:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:13:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:13:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:13:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:13:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:13:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:13:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:13:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:13:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-25 11:13:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:13:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:13:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:13:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 50 matches in league
+2025-08-25 11:13:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:13:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 47 matches in league
+2025-08-25 11:13:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:13:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:13:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:13:17 - tipico - INFO - [PROGRESS_UPDATE] | Processed 450 matches, Success: 450, Failed: 0
+2025-08-25 11:13:20 - tipico - INFO - [PROGRESS_UPDATE] | Processed 500 matches, Success: 500, Failed: 0
+2025-08-25 11:13:25 - tipico - INFO - [PROGRESS_UPDATE] | Processed 550 matches, Success: 550, Failed: 0
+2025-08-25 11:13:29 - tipico - INFO - [PROGRESS_UPDATE] | Processed 600 matches, Success: 600, Failed: 0
+2025-08-25 11:13:34 - tipico - INFO - [PROGRESS_UPDATE] | Processed 650 matches, Success: 650, Failed: 0
+2025-08-25 11:13:38 - tipico - INFO - [PROGRESS_UPDATE] | Processed 700 matches, Success: 700, Failed: 0
+2025-08-25 11:13:42 - tipico - INFO - [PROGRESS_UPDATE] | Processed 750 matches, Success: 750, Failed: 0
+2025-08-25 11:13:46 - tipico - INFO - [PROGRESS_UPDATE] | Processed 800 matches, Success: 800, Failed: 0
+2025-08-25 11:13:51 - tipico - INFO - [PROGRESS_UPDATE] | Processed 850 matches, Success: 850, Failed: 0
+2025-08-25 11:13:55 - tipico - INFO - [PROGRESS_UPDATE] | Processed 900 matches, Success: 900, Failed: 0
+2025-08-25 11:13:57 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 15 matches in league
+2025-08-25 11:13:57 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:13:57 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:13:57 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:13:57 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:13:57 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:13:57 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:13:57 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:57 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:13:57 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:57 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:13:57 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:13:58 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:58 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:13:58 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 21 matches in league
+2025-08-25 11:13:58 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:13:58 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:13:58 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:13:58 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:13:58 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:13:58 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:58 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:13:58 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:58 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:58 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-25 11:13:58 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:13:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:13:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:13:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:13:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:13:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:13:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:13:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:13:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:13:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:14:00 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:14:00 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 22 matches in league
+2025-08-25 11:14:00 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 24 matches in league
+2025-08-25 11:14:00 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-25 11:14:00 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:14:00 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:14:00 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:14:00 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:14:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:14:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:14:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:14:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:14:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:14:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:14:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:14:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:14:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:14:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:14:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:14:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:14:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:14:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:14:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:14:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:14:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:14:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:14:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:14:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:14:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:14:05 - tipico - INFO - [PROGRESS_UPDATE] | Processed 950 matches, Success: 950, Failed: 0
+2025-08-25 11:14:09 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1000 matches, Success: 1000, Failed: 0
+2025-08-25 11:14:13 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1050 matches, Success: 1050, Failed: 0
+2025-08-25 11:14:18 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1100 matches, Success: 1100, Failed: 0
+2025-08-25 11:14:22 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1150 matches, Success: 1150, Failed: 0
+2025-08-25 11:14:26 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1200 matches, Success: 1200, Failed: 0
+2025-08-25 11:14:30 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:14:30 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:14:30 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:14:30 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:14:30 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:14:30 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:14:30 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:14:30 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:14:32 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1250 matches, Success: 1250, Failed: 0
+2025-08-25 11:25:40 - tipico - INFO - Logger initialized for tipico scraper
+2025-08-25 11:25:40 - tipico - INFO - Log file: scraper_logs/tipico.log
+2025-08-25 11:25:40 - tipico - INFO - [INIT] | Initializing Tipico scraper
+2025-08-25 11:25:40 - tipico - INFO - [DB_CONNECTED] | MongoDB connection established
+2025-08-25 11:25:40 - tipico - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings, 293 countries
+2025-08-25 11:25:40 - tipico - INFO - [START] | Starting Tipico navigation scraping
+2025-08-25 11:25:42 - tipico - INFO - [NAVIGATION_PARSED] | Found 21 sports categories
+2025-08-25 11:25:43 - tipico - INFO - [VALID_SPORTS_FILTERED] | Processing 13 valid sports
+2025-08-25 11:25:43 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-25 11:25:43 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:25:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:25:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-25 11:25:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:25:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:25:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:25:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:25:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-25 11:25:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-25 11:25:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:25:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:25:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 20 matches in league
+2025-08-25 11:25:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 19 matches in league
+2025-08-25 11:25:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:25:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:25:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-25 11:25:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:25:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:25:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:25:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:25:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:25:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:25:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:25:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 24 matches in league
+2025-08-25 11:25:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 24 matches in league
+2025-08-25 11:25:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 21 matches in league
+2025-08-25 11:25:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:25:46 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:25:46 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:25:46 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:25:46 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:25:46 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:25:46 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:25:46 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:25:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:25:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:25:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:25:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-25 11:25:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:25:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:25:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:25:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:25:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:25:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:25:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:25:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:25:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:25:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:25:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:25:48 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:25:48 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:25:48 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:25:48 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:25:48 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:25:48 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:25:48 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:25:48 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 15 matches in league
+2025-08-25 11:25:48 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:25:48 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:25:48 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:25:48 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:25:48 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:25:48 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:25:48 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:25:52 - tipico - INFO - [PROGRESS_UPDATE] | Processed 50 matches, Success: 50, Failed: 0
+2025-08-25 11:25:56 - tipico - INFO - [PROGRESS_UPDATE] | Processed 100 matches, Success: 100, Failed: 0
+2025-08-25 11:26:00 - tipico - INFO - [PROGRESS_UPDATE] | Processed 150 matches, Success: 150, Failed: 0
+2025-08-25 11:26:04 - tipico - INFO - [PROGRESS_UPDATE] | Processed 200 matches, Success: 200, Failed: 0
+2025-08-25 11:26:08 - tipico - INFO - [PROGRESS_UPDATE] | Processed 250 matches, Success: 250, Failed: 0
+2025-08-25 11:26:12 - tipico - INFO - [PROGRESS_UPDATE] | Processed 300 matches, Success: 300, Failed: 0
+2025-08-25 11:26:19 - tipico - INFO - [PROGRESS_UPDATE] | Processed 350 matches, Success: 350, Failed: 0
+2025-08-25 11:26:25 - tipico - INFO - [PROGRESS_UPDATE] | Processed 400 matches, Success: 400, Failed: 0
+2025-08-25 11:26:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:29 - tipico - INFO - [PROGRESS_UPDATE] | Processed 450 matches, Success: 450, Failed: 0
+2025-08-25 11:26:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:26:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 27 matches in league
+2025-08-25 11:26:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:26:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 68 matches in league
+2025-08-25 11:26:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:26:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:26:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:26:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:26:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:26:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:26:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-25 11:26:30 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:30 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 22 matches in league
+2025-08-25 11:26:30 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:30 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 16 matches in league
+2025-08-25 11:26:30 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:26:30 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 15 matches in league
+2025-08-25 11:26:31 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:31 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:31 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:26:31 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-25 11:26:31 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:31 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:26:31 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:26:31 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:31 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:31 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:31 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:26:31 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:31 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-25 11:26:31 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:26:31 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:31 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:26:32 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:32 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:26:32 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:32 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:32 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:32 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:32 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:32 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:26:32 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:26:32 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:26:32 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:26:32 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:26:32 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:26:32 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:26:32 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:26:32 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:26:32 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:26:33 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:26:33 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-25 11:26:33 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:26:33 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:33 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:26:33 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:33 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 53 matches in league
+2025-08-25 11:26:33 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 0 matches in league
+2025-08-25 11:26:33 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:26:33 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:26:33 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 49 matches in league
+2025-08-25 11:26:33 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:26:33 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:26:33 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:26:33 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:26:34 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:26:36 - tipico - INFO - [PROGRESS_UPDATE] | Processed 500 matches, Success: 500, Failed: 0
+2025-08-25 11:26:40 - tipico - INFO - [PROGRESS_UPDATE] | Processed 550 matches, Success: 550, Failed: 0
+2025-08-25 11:26:45 - tipico - INFO - [PROGRESS_UPDATE] | Processed 600 matches, Success: 600, Failed: 0
+2025-08-25 11:26:48 - tipico - INFO - [PROGRESS_UPDATE] | Processed 650 matches, Success: 650, Failed: 0
+2025-08-25 11:26:50 - tipico - INFO - [PROGRESS_UPDATE] | Processed 700 matches, Success: 700, Failed: 0
+2025-08-25 11:26:52 - tipico - INFO - [PROGRESS_UPDATE] | Processed 750 matches, Success: 750, Failed: 0
+2025-08-25 11:26:56 - tipico - INFO - [PROGRESS_UPDATE] | Processed 800 matches, Success: 800, Failed: 0
+2025-08-25 11:27:00 - tipico - INFO - [PROGRESS_UPDATE] | Processed 850 matches, Success: 850, Failed: 0
+2025-08-25 11:27:04 - tipico - INFO - [PROGRESS_UPDATE] | Processed 900 matches, Success: 900, Failed: 0
+2025-08-25 11:27:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 15 matches in league
+2025-08-25 11:27:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:27:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:27:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:27:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:27:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:27:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:27:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:27:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:27:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 21 matches in league
+2025-08-25 11:27:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:27:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:27:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:27:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:27:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:27:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:27:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:27:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:27:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:27:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:27:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:27:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:27:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:27:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:27:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:27:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:27:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 22 matches in league
+2025-08-25 11:27:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-25 11:27:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 24 matches in league
+2025-08-25 11:27:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:27:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:27:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:27:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:27:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:27:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:27:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:27:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:27:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:27:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:27:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:27:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:27:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:27:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:27:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:27:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:11 - tipico - INFO - [PROGRESS_UPDATE] | Processed 950 matches, Success: 950, Failed: 0
+2025-08-25 11:27:15 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1000 matches, Success: 1000, Failed: 0
+2025-08-25 11:27:22 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1050 matches, Success: 1050, Failed: 0
+2025-08-25 11:27:25 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1100 matches, Success: 1100, Failed: 0
+2025-08-25 11:27:28 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1150 matches, Success: 1150, Failed: 0
+2025-08-25 11:27:33 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1200 matches, Success: 1199, Failed: 1
+2025-08-25 11:27:37 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:27:37 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:29:19 - tipico - INFO - Logger initialized for tipico scraper
+2025-08-25 11:29:19 - tipico - INFO - Log file: scraper_logs/tipico.log
+2025-08-25 11:29:19 - tipico - INFO - [INIT] | Initializing Tipico scraper
+2025-08-25 11:29:19 - tipico - INFO - [DB_CONNECTED] | MongoDB connection established
+2025-08-25 11:29:19 - tipico - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings, 293 countries
+2025-08-25 11:29:20 - tipico - INFO - [START] | Starting Tipico navigation scraping
+2025-08-25 11:29:22 - tipico - INFO - [NAVIGATION_PARSED] | Found 21 sports categories
+2025-08-25 11:29:23 - tipico - INFO - [VALID_SPORTS_FILTERED] | Processing 13 valid sports
+2025-08-25 11:29:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-25 11:29:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:29:24 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:29:24 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-25 11:29:24 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:29:24 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-25 11:29:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:29:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:29:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:29:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:29:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:29:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-25 11:29:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-25 11:29:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:29:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 21 matches in league
+2025-08-25 11:29:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 19 matches in league
+2025-08-25 11:29:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:29:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:29:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:29:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 20 matches in league
+2025-08-25 11:29:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:29:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:29:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:29:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:29:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:29:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:29:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 24 matches in league
+2025-08-25 11:29:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:29:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:29:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:29:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 24 matches in league
+2025-08-25 11:29:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:29:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:29:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:29:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:29:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-25 11:29:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:29:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:29:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:29:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:29:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 15 matches in league
+2025-08-25 11:29:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:29:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:29:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:29:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:29:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:29:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:29:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:29:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:29:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:29:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:29:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:29:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:29:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:29:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:29:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:29:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:29:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:29:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:29:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 0 matches in league
+2025-08-25 11:29:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:29:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:29:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:29:28 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:29:28 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:29:32 - tipico - INFO - [PROGRESS_UPDATE] | Processed 50 matches, Success: 50, Failed: 0
+2025-08-25 11:29:35 - tipico - INFO - [PROGRESS_UPDATE] | Processed 100 matches, Success: 100, Failed: 0
+2025-08-25 11:29:39 - tipico - INFO - [PROGRESS_UPDATE] | Processed 150 matches, Success: 150, Failed: 0
+2025-08-25 11:29:44 - tipico - INFO - [PROGRESS_UPDATE] | Processed 200 matches, Success: 200, Failed: 0
+2025-08-25 11:29:48 - tipico - INFO - [PROGRESS_UPDATE] | Processed 250 matches, Success: 250, Failed: 0
+2025-08-25 11:29:52 - tipico - INFO - [PROGRESS_UPDATE] | Processed 300 matches, Success: 300, Failed: 0
+2025-08-25 11:29:55 - tipico - INFO - [PROGRESS_UPDATE] | Processed 350 matches, Success: 350, Failed: 0
+2025-08-25 11:30:00 - tipico - INFO - [PROGRESS_UPDATE] | Processed 400 matches, Success: 400, Failed: 0
+2025-08-25 11:30:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:30:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 27 matches in league
+2025-08-25 11:30:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 68 matches in league
+2025-08-25 11:30:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:30:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-25 11:30:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:30:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:30:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:30:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:30:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 15 matches in league
+2025-08-25 11:30:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 16 matches in league
+2025-08-25 11:30:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 22 matches in league
+2025-08-25 11:30:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:30:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:30:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:30:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:30:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-25 11:30:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:30:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:30:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:30:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-25 11:30:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:30:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:30:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:30:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:30:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:30:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:30:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:30:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:30:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:30:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:30:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:30:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:30:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:30:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:30:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-25 11:30:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 53 matches in league
+2025-08-25 11:30:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:30:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:30:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:30:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:30:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:30:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:30:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:30:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 49 matches in league
+2025-08-25 11:30:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 15 matches in league
+2025-08-25 11:30:08 - tipico - INFO - [PROGRESS_UPDATE] | Processed 450 matches, Success: 450, Failed: 0
+2025-08-25 11:30:10 - tipico - INFO - [PROGRESS_UPDATE] | Processed 500 matches, Success: 500, Failed: 0
+2025-08-25 11:30:14 - tipico - INFO - [PROGRESS_UPDATE] | Processed 550 matches, Success: 550, Failed: 0
+2025-08-25 11:30:17 - tipico - INFO - [PROGRESS_UPDATE] | Processed 600 matches, Success: 600, Failed: 0
+2025-08-25 11:30:20 - tipico - INFO - [PROGRESS_UPDATE] | Processed 650 matches, Success: 650, Failed: 0
+2025-08-25 11:30:23 - tipico - INFO - [PROGRESS_UPDATE] | Processed 700 matches, Success: 700, Failed: 0
+2025-08-25 11:30:26 - tipico - INFO - [PROGRESS_UPDATE] | Processed 750 matches, Success: 750, Failed: 0
+2025-08-25 11:30:29 - tipico - INFO - [PROGRESS_UPDATE] | Processed 800 matches, Success: 800, Failed: 0
+2025-08-25 11:30:31 - tipico - INFO - [PROGRESS_UPDATE] | Processed 850 matches, Success: 850, Failed: 0
+2025-08-25 11:30:34 - tipico - INFO - [PROGRESS_UPDATE] | Processed 900 matches, Success: 900, Failed: 0
+2025-08-25 11:30:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:30:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:30:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:30:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:30:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:30:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:30:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:30:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:30:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:30:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:30:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:30:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:30:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:30:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 21 matches in league
+2025-08-25 11:30:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:30:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:30:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:30:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:30:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:30:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:30:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:30:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:30:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:30:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:30:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:30:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:30:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 22 matches in league
+2025-08-25 11:30:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-25 11:30:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:30:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:30:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 24 matches in league
+2025-08-25 11:30:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:30:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:30:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:30:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:30:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:30:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:30:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:30:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:30:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:30:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:30:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:30:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:30:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:30:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:30:42 - tipico - INFO - [PROGRESS_UPDATE] | Processed 950 matches, Success: 950, Failed: 0
+2025-08-25 11:30:47 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1000 matches, Success: 1000, Failed: 0
+2025-08-25 11:30:52 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1050 matches, Success: 1050, Failed: 0
+2025-08-25 11:30:56 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1100 matches, Success: 1100, Failed: 0
+2025-08-25 11:31:01 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1150 matches, Success: 1150, Failed: 0
+2025-08-25 11:31:06 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1200 matches, Success: 1200, Failed: 0
+2025-08-25 11:31:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:31:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:31:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:31:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:31:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:35:01 - tipico - INFO - Logger initialized for tipico scraper
+2025-08-25 11:35:01 - tipico - INFO - Log file: scraper_logs/tipico.log
+2025-08-25 11:35:01 - tipico - INFO - [INIT] | Initializing Tipico scraper
+2025-08-25 11:35:01 - tipico - INFO - [DB_CONNECTED] | MongoDB connection established
+2025-08-25 11:35:01 - tipico - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings, 293 countries
+2025-08-25 11:35:01 - tipico - INFO - [START] | Starting Tipico navigation scraping
+2025-08-25 11:35:04 - tipico - INFO - [NAVIGATION_PARSED] | Found 21 sports categories
+2025-08-25 11:35:04 - tipico - INFO - [VALID_SPORTS_FILTERED] | Processing 13 valid sports
+2025-08-25 11:35:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-25 11:35:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:35:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:35:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:35:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:35:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:35:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-25 11:35:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-25 11:35:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-25 11:35:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:35:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-25 11:35:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 20 matches in league
+2025-08-25 11:35:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:35:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:35:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:35:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:35:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:35:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:35:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 24 matches in league
+2025-08-25 11:35:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:35:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:35:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:35:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:35:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 19 matches in league
+2025-08-25 11:35:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:35:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 24 matches in league
+2025-08-25 11:35:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 21 matches in league
+2025-08-25 11:35:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:35:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:35:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:35:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:35:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:35:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:35:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:35:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-25 11:35:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:35:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:35:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:35:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:35:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:35:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:35:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:35:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 15 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:35:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:35:13 - tipico - INFO - [PROGRESS_UPDATE] | Processed 50 matches, Success: 50, Failed: 0
+2025-08-25 11:35:19 - tipico - INFO - [PROGRESS_UPDATE] | Processed 100 matches, Success: 100, Failed: 0
+2025-08-25 11:35:25 - tipico - INFO - [PROGRESS_UPDATE] | Processed 150 matches, Success: 150, Failed: 0
+2025-08-25 11:35:30 - tipico - INFO - [PROGRESS_UPDATE] | Processed 200 matches, Success: 200, Failed: 0
+2025-08-25 11:35:35 - tipico - INFO - [PROGRESS_UPDATE] | Processed 250 matches, Success: 250, Failed: 0
+2025-08-25 11:35:41 - tipico - INFO - [PROGRESS_UPDATE] | Processed 300 matches, Success: 300, Failed: 0
+2025-08-25 11:35:46 - tipico - INFO - [PROGRESS_UPDATE] | Processed 350 matches, Success: 350, Failed: 0
+2025-08-25 11:35:53 - tipico - INFO - [PROGRESS_UPDATE] | Processed 400 matches, Success: 400, Failed: 0
+2025-08-25 11:35:58 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:35:58 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 27 matches in league
+2025-08-25 11:35:58 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:35:58 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:35:58 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:35:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:35:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:35:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:35:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 64 matches in league
+2025-08-25 11:35:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:35:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:35:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:36:00 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:00 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:00 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:00 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:36:00 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:36:00 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-25 11:36:00 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 16 matches in league
+2025-08-25 11:36:00 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 15 matches in league
+2025-08-25 11:36:00 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 22 matches in league
+2025-08-25 11:36:00 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:36:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-25 11:36:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:36:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:36:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:36:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:36:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:36:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-25 11:36:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:36:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:36:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:36:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:36:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:36:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:36:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:36:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:36:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:36:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-25 11:36:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:36:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:36:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:36:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:36:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:36:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:36:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 49 matches in league
+2025-08-25 11:36:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:36:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:36:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:36:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:36:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 53 matches in league
+2025-08-25 11:36:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:36:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:36:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:36:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:36:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:36:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 15 matches in league
+2025-08-25 11:36:04 - tipico - INFO - [PROGRESS_UPDATE] | Processed 450 matches, Success: 450, Failed: 0
+2025-08-25 11:36:07 - tipico - INFO - [PROGRESS_UPDATE] | Processed 500 matches, Success: 500, Failed: 0
+2025-08-25 11:36:11 - tipico - INFO - [PROGRESS_UPDATE] | Processed 550 matches, Success: 550, Failed: 0
+2025-08-25 11:36:15 - tipico - INFO - [PROGRESS_UPDATE] | Processed 600 matches, Success: 600, Failed: 0
+2025-08-25 11:36:18 - tipico - INFO - [PROGRESS_UPDATE] | Processed 650 matches, Success: 650, Failed: 0
+2025-08-25 11:36:21 - tipico - INFO - [PROGRESS_UPDATE] | Processed 700 matches, Success: 700, Failed: 0
+2025-08-25 11:36:24 - tipico - INFO - [PROGRESS_UPDATE] | Processed 750 matches, Success: 750, Failed: 0
+2025-08-25 11:36:27 - tipico - INFO - [PROGRESS_UPDATE] | Processed 800 matches, Success: 800, Failed: 0
+2025-08-25 11:36:29 - tipico - INFO - [PROGRESS_UPDATE] | Processed 850 matches, Success: 850, Failed: 0
+2025-08-25 11:36:32 - tipico - INFO - [PROGRESS_UPDATE] | Processed 900 matches, Success: 900, Failed: 0
+2025-08-25 11:36:35 - tipico - INFO - [PROGRESS_UPDATE] | Processed 950 matches, Success: 950, Failed: 0
+2025-08-25 11:36:37 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:36:37 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:37 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:36:37 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:36:37 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:37 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:37 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:36:37 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:36:37 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 21 matches in league
+2025-08-25 11:36:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:36:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:36:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:36:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:36:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:36:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:36:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:36:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:36:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-25 11:36:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-25 11:36:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:36:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:36:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:36:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:36:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:36:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 22 matches in league
+2025-08-25 11:36:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-25 11:36:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:36:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:36:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:36:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 24 matches in league
+2025-08-25 11:36:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:36:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:36:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:36:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:36:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:36:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:36:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:36:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:36:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:36:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:36:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:36:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:36:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:36:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:36:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:36:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:36:45 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1000 matches, Success: 1000, Failed: 0
+2025-08-25 11:36:49 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1050 matches, Success: 1050, Failed: 0
+2025-08-25 11:36:53 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1100 matches, Success: 1100, Failed: 0
+2025-08-25 11:36:56 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1150 matches, Success: 1150, Failed: 0
+2025-08-25 11:37:00 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1200 matches, Success: 1200, Failed: 0
+2025-08-25 11:37:05 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1250 matches, Success: 1250, Failed: 0
+2025-08-25 11:37:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:53:17 - tipico - INFO - Logger initialized for tipico scraper
+2025-08-25 11:53:17 - tipico - INFO - Log file: scraper_logs/tipico.log
+2025-08-25 11:53:17 - tipico - INFO - [INIT] | Initializing Tipico scraper
+2025-08-25 11:53:17 - tipico - INFO - [DB_CONNECTED] | MongoDB connection established
+2025-08-25 11:53:17 - tipico - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings, 293 countries
+2025-08-25 11:53:18 - tipico - INFO - [START] | Starting Tipico navigation scraping
+2025-08-25 11:53:22 - tipico - INFO - [NAVIGATION_PARSED] | Found 21 sports categories
+2025-08-25 11:53:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-25 11:53:23 - tipico - INFO - [VALID_SPORTS_FILTERED] | Processing 13 valid sports
+2025-08-25 11:53:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:53:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:53:24 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-25 11:53:24 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:53:24 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:53:24 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:53:24 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:53:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-25 11:53:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:53:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:53:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:53:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:53:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 24 matches in league
+2025-08-25 11:53:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:53:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 24 matches in league
+2025-08-25 11:53:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:53:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:53:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:53:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-25 11:53:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-25 11:53:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:53:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 21 matches in league
+2025-08-25 11:53:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 19 matches in league
+2025-08-25 11:53:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:53:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:53:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:53:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:53:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 20 matches in league
+2025-08-25 11:53:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:53:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:53:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:53:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:53:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:53:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:53:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:53:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:53:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:53:28 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-25 11:53:28 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:53:28 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:53:28 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:53:28 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:53:28 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:53:28 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:53:28 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:53:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:53:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:53:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:53:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:53:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:53:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:53:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:53:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:53:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:53:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:53:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:53:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:53:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:53:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:53:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 15 matches in league
+2025-08-25 11:53:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:53:30 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:53:30 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:53:30 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:53:36 - tipico - INFO - [PROGRESS_UPDATE] | Processed 50 matches, Success: 50, Failed: 0
+2025-08-25 11:53:42 - tipico - INFO - [PROGRESS_UPDATE] | Processed 100 matches, Success: 100, Failed: 0
+2025-08-25 11:53:48 - tipico - INFO - [PROGRESS_UPDATE] | Processed 150 matches, Success: 150, Failed: 0
+2025-08-25 11:53:52 - tipico - INFO - [PROGRESS_UPDATE] | Processed 200 matches, Success: 200, Failed: 0
+2025-08-25 11:53:57 - tipico - INFO - [PROGRESS_UPDATE] | Processed 250 matches, Success: 250, Failed: 0
+2025-08-25 11:54:02 - tipico - INFO - [PROGRESS_UPDATE] | Processed 300 matches, Success: 300, Failed: 0
+2025-08-25 11:54:07 - tipico - INFO - [PROGRESS_UPDATE] | Processed 350 matches, Success: 350, Failed: 0
+2025-08-25 11:54:11 - tipico - INFO - [PROGRESS_UPDATE] | Processed 400 matches, Success: 400, Failed: 0
+2025-08-25 11:54:16 - tipico - INFO - [PROGRESS_UPDATE] | Processed 450 matches, Success: 450, Failed: 0
+2025-08-25 11:54:19 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:19 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 27 matches in league
+2025-08-25 11:54:19 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:54:19 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:19 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 64 matches in league
+2025-08-25 11:54:20 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:54:20 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:20 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:54:20 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 15 matches in league
+2025-08-25 11:54:20 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:20 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:54:20 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:54:20 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:54:20 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:54:20 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:54:21 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:21 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:54:21 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:54:21 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:21 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-25 11:54:21 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 22 matches in league
+2025-08-25 11:54:21 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 15 matches in league
+2025-08-25 11:54:21 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 16 matches in league
+2025-08-25 11:54:21 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:54:21 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:21 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:21 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:21 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:54:21 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:21 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:21 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:54:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:54:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:54:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-25 11:54:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:54:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:54:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:54:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:54:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:54:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:54:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 49 matches in league
+2025-08-25 11:54:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 53 matches in league
+2025-08-25 11:54:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:54:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:54:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:54:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:54:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:54:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:54:23 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:54:24 - tipico - INFO - [PROGRESS_UPDATE] | Processed 500 matches, Success: 500, Failed: 0
+2025-08-25 11:54:26 - tipico - INFO - [PROGRESS_UPDATE] | Processed 550 matches, Success: 550, Failed: 0
+2025-08-25 11:54:30 - tipico - INFO - [PROGRESS_UPDATE] | Processed 600 matches, Success: 600, Failed: 0
+2025-08-25 11:54:32 - tipico - INFO - [PROGRESS_UPDATE] | Processed 650 matches, Success: 650, Failed: 0
+2025-08-25 11:54:35 - tipico - INFO - [PROGRESS_UPDATE] | Processed 700 matches, Success: 700, Failed: 0
+2025-08-25 11:54:37 - tipico - INFO - [PROGRESS_UPDATE] | Processed 750 matches, Success: 750, Failed: 0
+2025-08-25 11:54:40 - tipico - INFO - [PROGRESS_UPDATE] | Processed 800 matches, Success: 800, Failed: 0
+2025-08-25 11:54:42 - tipico - INFO - [PROGRESS_UPDATE] | Processed 850 matches, Success: 850, Failed: 0
+2025-08-25 11:54:45 - tipico - INFO - [PROGRESS_UPDATE] | Processed 900 matches, Success: 900, Failed: 0
+2025-08-25 11:54:47 - tipico - INFO - [PROGRESS_UPDATE] | Processed 950 matches, Success: 950, Failed: 0
+2025-08-25 11:54:50 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 15 matches in league
+2025-08-25 11:54:50 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:54:50 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:50 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:54:50 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:54:50 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:54:50 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:54:50 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:54:50 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:50 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:54:50 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:50 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:54:50 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:54:51 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 21 matches in league
+2025-08-25 11:54:51 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:54:51 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:54:51 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:54:51 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:54:51 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:51 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:51 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-25 11:54:51 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-25 11:54:51 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:51 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:54:51 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:51 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-25 11:54:51 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 22 matches in league
+2025-08-25 11:54:51 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:54:51 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:51 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:54:51 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:51 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:54:52 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:52 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 24 matches in league
+2025-08-25 11:54:52 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:52 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:54:52 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:52 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:54:52 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:52 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:54:52 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:54:52 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:54:52 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-25 11:54:52 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-25 11:54:52 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:54:52 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:52 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:54:52 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:54:52 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:54:52 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:54:52 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:52 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-25 11:54:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:54:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:54:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:54:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:54:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:54:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:54:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-25 11:54:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-25 11:54:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-25 11:54:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:54:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:54:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-25 11:54:54 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1000 matches, Success: 1000, Failed: 0
+2025-08-25 11:54:57 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1050 matches, Success: 1050, Failed: 0
+2025-08-25 11:55:00 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1100 matches, Success: 1100, Failed: 0
+2025-08-25 11:55:04 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1150 matches, Success: 1150, Failed: 0
+2025-08-25 11:55:07 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1200 matches, Success: 1200, Failed: 0
+2025-08-25 11:55:10 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1250 matches, Success: 1250, Failed: 0
+2025-08-25 11:55:15 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1300 matches, Success: 1300, Failed: 0
+2025-08-25 11:55:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:55:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-25 11:55:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:55:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-25 11:55:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-25 11:55:25 - tipico - INFO - [SCRAPER_COMPLETED] Matches: 1338 | Tipico scraper completed successfully
+2025-08-25 11:55:25 - tipico - INFO - [FINAL_STATS] | Total: 1338, Success: 1338, Failed: 0, Unique odds: 7

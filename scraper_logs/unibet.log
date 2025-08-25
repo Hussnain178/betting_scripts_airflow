@@ -33,3 +33,75 @@
 2025-08-24 16:47:42 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for CRICKET (4 groups)
 2025-08-24 16:47:42 - unibet - INFO - [SPORT_COMPLETED] | Sport: CRICKET, Matches processed: 8
 2025-08-24 16:47:43 - unibet - INFO - [SPORT_COMPLETED] | Sport: soccer, Matches processed: 376
+2025-08-25 10:42:04 - unibet - INFO - Logger initialized for unibet scraper
+2025-08-25 10:42:04 - unibet - INFO - Log file: scraper_logs/unibet.log
+2025-08-25 10:42:04 - unibet - INFO - [INIT] | Initializing Unibet scraper
+2025-08-25 10:42:04 - unibet - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings, 293 countries
+2025-08-25 10:42:05 - unibet - INFO - [START] | Starting Unibet sports navigation
+2025-08-25 10:42:08 - unibet - INFO - [SPORTS_NAVIGATION_PARSED] | Found 36 sports in navigation
+2025-08-25 10:42:08 - unibet - INFO - [VALID_SPORTS_FILTERED] | Processing 13 valid sports
+2025-08-25 10:42:09 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for BASEBALL (1 groups)
+2025-08-25 10:42:09 - unibet - INFO - [SPORT_COMPLETED] | Sport: BASEBALL, Matches processed: 13
+2025-08-25 10:42:09 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for TABLE_TENNIS (4 groups)
+2025-08-25 10:42:12 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for CRICKET (4 groups)
+2025-08-25 10:42:12 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for BADMINTON (1 groups)
+2025-08-25 10:42:12 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for BASKETBALL (4 groups)
+2025-08-25 10:42:12 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for SNOOKER (1 groups)
+2025-08-25 10:42:12 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for AMERICAN_FOOTBALL (2 groups)
+2025-08-25 10:42:12 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for TENNIS (6 groups)
+2025-08-25 10:42:12 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for HANDBALL (2 groups)
+2025-08-25 10:42:12 - unibet - INFO - [SPORT_COMPLETED] | Sport: CRICKET, Matches processed: 4
+2025-08-25 10:42:12 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for soccer (39 groups)
+2025-08-25 10:42:13 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for RUGBY_LEAGUE (1 groups)
+2025-08-25 10:42:13 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for RUGBY_UNION (1 groups)
+2025-08-25 10:42:13 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for VOLLEYBALL (2 groups)
+2025-08-25 10:42:14 - unibet - INFO - [SPORT_COMPLETED] | Sport: HANDBALL, Matches processed: 16
+2025-08-25 10:42:14 - unibet - INFO - [SPORT_COMPLETED] | Sport: RUGBY_LEAGUE, Matches processed: 7
+2025-08-25 10:42:14 - unibet - INFO - [SPORT_COMPLETED] | Sport: BASKETBALL, Matches processed: 23
+2025-08-25 10:42:14 - unibet - INFO - [SPORT_COMPLETED] | Sport: RUGBY_UNION, Matches processed: 7
+2025-08-25 10:42:14 - unibet - INFO - [SPORT_COMPLETED] | Sport: TABLE_TENNIS, Matches processed: 67
+2025-08-25 10:42:14 - unibet - INFO - [SPORT_COMPLETED] | Sport: SNOOKER, Matches processed: 21
+2025-08-25 10:42:15 - unibet - INFO - [SPORT_COMPLETED] | Sport: VOLLEYBALL, Matches processed: 24
+2025-08-25 10:42:16 - unibet - INFO - [SPORT_COMPLETED] | Sport: BADMINTON, Matches processed: 42
+2025-08-25 10:42:18 - unibet - INFO - [PROGRESS_UPDATE] | Processed 400 matches, Success: 52, Failed: 0
+2025-08-25 10:42:18 - unibet - INFO - [PROGRESS_UPDATE] | Processed 400 matches, Success: 53, Failed: 0
+2025-08-25 10:42:18 - unibet - INFO - [PROGRESS_UPDATE] | Processed 400 matches, Success: 54, Failed: 0
+2025-08-25 10:42:18 - unibet - INFO - [PROGRESS_UPDATE] | Processed 400 matches, Success: 55, Failed: 0
+2025-08-25 10:42:18 - unibet - INFO - [PROGRESS_UPDATE] | Processed 400 matches, Success: 56, Failed: 0
+2025-08-25 10:42:18 - unibet - INFO - [PROGRESS_UPDATE] | Processed 400 matches, Success: 57, Failed: 0
+2025-08-25 10:42:18 - unibet - INFO - [SPORT_COMPLETED] | Sport: AMERICAN_FOOTBALL, Matches processed: 63
+2025-08-25 10:42:23 - unibet - INFO - [SPORT_COMPLETED] | Sport: TENNIS, Matches processed: 132
+2025-08-25 10:42:26 - unibet - INFO - [SPORT_COMPLETED] | Sport: soccer, Matches processed: 196
+2025-08-25 11:57:56 - unibet - INFO - Logger initialized for unibet scraper
+2025-08-25 11:57:56 - unibet - INFO - Log file: scraper_logs/unibet.log
+2025-08-25 11:57:56 - unibet - INFO - [INIT] | Initializing Unibet scraper
+2025-08-25 11:57:56 - unibet - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings, 293 countries
+2025-08-25 11:57:57 - unibet - INFO - [START] | Starting Unibet sports navigation
+2025-08-25 11:57:59 - unibet - INFO - [SPORTS_NAVIGATION_PARSED] | Found 36 sports in navigation
+2025-08-25 11:57:59 - unibet - INFO - [VALID_SPORTS_FILTERED] | Processing 13 valid sports
+2025-08-25 11:58:01 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for soccer (39 groups)
+2025-08-25 11:58:01 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for CRICKET (4 groups)
+2025-08-25 11:58:01 - unibet - INFO - [SPORT_COMPLETED] | Sport: CRICKET, Matches processed: 4
+2025-08-25 11:58:01 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for BASKETBALL (4 groups)
+2025-08-25 11:58:01 - unibet - INFO - [SPORT_COMPLETED] | Sport: BASKETBALL, Matches processed: 23
+2025-08-25 11:58:01 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for BADMINTON (1 groups)
+2025-08-25 11:58:02 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for TABLE_TENNIS (3 groups)
+2025-08-25 11:58:02 - unibet - INFO - [SPORT_COMPLETED] | Sport: soccer, Matches processed: 194
+2025-08-25 11:58:02 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for VOLLEYBALL (2 groups)
+2025-08-25 11:58:02 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for BASEBALL (1 groups)
+2025-08-25 11:58:02 - unibet - INFO - [SPORT_COMPLETED] | Sport: BADMINTON, Matches processed: 54
+2025-08-25 11:58:02 - unibet - INFO - [SPORT_COMPLETED] | Sport: VOLLEYBALL, Matches processed: 21
+2025-08-25 11:58:02 - unibet - INFO - [SPORT_COMPLETED] | Sport: BASEBALL, Matches processed: 13
+2025-08-25 11:58:02 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for AMERICAN_FOOTBALL (2 groups)
+2025-08-25 11:58:02 - unibet - INFO - [SPORT_COMPLETED] | Sport: TABLE_TENNIS, Matches processed: 57
+2025-08-25 11:58:02 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for SNOOKER (1 groups)
+2025-08-25 11:58:02 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for TENNIS (4 groups)
+2025-08-25 11:58:02 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for RUGBY_UNION (1 groups)
+2025-08-25 11:58:02 - unibet - INFO - [SPORT_COMPLETED] | Sport: RUGBY_UNION, Matches processed: 7
+2025-08-25 11:58:02 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for HANDBALL (2 groups)
+2025-08-25 11:58:02 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for RUGBY_LEAGUE (1 groups)
+2025-08-25 11:58:03 - unibet - INFO - [SPORT_COMPLETED] | Sport: SNOOKER, Matches processed: 13
+2025-08-25 11:58:03 - unibet - INFO - [SPORT_COMPLETED] | Sport: RUGBY_LEAGUE, Matches processed: 7
+2025-08-25 11:58:03 - unibet - INFO - [SPORT_COMPLETED] | Sport: HANDBALL, Matches processed: 16
+2025-08-25 11:58:04 - unibet - INFO - [SPORT_COMPLETED] | Sport: AMERICAN_FOOTBALL, Matches processed: 63
+2025-08-25 11:58:05 - unibet - INFO - [SPORT_COMPLETED] | Sport: TENNIS, Matches processed: 138

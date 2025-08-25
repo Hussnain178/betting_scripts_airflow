@@ -43,7 +43,8 @@
     "3-way moneyline - live regulation time",
     "regular time 3-way",
     "extra time",
-    "3-way moneyline - extra time"
+    "3-way moneyline - extra time",
+    "remaining time 3-way"
   ],
   "__v": 0,
   "createdAt": {
@@ -933,7 +934,8 @@
     "spread-1st half",
     "total points - 1st half",
     "handicap - 1st half",
-    "handicap for the 1. half"
+    "handicap for the 1. half",
+    "handicap - 1st half - including overtime"
   ],
   "__v": 0,
   "createdAt": {
@@ -975,7 +977,8 @@
     "spread-2nd half",
     "total points - 2nd half",
     "handicap - 2nd half",
-    "handicap for the 2. half"
+    "handicap for the 2. half",
+    "handicap - 2nd half - including overtime"
   ],
   "__v": 0,
   "createdAt": {
@@ -1229,7 +1232,9 @@
     "total goals o/u - extra time",
     "total - extra time",
     "total goals o/u - game",
-    "total goals o/u - odd"
+    "total goals o/u - odd",
+    "over/under remaining time",
+    "total receptions by the player - including overtime"
   ],
   "__v": 0,
   "createdAt": {
