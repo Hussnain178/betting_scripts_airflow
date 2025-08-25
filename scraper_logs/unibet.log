@@ -212,3 +212,5 @@
 2025-08-25 14:59:32 - unibet - INFO - [PROGRESS_UPDATE] | Processed 500 matches, Success: 42, Failed: 0
 2025-08-25 14:59:32 - unibet - INFO - [PROGRESS_UPDATE] | Processed 500 matches, Success: 43, Failed: 0
 2025-08-25 14:59:33 - unibet - INFO - [SPORT_COMPLETED] | Sport: soccer, Matches processed: 200
+2025-08-25 15:00:11 - unibet - INFO - [NO_ODDS_DATA] | No odds data for match Real Madrid (Laint) vs Villarreal (luxiqq)
+2025-08-25 15:00:11 - unibet - INFO - [NO_ODDS_DATA] | No odds data for match Atlético Madrid (Galikooo) vs Barcelona (T3RZ)

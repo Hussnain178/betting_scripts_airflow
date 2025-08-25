@@ -659,6 +659,8 @@ class BovadaLiveOddsSpider(scrapy.Spider):
             # Initialize nested structure
             if handicap_value not in match_data['odds'][header_category][market_name]:
                 match_data['odds'][header_category][market_name][handicap_value] = {}
+            if market_name=='correct-score':
+                competitor_name=competitor_name.replace(' - ','-').replace(':','-')
 
             match_data['odds'][header_category][market_name][handicap_value][competitor_name] =  self.check_float_value(individual_outcome['price']['decimal'])
 

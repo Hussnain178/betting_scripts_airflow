@@ -407,7 +407,8 @@ class TipicoLiveOddsSpider(scrapy.Spider):
                 if value_mappings:
                     mapped_outcome = self._map_outcome_name(outcome_name, value_mappings)
                     outcome_name = mapped_outcome
-
+                if final_odds_key == 'correct-score':
+                    outcome_name = outcome_name.replace(' - ', '-').replace(':', '-')
                 prices_dict[odds_header_category][final_odds_key][odds_subtitle][outcome_name] = odds_value
 
     def _extract_live_odds_subtitle(self, match_data, odds_group_id):

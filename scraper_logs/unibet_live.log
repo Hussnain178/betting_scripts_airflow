@@ -309,3 +309,36 @@
 2025-08-25 13:44:24 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASEBALL, LIVE matches processed: 0
 2025-08-25 13:44:24 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for soccer (39 groups)
 2025-08-25 13:44:24 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: soccer, LIVE matches processed: 6
+2025-08-25 14:59:31 - unibet_live - INFO - Logger initialized for unibet_live scraper
+2025-08-25 14:59:31 - unibet_live - INFO - Log file: scraper_logs/unibet_live.log
+2025-08-25 14:59:31 - unibet_live - INFO - [INIT] | Initializing Unibet Live scraper
+2025-08-25 14:59:31 - unibet_live - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings for live matches
+2025-08-25 14:59:32 - unibet_live - INFO - [START] | Starting Unibet Live sports navigation
+2025-08-25 14:59:34 - unibet_live - INFO - [LIVE_SPORTS_NAVIGATION_PARSED] | Found 36 sports in navigation for live matches
+2025-08-25 14:59:34 - unibet_live - INFO - [VALID_LIVE_SPORTS_FILTERED] | Processing 13 valid sports for live matches
+2025-08-25 14:59:35 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BADMINTON (1 groups)
+2025-08-25 14:59:35 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BADMINTON, LIVE matches processed: 0
+2025-08-25 14:59:35 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BASKETBALL (4 groups)
+2025-08-25 14:59:35 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASKETBALL, LIVE matches processed: 0
+2025-08-25 14:59:35 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for RUGBY_UNION (1 groups)
+2025-08-25 14:59:35 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: RUGBY_UNION, LIVE matches processed: 0
+2025-08-25 14:59:35 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for RUGBY_LEAGUE (1 groups)
+2025-08-25 14:59:35 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: RUGBY_LEAGUE, LIVE matches processed: 0
+2025-08-25 14:59:35 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for SNOOKER (1 groups)
+2025-08-25 14:59:35 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: SNOOKER, LIVE matches processed: 0
+2025-08-25 14:59:36 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for AMERICAN_FOOTBALL (2 groups)
+2025-08-25 14:59:36 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: AMERICAN_FOOTBALL, LIVE matches processed: 0
+2025-08-25 14:59:36 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for CRICKET (4 groups)
+2025-08-25 14:59:36 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: CRICKET, LIVE matches processed: 0
+2025-08-25 14:59:36 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for HANDBALL (2 groups)
+2025-08-25 14:59:36 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: HANDBALL, LIVE matches processed: 0
+2025-08-25 14:59:36 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BASEBALL (1 groups)
+2025-08-25 14:59:36 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASEBALL, LIVE matches processed: 0
+2025-08-25 14:59:36 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for soccer (41 groups)
+2025-08-25 14:59:36 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for VOLLEYBALL (2 groups)
+2025-08-25 14:59:36 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: VOLLEYBALL, LIVE matches processed: 2
+2025-08-25 14:59:36 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: soccer, LIVE matches processed: 6
+2025-08-25 14:59:36 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TABLE_TENNIS (4 groups)
+2025-08-25 14:59:36 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TENNIS (6 groups)
+2025-08-25 14:59:36 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TABLE_TENNIS, LIVE matches processed: 4
+2025-08-25 14:59:36 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TENNIS, LIVE matches processed: 25

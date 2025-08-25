@@ -428,6 +428,8 @@ class UnibetOddsSpider(scrapy.Spider):
                         odds_value = str(round(float(odds_str), 1))
                 else:
                     odds_value = None
+                if market_name == 'correct-score':
+                    outcome_key = outcome_key.replace(' - ', '-').replace(':', '-')
                 match_info['prices'][header_category][market_name][handicap_value][outcome_key] = odds_value
 
             return False  # Not a duplicate
