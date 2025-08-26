@@ -369,9 +369,9 @@ def update_data():
 def check_key(name):
     # name = name.lower().replace(' - include overtime','').replace('- include overtime','')
     not_used_key = ['scoreless', 'never', 'niether', 'total runs', 'retain','corner','odd/even',' bands ',
-                    ':', '0:','penalty', 'target', 'shots', 'series', 'yellow', 'super over',
+                    ':', '0:','penalty', 'target', 'shots', 'series', 'yellow', 'super over','blocks ',
                     'header', '4s', 'touchdown', 'of the match',  '6s', 'fifty','successful','cards',
-                    'century', "player's total runs",  'retain','through','to go ','halfback',
+                    'century', "player's total runs",  'retain','through','to go ','halfback','steals ',
                     'performance', 'converted', 'listed', 'center', 'margin',  'either', 'hc ', 'runs ',
                     'rushing',  'yards', 'receving', '(', ')','tiebreak','caught','individual',
                     'deuce', 'next', 'touchdowns', 'range', 'will', '?', 'did', 'does', 'hour', 'minute', 'halves','scorer',

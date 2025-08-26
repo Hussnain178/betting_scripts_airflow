@@ -214,3 +214,23 @@
 2025-08-25 14:59:33 - unibet - INFO - [SPORT_COMPLETED] | Sport: soccer, Matches processed: 200
 2025-08-25 15:00:11 - unibet - INFO - [NO_ODDS_DATA] | No odds data for match Real Madrid (Laint) vs Villarreal (luxiqq)
 2025-08-25 15:00:11 - unibet - INFO - [NO_ODDS_DATA] | No odds data for match Atlético Madrid (Galikooo) vs Barcelona (T3RZ)
+2025-08-25 16:14:21 - unibet - INFO - Logger initialized for unibet scraper
+2025-08-25 16:14:21 - unibet - INFO - Log file: scraper_logs/unibet.log
+2025-08-25 16:14:21 - unibet - INFO - [INIT] | Initializing Unibet scraper
+2025-08-25 16:14:21 - unibet - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings, 293 countries
+2025-08-25 16:14:21 - unibet - INFO - [START] | Starting Unibet sports navigation
+2025-08-25 16:14:23 - unibet - INFO - [SPORTS_NAVIGATION_PARSED] | Found 36 sports in navigation
+2025-08-25 16:14:23 - unibet - INFO - [VALID_SPORTS_FILTERED] | Processing 13 valid sports
+2025-08-25 16:14:24 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for VOLLEYBALL (2 groups)
+2025-08-25 16:14:24 - unibet - INFO - [SPORT_COMPLETED] | Sport: VOLLEYBALL, Matches processed: 14
+2025-08-25 16:14:25 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for CRICKET (5 groups)
+2025-08-25 16:14:25 - unibet - INFO - [SPORT_COMPLETED] | Sport: CRICKET, Matches processed: 19
+2025-08-25 16:14:25 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for RUGBY_UNION (1 groups)
+2025-08-25 16:14:25 - unibet - INFO - [SPORT_COMPLETED] | Sport: RUGBY_UNION, Matches processed: 7
+2025-08-25 16:14:25 - unibet - INFO - [SPORT_DATA_EXTRACTED] | Processing matches for RUGBY_LEAGUE (1 groups)
+2025-08-25 16:14:25 - unibet - INFO - [SPORT_COMPLETED] | Sport: RUGBY_LEAGUE, Matches processed: 8
+2025-08-25 16:16:59 - unibet - INFO - Logger initialized for unibet scraper
+2025-08-25 16:16:59 - unibet - INFO - Log file: scraper_logs/unibet.log
+2025-08-25 16:16:59 - unibet - INFO - [INIT] | Initializing Unibet scraper
+2025-08-25 16:16:59 - unibet - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings, 293 countries
+2025-08-25 16:17:00 - unibet - INFO - [START] | Starting Unibet sports navigation
