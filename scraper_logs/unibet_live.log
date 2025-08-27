@@ -342,3 +342,383 @@
 2025-08-25 14:59:36 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TENNIS (6 groups)
 2025-08-25 14:59:36 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TABLE_TENNIS, LIVE matches processed: 4
 2025-08-25 14:59:36 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TENNIS, LIVE matches processed: 25
+2025-08-26 10:16:53 - unibet_live - INFO - Logger initialized for unibet_live scraper
+2025-08-26 10:16:53 - unibet_live - INFO - Log file: scraper_logs/unibet_live.log
+2025-08-26 10:16:53 - unibet_live - INFO - [INIT] | Initializing Unibet Live scraper
+2025-08-26 10:16:53 - unibet_live - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings for live matches
+2025-08-26 10:16:55 - unibet_live - INFO - [START] | Starting Unibet Live sports navigation
+2025-08-26 10:16:58 - unibet_live - INFO - [LIVE_SPORTS_NAVIGATION_PARSED] | Found 36 sports in navigation for live matches
+2025-08-26 10:16:58 - unibet_live - INFO - [VALID_LIVE_SPORTS_FILTERED] | Processing 13 valid sports for live matches
+2025-08-26 10:16:59 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for AMERICAN_FOOTBALL (3 groups)
+2025-08-26 10:16:59 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: AMERICAN_FOOTBALL, LIVE matches processed: 0
+2025-08-26 10:16:59 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TABLE_TENNIS (3 groups)
+2025-08-26 10:16:59 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TABLE_TENNIS, LIVE matches processed: 3
+2025-08-26 10:16:59 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BASEBALL (4 groups)
+2025-08-26 10:16:59 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASEBALL, LIVE matches processed: 0
+2025-08-26 10:17:00 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for HANDBALL (3 groups)
+2025-08-26 10:17:00 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: HANDBALL, LIVE matches processed: 0
+2025-08-26 10:17:00 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BADMINTON (1 groups)
+2025-08-26 10:17:00 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BADMINTON, LIVE matches processed: 0
+2025-08-26 10:17:00 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BASKETBALL (4 groups)
+2025-08-26 10:17:00 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASKETBALL, LIVE matches processed: 0
+2025-08-26 10:17:00 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for SNOOKER (1 groups)
+2025-08-26 10:17:00 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: SNOOKER, LIVE matches processed: 0
+2025-08-26 10:17:00 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for RUGBY_UNION (3 groups)
+2025-08-26 10:17:00 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: RUGBY_UNION, LIVE matches processed: 0
+2025-08-26 10:17:00 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for soccer (28 groups)
+2025-08-26 10:17:00 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: soccer, LIVE matches processed: 5
+2025-08-26 10:17:00 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for CRICKET (5 groups)
+2025-08-26 10:17:00 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: CRICKET, LIVE matches processed: 0
+2025-08-26 10:17:00 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TENNIS (7 groups)
+2025-08-26 10:17:00 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for RUGBY_LEAGUE (2 groups)
+2025-08-26 10:17:00 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: RUGBY_LEAGUE, LIVE matches processed: 0
+2025-08-26 10:17:01 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for VOLLEYBALL (2 groups)
+2025-08-26 10:17:01 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: VOLLEYBALL, LIVE matches processed: 0
+2025-08-26 10:17:01 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TENNIS, LIVE matches processed: 16
+2025-08-26 10:17:01 - unibet_live - INFO - [NO_LIVE_ODDS_DATA] | No live odds data for match Frantisek Krcil vs Daniel Lis
+2025-08-26 15:49:30 - unibet_live - INFO - Logger initialized for unibet_live scraper
+2025-08-26 15:49:30 - unibet_live - INFO - Log file: scraper_logs/unibet_live.log
+2025-08-26 15:49:30 - unibet_live - INFO - [INIT] | Initializing Unibet Live scraper
+2025-08-26 15:49:31 - unibet_live - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings for live matches
+2025-08-26 15:49:33 - unibet_live - INFO - [START] | Starting Unibet Live sports navigation
+2025-08-26 15:49:36 - unibet_live - INFO - [LIVE_SPORTS_NAVIGATION_PARSED] | Found 38 sports in navigation for live matches
+2025-08-26 15:49:37 - unibet_live - INFO - [VALID_LIVE_SPORTS_FILTERED] | Processing 14 valid sports for live matches
+2025-08-26 15:49:38 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BADMINTON (1 groups)
+2025-08-26 15:49:38 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BADMINTON, LIVE matches processed: 1
+2025-08-26 15:49:38 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for SNOOKER (1 groups)
+2025-08-26 15:49:38 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: SNOOKER, LIVE matches processed: 0
+2025-08-26 15:49:38 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for HANDBALL (4 groups)
+2025-08-26 15:49:38 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: HANDBALL, LIVE matches processed: 0
+2025-08-26 15:49:38 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BASKETBALL (4 groups)
+2025-08-26 15:49:38 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASKETBALL, LIVE matches processed: 0
+2025-08-26 15:49:39 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TABLE_TENNIS (1 groups)
+2025-08-26 15:49:39 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TABLE_TENNIS, LIVE matches processed: 2
+2025-08-26 15:49:39 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for RUGBY_UNION (3 groups)
+2025-08-26 15:49:39 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: RUGBY_UNION, LIVE matches processed: 0
+2025-08-26 15:49:39 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BASEBALL (4 groups)
+2025-08-26 15:49:39 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for CRICKET (5 groups)
+2025-08-26 15:49:39 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: CRICKET, LIVE matches processed: 0
+2025-08-26 15:49:39 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASEBALL, LIVE matches processed: 9
+2025-08-26 15:49:39 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for soccer (33 groups)
+2025-08-26 15:49:39 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: soccer, LIVE matches processed: 14
+2025-08-26 15:49:39 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for PESAPALLO (1 groups)
+2025-08-26 15:49:39 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: PESAPALLO, LIVE matches processed: 0
+2025-08-26 15:49:39 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for RUGBY_LEAGUE (2 groups)
+2025-08-26 15:49:39 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: RUGBY_LEAGUE, LIVE matches processed: 0
+2025-08-26 15:49:39 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for VOLLEYBALL (2 groups)
+2025-08-26 15:49:39 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for AMERICAN_FOOTBALL (3 groups)
+2025-08-26 15:49:39 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: AMERICAN_FOOTBALL, LIVE matches processed: 0
+2025-08-26 15:49:39 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: VOLLEYBALL, LIVE matches processed: 2
+2025-08-26 15:49:40 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:49:40 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TENNIS (8 groups)
+2025-08-26 15:49:40 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:49:40 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TENNIS, LIVE matches processed: 40
+2025-08-26 15:49:41 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:49:41 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:49:41 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:49:41 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:49:41 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:49:42 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:49:43 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:49:45 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:49:45 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:49:47 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:49:47 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:49:47 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:50:56 - unibet_live - INFO - Logger initialized for unibet_live scraper
+2025-08-26 15:50:56 - unibet_live - INFO - Log file: scraper_logs/unibet_live.log
+2025-08-26 15:50:56 - unibet_live - INFO - [INIT] | Initializing Unibet Live scraper
+2025-08-26 15:50:57 - unibet_live - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings for live matches
+2025-08-26 15:50:58 - unibet_live - INFO - [START] | Starting Unibet Live sports navigation
+2025-08-26 15:51:00 - unibet_live - INFO - [LIVE_SPORTS_NAVIGATION_PARSED] | Found 38 sports in navigation for live matches
+2025-08-26 15:51:00 - unibet_live - INFO - [VALID_LIVE_SPORTS_FILTERED] | Processing 14 valid sports for live matches
+2025-08-26 15:51:01 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BADMINTON (1 groups)
+2025-08-26 15:51:01 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BADMINTON, LIVE matches processed: 1
+2025-08-26 15:51:01 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for HANDBALL (4 groups)
+2025-08-26 15:51:01 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: HANDBALL, LIVE matches processed: 0
+2025-08-26 15:51:01 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for CRICKET (5 groups)
+2025-08-26 15:51:01 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: CRICKET, LIVE matches processed: 0
+2025-08-26 15:51:01 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BASKETBALL (4 groups)
+2025-08-26 15:51:01 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASKETBALL, LIVE matches processed: 0
+2025-08-26 15:51:01 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TABLE_TENNIS (1 groups)
+2025-08-26 15:51:01 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TABLE_TENNIS, LIVE matches processed: 2
+2025-08-26 15:51:02 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for PESAPALLO (1 groups)
+2025-08-26 15:51:02 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: PESAPALLO, LIVE matches processed: 0
+2025-08-26 15:51:02 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for RUGBY_LEAGUE (2 groups)
+2025-08-26 15:51:02 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: RUGBY_LEAGUE, LIVE matches processed: 0
+2025-08-26 15:51:02 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BASEBALL (4 groups)
+2025-08-26 15:51:02 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for AMERICAN_FOOTBALL (3 groups)
+2025-08-26 15:51:02 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: AMERICAN_FOOTBALL, LIVE matches processed: 0
+2025-08-26 15:51:02 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASEBALL, LIVE matches processed: 9
+2025-08-26 15:51:02 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for RUGBY_UNION (3 groups)
+2025-08-26 15:51:02 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: RUGBY_UNION, LIVE matches processed: 0
+2025-08-26 15:51:02 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for SNOOKER (1 groups)
+2025-08-26 15:51:02 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: SNOOKER, LIVE matches processed: 0
+2025-08-26 15:51:02 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for soccer (33 groups)
+2025-08-26 15:51:02 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for VOLLEYBALL (2 groups)
+2025-08-26 15:51:02 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: VOLLEYBALL, LIVE matches processed: 2
+2025-08-26 15:51:02 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: soccer, LIVE matches processed: 15
+2025-08-26 15:51:03 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TENNIS (8 groups)
+2025-08-26 15:51:03 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:03 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:03 - unibet_live - INFO - [NO_LIVE_ODDS_DATA] | No live odds data for match Rostyslav Kliuchuk vs Milan Klement
+2025-08-26 15:51:03 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TENNIS, LIVE matches processed: 40
+2025-08-26 15:51:04 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:04 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:04 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:04 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:04 - unibet_live - INFO - [NO_LIVE_ODDS_DATA] | No live odds data for match Roma (djamik) vs PSV (D3VA)
+2025-08-26 15:51:04 - unibet_live - INFO - [NO_LIVE_ODDS_DATA] | No live odds data for match Netherlands (dor1an) vs Mexico (cl1vlind)
+2025-08-26 15:51:04 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:05 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:06 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:07 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:07 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:09 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:09 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:09 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:09 - unibet_live - INFO - [NO_LIVE_ODDS_DATA] | No live odds data for match Pietro Orlando Fellin vs Kristjan Tamm
+2025-08-26 15:51:36 - unibet_live - INFO - Logger initialized for unibet_live scraper
+2025-08-26 15:51:36 - unibet_live - INFO - Log file: scraper_logs/unibet_live.log
+2025-08-26 15:51:36 - unibet_live - INFO - [INIT] | Initializing Unibet Live scraper
+2025-08-26 15:51:36 - unibet_live - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings for live matches
+2025-08-26 15:51:37 - unibet_live - INFO - [START] | Starting Unibet Live sports navigation
+2025-08-26 15:51:39 - unibet_live - INFO - [LIVE_SPORTS_NAVIGATION_PARSED] | Found 38 sports in navigation for live matches
+2025-08-26 15:51:39 - unibet_live - INFO - [VALID_LIVE_SPORTS_FILTERED] | Processing 14 valid sports for live matches
+2025-08-26 15:51:39 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BASEBALL (4 groups)
+2025-08-26 15:51:40 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASEBALL, LIVE matches processed: 9
+2025-08-26 15:51:40 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TENNIS (8 groups)
+2025-08-26 15:51:41 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for HANDBALL (4 groups)
+2025-08-26 15:51:41 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: HANDBALL, LIVE matches processed: 0
+2025-08-26 15:51:41 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:41 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TENNIS, LIVE matches processed: 39
+2025-08-26 15:51:41 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:41 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for VOLLEYBALL (2 groups)
+2025-08-26 15:51:41 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for CRICKET (5 groups)
+2025-08-26 15:51:41 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: CRICKET, LIVE matches processed: 0
+2025-08-26 15:51:41 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BASKETBALL (4 groups)
+2025-08-26 15:51:41 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASKETBALL, LIVE matches processed: 0
+2025-08-26 15:51:41 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BADMINTON (1 groups)
+2025-08-26 15:51:41 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:41 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:41 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:41 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: VOLLEYBALL, LIVE matches processed: 2
+2025-08-26 15:51:41 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BADMINTON, LIVE matches processed: 1
+2025-08-26 15:51:41 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for AMERICAN_FOOTBALL (3 groups)
+2025-08-26 15:51:41 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: AMERICAN_FOOTBALL, LIVE matches processed: 0
+2025-08-26 15:51:41 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:42 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for soccer (33 groups)
+2025-08-26 15:51:42 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: soccer, LIVE matches processed: 15
+2025-08-26 15:51:42 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TABLE_TENNIS (1 groups)
+2025-08-26 15:51:42 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for SNOOKER (1 groups)
+2025-08-26 15:51:42 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: SNOOKER, LIVE matches processed: 0
+2025-08-26 15:51:42 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for RUGBY_UNION (3 groups)
+2025-08-26 15:51:42 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: RUGBY_UNION, LIVE matches processed: 0
+2025-08-26 15:51:42 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for RUGBY_LEAGUE (2 groups)
+2025-08-26 15:51:42 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: RUGBY_LEAGUE, LIVE matches processed: 0
+2025-08-26 15:51:42 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for PESAPALLO (1 groups)
+2025-08-26 15:51:42 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: PESAPALLO, LIVE matches processed: 0
+2025-08-26 15:51:42 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:42 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:42 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:43 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TABLE_TENNIS, LIVE matches processed: 2
+2025-08-26 15:51:43 - unibet_live - INFO - [NO_LIVE_ODDS_DATA] | No live odds data for match Pietro Orlando Fellin vs Kristjan Tamm
+2025-08-26 15:51:45 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:46 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:46 - unibet_live - INFO - [NO_LIVE_ODDS_DATA] | No live odds data for match Dagon Port FC vs Shan United FC
+2025-08-26 15:51:46 - unibet_live - INFO - [NO_LIVE_ODDS_DATA] | No live odds data for match Rostyslav Kliuchuk vs Milan Klement
+2025-08-26 15:51:46 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:46 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 15:51:47 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:00:15 - unibet_live - INFO - Logger initialized for unibet_live scraper
+2025-08-26 16:00:15 - unibet_live - INFO - Log file: scraper_logs/unibet_live.log
+2025-08-26 16:00:15 - unibet_live - INFO - [INIT] | Initializing Unibet Live scraper
+2025-08-26 16:00:15 - unibet_live - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings for live matches
+2025-08-26 16:00:17 - unibet_live - INFO - [START] | Starting Unibet Live sports navigation
+2025-08-26 16:00:20 - unibet_live - INFO - [LIVE_SPORTS_NAVIGATION_PARSED] | Found 38 sports in navigation for live matches
+2025-08-26 16:00:20 - unibet_live - INFO - [VALID_LIVE_SPORTS_FILTERED] | Processing 14 valid sports for live matches
+2025-08-26 16:00:21 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for soccer (33 groups)
+2025-08-26 16:00:21 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: soccer, LIVE matches processed: 12
+2025-08-26 16:00:22 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TABLE_TENNIS (1 groups)
+2025-08-26 16:00:22 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TABLE_TENNIS, LIVE matches processed: 0
+2025-08-26 16:00:22 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for CRICKET (5 groups)
+2025-08-26 16:00:22 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: CRICKET, LIVE matches processed: 0
+2025-08-26 16:00:22 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BASEBALL (4 groups)
+2025-08-26 16:00:22 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for AMERICAN_FOOTBALL (3 groups)
+2025-08-26 16:00:22 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: AMERICAN_FOOTBALL, LIVE matches processed: 0
+2025-08-26 16:00:22 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BASKETBALL (4 groups)
+2025-08-26 16:00:22 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASKETBALL, LIVE matches processed: 0
+2025-08-26 16:00:22 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASEBALL, LIVE matches processed: 9
+2025-08-26 16:00:22 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BADMINTON (1 groups)
+2025-08-26 16:00:22 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BADMINTON, LIVE matches processed: 1
+2025-08-26 16:00:23 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for SNOOKER (1 groups)
+2025-08-26 16:00:23 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: SNOOKER, LIVE matches processed: 0
+2025-08-26 16:00:23 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for RUGBY_UNION (4 groups)
+2025-08-26 16:00:23 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: RUGBY_UNION, LIVE matches processed: 0
+2025-08-26 16:00:23 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for VOLLEYBALL (2 groups)
+2025-08-26 16:00:23 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: VOLLEYBALL, LIVE matches processed: 1
+2025-08-26 16:00:23 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TENNIS (8 groups)
+2025-08-26 16:00:23 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:00:23 - unibet_live - INFO - [NO_LIVE_ODDS_DATA] | No live odds data for match Boca Juniors (KraftVK) vs Manchester City (Bomb1to)
+2025-08-26 16:00:23 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for RUGBY_LEAGUE (2 groups)
+2025-08-26 16:00:23 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: RUGBY_LEAGUE, LIVE matches processed: 0
+2025-08-26 16:00:23 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for HANDBALL (4 groups)
+2025-08-26 16:00:23 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: HANDBALL, LIVE matches processed: 0
+2025-08-26 16:00:24 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TENNIS, LIVE matches processed: 39
+2025-08-26 16:00:24 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for PESAPALLO (1 groups)
+2025-08-26 16:00:24 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: PESAPALLO, LIVE matches processed: 0
+2025-08-26 16:00:24 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:00:24 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:00:24 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:00:24 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:00:24 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:00:24 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:00:24 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:00:25 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:00:25 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:00:25 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:00:26 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:00:26 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:00:27 - unibet_live - INFO - [NO_LIVE_ODDS_DATA] | No live odds data for match Miha Vetrih vs Andrea Zanini
+2025-08-26 16:02:11 - unibet_live - INFO - Logger initialized for unibet_live scraper
+2025-08-26 16:02:11 - unibet_live - INFO - Log file: scraper_logs/unibet_live.log
+2025-08-26 16:02:11 - unibet_live - INFO - [INIT] | Initializing Unibet Live scraper
+2025-08-26 16:02:11 - unibet_live - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings for live matches
+2025-08-26 16:02:12 - unibet_live - INFO - [START] | Starting Unibet Live sports navigation
+2025-08-26 16:02:14 - unibet_live - INFO - [LIVE_SPORTS_NAVIGATION_PARSED] | Found 38 sports in navigation for live matches
+2025-08-26 16:02:14 - unibet_live - INFO - [VALID_LIVE_SPORTS_FILTERED] | Processing 14 valid sports for live matches
+2025-08-26 16:02:15 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for CRICKET (5 groups)
+2025-08-26 16:02:15 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: CRICKET, LIVE matches processed: 0
+2025-08-26 16:02:15 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for SNOOKER (1 groups)
+2025-08-26 16:02:15 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: SNOOKER, LIVE matches processed: 0
+2025-08-26 16:02:15 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for VOLLEYBALL (2 groups)
+2025-08-26 16:02:15 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: VOLLEYBALL, LIVE matches processed: 1
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BASEBALL (4 groups)
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASEBALL, LIVE matches processed: 9
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BASKETBALL (4 groups)
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASKETBALL, LIVE matches processed: 0
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TABLE_TENNIS (1 groups)
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for RUGBY_UNION (4 groups)
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: RUGBY_UNION, LIVE matches processed: 0
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TABLE_TENNIS, LIVE matches processed: 4
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BADMINTON (1 groups)
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for AMERICAN_FOOTBALL (3 groups)
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: AMERICAN_FOOTBALL, LIVE matches processed: 0
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BADMINTON, LIVE matches processed: 1
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TENNIS (8 groups)
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for RUGBY_LEAGUE (2 groups)
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: RUGBY_LEAGUE, LIVE matches processed: 0
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TENNIS, LIVE matches processed: 37
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for HANDBALL (4 groups)
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: HANDBALL, LIVE matches processed: 0
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for PESAPALLO (1 groups)
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: PESAPALLO, LIVE matches processed: 0
+2025-08-26 16:02:16 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for soccer (33 groups)
+2025-08-26 16:02:17 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: soccer, LIVE matches processed: 13
+2025-08-26 16:02:17 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:02:17 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:02:17 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:02:17 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:02:17 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:02:17 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:02:18 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:02:18 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:02:19 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:04:26 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:04:27 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:04:27 - unibet_live - INFO - [NO_LIVE_ODDS_DATA] | No live odds data for match Portugal (Senior) vs Netherlands (dor1an)
+2025-08-26 16:04:27 - unibet_live - INFO - [NO_LIVE_ODDS_DATA] | No live odds data for match Mexico (cl1vlind) vs Croatia (Koftovsky)
+2025-08-26 16:04:59 - unibet_live - INFO - Logger initialized for unibet_live scraper
+2025-08-26 16:04:59 - unibet_live - INFO - Log file: scraper_logs/unibet_live.log
+2025-08-26 16:04:59 - unibet_live - INFO - [INIT] | Initializing Unibet Live scraper
+2025-08-26 16:05:00 - unibet_live - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings for live matches
+2025-08-26 16:05:01 - unibet_live - INFO - [START] | Starting Unibet Live sports navigation
+2025-08-26 16:05:02 - unibet_live - INFO - [LIVE_SPORTS_NAVIGATION_PARSED] | Found 38 sports in navigation for live matches
+2025-08-26 16:05:02 - unibet_live - INFO - [VALID_LIVE_SPORTS_FILTERED] | Processing 14 valid sports for live matches
+2025-08-26 16:05:03 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BASEBALL (4 groups)
+2025-08-26 16:05:03 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASEBALL, LIVE matches processed: 9
+2025-08-26 16:05:04 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for CRICKET (5 groups)
+2025-08-26 16:05:04 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: CRICKET, LIVE matches processed: 0
+2025-08-26 16:05:04 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for RUGBY_UNION (4 groups)
+2025-08-26 16:05:04 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: RUGBY_UNION, LIVE matches processed: 0
+2025-08-26 16:05:04 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for HANDBALL (4 groups)
+2025-08-26 16:05:04 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: HANDBALL, LIVE matches processed: 0
+2025-08-26 16:05:04 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for PESAPALLO (1 groups)
+2025-08-26 16:05:04 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: PESAPALLO, LIVE matches processed: 0
+2025-08-26 16:05:04 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for AMERICAN_FOOTBALL (3 groups)
+2025-08-26 16:05:04 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: AMERICAN_FOOTBALL, LIVE matches processed: 0
+2025-08-26 16:05:04 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for RUGBY_LEAGUE (2 groups)
+2025-08-26 16:05:04 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: RUGBY_LEAGUE, LIVE matches processed: 0
+2025-08-26 16:05:04 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BASKETBALL (5 groups)
+2025-08-26 16:05:04 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASKETBALL, LIVE matches processed: 1
+2025-08-26 16:05:05 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:05 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:05 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:05 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:05 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:05 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BADMINTON (1 groups)
+2025-08-26 16:05:05 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BADMINTON, LIVE matches processed: 1
+2025-08-26 16:05:05 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for VOLLEYBALL (2 groups)
+2025-08-26 16:05:05 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: VOLLEYBALL, LIVE matches processed: 1
+2025-08-26 16:05:05 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for soccer (34 groups)
+2025-08-26 16:05:05 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:05 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: soccer, LIVE matches processed: 11
+2025-08-26 16:05:05 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TABLE_TENNIS (1 groups)
+2025-08-26 16:05:05 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TENNIS (8 groups)
+2025-08-26 16:05:05 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for SNOOKER (1 groups)
+2025-08-26 16:05:05 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: SNOOKER, LIVE matches processed: 0
+2025-08-26 16:05:05 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TABLE_TENNIS, LIVE matches processed: 4
+2025-08-26 16:05:06 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TENNIS, LIVE matches processed: 36
+2025-08-26 16:05:07 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:07 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:26 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:26 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:27 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:28 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:48 - unibet_live - INFO - Logger initialized for unibet_live scraper
+2025-08-26 16:05:48 - unibet_live - INFO - Log file: scraper_logs/unibet_live.log
+2025-08-26 16:05:48 - unibet_live - INFO - [INIT] | Initializing Unibet Live scraper
+2025-08-26 16:05:48 - unibet_live - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings for live matches
+2025-08-26 16:05:50 - unibet_live - INFO - [START] | Starting Unibet Live sports navigation
+2025-08-26 16:05:52 - unibet_live - INFO - [LIVE_SPORTS_NAVIGATION_PARSED] | Found 38 sports in navigation for live matches
+2025-08-26 16:05:52 - unibet_live - INFO - [VALID_LIVE_SPORTS_FILTERED] | Processing 14 valid sports for live matches
+2025-08-26 16:05:53 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BADMINTON (1 groups)
+2025-08-26 16:05:53 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BADMINTON, LIVE matches processed: 1
+2025-08-26 16:05:54 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for RUGBY_UNION (4 groups)
+2025-08-26 16:05:54 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: RUGBY_UNION, LIVE matches processed: 0
+2025-08-26 16:05:54 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for RUGBY_LEAGUE (2 groups)
+2025-08-26 16:05:54 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: RUGBY_LEAGUE, LIVE matches processed: 0
+2025-08-26 16:05:54 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for AMERICAN_FOOTBALL (3 groups)
+2025-08-26 16:05:54 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: AMERICAN_FOOTBALL, LIVE matches processed: 0
+2025-08-26 16:05:55 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for VOLLEYBALL (2 groups)
+2025-08-26 16:05:55 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: VOLLEYBALL, LIVE matches processed: 1
+2025-08-26 16:05:55 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TENNIS (8 groups)
+2025-08-26 16:05:55 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for PESAPALLO (1 groups)
+2025-08-26 16:05:55 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: PESAPALLO, LIVE matches processed: 0
+2025-08-26 16:05:55 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BASEBALL (4 groups)
+2025-08-26 16:05:55 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for HANDBALL (4 groups)
+2025-08-26 16:05:55 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: HANDBALL, LIVE matches processed: 0
+2025-08-26 16:05:55 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASEBALL, LIVE matches processed: 9
+2025-08-26 16:05:55 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for CRICKET (5 groups)
+2025-08-26 16:05:55 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: CRICKET, LIVE matches processed: 0
+2025-08-26 16:05:55 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TENNIS, LIVE matches processed: 38
+2025-08-26 16:05:55 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for BASKETBALL (5 groups)
+2025-08-26 16:05:55 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: BASKETBALL, LIVE matches processed: 1
+2025-08-26 16:05:55 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for TABLE_TENNIS (1 groups)
+2025-08-26 16:05:55 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: TABLE_TENNIS, LIVE matches processed: 4
+2025-08-26 16:05:56 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for soccer (34 groups)
+2025-08-26 16:05:56 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: soccer, LIVE matches processed: 11
+2025-08-26 16:05:56 - unibet_live - INFO - [LIVE_SPORT_DATA_EXTRACTED] | Processing LIVE matches for SNOOKER (1 groups)
+2025-08-26 16:05:56 - unibet_live - INFO - [LIVE_SPORT_COMPLETED] | Sport: SNOOKER, LIVE matches processed: 0
+2025-08-26 16:05:57 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:57 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:57 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:57 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:57 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:57 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:57 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:58 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:59 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:05:59 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:08:49 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data
+2025-08-26 16:08:50 - unibet_live - ERROR - [LIVE_ODDS_EXTRACTION_ERROR] ERROR: 'odds' | Details: Error extracting live odds data

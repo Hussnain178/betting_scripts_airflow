@@ -1,0 +1,285 @@
+2025-08-26 10:33:45 - flashscore - INFO - Logger initialized for flashscore scraper
+2025-08-26 10:33:45 - flashscore - INFO - Log file: scraper_logs/flashscore.log
+2025-08-26 10:33:45 - flashscore - INFO - [INIT] | Initializing Flashscore fixtures scraper
+2025-08-26 10:33:45 - flashscore - INFO - [INIT_COMPLETE] | Loaded 293 countries data
+2025-08-26 10:33:46 - flashscore - INFO - [START] | Starting Flashscore core data extraction
+2025-08-26 10:33:50 - flashscore - INFO - [SPORTS_MAPPED] | Found 40 sports in mapping
+2025-08-26 10:33:50 - flashscore - INFO - [VALID_SPORTS_FILTERED] | Processing 25 valid sports (excluding racing and other excluded sports)
+2025-08-26 10:33:51 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: tennis (Day +5), Matches found: 0
+2025-08-26 10:33:51 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: tennis (Day +4), Matches found: 0
+2025-08-26 10:33:51 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: tennis (Day +3), Matches found: 0
+2025-08-26 10:33:51 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: tennis (Day +2), Matches found: 2
+2025-08-26 10:33:51 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 100 valid matches so far
+2025-08-26 10:33:51 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: tennis (Day +1), Matches found: 189
+2025-08-26 10:33:51 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 200 valid matches so far
+2025-08-26 10:33:51 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 300 valid matches so far
+2025-08-26 10:33:51 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: soccer (Day +0), Matches found: 152
+2025-08-26 10:33:51 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 400 valid matches so far
+2025-08-26 10:33:51 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 500 valid matches so far
+2025-08-26 10:33:51 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 600 valid matches so far
+2025-08-26 10:33:51 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 700 valid matches so far
+2025-08-26 10:33:51 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 800 valid matches so far
+2025-08-26 10:33:51 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: soccer (Day +1), Matches found: 486
+2025-08-26 10:33:52 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 900 valid matches so far
+2025-08-26 10:33:52 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 1000 valid matches so far
+2025-08-26 10:33:52 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 1100 valid matches so far
+2025-08-26 10:33:52 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: tennis (Day +0), Matches found: 366
+2025-08-26 10:33:52 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 1200 valid matches so far
+2025-08-26 10:33:52 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 1300 valid matches so far
+2025-08-26 10:33:52 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: soccer (Day +7), Matches found: 187
+2025-08-26 10:33:52 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 1400 valid matches so far
+2025-08-26 10:33:52 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: basketball (Day +5), Matches found: 29
+2025-08-26 10:33:52 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 1500 valid matches so far
+2025-08-26 10:33:52 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 1600 valid matches so far
+2025-08-26 10:33:52 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: soccer (Day +2), Matches found: 205
+2025-08-26 10:33:52 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 1700 valid matches so far
+2025-08-26 10:33:52 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 1800 valid matches so far
+2025-08-26 10:33:52 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: soccer (Day +6), Matches found: 275
+2025-08-26 10:33:52 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 1900 valid matches so far
+2025-08-26 10:33:52 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: basketball (Day +4), Matches found: 28
+2025-08-26 10:33:52 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: basketball (Day +3), Matches found: 21
+2025-08-26 10:33:52 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: basketball (Day +2), Matches found: 18
+2025-08-26 10:33:52 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: basketball (Day +1), Matches found: 22
+2025-08-26 10:33:52 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: basketball (Day +0), Matches found: 9
+2025-08-26 10:33:52 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: tennis (Day +6), Matches found: 0
+2025-08-26 10:33:52 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: tennis (Day +7), Matches found: 0
+2025-08-26 10:33:52 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: hockey (Day +6), Matches found: 2
+2025-08-26 10:33:52 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 2000 valid matches so far
+2025-08-26 10:33:52 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 2100 valid matches so far
+2025-08-26 10:33:53 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 2200 valid matches so far
+2025-08-26 10:33:53 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 2300 valid matches so far
+2025-08-26 10:33:53 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 2400 valid matches so far
+2025-08-26 10:33:53 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: soccer (Day +3), Matches found: 441
+2025-08-26 10:33:53 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: hockey (Day +5), Matches found: 34
+2025-08-26 10:33:53 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 2500 valid matches so far
+2025-08-26 10:33:53 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: hockey (Day +4), Matches found: 48
+2025-08-26 10:33:53 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: hockey (Day +2), Matches found: 70
+2025-08-26 10:33:53 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 2600 valid matches so far
+2025-08-26 10:33:53 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: hockey (Day +1), Matches found: 38
+2025-08-26 10:33:53 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: hockey (Day +0), Matches found: 35
+2025-08-26 10:33:53 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 2700 valid matches so far
+2025-08-26 10:33:53 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: hockey (Day +3), Matches found: 71
+2025-08-26 10:33:53 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: basketball (Day +7), Matches found: 24
+2025-08-26 10:33:53 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: baseball (Day +0), Matches found: 13
+2025-08-26 10:33:53 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: basketball (Day +6), Matches found: 22
+2025-08-26 10:33:53 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: kabaddi (Day +7), Matches found: 2
+2025-08-26 10:33:53 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: kabaddi (Day +6), Matches found: 2
+2025-08-26 10:33:53 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: kabaddi (Day +5), Matches found: 2
+2025-08-26 10:33:53 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: kabaddi (Day +2), Matches found: 0
+2025-08-26 10:33:53 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: kabaddi (Day +1), Matches found: 0
+2025-08-26 10:33:53 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: kabaddi (Day +3), Matches found: 2
+2025-08-26 10:33:53 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: kabaddi (Day +4), Matches found: 2
+2025-08-26 10:33:53 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: kabaddi (Day +0), Matches found: 0
+2025-08-26 10:33:53 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: pesapallo (Day +7), Matches found: 0
+2025-08-26 10:33:54 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: pesapallo (Day +6), Matches found: 0
+2025-08-26 10:33:54 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: pesapallo (Day +5), Matches found: 2
+2025-08-26 10:33:54 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 2800 valid matches so far
+2025-08-26 10:33:54 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: pesapallo (Day +2), Matches found: 1
+2025-08-26 10:33:54 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: pesapallo (Day +3), Matches found: 2
+2025-08-26 10:33:54 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: pesapallo (Day +4), Matches found: 1
+2025-08-26 10:33:54 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: pesapallo (Day +1), Matches found: 2
+2025-08-26 10:33:54 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: pesapallo (Day +0), Matches found: 4
+2025-08-26 10:33:54 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: netball (Day +6), Matches found: 0
+2025-08-26 10:33:54 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: netball (Day +7), Matches found: 0
+2025-08-26 10:33:54 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: netball (Day +5), Matches found: 0
+2025-08-26 10:33:54 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: netball (Day +3), Matches found: 0
+2025-08-26 10:33:54 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: netball (Day +4), Matches found: 0
+2025-08-26 10:33:54 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 2900 valid matches so far
+2025-08-26 10:33:54 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 3000 valid matches so far
+2025-08-26 10:33:54 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 3100 valid matches so far
+2025-08-26 10:33:54 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 3200 valid matches so far
+2025-08-26 10:33:54 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 3300 valid matches so far
+2025-08-26 10:33:54 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 3400 valid matches so far
+2025-08-26 10:33:54 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 3500 valid matches so far
+2025-08-26 10:33:54 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 3600 valid matches so far
+2025-08-26 10:33:54 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 3700 valid matches so far
+2025-08-26 10:33:54 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 3800 valid matches so far
+2025-08-26 10:33:54 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 3900 valid matches so far
+2025-08-26 10:33:54 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: soccer (Day +5), Matches found: 1172
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: netball (Day +2), Matches found: 0
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: beach-soccer (Day +4), Matches found: 4
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: beach-soccer (Day +6), Matches found: 0
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: beach-soccer (Day +5), Matches found: 0
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: netball (Day +0), Matches found: 0
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: beach-soccer (Day +7), Matches found: 0
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: netball (Day +1), Matches found: 0
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: beach-soccer (Day +3), Matches found: 0
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: table-tennis (Day +6), Matches found: 0
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: beach-soccer (Day +0), Matches found: 0
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: table-tennis (Day +5), Matches found: 12
+2025-08-26 10:33:55 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 4000 valid matches so far
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: table-tennis (Day +4), Matches found: 12
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: beach-soccer (Day +2), Matches found: 0
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: table-tennis (Day +7), Matches found: 0
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: beach-soccer (Day +1), Matches found: 0
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: table-tennis (Day +3), Matches found: 12
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: table-tennis (Day +0), Matches found: 0
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: field-hockey (Day +7), Matches found: 0
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: table-tennis (Day +2), Matches found: 0
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: field-hockey (Day +6), Matches found: 0
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: field-hockey (Day +5), Matches found: 0
+2025-08-26 10:33:55 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: table-tennis (Day +1), Matches found: 0
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: field-hockey (Day +4), Matches found: 0
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: field-hockey (Day +3), Matches found: 0
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: field-hockey (Day +2), Matches found: 0
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: field-hockey (Day +1), Matches found: 0
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: field-hockey (Day +0), Matches found: 0
+2025-08-26 10:33:56 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 4100 valid matches so far
+2025-08-26 10:33:56 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 4200 valid matches so far
+2025-08-26 10:33:56 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 4300 valid matches so far
+2025-08-26 10:33:56 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 4400 valid matches so far
+2025-08-26 10:33:56 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 4500 valid matches so far
+2025-08-26 10:33:56 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 4600 valid matches so far
+2025-08-26 10:33:56 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 4700 valid matches so far
+2025-08-26 10:33:56 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 4800 valid matches so far
+2025-08-26 10:33:56 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 4900 valid matches so far
+2025-08-26 10:33:56 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 5000 valid matches so far
+2025-08-26 10:33:56 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 5100 valid matches so far
+2025-08-26 10:33:56 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 5200 valid matches so far
+2025-08-26 10:33:56 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 5300 valid matches so far
+2025-08-26 10:33:56 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 5400 valid matches so far
+2025-08-26 10:33:56 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 5500 valid matches so far
+2025-08-26 10:33:56 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 5600 valid matches so far
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: soccer (Day +4), Matches found: 1598
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: water-polo (Day +7), Matches found: 0
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: water-polo (Day +6), Matches found: 0
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: water-polo (Day +3), Matches found: 0
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: water-polo (Day +1), Matches found: 0
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: badminton (Day +7), Matches found: 0
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: water-polo (Day +0), Matches found: 0
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: water-polo (Day +2), Matches found: 0
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: water-polo (Day +5), Matches found: 0
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: badminton (Day +6), Matches found: 0
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: water-polo (Day +4), Matches found: 0
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: badminton (Day +0), Matches found: 63
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: rugby-league (Day +7), Matches found: 0
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: badminton (Day +3), Matches found: 0
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: badminton (Day +5), Matches found: 0
+2025-08-26 10:33:56 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: badminton (Day +4), Matches found: 0
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: badminton (Day +2), Matches found: 0
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: rugby-league (Day +6), Matches found: 0
+2025-08-26 10:33:57 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 5700 valid matches so far
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: badminton (Day +1), Matches found: 41
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: rugby-league (Day +1), Matches found: 0
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: rugby-league (Day +0), Matches found: 0
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: rugby-league (Day +2), Matches found: 2
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: rugby-league (Day +3), Matches found: 5
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: rugby-league (Day +4), Matches found: 25
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: rugby-league (Day +5), Matches found: 20
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: aussie-rules (Day +7), Matches found: 0
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: aussie-rules (Day +6), Matches found: 0
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: aussie-rules (Day +5), Matches found: 6
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: aussie-rules (Day +4), Matches found: 14
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: aussie-rules (Day +2), Matches found: 0
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: aussie-rules (Day +0), Matches found: 0
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: beach-volleyball (Day +6), Matches found: 0
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: aussie-rules (Day +1), Matches found: 1
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: beach-volleyball (Day +7), Matches found: 0
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: aussie-rules (Day +3), Matches found: 1
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: beach-volleyball (Day +5), Matches found: 0
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: beach-volleyball (Day +4), Matches found: 0
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: beach-volleyball (Day +1), Matches found: 0
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: beach-volleyball (Day +3), Matches found: 0
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: beach-volleyball (Day +2), Matches found: 0
+2025-08-26 10:33:57 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: beach-volleyball (Day +0), Matches found: 0
+2025-08-26 10:33:58 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 5800 valid matches so far
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: snooker (Day +6), Matches found: 20
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: snooker (Day +5), Matches found: 0
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: snooker (Day +7), Matches found: 28
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: snooker (Day +2), Matches found: 0
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: snooker (Day +1), Matches found: 0
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: snooker (Day +0), Matches found: 16
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: snooker (Day +3), Matches found: 31
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: snooker (Day +4), Matches found: 1
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: cricket (Day +7), Matches found: 3
+2025-08-26 10:33:58 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 5900 valid matches so far
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: cricket (Day +6), Matches found: 7
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: cricket (Day +4), Matches found: 7
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: cricket (Day +5), Matches found: 12
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: cricket (Day +3), Matches found: 6
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: cricket (Day +2), Matches found: 7
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: cricket (Day +0), Matches found: 14
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: cricket (Day +1), Matches found: 8
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: volleyball (Day +7), Matches found: 3
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: volleyball (Day +0), Matches found: 20
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: volleyball (Day +6), Matches found: 1
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: volleyball (Day +4), Matches found: 3
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: volleyball (Day +5), Matches found: 3
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: volleyball (Day +3), Matches found: 7
+2025-08-26 10:33:58 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 6000 valid matches so far
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: volleyball (Day +2), Matches found: 7
+2025-08-26 10:33:58 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: volleyball (Day +1), Matches found: 15
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: futsal (Day +7), Matches found: 4
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: futsal (Day +6), Matches found: 2
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: futsal (Day +3), Matches found: 13
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: futsal (Day +5), Matches found: 19
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: futsal (Day +4), Matches found: 45
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: bandy (Day +7), Matches found: 0
+2025-08-26 10:33:59 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 6100 valid matches so far
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: futsal (Day +0), Matches found: 5
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: futsal (Day +2), Matches found: 16
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: futsal (Day +1), Matches found: 18
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: bandy (Day +6), Matches found: 0
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: bandy (Day +4), Matches found: 0
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: bandy (Day +2), Matches found: 0
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: bandy (Day +5), Matches found: 1
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: bandy (Day +1), Matches found: 1
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: bandy (Day +3), Matches found: 2
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: bandy (Day +0), Matches found: 0
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: floorball (Day +7), Matches found: 0
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: floorball (Day +6), Matches found: 0
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: floorball (Day +5), Matches found: 1
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: floorball (Day +3), Matches found: 0
+2025-08-26 10:33:59 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: rugby-union (Day +7), Matches found: 0
+2025-08-26 10:34:00 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: floorball (Day +4), Matches found: 2
+2025-08-26 10:34:00 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: floorball (Day +2), Matches found: 0
+2025-08-26 10:34:00 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: floorball (Day +1), Matches found: 0
+2025-08-26 10:34:00 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: floorball (Day +0), Matches found: 0
+2025-08-26 10:34:00 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: rugby-union (Day +6), Matches found: 1
+2025-08-26 10:34:00 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: rugby-union (Day +1), Matches found: 0
+2025-08-26 10:34:00 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: rugby-union (Day +2), Matches found: 0
+2025-08-26 10:34:00 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: rugby-union (Day +5), Matches found: 16
+2025-08-26 10:34:00 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: rugby-union (Day +0), Matches found: 0
+2025-08-26 10:34:00 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: rugby-union (Day +3), Matches found: 12
+2025-08-26 10:34:00 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 6200 valid matches so far
+2025-08-26 10:34:00 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: rugby-union (Day +4), Matches found: 48
+2025-08-26 10:34:00 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: handball (Day +7), Matches found: 19
+2025-08-26 10:34:00 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: handball (Day +6), Matches found: 4
+2025-08-26 10:34:00 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: handball (Day +2), Matches found: 12
+2025-08-26 10:34:00 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: handball (Day +1), Matches found: 20
+2025-08-26 10:34:00 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: handball (Day +0), Matches found: 4
+2025-08-26 10:34:00 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 6300 valid matches so far
+2025-08-26 10:34:00 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: handball (Day +5), Matches found: 67
+2025-08-26 10:34:00 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: handball (Day +3), Matches found: 22
+2025-08-26 10:34:00 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 6400 valid matches so far
+2025-08-26 10:34:00 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: handball (Day +4), Matches found: 93
+2025-08-26 10:34:00 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: baseball (Day +7), Matches found: 30
+2025-08-26 10:34:01 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 6500 valid matches so far
+2025-08-26 10:34:01 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: baseball (Day +6), Matches found: 26
+2025-08-26 10:34:01 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: american-football (Day +7), Matches found: 3
+2025-08-26 10:34:01 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: baseball (Day +3), Matches found: 44
+2025-08-26 10:34:01 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 6600 valid matches so far
+2025-08-26 10:34:01 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: baseball (Day +2), Matches found: 45
+2025-08-26 10:34:01 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: american-football (Day +6), Matches found: 5
+2025-08-26 10:34:01 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: baseball (Day +1), Matches found: 50
+2025-08-26 10:34:01 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 6700 valid matches so far
+2025-08-26 10:34:01 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: baseball (Day +4), Matches found: 80
+2025-08-26 10:34:01 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 6800 valid matches so far
+2025-08-26 10:34:01 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: baseball (Day +5), Matches found: 89
+2025-08-26 10:34:01 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: american-football (Day +0), Matches found: 0
+2025-08-26 10:34:01 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: american-football (Day +1), Matches found: 0
+2025-08-26 10:34:01 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: american-football (Day +2), Matches found: 0
+2025-08-26 10:34:01 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: american-football (Day +3), Matches found: 19
+2025-08-26 10:34:01 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 6900 valid matches so far
+2025-08-26 10:34:01 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: american-football (Day +5), Matches found: 62
+2025-08-26 10:34:01 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: american-football (Day +4), Matches found: 67
+2025-08-26 10:34:01 - flashscore - INFO - [MATCHES_PROGRESS] | Processed 7000 valid matches so far
+2025-08-26 10:34:01 - flashscore - INFO - [SPORT_FIXTURES_PROCESSED] | Sport: hockey (Day +7), Matches found: 37
+2025-08-26 10:34:01 - flashscore - INFO - [STORING_MATCHES] | Storing 7020 matches to database
+2025-08-26 10:34:02 - flashscore - INFO - Executing 7020 bulk upsert operations
+2025-08-26 10:34:46 - flashscore - INFO - Bulk upsert completed successfully:
+2025-08-26 10:34:46 - flashscore - INFO -   - Modified: 0
+2025-08-26 10:34:46 - flashscore - INFO -   - Upserted: 6347
+2025-08-26 10:34:46 - flashscore - INFO -   - Inserted: 0
+2025-08-26 10:34:46 - flashscore - INFO - [SCRAPER_COMPLETED] Matches: 7020 | Flashscore fixtures scraper completed successfully
+2025-08-26 10:34:46 - flashscore - INFO - [FINAL_STATS] | Total found: 7020, Valid: 7020, Invalid: 0, Sports: 40

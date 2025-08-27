@@ -2640,3 +2640,1404 @@
 2025-08-25 16:14:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
 2025-08-25 16:14:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 14 matches in league
 2025-08-25 16:14:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 16 matches in league
+2025-08-26 10:16:55 - tipico - INFO - Logger initialized for tipico scraper
+2025-08-26 10:16:55 - tipico - INFO - Log file: scraper_logs/tipico.log
+2025-08-26 10:16:55 - tipico - INFO - [INIT] | Initializing Tipico scraper
+2025-08-26 10:16:55 - tipico - INFO - [DB_CONNECTED] | MongoDB connection established
+2025-08-26 10:16:55 - tipico - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings, 293 countries
+2025-08-26 10:16:56 - tipico - INFO - [START] | Starting Tipico navigation scraping
+2025-08-26 10:16:58 - tipico - INFO - [NAVIGATION_PARSED] | Found 21 sports categories
+2025-08-26 10:16:59 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:17:00 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 22 matches in league
+2025-08-26 10:17:00 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 24 matches in league
+2025-08-26 10:17:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 20 matches in league
+2025-08-26 10:17:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-26 10:17:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 19 matches in league
+2025-08-26 10:17:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:17:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-26 10:17:01 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 21 matches in league
+2025-08-26 10:17:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:17:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-26 10:17:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-26 10:17:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:02 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-26 10:17:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 22 matches in league
+2025-08-26 10:17:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 21 matches in league
+2025-08-26 10:17:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-26 10:17:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:17:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-26 10:17:03 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:17:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:17:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:17:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-26 10:17:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-26 10:17:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:17:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:04 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:17:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:17:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:17:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-26 10:17:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-26 10:17:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:17:05 - tipico - INFO - [VALID_SPORTS_FILTERED] | Processing 13 valid sports
+2025-08-26 10:17:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:17:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:17:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:17:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:17:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 14 matches in league
+2025-08-26 10:17:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:17:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 14 matches in league
+2025-08-26 10:17:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:17:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:17:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:17:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-26 10:17:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:17:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:17:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-26 10:17:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-26 10:17:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:17:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:17:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-26 10:17:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:17:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:17:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:17:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:17:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:17:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:23 - tipico - INFO - [PROGRESS_UPDATE] | Processed 50 matches, Success: 50, Failed: 0
+2025-08-26 10:17:34 - tipico - INFO - [PROGRESS_UPDATE] | Processed 100 matches, Success: 100, Failed: 0
+2025-08-26 10:17:41 - tipico - INFO - [PROGRESS_UPDATE] | Processed 150 matches, Success: 150, Failed: 0
+2025-08-26 10:17:45 - tipico - INFO - [PROGRESS_UPDATE] | Processed 200 matches, Success: 200, Failed: 0
+2025-08-26 10:17:49 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:49 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 16 matches in league
+2025-08-26 10:17:49 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 44 matches in league
+2025-08-26 10:17:50 - tipico - INFO - [PROGRESS_UPDATE] | Processed 250 matches, Success: 250, Failed: 0
+2025-08-26 10:17:50 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 27 matches in league
+2025-08-26 10:17:50 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:50 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:17:51 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 16 matches in league
+2025-08-26 10:17:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:17:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:53 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:55 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:17:55 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:55 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:55 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:17:55 - tipico - INFO - [PROGRESS_UPDATE] | Processed 300 matches, Success: 300, Failed: 0
+2025-08-26 10:17:58 - tipico - INFO - [PROGRESS_UPDATE] | Processed 350 matches, Success: 350, Failed: 0
+2025-08-26 10:18:02 - tipico - INFO - [PROGRESS_UPDATE] | Processed 400 matches, Success: 400, Failed: 0
+2025-08-26 10:18:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:18:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:18:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:18:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:18:09 - tipico - INFO - [PROGRESS_UPDATE] | Processed 450 matches, Success: 450, Failed: 0
+2025-08-26 10:18:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-26 10:18:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:18:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 16 matches in league
+2025-08-26 10:18:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-26 10:18:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 14 matches in league
+2025-08-26 10:18:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:18:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-26 10:18:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:18:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:15 - tipico - INFO - [PROGRESS_UPDATE] | Processed 500 matches, Success: 500, Failed: 0
+2025-08-26 10:18:19 - tipico - INFO - [PROGRESS_UPDATE] | Processed 550 matches, Success: 550, Failed: 0
+2025-08-26 10:18:21 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-26 10:18:21 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:18:21 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:18:21 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 24 matches in league
+2025-08-26 10:18:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:18:22 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-26 10:18:23 - tipico - INFO - [PROGRESS_UPDATE] | Processed 600 matches, Success: 600, Failed: 0
+2025-08-26 10:18:24 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:18:24 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-26 10:18:24 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:18:24 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 16 matches in league
+2025-08-26 10:18:24 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:18:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:18:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:18:25 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:18:26 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-26 10:18:27 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-26 10:18:28 - tipico - INFO - [PROGRESS_UPDATE] | Processed 650 matches, Success: 650, Failed: 0
+2025-08-26 10:18:30 - tipico - INFO - [PROGRESS_UPDATE] | Processed 700 matches, Success: 700, Failed: 0
+2025-08-26 10:18:33 - tipico - INFO - [PROGRESS_UPDATE] | Processed 750 matches, Success: 750, Failed: 0
+2025-08-26 10:18:33 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:34 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:34 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 40 matches in league
+2025-08-26 10:18:36 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:36 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 41 matches in league
+2025-08-26 10:18:36 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:36 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:18:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-26 10:18:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:18:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:18:39 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:18:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-26 10:18:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:18:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-26 10:18:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:18:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:18:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:18:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:40 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-26 10:18:41 - tipico - INFO - [PROGRESS_UPDATE] | Processed 800 matches, Success: 800, Failed: 0
+2025-08-26 10:18:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:18:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:41 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 22 matches in league
+2025-08-26 10:18:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:18:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:18:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:18:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:18:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:18:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:18:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:18:46 - tipico - INFO - [PROGRESS_UPDATE] | Processed 850 matches, Success: 850, Failed: 0
+2025-08-26 10:18:53 - tipico - INFO - [PROGRESS_UPDATE] | Processed 900 matches, Success: 900, Failed: 0
+2025-08-26 10:19:01 - tipico - INFO - [PROGRESS_UPDATE] | Processed 950 matches, Success: 950, Failed: 0
+2025-08-26 10:19:06 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1000 matches, Success: 1000, Failed: 0
+2025-08-26 10:19:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:19:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 14 matches in league
+2025-08-26 10:19:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:19:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:19:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:19:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:19:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:19:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-26 10:19:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-26 10:19:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:19:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:19:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:19:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-26 10:19:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:19:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:19:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:19:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:19:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:19:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:19:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:19:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:19:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:19:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:19:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:19:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:19:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:19:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:19:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:19:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:19:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:19:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:19:11 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-26 10:19:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-26 10:19:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:19:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:19:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:19:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:19:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-26 10:19:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:19:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:19:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:19:12 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:19:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:19:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:19:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-26 10:19:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:19:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 14 matches in league
+2025-08-26 10:19:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:19:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:19:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-26 10:19:14 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1050 matches, Success: 1050, Failed: 0
+2025-08-26 10:19:20 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1100 matches, Success: 1100, Failed: 0
+2025-08-26 10:19:24 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1150 matches, Success: 1150, Failed: 0
+2025-08-26 10:19:29 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1200 matches, Success: 1200, Failed: 0
+2025-08-26 10:19:33 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1250 matches, Success: 1250, Failed: 0
+2025-08-26 10:19:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:19:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:19:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:19:38 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:19:39 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1300 matches, Success: 1300, Failed: 0
+2025-08-26 10:35:09 - tipico - INFO - Logger initialized for tipico scraper
+2025-08-26 10:35:09 - tipico - INFO - Log file: scraper_logs/tipico.log
+2025-08-26 10:35:09 - tipico - INFO - [INIT] | Initializing Tipico scraper
+2025-08-26 10:35:10 - tipico - INFO - [DB_CONNECTED] | MongoDB connection established
+2025-08-26 10:35:10 - tipico - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings, 293 countries
+2025-08-26 10:35:10 - tipico - INFO - [START] | Starting Tipico navigation scraping
+2025-08-26 10:35:12 - tipico - INFO - [NAVIGATION_PARSED] | Found 21 sports categories
+2025-08-26 10:35:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:35:13 - tipico - INFO - [VALID_SPORTS_FILTERED] | Processing 13 valid sports
+2025-08-26 10:35:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:35:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-26 10:35:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 21 matches in league
+2025-08-26 10:35:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-26 10:35:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 19 matches in league
+2025-08-26 10:35:13 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 22 matches in league
+2025-08-26 10:35:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 22 matches in league
+2025-08-26 10:35:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 24 matches in league
+2025-08-26 10:35:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 20 matches in league
+2025-08-26 10:35:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-26 10:35:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:35:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:35:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:35:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-26 10:35:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-26 10:35:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-26 10:35:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 21 matches in league
+2025-08-26 10:35:14 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:35:15 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-26 10:35:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:35:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:35:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-26 10:35:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 14 matches in league
+2025-08-26 10:35:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:35:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:35:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:35:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 14 matches in league
+2025-08-26 10:35:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:35:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:35:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-26 10:35:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:35:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:35:16 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:35:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:35:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:35:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:35:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-26 10:35:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:35:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:35:17 - tipico - INFO - [MATCH_FOUND] | Matched Wigan Athletic vs Stockport County
+2025-08-26 10:35:17 - tipico - INFO - [MATCH_FOUND] | Matched Stevenage FC vs Wycombe Wanderers
+2025-08-26 10:35:17 - tipico - INFO - [MATCH_FOUND] | Matched SV Wehen Wies. vs Bayern Munich
+2025-08-26 10:35:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:35:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-26 10:35:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:35:17 - tipico - INFO - [MATCH_FOUND] | Matched Lincoln City vs Mansfield Town
+2025-08-26 10:35:17 - tipico - INFO - [MATCH_FOUND] | Matched Leyton Orient vs Northampton Town
+2025-08-26 10:35:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:35:17 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:35:18 - tipico - INFO - [MATCH_FOUND] | Matched Barnsley FC vs Huddersfield Town
+2025-08-26 10:35:18 - tipico - INFO - [MATCH_FOUND] | Matched Exeter City vs Peterborough United
+2025-08-26 10:35:18 - tipico - INFO - [MATCH_FOUND] | Matched Reading FC vs Port Vale
+2025-08-26 10:35:18 - tipico - INFO - [MATCH_FOUND] | Matched FC Augsburg vs Bayern Munich
+2025-08-26 10:35:18 - tipico - INFO - [MATCH_FOUND] | Matched VfL Wolfsburg vs 1 FSV Mainz 05
+2025-08-26 10:35:19 - tipico - INFO - [MATCH_FOUND] | Matched Werder Bremen vs Bayer Leverkusen
+2025-08-26 10:35:19 - tipico - INFO - [MATCH_FOUND] | Matched VfB Stuttgart vs Monchengladbach
+2025-08-26 10:35:19 - tipico - INFO - [MATCH_FOUND] | Matched TSG Hoffenheim vs Eintracht Frankfurt
+2025-08-26 10:35:19 - tipico - INFO - [MATCH_FOUND] | Matched RB Leipzig vs 1. FC Heidenheim
+2025-08-26 10:35:20 - tipico - INFO - [MATCH_FOUND] | Matched Accrington Stanley vs Doncaster Rovers
+2025-08-26 10:35:20 - tipico - INFO - [MATCH_FOUND] | Matched Birmingham City vs Port Vale
+2025-08-26 10:35:21 - tipico - INFO - [MATCH_FOUND] | Matched AFC Bournemouth vs Brentford FC
+2025-08-26 10:35:23 - tipico - INFO - [MATCH_FOUND] | Matched Cambridge United vs Charlton Athletic
+2025-08-26 10:35:24 - tipico - INFO - [MATCH_FOUND] | Matched Millwall FC vs Coventry City
+2025-08-26 10:35:24 - tipico - INFO - [MATCH_FOUND] | Matched Burnley FC vs Derby County
+2025-08-26 10:35:25 - tipico - INFO - [MATCH_FOUND] | Matched Barnsley FC vs Rotherham United
+2025-08-26 10:35:30 - tipico - INFO - [MATCH_FOUND] | Matched Hammarby IF vs Osters IF
+2025-08-26 10:35:30 - tipico - INFO - [MATCH_FOUND] | Matched Gais vs BK Hacken
+2025-08-26 10:35:31 - tipico - INFO - [MATCH_FOUND] | Matched Valur Reykjavik vs Afturelding
+2025-08-26 10:35:31 - tipico - INFO - [MATCH_FOUND] | Matched Vik. Reykjavik vs IF Vestri
+2025-08-26 10:35:32 - tipico - INFO - [MATCH_FOUND] | Matched EC Bahia  vs Fluminense FC
+2025-08-26 10:35:32 - tipico - INFO - [MATCH_FOUND] | Matched CR Vasco da Gama vs Botafogo FR
+2025-08-26 10:35:32 - tipico - INFO - [MATCH_FOUND] | Matched TSV Hartberg vs SK Rapid Vienna
+2025-08-26 10:35:33 - tipico - INFO - [MATCH_FOUND] | Matched Galatasaray Istanbul vs Caykur Rizespor
+2025-08-26 10:35:33 - tipico - INFO - [MATCH_FOUND] | Matched Antalyaspor vs Fatih Karagümrük
+2025-08-26 10:35:33 - tipico - INFO - [MATCH_FOUND] | Matched FK Austria Vienna vs SCR Altach
+2025-08-26 10:35:34 - tipico - INFO - [MATCH_FOUND] | Matched Kocaelispor vs Kayserispor
+2025-08-26 10:35:34 - tipico - INFO - [MATCH_FOUND] | Matched Kasimpasa vs Gaziantep FK
+2025-08-26 10:35:34 - tipico - INFO - [MATCH_FOUND] | Matched Alanyaspor vs Besiktas Istanbul
+2025-08-26 10:35:34 - tipico - INFO - [MATCH_FOUND] | Matched SV Horn vs LASK
+2025-08-26 10:35:34 - tipico - INFO - [MATCH_FOUND] | Matched Trabzonspor vs Yilport Samsunspor
+2025-08-26 10:35:34 - tipico - INFO - [PROGRESS_UPDATE] | Processed 50 matches, Success: 50, Failed: 0
+2025-08-26 10:35:34 - tipico - INFO - [MATCH_FOUND] | Matched CA Platense vs CD Godoy Cruz 
+2025-08-26 10:35:34 - tipico - INFO - [MATCH_FOUND] | Matched SV Donau vs SCR Altach
+2025-08-26 10:35:35 - tipico - INFO - [MATCH_FOUND] | Matched Defensa y Justicia vs CA Belgrano
+2025-08-26 10:35:36 - tipico - INFO - [MATCH_FOUND] | Matched Gimnasia LP vs Atlético Tucumán
+2025-08-26 10:35:36 - tipico - INFO - [MATCH_FOUND] | Matched Racing Club vs Union de Santa Fe
+2025-08-26 10:35:36 - tipico - INFO - [MATCH_FOUND] | Matched CA River Plate vs San Martin SJ
+2025-08-26 10:35:36 - tipico - INFO - [MATCH_FOUND] | Matched Talleres de Cordoba vs Dep. Riestra
+2025-08-26 10:35:37 - tipico - INFO - [MATCH_FOUND] | Matched Sport Recife vs CR Vasco da Gama
+2025-08-26 10:35:37 - tipico - INFO - [MATCH_FOUND] | Matched CA Aldosivi vs Boca Juniors
+2025-08-26 10:35:37 - tipico - INFO - [MATCH_FOUND] | Matched Al Fateh SC vs Al Fayha
+2025-08-26 10:35:39 - tipico - INFO - [MATCH_FOUND] | Matched Al Taawon vs Al Nassr Riyadh
+2025-08-26 10:35:40 - tipico - INFO - [MATCH_FOUND] | Matched KRC Genk vs SV Zulte Waregem
+2025-08-26 10:35:40 - tipico - INFO - [MATCH_FOUND] | Matched Al Hilal Riyadh vs Al Riyadh
+2025-08-26 10:35:40 - tipico - INFO - [MATCH_FOUND] | Matched Al Ettifaq vs Al Kholood
+2025-08-26 10:35:40 - tipico - INFO - [MATCH_FOUND] | Matched Brisbane City FC vs Brisbane Roar U21
+2025-08-26 10:35:41 - tipico - INFO - [MATCH_FOUND] | Matched Kaizer Chiefs FC vs Mamelodi Sundowns
+2025-08-26 10:35:42 - tipico - INFO - [MATCH_FOUND] | Matched Sekhukhune United vs AmaZulu FC
+2025-08-26 10:35:42 - tipico - INFO - [MATCH_FOUND] | Matched Debreceni VSC vs Ferencvarosi TC
+2025-08-26 10:35:42 - tipico - INFO - [MATCH_FOUND] | Matched FC Gyor ETO vs Nyiregyhaza Spartacus FC
+2025-08-26 10:35:42 - tipico - INFO - [MATCH_FOUND] | Matched L. Golden Arrows vs Magesi FC
+2025-08-26 10:35:42 - tipico - INFO - [MATCH_FOUND] | Matched Stellenbosch FC vs Marumo Gallants
+2025-08-26 10:35:42 - tipico - INFO - [MATCH_FOUND] | Matched TS Galaxy FC vs Siwelele FC
+2025-08-26 10:35:43 - tipico - INFO - [MATCH_FOUND] | Matched SC Cambuur vs VVV Venlo
+2025-08-26 10:35:43 - tipico - INFO - [MATCH_FOUND] | Matched RKC Waalwijk vs Almere City FC
+2025-08-26 10:35:43 - tipico - INFO - [MATCH_FOUND] | Matched LB Chateauroux vs US Orleans
+2025-08-26 10:35:43 - tipico - INFO - [MATCH_FOUND] | Matched AS Saint Etienne vs Grenoble Foot 38
+2025-08-26 10:35:44 - tipico - INFO - [MATCH_FOUND] | Matched FC Versailles 78 vs FC Villefranche-B.
+2025-08-26 10:35:44 - tipico - INFO - [MATCH_FOUND] | Matched FC Aubagne vs US Concarneau
+2025-08-26 10:35:44 - tipico - INFO - [MATCH_FOUND] | Matched Dijon FCO vs Paris 13 Atletico
+2025-08-26 10:35:44 - tipico - INFO - [MATCH_FOUND] | Matched SC Bastia vs EA Guingamp
+2025-08-26 10:35:44 - tipico - INFO - [MATCH_FOUND] | Matched Stade de Reims vs Le Mans FC
+2025-08-26 10:35:44 - tipico - INFO - [MATCH_FOUND] | Matched Valenciennes FC vs FC Rouen 1899
+2025-08-26 10:35:44 - tipico - INFO - [MATCH_FOUND] | Matched Stade Laval vs Clermont Foot 63
+2025-08-26 10:35:44 - tipico - INFO - [MATCH_FOUND] | Matched Rodez Aveyron vs US Boulogne CO
+2025-08-26 10:35:45 - tipico - INFO - [MATCH_FOUND] | Matched Red Star FC vs Annecy FC
+2025-08-26 10:35:45 - tipico - INFO - [MATCH_FOUND] | Matched Sparta Rotterdam vs Feyenoord Rotterdam
+2025-08-26 10:35:45 - tipico - INFO - [MATCH_FOUND] | Matched Dunkerque vs ESTAC Troyes
+2025-08-26 10:35:45 - tipico - INFO - [MATCH_FOUND] | Matched AS Nancy vs Pau FC
+2025-08-26 10:35:45 - tipico - INFO - [MATCH_FOUND] | Matched NAC Breda vs AZ Alkmaar
+2025-08-26 10:35:46 - tipico - INFO - [MATCH_FOUND] | Matched PEC Zwolle vs FC Utrecht
+2025-08-26 10:35:46 - tipico - INFO - [MATCH_FOUND] | Matched Fortuna Sittard vs NEC Nijmegen
+2025-08-26 10:35:47 - tipico - INFO - [MATCH_FOUND] | Matched SBV Excelsior vs FC Twente Enschede
+2025-08-26 10:35:47 - tipico - INFO - [MATCH_FOUND] | Matched PSV Eindhoven vs Telstar
+2025-08-26 10:35:47 - tipico - INFO - [MATCH_FOUND] | Matched SC Heerenveen vs Go Ahead Eagles
+2025-08-26 10:35:48 - tipico - INFO - [MATCH_FOUND] | Matched Ujpest FC vs MTK Budapest
+2025-08-26 10:35:48 - tipico - INFO - [MATCH_FOUND] | Matched Richards Bay FC vs Chippa United
+2025-08-26 10:35:48 - tipico - INFO - [PROGRESS_UPDATE] | Processed 100 matches, Success: 100, Failed: 0
+2025-08-26 10:35:48 - tipico - INFO - [MATCH_FOUND] | Matched FC Volendam vs Ajax Amsterdam
+2025-08-26 10:35:49 - tipico - INFO - [MATCH_FOUND] | Matched Polokwane City FC vs Durban City FC 2024
+2025-08-26 10:35:49 - tipico - INFO - [MATCH_FOUND] | Matched Orlando Pirates FC vs Orbit College FC
+2025-08-26 10:35:49 - tipico - INFO - [MATCH_FOUND] | Matched FC Groningen vs Heracles Almelo
+2025-08-26 10:35:50 - tipico - INFO - [MATCH_FOUND] | Matched Willem II Tilburg vs Jong FC Utrecht
+2025-08-26 10:35:50 - tipico - INFO - [MATCH_FOUND] | Matched Top Oss vs FC Dordrecht
+2025-08-26 10:35:50 - tipico - INFO - [MATCH_FOUND] | Matched  Jong PSV Eindho. vs Jong AZ Alkmaar
+2025-08-26 10:35:50 - tipico - INFO - [MATCH_FOUND] | Matched Jong Ajax vs MVV Maastricht
+2025-08-26 10:35:50 - tipico - INFO - [MATCH_FOUND] | Matched FC Emmen vs FC Den Bosch
+2025-08-26 10:35:51 - tipico - INFO - [MATCH_FOUND] | Matched Roda JC Kerkrade vs FC Eindhoven
+2025-08-26 10:35:51 - tipico - INFO - [MATCH_FOUND] | Matched ADO Den Haag vs Helmond Sport
+2025-08-26 10:35:51 - tipico - INFO - [MATCH_FOUND] | Matched FK Jedinstvo UB vs Macva Sabac
+2025-08-26 10:35:51 - tipico - INFO - [MATCH_FOUND] | Matched HNK Hajduk Split vs HNK Rijeka
+2025-08-26 10:35:51 - tipico - INFO - [MATCH_FOUND] | Matched NK Istra 1961 vs HNK Gorica
+2025-08-26 10:35:51 - tipico - INFO - [MATCH_FOUND] | Matched Lokom. Zagreb vs NK Osijek
+2025-08-26 10:35:51 - tipico - INFO - [MATCH_FOUND] | Matched NK Varazdin vs Dinamo Zagreb
+2025-08-26 10:35:51 - tipico - INFO - [MATCH_FOUND] | Matched Nehaj Senj vs NK Vukovar 1991
+2025-08-26 10:35:52 - tipico - INFO - [MATCH_FOUND] | Matched Foolad Khuzestan FC vs Malavan Bandar Anzali FC
+2025-08-26 10:35:52 - tipico - INFO - Executing 100 bulk tipico_updates operations
+2025-08-26 10:35:52 - tipico - INFO - Bulk tipico_updates completed successfully:
+2025-08-26 10:35:52 - tipico - INFO -   - Modified: 100
+2025-08-26 10:35:52 - tipico - INFO -   - Upserted: 0
+2025-08-26 10:35:52 - tipico - INFO -   - Inserted: 0
+2025-08-26 10:35:52 - tipico - INFO - [MATCH_FOUND] | Matched Shams Azar Qazvin vs Chador Malu Yazd
+2025-08-26 10:35:52 - tipico - INFO - [MATCH_FOUND] | Matched NK Maksimir Zagreb vs NK Jadran Porec
+2025-08-26 10:35:53 - tipico - INFO - [MATCH_FOUND] | Matched OH Leuven vs Standard Liege
+2025-08-26 10:35:53 - tipico - INFO - [MATCH_FOUND] | Matched Esteghlal FC vs Zob Ahan Isfahan FC
+2025-08-26 10:35:53 - tipico - INFO - [MATCH_FOUND] | Matched KAA Gent vs Club Brugge
+2025-08-26 10:35:53 - tipico - INFO - [MATCH_FOUND] | Matched Sporting Charleroi vs FCV Dender EH
+2025-08-26 10:35:53 - tipico - INFO - [MATCH_FOUND] | Matched KVC Westerlo vs Royal Antwerp
+2025-08-26 10:35:53 - tipico - INFO - [MATCH_FOUND] | Matched KV Mechelen vs Raal La Louviere
+2025-08-26 10:35:53 - tipico - INFO - [MATCH_FOUND] | Matched Cercle Brugge vs St. Truidense VV
+2025-08-26 10:35:53 - tipico - INFO - [MATCH_FOUND] | Matched FK Sevlievo vs Ludogorets Razgrad II
+2025-08-26 10:35:54 - tipico - INFO - [MATCH_FOUND] | Matched Def. Belgrano vs CA Colon
+2025-08-26 10:35:54 - tipico - INFO - [MATCH_FOUND] | Matched Agro. Argentino vs Almirante Brown
+2025-08-26 10:35:54 - tipico - INFO - [MATCH_FOUND] | Matched Gimnasia Jujuy vs Central Norte Salta
+2025-08-26 10:35:55 - tipico - INFO - [MATCH_FOUND] | Matched Estudiantes Cuarto vs CA Temperley
+2025-08-26 10:35:55 - tipico - INFO - [MATCH_FOUND] | Matched Talleres de Remedios de Escalada vs Defensores Unidos
+2025-08-26 10:35:55 - tipico - INFO - [MATCH_FOUND] | Matched San Telmo vs Chaco For Ever
+2025-08-26 10:35:55 - tipico - INFO - [MATCH_FOUND] | Matched Chacarita Juniors vs CA Mitre
+2025-08-26 10:35:57 - tipico - INFO - [MATCH_FOUND] | Matched Ludogorets Razgrad vs Botev Plovdiv
+2025-08-26 10:35:57 - tipico - INFO - [MATCH_FOUND] | Matched Ferro Carril Oeste vs Racing de Cordoba
+2025-08-26 10:35:57 - tipico - INFO - [MATCH_FOUND] | Matched Levski Sofia vs FC Cska 1948
+2025-08-26 10:35:57 - tipico - INFO - [MATCH_FOUND] | Matched CA Los Andes vs CA San Miguel
+2025-08-26 10:35:57 - tipico - INFO - [MATCH_FOUND] | Matched CA Guemes vs CA Colegiales
+2025-08-26 10:35:58 - tipico - INFO - [MATCH_FOUND] | Matched PFC Slavia Sofia vs CSKA Sofia
+2025-08-26 10:35:58 - tipico - INFO - [MATCH_FOUND] | Matched Union de Santa Fe vs CA River Plate
+2025-08-26 10:35:58 - tipico - INFO - [MATCH_FOUND] | Matched Quilmes AC vs CA Alvarado
+2025-08-26 10:35:58 - tipico - INFO - [MATCH_FOUND] | Matched Spartak Varna vs Lokomotiv Plovdiv
+2025-08-26 10:35:58 - tipico - INFO - [PROGRESS_UPDATE] | Processed 150 matches, Success: 150, Failed: 0
+2025-08-26 10:35:58 - tipico - INFO - [MATCH_FOUND] | Matched FK Septemvri Sofia vs Lokomotive Sofia
+2025-08-26 10:35:58 - tipico - INFO - [MATCH_FOUND] | Matched PFC Montana 1921 vs PFC Dobrudzha Dobrich
+2025-08-26 10:35:58 - tipico - INFO - [MATCH_FOUND] | Matched OFC Botev Vratsa vs Cherno More Varna
+2025-08-26 10:35:59 - tipico - INFO - [MATCH_FOUND] | Matched Velez Sarsfield vs Club Atlético Lanús
+2025-08-26 10:35:59 - tipico - INFO - [MATCH_FOUND] | Matched Newells Old Boys Res. vs Barracas Central Res.
+2025-08-26 10:35:59 - tipico - INFO - [MATCH_FOUND] | Matched Defensa Y Justicia Reserves vs CA Belgrano Res.
+2025-08-26 10:35:59 - tipico - INFO - [MATCH_FOUND] | Matched Sarmiento de Junin vs CA Rosario Central
+2025-08-26 10:35:59 - tipico - INFO - [MATCH_FOUND] | Matched Indep. Rivadavia vs Argentinos Jrs.
+2025-08-26 10:35:59 - tipico - INFO - [MATCH_FOUND] | Matched CA Central Cordoba vs Estudiantes LP
+2025-08-26 10:35:59 - tipico - INFO - [MATCH_FOUND] | Matched Instituto AC Cordoba Reserves vs Independiente Res.
+2025-08-26 10:36:00 - tipico - INFO - [MATCH_FOUND] | Matched SC Corinthians vs SE Palmeiras
+2025-08-26 10:36:00 - tipico - INFO - [MATCH_FOUND] | Matched SC Internacional vs Fortaleza EC
+2025-08-26 10:36:00 - tipico - INFO - [MATCH_FOUND] | Matched Mirassol SP vs EC Bahia 
+2025-08-26 10:36:00 - tipico - INFO - [MATCH_FOUND] | Matched Santos FC vs Fluminense FC
+2025-08-26 10:36:00 - tipico - INFO - [MATCH_FOUND] | Matched Volta Redonda vs Athletic Club Sjdr MG
+2025-08-26 10:36:02 - tipico - INFO - [MATCH_FOUND] | Matched Instituto Atletico CC vs CA Independiente
+2025-08-26 10:36:02 - tipico - INFO - [MATCH_FOUND] | Matched Newell's Old Boys vs Barracas Central
+2025-08-26 10:36:02 - tipico - INFO - [MATCH_FOUND] | Matched Flamengo RJ vs Gremio FBPA
+2025-08-26 10:36:02 - tipico - INFO - [MATCH_FOUND] | Matched Cruzeiro EC vs Sao Paulo FC
+2025-08-26 10:36:02 - tipico - INFO - [MATCH_FOUND] | Matched Botafogo FR vs RB Bragantino
+2025-08-26 10:36:03 - tipico - INFO - [MATCH_FOUND] | Matched Goias EC vs Botafogo SP
+2025-08-26 10:36:04 - tipico - INFO - [MATCH_FOUND] | Matched Remo PA vs Criciuma EC SC
+2025-08-26 10:36:04 - tipico - INFO - [MATCH_FOUND] | Matched Istanbul Basaksehir vs Eyupspor
+2025-08-26 10:36:04 - tipico - INFO - [MATCH_FOUND] | Matched CRB vs Paysandu PA
+2025-08-26 10:36:04 - tipico - INFO - [MATCH_FOUND] | Matched SC Schwaz vs BW Linz
+2025-08-26 10:36:04 - tipico - INFO - [MATCH_FOUND] | Matched Genclerbirligi vs Fenerbahce
+2025-08-26 10:36:04 - tipico - INFO - [MATCH_FOUND] | Matched Atus Velden vs TSV Hartberg
+2025-08-26 10:36:05 - tipico - INFO - [MATCH_FOUND] | Matched SW Bregenz vs FC Liefering
+2025-08-26 10:36:05 - tipico - INFO - [MATCH_FOUND] | Matched FC Dornbirn vs FC Salzburg
+2025-08-26 10:36:05 - tipico - INFO - [MATCH_FOUND] | Matched Union Gurten vs SV Ried
+2025-08-26 10:36:06 - tipico - INFO - [MATCH_FOUND] | Matched Askö Oedt vs WSG Tirol
+2025-08-26 10:36:06 - tipico - INFO - [MATCH_FOUND] | Matched SKU Amstetten vs First Vienna FC 1894
+2025-08-26 10:36:06 - tipico - INFO - [MATCH_FOUND] | Matched SV Stripfing vs SV Kapfenberg
+2025-08-26 10:36:06 - tipico - INFO - [MATCH_FOUND] | Matched Göztepe SK vs Konyaspor
+2025-08-26 10:36:07 - tipico - INFO - [MATCH_FOUND] | Matched Austria Salzburg vs SKU Amstetten
+2025-08-26 10:36:07 - tipico - INFO - [MATCH_FOUND] | Matched ASK Voitsberg vs Admira Wacker
+2025-08-26 10:36:07 - tipico - INFO - [MATCH_FOUND] | Matched First Vienna FC 1894 vs Austria Lustenau
+2025-08-26 10:36:07 - tipico - INFO - [MATCH_FOUND] | Matched Sociedade Esportiva Palmeiras U20 vs Red Bull Bragantino U20
+2025-08-26 10:36:07 - tipico - INFO - [MATCH_FOUND] | Matched Sk Rapid Vienna II vs SKN St. Polten
+2025-08-26 10:36:07 - tipico - INFO - [PROGRESS_UPDATE] | Processed 200 matches, Success: 200, Failed: 0
+2025-08-26 10:36:07 - tipico - INFO - [MATCH_FOUND] | Matched Austria Klagenfurt vs Admira Wacker
+2025-08-26 10:36:08 - tipico - INFO - [MATCH_FOUND] | Matched FC Marchfeld Donauauen vs SW Bregenz
+2025-08-26 10:36:08 - tipico - INFO - [MATCH_FOUND] | Matched FC Hertha Wels vs SKN St. Polten
+2025-08-26 10:36:09 - tipico - INFO - [MATCH_FOUND] | Matched Austria Lustenau vs SV Kapfenberg
+2025-08-26 10:36:09 - tipico - INFO - [MATCH_FOUND] | Matched Grazer AK vs SK Sturm Graz
+2025-08-26 10:36:09 - tipico - INFO - [MATCH_FOUND] | Matched LASK vs SV Ried
+2025-08-26 10:36:09 - tipico - INFO - [MATCH_FOUND] | Matched SJK II vs Salpa
+2025-08-26 10:36:10 - tipico - INFO - [MATCH_FOUND] | Matched FC Salzburg vs BW Linz
+2025-08-26 10:36:11 - tipico - INFO - [MATCH_FOUND] | Matched FC Lahti vs Klubi 04
+2025-08-26 10:36:11 - tipico - INFO - [MATCH_FOUND] | Matched Japs vs Ekenas Idrottsforening
+2025-08-26 10:36:11 - tipico - INFO - [MATCH_FOUND] | Matched IF Gnistan vs FF Jaro
+2025-08-26 10:36:11 - tipico - INFO - [MATCH_FOUND] | Matched FC KTP vs HJK Helsinki
+2025-08-26 10:36:11 - tipico - INFO - [MATCH_FOUND] | Matched FC Inter Turku vs Vaasan Palloseura
+2025-08-26 10:36:12 - tipico - INFO - [MATCH_FOUND] | Matched FC Ilves vs IFK Mariehamn
+2025-08-26 10:36:12 - tipico - INFO - [MATCH_FOUND] | Matched AC Oulu vs FC Haka Valkeakoski
+2025-08-26 10:36:13 - tipico - INFO - [MATCH_FOUND] | Matched Haras El Hodood vs Al Masry Club
+2025-08-26 10:36:13 - tipico - INFO - [MATCH_FOUND] | Matched Inter Milano U20 vs Cagliari Calcio U20
+2025-08-26 10:36:13 - tipico - INFO - [MATCH_FOUND] | Matched El Zamalek vs Pharco FC
+2025-08-26 10:36:13 - tipico - INFO - [MATCH_FOUND] | Matched Kahroba AL Ismailia vs Smouha SC
+2025-08-26 10:36:13 - tipico - INFO - [MATCH_FOUND] | Matched FK Kauno Zalgiris vs Hegelmann Litauen
+2025-08-26 10:36:14 - tipico - INFO - [MATCH_FOUND] | Matched Utsiktens BK vs Orgryte IS
+2025-08-26 10:36:14 - tipico - INFO - [MATCH_FOUND] | Matched IFK Norrkoping vs Djurgardens IF
+2025-08-26 10:36:14 - tipico - INFO - [MATCH_FOUND] | Matched Mjallby AIF vs Halmstads BK
+2025-08-26 10:36:14 - tipico - INFO - [MATCH_FOUND] | Matched AIK Stockholm vs IK Sirius FK
+2025-08-26 10:36:14 - tipico - INFO - [MATCH_FOUND] | Matched IK Brage vs Trelleborgs FF
+2025-08-26 10:36:14 - tipico - INFO - [MATCH_FOUND] | Matched IF Brommapojkarna vs IF Elfsborg
+2025-08-26 10:36:14 - tipico - INFO - [MATCH_FOUND] | Matched Malmo FF vs Degerfors IF
+2025-08-26 10:36:15 - tipico - INFO - [MATCH_FOUND] | Matched Ostersunds FK vs Kalmar FF
+2025-08-26 10:36:15 - tipico - INFO - [MATCH_FOUND] | Matched Umeaa FC vs IK Oddevold
+2025-08-26 10:36:15 - tipico - INFO - [MATCH_FOUND] | Matched Sandvikens IF vs Orebro SK
+2025-08-26 10:36:15 - tipico - INFO - [MATCH_FOUND] | Matched Landskrona B. vs GIF Sundsvall
+2025-08-26 10:36:15 - tipico - INFO - [MATCH_FOUND] | Matched Vasteras SK vs Helsingborgs IF
+2025-08-26 10:36:15 - tipico - INFO - [MATCH_FOUND] | Matched Kalmar FF vs Helsingborgs IF
+2025-08-26 10:36:16 - tipico - INFO - [MATCH_FOUND] | Matched Servette Geneva FC vs FC Luzern
+2025-08-26 10:36:16 - tipico - INFO - [MATCH_FOUND] | Matched FC Lausanne-Sport vs FC St. Gallen
+2025-08-26 10:36:16 - tipico - INFO - Executing 100 bulk tipico_updates operations
+2025-08-26 10:36:17 - tipico - INFO - Bulk tipico_updates completed successfully:
+2025-08-26 10:36:17 - tipico - INFO -   - Modified: 100
+2025-08-26 10:36:17 - tipico - INFO -   - Upserted: 0
+2025-08-26 10:36:17 - tipico - INFO -   - Inserted: 0
+2025-08-26 10:36:17 - tipico - INFO - [MATCH_FOUND] | Matched FC Sion vs FC Basel
+2025-08-26 10:36:17 - tipico - INFO - [MATCH_FOUND] | Matched BSC Young Boys vs FC Lugano
+2025-08-26 10:36:17 - tipico - INFO - [MATCH_FOUND] | Matched FC Wil 1900 vs FC Rapperswil-Jona
+2025-08-26 10:36:18 - tipico - INFO - [MATCH_FOUND] | Matched AC Bellinzona vs Yverdon Sport FC
+2025-08-26 10:36:18 - tipico - INFO - [MATCH_FOUND] | Matched FC Winterthur vs FC Zurich
+2025-08-26 10:36:19 - tipico - INFO - [PROGRESS_UPDATE] | Processed 250 matches, Success: 250, Failed: 0
+2025-08-26 10:36:19 - tipico - INFO - [MATCH_FOUND] | Matched Lazio Roma vs Hellas Verona
+2025-08-26 10:36:19 - tipico - INFO - [MATCH_FOUND] | Matched FCSB vs Aberdeen FC
+2025-08-26 10:36:19 - tipico - INFO - [MATCH_FOUND] | Matched KRC Genk vs Lech Poznan
+2025-08-26 10:36:20 - tipico - INFO - [MATCH_FOUND] | Matched BSC Young Boys vs Slovan Bratislava
+2025-08-26 10:36:20 - tipico - INFO - [MATCH_FOUND] | Matched Inter Milan vs Udinese Calcio
+2025-08-26 10:36:20 - tipico - INFO - [MATCH_FOUND] | Matched FC Torino vs AC Fiorentina
+2025-08-26 10:36:20 - tipico - INFO - [MATCH_FOUND] | Matched SSC Napoli vs Cagliari Calcio
+2025-08-26 10:36:20 - tipico - INFO - [MATCH_FOUND] | Matched AC Pisa 1909 vs AS Roma
+2025-08-26 10:36:20 - tipico - INFO - [MATCH_FOUND] | Matched Genoa FC vs Juventus FC
+2025-08-26 10:36:21 - tipico - INFO - [MATCH_FOUND] | Matched SK Sigma Olomouc vs Malmo FF
+2025-08-26 10:36:21 - tipico - INFO - [MATCH_FOUND] | Matched Yilport Samsunspor vs Panathinaikos Athen
+2025-08-26 10:36:21 - tipico - INFO - [MATCH_FOUND] | Matched AEK Larnaca FC vs SK Brann
+2025-08-26 10:36:21 - tipico - INFO - [MATCH_FOUND] | Matched Parma Calcio vs Atalanta Bergamo
+2025-08-26 10:36:22 - tipico - INFO - [MATCH_FOUND] | Matched Bologna FC vs Como 1907
+2025-08-26 10:36:22 - tipico - INFO - [MATCH_FOUND] | Matched US Lecce vs AC Milan
+2025-08-26 10:36:22 - tipico - INFO - [MATCH_FOUND] | Matched US Cremonese vs US Sassuolo
+2025-08-26 10:36:22 - tipico - INFO - [MATCH_FOUND] | Matched Grimsby Town vs Manchester United
+2025-08-26 10:36:22 - tipico - INFO - [MATCH_FOUND] | Matched Oxford United vs Brighton & Hove
+2025-08-26 10:36:23 - tipico - INFO - [MATCH_FOUND] | Matched Fulham FC vs Bristol City
+2025-08-26 10:36:23 - tipico - INFO - [MATCH_FOUND] | Matched Everton FC vs Mansfield Town
+2025-08-26 10:36:23 - tipico - INFO - [MATCH_FOUND] | Matched Sheffield Wednesday vs Leeds United
+2025-08-26 10:36:23 - tipico - INFO - [MATCH_FOUND] | Matched Wigan Athletic vs Stockport County
+2025-08-26 10:36:23 - tipico - INFO - [MATCH_FOUND] | Matched Swansea City vs Plymouth Argyle
+2025-08-26 10:36:23 - tipico - INFO - [MATCH_FOUND] | Matched Sunderland AFC vs Huddersfield Town
+2025-08-26 10:36:24 - tipico - INFO - [MATCH_FOUND] | Matched Preston North End vs Wrexham AFC
+2025-08-26 10:36:24 - tipico - INFO - [MATCH_FOUND] | Matched Norwich City vs Southampton FC
+2025-08-26 10:36:24 - tipico - INFO - [MATCH_FOUND] | Matched Sheffield Wednesday vs Swansea City
+2025-08-26 10:36:24 - tipico - INFO - [MATCH_FOUND] | Matched Stoke City vs Bradford City
+2025-08-26 10:36:24 - tipico - INFO - [MATCH_FOUND] | Matched Cardiff City vs Cheltenham Town
+2025-08-26 10:36:24 - tipico - INFO - [MATCH_FOUND] | Matched Burton Albion vs Lincoln City
+2025-08-26 10:36:24 - tipico - INFO - [MATCH_FOUND] | Matched Bromley FC vs Wycombe Wanderers
+2025-08-26 10:36:24 - tipico - INFO - [MATCH_FOUND] | Matched Portsmouth FC vs Preston North End
+2025-08-26 10:36:25 - tipico - INFO - [MATCH_FOUND] | Matched Oxford United vs Coventry City
+2025-08-26 10:36:25 - tipico - INFO - [MATCH_FOUND] | Matched Millwall FC vs Wrexham AFC
+2025-08-26 10:36:25 - tipico - INFO - [MATCH_FOUND] | Matched Ipswich Town vs Derby County
+2025-08-26 10:36:25 - tipico - INFO - [MATCH_FOUND] | Matched Bristol City vs Hull City
+2025-08-26 10:36:25 - tipico - INFO - [MATCH_FOUND] | Matched Watford FC vs Southampton FC
+2025-08-26 10:36:25 - tipico - INFO - [MATCH_FOUND] | Matched SSC Bari vs AC Monza
+2025-08-26 10:36:25 - tipico - INFO - [MATCH_FOUND] | Matched Modena FC vs AS Avellino 1912
+2025-08-26 10:36:25 - tipico - INFO - [MATCH_FOUND] | Matched FC Sudtirol vs UC Sampdoria
+2025-08-26 10:36:26 - tipico - INFO - [MATCH_FOUND] | Matched US Palermo vs Frosinone Calcio
+2025-08-26 10:36:26 - tipico - INFO - [MATCH_FOUND] | Matched Carrarese Calcio vs Calcio Padova
+2025-08-26 10:36:26 - tipico - INFO - [MATCH_FOUND] | Matched Reading FC vs AFC Wimbledon
+2025-08-26 10:36:26 - tipico - INFO - [PROGRESS_UPDATE] | Processed 300 matches, Success: 300, Failed: 0
+2025-08-26 10:36:26 - tipico - INFO - [MATCH_FOUND] | Matched Blackburn Rovers vs Norwich City
+2025-08-26 10:36:26 - tipico - INFO - [MATCH_FOUND] | Matched Stoke City vs West Bromwich 
+2025-08-26 10:36:26 - tipico - INFO - [MATCH_FOUND] | Matched Queens Park Rangers vs Charlton Athletic
+2025-08-26 10:36:26 - tipico - INFO - [MATCH_FOUND] | Matched Middlesbrough vs Sheffield United
+2025-08-26 10:36:27 - tipico - INFO - [MATCH_FOUND] | Matched Leicester City vs Birmingham City
+2025-08-26 10:36:27 - tipico - INFO - [MATCH_FOUND] | Matched SS Juve Stabia vs Venezia
+2025-08-26 10:36:27 - tipico - INFO - [MATCH_FOUND] | Matched Mantova FC vs Delfino Pescara 1936
+2025-08-26 10:36:27 - tipico - INFO - [MATCH_FOUND] | Matched Cesena FC vs Virtus Entella
+2025-08-26 10:36:27 - tipico - INFO - [MATCH_FOUND] | Matched Spezia Calcio vs US Catanzaro
+2025-08-26 10:36:27 - tipico - INFO - [MATCH_FOUND] | Matched Club Brugge vs Rangers FC
+2025-08-26 10:36:27 - tipico - INFO - [MATCH_FOUND] | Matched AC Reggiana vs Empoli FC
+2025-08-26 10:36:27 - tipico - INFO - [MATCH_FOUND] | Matched SL Benfica vs Fenerbahce
+2025-08-26 10:36:28 - tipico - INFO - [MATCH_FOUND] | Matched FC Copenhagen vs FC Basel
+2025-08-26 10:36:28 - tipico - INFO - [MATCH_FOUND] | Matched SK Sturm Graz vs Bodo/Glimt
+2025-08-26 10:36:28 - tipico - INFO - [MATCH_FOUND] | Matched FC Kairat Almaty vs Celtic FC
+2025-08-26 10:36:28 - tipico - INFO - [MATCH_FOUND] | Matched Shrewsbury Town vs FC Chelsea U21
+2025-08-26 10:36:28 - tipico - INFO - [MATCH_FOUND] | Matched Bristol Rovers vs Tottenham Hotspur U21
+2025-08-26 10:36:28 - tipico - INFO - [MATCH_FOUND] | Matched Oldham Athletic vs Manchester City U21
+2025-08-26 10:36:28 - tipico - INFO - [MATCH_FOUND] | Matched Tranmere Rovers vs Notts County
+2025-08-26 10:36:29 - tipico - INFO - [MATCH_FOUND] | Matched Shrewsbury Town vs Accrington Stanley
+2025-08-26 10:36:29 - tipico - INFO - [MATCH_FOUND] | Matched Barnet FC vs Colchester Utd
+2025-08-26 10:36:29 - tipico - INFO - [MATCH_FOUND] | Matched Chesterfield FC vs Crawley Town
+2025-08-26 10:36:29 - tipico - INFO - [MATCH_FOUND] | Matched Oldham Athletic vs Gillingham FC
+2025-08-26 10:36:29 - tipico - INFO - [MATCH_FOUND] | Matched Milton Keynes Dons vs Walsall FC
+2025-08-26 10:36:29 - tipico - INFO - [MATCH_FOUND] | Matched Grimsby Town vs Bristol Rovers
+2025-08-26 10:36:29 - tipico - INFO - [MATCH_FOUND] | Matched Cambridge United vs Newport County
+2025-08-26 10:36:29 - tipico - INFO - [MATCH_FOUND] | Matched Bromley FC vs Harrogate Town AFC
+2025-08-26 10:36:30 - tipico - INFO - [MATCH_FOUND] | Matched Barrow AFC vs Fleetwood Town
+2025-08-26 10:36:30 - tipico - INFO - [MATCH_FOUND] | Matched Salford City FC vs Cheltenham Town
+2025-08-26 10:36:31 - tipico - INFO - [MATCH_FOUND] | Matched Crewe Alexandra vs Swindon Town
+2025-08-26 10:36:31 - tipico - INFO - [MATCH_FOUND] | Matched Shamrock Rovers FC vs CD Santa Clara
+2025-08-26 10:36:31 - tipico - INFO - [MATCH_FOUND] | Matched Servette Geneva FC vs Shakhtar Donetsk
+2025-08-26 10:36:31 - tipico - INFO - [MATCH_FOUND] | Matched SS Virtus vs Breidablik
+2025-08-26 10:36:32 - tipico - INFO - [MATCH_FOUND] | Matched FC Linfield vs Shelbourne FC
+2025-08-26 10:36:32 - tipico - INFO - [MATCH_FOUND] | Matched Rayo Vallecano vs FC Neman Grodno
+2025-08-26 10:36:33 - tipico - INFO - [PROGRESS_UPDATE] | Processed 350 matches, Success: 350, Failed: 0
+2025-08-26 10:36:34 - tipico - INFO - [MATCH_FOUND] | Matched Borussia Dortmund vs FC Union Berlin
+2025-08-26 10:36:34 - tipico - INFO - [MATCH_FOUND] | Matched AEK Athens FC vs RSC Anderlecht
+2025-08-26 10:36:34 - tipico - INFO - [MATCH_FOUND] | Matched AC Fiorentina vs Polissya Zhytomyr
+2025-08-26 10:36:34 - tipico - INFO - [MATCH_FOUND] | Matched 1 FC Cologne vs SC Freiburg
+2025-08-26 10:36:34 - tipico - INFO - [MATCH_FOUND] | Matched CFR Cluj vs BK Hacken
+2025-08-26 10:36:34 - tipico - INFO - [MATCH_FOUND] | Matched AZ Alkmaar vs Levski Sofia
+2025-08-26 10:36:35 - tipico - INFO - [MATCH_FOUND] | Matched Rayo Vallecano vs FC Barcelona
+2025-08-26 10:36:35 - tipico - INFO - [MATCH_FOUND] | Matched Real Betis vs Athletic Bilbao
+2025-08-26 10:36:35 - tipico - INFO - [MATCH_FOUND] | Matched Espanyol Barcelona vs CA Osasuna
+2025-08-26 10:36:36 - tipico - INFO - [MATCH_FOUND] | Matched RC Celta de Vigo vs Villarreal
+2025-08-26 10:36:37 - tipico - INFO - [MATCH_FOUND] | Matched Hamburger SV vs FC St. Pauli
+2025-08-26 10:36:40 - tipico - INFO - [MATCH_FOUND] | Matched Fredrikstad FK vs Crystal Palace
+2025-08-26 10:36:40 - tipico - INFO - [MATCH_FOUND] | Matched Riga FC vs AC Sparta Prague
+2025-08-26 10:36:40 - tipico - INFO - [MATCH_FOUND] | Matched Real Madrid vs RCD Mallorca
+2025-08-26 10:36:41 - tipico - INFO - [MATCH_FOUND] | Matched Girona FC vs Sevilla FC
+2025-08-26 10:36:43 - tipico - INFO - [MATCH_FOUND] | Matched CD Alaves vs Atletico Madrid
+2025-08-26 10:36:44 - tipico - INFO - [MATCH_FOUND] | Matched CF Valencia vs CF Getafe
+2025-08-26 10:36:44 - tipico - INFO - Executing 100 bulk tipico_updates operations
+2025-08-26 10:36:45 - tipico - INFO - Bulk tipico_updates completed successfully:
+2025-08-26 10:36:45 - tipico - INFO -   - Modified: 100
+2025-08-26 10:36:45 - tipico - INFO -   - Upserted: 0
+2025-08-26 10:36:45 - tipico - INFO -   - Inserted: 0
+2025-08-26 10:36:46 - tipico - INFO - [MATCH_FOUND] | Matched Real Oviedo vs Real Sociedad
+2025-08-26 10:36:46 - tipico - INFO - [MATCH_FOUND] | Matched Elche CF vs UD Levante
+2025-08-26 10:36:47 - tipico - INFO - [MATCH_FOUND] | Matched RC Celta de Vigo vs Real Betis
+2025-08-26 10:36:48 - tipico - INFO - [PROGRESS_UPDATE] | Processed 400 matches, Success: 400, Failed: 0
+2025-08-26 10:36:50 - tipico - INFO - [MATCH_FOUND] | Matched Brighton & Hove vs Manchester City
+2025-08-26 10:36:51 - tipico - INFO - [MATCH_FOUND] | Matched Nottingham Forest vs West Ham United
+2025-08-26 10:36:51 - tipico - INFO - [MATCH_FOUND] | Matched Aston Villa vs Crystal Palace
+2025-08-26 10:36:51 - tipico - INFO - [MATCH_FOUND] | Matched Leeds United vs Newcastle United
+2025-08-26 10:36:52 - tipico - INFO - [MATCH_FOUND] | Matched Liverpool FC vs Arsenal FC
+2025-08-26 10:36:53 - tipico - INFO - [MATCH_FOUND] | Matched CD Leganes vs RC Dep. La Coruna
+2025-08-26 10:36:53 - tipico - INFO - [MATCH_FOUND] | Matched Granada CF vs CD Mirandes
+2025-08-26 10:36:54 - tipico - INFO - [MATCH_FOUND] | Matched 1. FC Magdeburg vs Greuther Fürth
+2025-08-26 10:36:54 - tipico - INFO - [MATCH_FOUND] | Matched SD Huesca vs SD Eibar
+2025-08-26 10:36:55 - tipico - INFO - [MATCH_FOUND] | Matched Sunderland AFC vs Brentford FC
+2025-08-26 10:36:55 - tipico - INFO - [MATCH_FOUND] | Matched Tottenham Hotspur vs AFC Bournemouth
+2025-08-26 10:36:56 - tipico - INFO - [MATCH_FOUND] | Matched Dynamo Dresden vs FC Schalke 04
+2025-08-26 10:36:57 - tipico - INFO - [MATCH_FOUND] | Matched 1. FC Kaiserslautern vs SV Darmstadt 98
+2025-08-26 10:36:58 - tipico - INFO - [MATCH_FOUND] | Matched Fortuna Dusseldorf vs Karlsruher SC
+2025-08-26 10:36:58 - tipico - INFO - [MATCH_FOUND] | Matched Chelsea FC vs Fulham FC
+2025-08-26 10:36:58 - tipico - INFO - [MATCH_FOUND] | Matched Manchester United vs Burnley FC
+2025-08-26 10:36:59 - tipico - INFO - [MATCH_FOUND] | Matched Holstein Kiel vs Hannover 96
+2025-08-26 10:36:59 - tipico - INFO - [MATCH_FOUND] | Matched Eintr. Braunschweig vs Arminia Bielefeld
+2025-08-26 10:36:59 - tipico - INFO - [MATCH_FOUND] | Matched Hertha BSC vs SV Elversberg 07
+2025-08-26 10:37:00 - tipico - INFO - [MATCH_FOUND] | Matched Las Palmas UD vs CF Malaga
+2025-08-26 10:37:00 - tipico - INFO - [MATCH_FOUND] | Matched Cadiz CF vs Albacete Balompie
+2025-08-26 10:37:00 - tipico - INFO - [MATCH_FOUND] | Matched CD Castellon vs Real Zaragoza
+2025-08-26 10:37:00 - tipico - INFO - [MATCH_FOUND] | Matched FC Andorra vs CF Burgos
+2025-08-26 10:37:00 - tipico - INFO - [MATCH_FOUND] | Matched Real Valladolid vs CF Cordoba
+2025-08-26 10:37:01 - tipico - INFO - [MATCH_FOUND] | Matched Sporting Gijon vs Cultural Leonesa
+2025-08-26 10:37:01 - tipico - INFO - [MATCH_FOUND] | Matched Racing de Santander vs AD Ceuta
+2025-08-26 10:37:01 - tipico - INFO - [MATCH_FOUND] | Matched Real Sociedad B vs UD Almeria
+2025-08-26 10:37:03 - tipico - INFO - [MATCH_FOUND] | Matched RW Essen vs Alemannia Aachen
+2025-08-26 10:37:03 - tipico - INFO - [MATCH_FOUND] | Matched 1. FC Schweinfurt 05 vs SV Wehen Wies.
+2025-08-26 10:37:03 - tipico - INFO - [MATCH_FOUND] | Matched TSV Havelse vs VfL 1899 Osnabrück
+2025-08-26 10:37:03 - tipico - INFO - [MATCH_FOUND] | Matched SC Verl vs MSV Duisburg
+2025-08-26 10:37:03 - tipico - INFO - [PROGRESS_UPDATE] | Processed 450 matches, Success: 450, Failed: 0
+2025-08-26 10:37:03 - tipico - INFO - [MATCH_FOUND] | Matched FC Hansa Rostock vs TSG Hoffenheim II
+2025-08-26 10:37:04 - tipico - INFO - [MATCH_FOUND] | Matched 1860 Munich vs VfB Stuttgart II
+2025-08-26 10:37:04 - tipico - INFO - [MATCH_FOUND] | Matched Energie Cottbus vs FC Ingolstadt
+2025-08-26 10:37:04 - tipico - INFO - [MATCH_FOUND] | Matched 1. FC Saarbrucken vs Erzgebirge Aue
+2025-08-26 10:37:04 - tipico - INFO - [MATCH_FOUND] | Matched FC Viktoria Cologne vs Jahn Regensburg
+2025-08-26 10:37:04 - tipico - INFO - [MATCH_FOUND] | Matched Burton Albion vs Luton Town
+2025-08-26 10:37:04 - tipico - INFO - [MATCH_FOUND] | Matched Blackpool FC vs Bolton Wanderers
+2025-08-26 10:37:04 - tipico - INFO - [MATCH_FOUND] | Matched Doncaster Rovers vs Rotherham United
+2025-08-26 10:37:05 - tipico - INFO - [MATCH_FOUND] | Matched Bradford City vs AFC Wimbledon
+2025-08-26 10:37:05 - tipico - INFO - [MATCH_FOUND] | Matched Cardiff City vs Plymouth Argyle
+2025-08-26 10:37:05 - tipico - INFO - [MATCH_FOUND] | Matched Eintr. Braunschweig vs VfB Stuttgart
+2025-08-26 10:37:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 16 matches in league
+2025-08-26 10:37:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 44 matches in league
+2025-08-26 10:37:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:37:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 27 matches in league
+2025-08-26 10:37:05 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 16 matches in league
+2025-08-26 10:37:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:37:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:37:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-26 10:37:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:37:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:37:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:37:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:37:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:06 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:37:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 16 matches in league
+2025-08-26 10:37:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-26 10:37:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 14 matches in league
+2025-08-26 10:37:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:37:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:37:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 23 matches in league
+2025-08-26 10:37:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-26 10:37:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:37:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:37:07 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:37:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 24 matches in league
+2025-08-26 10:37:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:37:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:37:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-26 10:37:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-26 10:37:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:37:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 16 matches in league
+2025-08-26 10:37:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:37:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:37:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:37:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-26 10:37:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-26 10:37:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:37:08 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:37:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 40 matches in league
+2025-08-26 10:37:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 41 matches in league
+2025-08-26 10:37:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:37:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-26 10:37:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:37:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:37:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-26 10:37:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:09 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-26 10:37:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:37:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:37:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:37:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:37:10 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 12 matches in league
+2025-08-26 10:37:10 - tipico - INFO - [MATCH_FOUND] | Matched China U21 vs Egypt U21
+2025-08-26 10:37:10 - tipico - INFO - [MATCH_FOUND] | Matched Ukraine (W) vs Cameroon (W)
+2025-08-26 10:37:10 - tipico - INFO - [MATCH_FOUND] | Matched Japan (W) vs Serbia (W)
+2025-08-26 10:37:10 - tipico - INFO - [MATCH_FOUND] | Matched Colombia (W) vs Mexico (W)
+2025-08-26 10:37:10 - tipico - INFO - [MATCH_FOUND] | Matched Poland (W) vs Germany (W)
+2025-08-26 10:37:11 - tipico - INFO - [MATCH_FOUND] | Matched Kenya (W) vs Vietnam (W)
+2025-08-26 10:37:11 - tipico - INFO - [MATCH_FOUND] | Matched Bulgaria (W) vs Spain (W)
+2025-08-26 10:37:11 - tipico - INFO - [MATCH_FOUND] | Matched Southern Brave vs Welsh Fire
+2025-08-26 10:37:11 - tipico - INFO - [MATCH_FOUND] | Matched Sung S Y / Yu C H vs Yeung N T/Yeung PL
+2025-08-26 10:37:11 - tipico - INFO - [MATCH_FOUND] | Matched Lam L/Lee A vs Kim H J / Kong H Y
+2025-08-26 10:37:11 - tipico - INFO - [MATCH_FOUND] | Matched USA vs Brazil
+2025-08-26 10:37:11 - tipico - INFO - [MATCH_FOUND] | Matched Uruguay vs Bahamas
+2025-08-26 10:37:11 - tipico - INFO - [MATCH_FOUND] | Matched Yeo, Jia Min vs Ongbamrungphan, B.
+2025-08-26 10:37:11 - tipico - INFO - [MATCH_FOUND] | Matched Chen, Yu Fei vs Blichfeldt, Mia
+2025-08-26 10:37:12 - tipico - INFO - [PROGRESS_UPDATE] | Processed 500 matches, Success: 500, Failed: 0
+2025-08-26 10:37:12 - tipico - INFO - [MATCH_FOUND] | Matched Squire, H. vs Compagnucci, Tommaso
+2025-08-26 10:37:13 - tipico - INFO - [MATCH_FOUND] | Matched Coulibaly, E. vs Gengel, M.
+2025-08-26 10:37:13 - tipico - INFO - [MATCH_FOUND] | Matched Martineau, M. vs Rodionov, J.
+2025-08-26 10:37:13 - tipico - INFO - [MATCH_FOUND] | Matched Yevseyev, D. vs Moriya, H.
+2025-08-26 10:37:13 - tipico - INFO - [MATCH_FOUND] | Matched Jones, F. vs Lys, E.
+2025-08-26 10:37:13 - tipico - INFO - [MATCH_FOUND] | Matched Larvik HK (W) vs Gjerpen (W)
+2025-08-26 10:37:13 - tipico - INFO - [MATCH_FOUND] | Matched Azarenka, V. vs Pavlyuchenkova, A.
+2025-08-26 10:37:13 - tipico - INFO - [MATCH_FOUND] | Matched New England vs Charlotte FC
+2025-08-26 10:37:13 - tipico - INFO - [MATCH_FOUND] | Matched Toronto FC vs CF Montreal
+2025-08-26 10:37:14 - tipico - INFO - [MATCH_FOUND] | Matched Maccabi Tel Aviv vs Maccabi Netanya
+2025-08-26 10:37:14 - tipico - INFO - [MATCH_FOUND] | Matched Los Angeles FC vs San Diego FC
+2025-08-26 10:37:14 - tipico - INFO - [MATCH_FOUND] | Matched NY Red Bulls vs Columbus Crew
+2025-08-26 10:37:14 - tipico - INFO - [MATCH_FOUND] | Matched New York City FC vs D.C. United
+2025-08-26 10:37:14 - tipico - INFO - [MATCH_FOUND] | Matched FC Cincinnati vs Philadelphia Union
+2025-08-26 10:37:14 - tipico - INFO - [MATCH_FOUND] | Matched Viking FK vs Rosenborg BK
+2025-08-26 10:37:14 - tipico - INFO - [MATCH_FOUND] | Matched Sporting Kansas City vs Colorado Rapids
+2025-08-26 10:37:14 - tipico - INFO - [MATCH_FOUND] | Matched Stromsgodset vs Molde FK
+2025-08-26 10:37:15 - tipico - INFO - [MATCH_FOUND] | Matched Tromso IL vs KFUM Oslo
+2025-08-26 10:37:15 - tipico - INFO - [MATCH_FOUND] | Matched Kristiansund BK vs SK Brann
+2025-08-26 10:37:15 - tipico - INFO - [MATCH_FOUND] | Matched Valerenga IF vs Bryne FK
+2025-08-26 10:37:15 - tipico - INFO - [MATCH_FOUND] | Matched Sandefjord Fotball vs Bodo/Glimt
+2025-08-26 10:37:15 - tipico - INFO - [MATCH_FOUND] | Matched Ham-Kam vs Sarpsborg 08
+2025-08-26 10:37:15 - tipico - INFO - [MATCH_FOUND] | Matched Fredrikstad FK vs Haugesund FK
+2025-08-26 10:37:16 - tipico - INFO - [MATCH_FOUND] | Matched Lillestrom SK vs Skeid Fotball
+2025-08-26 10:37:16 - tipico - INFO - [PROGRESS_UPDATE] | Processed 550 matches, Success: 550, Failed: 0
+2025-08-26 10:37:16 - tipico - INFO - [MATCH_FOUND] | Matched Aalesunds FK vs Egersund IK
+2025-08-26 10:37:16 - tipico - INFO - [MATCH_FOUND] | Matched Stabaek IF vs IK Start
+2025-08-26 10:37:16 - tipico - INFO - [MATCH_FOUND] | Matched Moss FK vs Mjondalen
+2025-08-26 10:37:16 - tipico - INFO - [MATCH_FOUND] | Matched Kongsvinger IL vs Ranheim IL
+2025-08-26 10:37:16 - tipico - INFO - [MATCH_FOUND] | Matched Hødd vs Raufoss IL
+2025-08-26 10:37:16 - tipico - INFO - [MATCH_FOUND] | Matched Minnesota United FC vs Portland Timbers
+2025-08-26 10:37:16 - tipico - INFO - [MATCH_FOUND] | Matched Austin FC vs San Jose Earthq.
+2025-08-26 10:37:16 - tipico - INFO - [MATCH_FOUND] | Matched Nashville SC vs Atlanta United FC
+2025-08-26 10:37:17 - tipico - INFO - [MATCH_FOUND] | Matched Saint Louis City SC vs Houston Dynamo
+2025-08-26 10:37:17 - tipico - INFO - [MATCH_FOUND] | Matched Phoenix Rising  FC vs EL Paso Locomotive
+2025-08-26 10:37:17 - tipico - INFO - [MATCH_FOUND] | Matched Las Vegas Lights vs Lexington SC
+2025-08-26 10:37:17 - tipico - INFO - [MATCH_FOUND] | Matched Orange County SC vs Birmingham Legion FC
+2025-08-26 10:37:17 - tipico - INFO - [MATCH_FOUND] | Matched Oakland Roots SC vs Monterey Bay FC
+2025-08-26 10:37:17 - tipico - INFO - [MATCH_FOUND] | Matched New Mexico United vs Sacramento Republic
+2025-08-26 10:37:17 - tipico - INFO - [MATCH_FOUND] | Matched Colorado Springs Switchbacks FC vs Tulsa Roughnecks FC
+2025-08-26 10:37:17 - tipico - INFO - [MATCH_FOUND] | Matched North Carolina FC vs Hartford Athletic
+2025-08-26 10:37:17 - tipico - INFO - [MATCH_FOUND] | Matched FC Tampa Bay Rowdies vs Pittsburgh Riverh.
+2025-08-26 10:37:17 - tipico - INFO - Executing 100 bulk tipico_updates operations
+2025-08-26 10:37:18 - tipico - INFO - Bulk tipico_updates completed successfully:
+2025-08-26 10:37:18 - tipico - INFO -   - Modified: 100
+2025-08-26 10:37:18 - tipico - INFO -   - Upserted: 0
+2025-08-26 10:37:18 - tipico - INFO -   - Inserted: 0
+2025-08-26 10:37:18 - tipico - INFO - [MATCH_FOUND] | Matched Rhode Island FC vs Charleston Battery
+2025-08-26 10:37:18 - tipico - INFO - [MATCH_FOUND] | Matched Loudoun United FC vs Miami FC
+2025-08-26 10:37:18 - tipico - INFO - [MATCH_FOUND] | Matched Indy Eleven vs Louisville City FC
+2025-08-26 10:37:18 - tipico - INFO - [MATCH_FOUND] | Matched Detroit City FC vs San Antonio FC
+2025-08-26 10:37:18 - tipico - INFO - [MATCH_FOUND] | Matched TVB Stuttgart vs HSV Hamburg
+2025-08-26 10:37:18 - tipico - INFO - [MATCH_FOUND] | Matched Panathinaikos Athen vs Levadiakos FC
+2025-08-26 10:37:18 - tipico - INFO - [MATCH_FOUND] | Matched Fuchse Berlin vs Bergischer HC
+2025-08-26 10:37:18 - tipico - INFO - [MATCH_FOUND] | Matched Hapoel Beer Sheva vs Ironi Tiberias
+2025-08-26 10:37:18 - tipico - INFO - [MATCH_FOUND] | Matched Hapoel Haifa vs Hapoel Jerusalem
+2025-08-26 10:37:18 - tipico - INFO - [MATCH_FOUND] | Matched FC Paok Thessaloniki vs Atromitos Athens
+2025-08-26 10:37:19 - tipico - INFO - [MATCH_FOUND] | Matched AEK Athens FC vs Asteras Tripolis
+2025-08-26 10:37:19 - tipico - INFO - [MATCH_FOUND] | Matched Volos Nps vs Olympiacos FC
+2025-08-26 10:37:19 - tipico - INFO - [MATCH_FOUND] | Matched Aris Thessaloniki FC vs Panetolikos
+2025-08-26 10:37:19 - tipico - INFO - [MATCH_FOUND] | Matched Panseraikos 1964 vs OFI Crete FC
+2025-08-26 10:37:19 - tipico - INFO - [MATCH_FOUND] | Matched AE Larissa vs Kifisias
+2025-08-26 10:37:19 - tipico - INFO - [MATCH_FOUND] | Matched MT Melsungen vs Rhein-Neckar Lowen
+2025-08-26 10:37:19 - tipico - INFO - [MATCH_FOUND] | Matched HSG Wetzlar vs Flensburg-Handewitt
+2025-08-26 10:37:19 - tipico - INFO - [MATCH_FOUND] | Matched ThSV Eisenach vs SC DHfK Leipzig
+2025-08-26 10:37:19 - tipico - INFO - [MATCH_FOUND] | Matched TBV Lemgo Lippe vs SC Magdeburg
+2025-08-26 10:37:19 - tipico - INFO - [MATCH_FOUND] | Matched Zarazua, R. vs Parry, D.
+2025-08-26 10:37:19 - tipico - INFO - [MATCH_FOUND] | Matched Uchijima, M. vs Krejcikova, B.
+2025-08-26 10:37:19 - tipico - INFO - [MATCH_FOUND] | Matched HC Erlangen vs THW Kiel
+2025-08-26 10:37:20 - tipico - INFO - [MATCH_FOUND] | Matched Samsonova, L. vs Hon, P.
+2025-08-26 10:37:20 - tipico - INFO - [MATCH_FOUND] | Matched Sakkari, M. vs Bondar, A.
+2025-08-26 10:37:20 - tipico - INFO - [MATCH_FOUND] | Matched Sabalenka, A. vs Kudermetova, Polina
+2025-08-26 10:37:20 - tipico - INFO - [MATCH_FOUND] | Matched Rybakina, E. vs Valentova, T.
+2025-08-26 10:37:20 - tipico - INFO - [MATCH_FOUND] | Matched Raducanu, E. vs Tjen, Janice
+2025-08-26 10:37:20 - tipico - INFO - [MATCH_FOUND] | Matched Potapova, A. vs Andreeva, Mirra
+2025-08-26 10:37:20 - tipico - INFO - [MATCH_FOUND] | Matched Pegula, J. vs Blinkova, A.
+2025-08-26 10:37:20 - tipico - INFO - [PROGRESS_UPDATE] | Processed 600 matches, Success: 600, Failed: 0
+2025-08-26 10:37:20 - tipico - INFO - [MATCH_FOUND] | Matched Navarro, E. vs McNally, Caty
+2025-08-26 10:37:20 - tipico - INFO - [MATCH_FOUND] | Matched Mertens, E. vs Sun, L.
+2025-08-26 10:37:20 - tipico - INFO - [MATCH_FOUND] | Matched Li, A. vs Bencic, B.
+2025-08-26 10:37:20 - tipico - INFO - [MATCH_FOUND] | Matched Kessler, M. vs Vondrousova, M.
+2025-08-26 10:37:20 - tipico - INFO - [MATCH_FOUND] | Matched Ostapenko, J. vs Townsend, T.
+2025-08-26 10:37:20 - tipico - INFO - [MATCH_FOUND] | Matched Kasatkina, D. vs Rakhimova, K.
+2025-08-26 10:37:20 - tipico - INFO - [MATCH_FOUND] | Matched Kalinskaya, A. vs Putintseva, Y.
+2025-08-26 10:37:20 - tipico - INFO - [MATCH_FOUND] | Matched Jovic, Iva vs Paolini, J.
+2025-08-26 10:37:20 - tipico - INFO - [MATCH_FOUND] | Matched Jacquemot, Elsa vs Fernandez, L. A.
+2025-08-26 10:37:20 - tipico - INFO - [MATCH_FOUND] | Matched Frech, M. vs Stearns, P.
+2025-08-26 10:37:21 - tipico - INFO - [MATCH_FOUND] | Matched Vekic, D. vs Bouzas Maneiro, J.
+2025-08-26 10:37:21 - tipico - INFO - [MATCH_FOUND] | Matched Thompson, J. vs Mannarino, A.
+2025-08-26 10:37:21 - tipico - INFO - [MATCH_FOUND] | Matched Tiafoe, F. vs Damm, M.
+2025-08-26 10:37:21 - tipico - INFO - [MATCH_FOUND] | Matched Struff, J.-L. vs Rune, H.
+2025-08-26 10:37:21 - tipico - INFO - [MATCH_FOUND] | Matched Shelton, B. vs Carreno-Busta, P.
+2025-08-26 10:37:21 - tipico - INFO - [MATCH_FOUND] | Matched Norrie, C. vs Comesana, F.
+2025-08-26 10:37:21 - tipico - INFO - [MATCH_FOUND] | Matched Rinderknech, A. vs Davidovich F, A.
+2025-08-26 10:37:21 - tipico - INFO - [MATCH_FOUND] | Matched Nakashima, B. vs Kym, J.
+2025-08-26 10:37:21 - tipico - INFO - [MATCH_FOUND] | Matched Noskova, L. vs Galfi, D.
+2025-08-26 10:37:22 - tipico - INFO - [MATCH_FOUND] | Matched Collins, D. R. vs Cristian, J. A.
+2025-08-26 10:37:22 - tipico - INFO - [MATCH_FOUND] | Matched Anisimova, A. vs Birrell, K.
+2025-08-26 10:37:22 - tipico - INFO - [MATCH_FOUND] | Matched Fonseca, Joao vs Machac, T.
+2025-08-26 10:37:22 - tipico - INFO - [MATCH_FOUND] | Matched Lehecka, J. vs Etcheverry, T. M.
+2025-08-26 10:37:22 - tipico - INFO - [MATCH_FOUND] | Matched Khachanov, K. vs Majchrzak, K.
+2025-08-26 10:37:22 - tipico - INFO - [MATCH_FOUND] | Matched Djokovic, N. vs Svajda, Z.
+2025-08-26 10:37:22 - tipico - INFO - [MATCH_FOUND] | Matched Darderi, L. vs Spizzirri, E.
+2025-08-26 10:37:22 - tipico - INFO - [MATCH_FOUND] | Matched Collignon, Raphael vs Ruud, C.
+2025-08-26 10:37:23 - tipico - INFO - [MATCH_FOUND] | Matched Skjern Handball vs GOG Handbold
+2025-08-26 10:37:23 - tipico - INFO - [MATCH_FOUND] | Matched Ribe-Esbjerg HH vs Sonderjyske
+2025-08-26 10:37:23 - tipico - INFO - [MATCH_FOUND] | Matched Grindsted GIF vs TMS Ringsted
+2025-08-26 10:37:23 - tipico - INFO - [MATCH_FOUND] | Matched Fredericia HK vs Bjerringbro-Silkeborg
+2025-08-26 10:37:23 - tipico - INFO - [MATCH_FOUND] | Matched T. Tvis Holstebro vs Nordsjaelland Handball
+2025-08-26 10:37:23 - tipico - INFO - [MATCH_FOUND] | Matched Aalborg HB vs Skanderborg H.
+2025-08-26 10:37:23 - tipico - INFO - [MATCH_FOUND] | Matched Brooksby, J. vs Cobolli, F.
+2025-08-26 10:37:23 - tipico - INFO - [PROGRESS_UPDATE] | Processed 650 matches, Success: 650, Failed: 0
+2025-08-26 10:37:23 - tipico - INFO - [MATCH_FOUND] | Matched Bonzi, B. vs Giron, M.
+2025-08-26 10:37:23 - tipico - INFO - [MATCH_FOUND] | Matched Bergs, Z. vs Draper, J.
+2025-08-26 10:37:24 - tipico - INFO - [MATCH_FOUND] | Matched Altmaier, D. vs Medjedovic, H.
+2025-08-26 10:37:26 - tipico - INFO - [MATCH_FOUND] | Matched Poljicak, Mili vs Den Ouden, Guy
+2025-08-26 10:37:26 - tipico - INFO - [MATCH_FOUND] | Matched Michalski, D. vs Sanchez Jover, C.
+2025-08-26 10:37:26 - tipico - INFO - [PROGRESS_UPDATE] | Processed 700 matches, Success: 700, Failed: 0
+2025-08-26 10:37:27 - tipico - INFO - [MATCH_FOUND] | Matched Paul, Jakub vs Langmo, C.
+2025-08-26 10:37:27 - tipico - INFO - [MATCH_FOUND] | Matched Geerts, M. vs Honda, Naoya
+2025-08-26 10:37:27 - tipico - INFO - [MATCH_FOUND] | Matched Soriano Barrera, A. vs Parker, S.
+2025-08-26 10:37:27 - tipico - INFO - [MATCH_FOUND] | Matched Los Angeles Dodgers vs Cincinnati Reds
+2025-08-26 10:37:27 - tipico - INFO - [MATCH_FOUND] | Matched Athletics vs Detroit Tigers
+2025-08-26 10:37:27 - tipico - INFO - [MATCH_FOUND] | Matched Slovenia vs Poland
+2025-08-26 10:37:27 - tipico - INFO - [MATCH_FOUND] | Matched San Francisco Giants vs Chicago Cubs
+2025-08-26 10:37:28 - tipico - INFO - [MATCH_FOUND] | Matched Texas Rangers vs Los Angeles Angels
+2025-08-26 10:37:28 - tipico - INFO - [MATCH_FOUND] | Matched Houston Astros vs Colorado Rockies
+2025-08-26 10:37:28 - tipico - INFO - [MATCH_FOUND] | Matched Seattle Mariners vs San Diego Padres
+2025-08-26 10:37:28 - tipico - INFO - [MATCH_FOUND] | Matched St. Louis Cardinals vs Pittsburgh Pirates
+2025-08-26 10:37:28 - tipico - INFO - [MATCH_FOUND] | Matched Milwaukee Brewers vs Arizona Diamond.
+2025-08-26 10:37:28 - tipico - INFO - [MATCH_FOUND] | Matched Chicago White Sox vs Kansas City Royals
+2025-08-26 10:37:28 - tipico - INFO - [MATCH_FOUND] | Matched Imamura, M. vs Crawford, O.
+2025-08-26 10:37:28 - tipico - INFO - [MATCH_FOUND] | Matched Fomin, S. vs Isomura, Kokoro
+2025-08-26 10:37:29 - tipico - INFO - [MATCH_FOUND] | Matched Israel vs Iceland
+2025-08-26 10:37:29 - tipico - INFO - [MATCH_FOUND] | Matched Belgium vs France
+2025-08-26 10:37:29 - tipico - INFO - [MATCH_FOUND] | Matched Tohoku Rakuten Golden Eagles vs Fukuoka S. Hawks
+2025-08-26 10:37:29 - tipico - INFO - [MATCH_FOUND] | Matched Georgia vs Spain
+2025-08-26 10:37:29 - tipico - INFO - [MATCH_FOUND] | Matched Montenegro vs Germany
+2025-08-26 10:37:29 - tipico - INFO - [MATCH_FOUND] | Matched Sweden vs Finland
+2025-08-26 10:37:29 - tipico - INFO - [MATCH_FOUND] | Matched Martin A/Prihodko O vs Arnaboldi F/Berrettini J
+2025-08-26 10:37:29 - tipico - INFO - [MATCH_FOUND] | Matched Bosnia & Herzegovina vs Cyprus
+2025-08-26 10:37:29 - tipico - INFO - [MATCH_FOUND] | Matched Greece vs Italy
+2025-08-26 10:37:30 - tipico - INFO - [MATCH_FOUND] | Matched Cornea V/Rodriguez Taverna S vs Bondioli/Caniato
+2025-08-26 10:37:30 - tipico - INFO - [PROGRESS_UPDATE] | Processed 750 matches, Success: 750, Failed: 0
+2025-08-26 10:37:30 - tipico - INFO - [MATCH_FOUND] | Matched Cleveland Guardians vs Tampa Bay Rays
+2025-08-26 10:37:30 - tipico - INFO - [MATCH_FOUND] | Matched Toronto Blue Jays vs Minnesota Twins
+2025-08-26 10:37:30 - tipico - INFO - [MATCH_FOUND] | Matched Miami Marlins vs Atlanta Braves
+2025-08-26 10:37:30 - tipico - INFO - [MATCH_FOUND] | Matched New York Yankees vs Washington Nationals
+2025-08-26 10:37:30 - tipico - INFO - [MATCH_FOUND] | Matched NC Dinos vs LG Twins
+2025-08-26 10:37:30 - tipico - INFO - [MATCH_FOUND] | Matched New York Mets vs Philadelphia Phillies
+2025-08-26 10:37:30 - tipico - INFO - [MATCH_FOUND] | Matched SSG Landers vs KIA Tigers
+2025-08-26 10:37:30 - tipico - INFO - Executing 100 bulk tipico_updates operations
+2025-08-26 10:37:30 - tipico - INFO - Bulk tipico_updates completed successfully:
+2025-08-26 10:37:30 - tipico - INFO -   - Modified: 100
+2025-08-26 10:37:30 - tipico - INFO -   - Upserted: 0
+2025-08-26 10:37:30 - tipico - INFO -   - Inserted: 0
+2025-08-26 10:37:31 - tipico - INFO - [MATCH_FOUND] | Matched Great Britain vs Lithuania
+2025-08-26 10:37:31 - tipico - INFO - [MATCH_FOUND] | Matched Serbia vs Estonia
+2025-08-26 10:37:31 - tipico - INFO - [MATCH_FOUND] | Matched Czech Republic vs Portugal
+2025-08-26 10:37:31 - tipico - INFO - [MATCH_FOUND] | Matched Hiroshima Toyo Carp vs Yomiuri Giants
+2025-08-26 10:37:31 - tipico - INFO - [MATCH_FOUND] | Matched Latvia vs Turkey
+2025-08-26 10:37:31 - tipico - INFO - [MATCH_FOUND] | Matched Orix Buffaloes vs Chiba Lotte Marines
+2025-08-26 10:37:31 - tipico - INFO - [MATCH_FOUND] | Matched Ritschard, A. vs Monteiro, T. M.
+2025-08-26 10:37:31 - tipico - INFO - [MATCH_FOUND] | Matched Yokohama D. B. vs Hanshin Tigers
+2025-08-26 10:37:31 - tipico - INFO - [MATCH_FOUND] | Matched Carboni L/Piatti R vs Latinovic S/Ruehl T
+2025-08-26 10:37:31 - tipico - INFO - [MATCH_FOUND] | Matched Chunichi Dragons vs Yakult Swallows
+2025-08-26 10:37:31 - tipico - INFO - [MATCH_FOUND] | Matched Baltimore Orioles vs Boston Red Sox
+2025-08-26 10:37:31 - tipico - INFO - [MATCH_FOUND] | Matched Lotte Giants vs KT Wiz
+2025-08-26 10:37:32 - tipico - INFO - [MATCH_FOUND] | Matched Doosan Bears vs Samsung Lions
+2025-08-26 10:37:32 - tipico - INFO - [MATCH_FOUND] | Matched Kiwoom Heroes vs Hanwha Eagles
+2025-08-26 10:37:32 - tipico - INFO - [MATCH_FOUND] | Matched Atlanta Dream vs Las Vegas Aces
+2025-08-26 10:37:32 - tipico - INFO - [MATCH_FOUND] | Matched Indiana Fever vs Seattle Storm
+2025-08-26 10:37:32 - tipico - INFO - [MATCH_FOUND] | Matched Los Angeles Sparks vs Phoenix Mercury
+2025-08-26 10:37:32 - tipico - INFO - [MATCH_FOUND] | Matched Dallas Wings vs Connecticut Sun
+2025-08-26 10:37:33 - tipico - INFO - [PROGRESS_UPDATE] | Processed 800 matches, Success: 800, Failed: 0
+2025-08-26 10:37:34 - tipico - INFO - [MATCH_FOUND] | Matched Trent Rockets vs Birmingham Phoenix
+2025-08-26 10:37:34 - tipico - INFO - [MATCH_FOUND] | Matched Northern Superchargers vs Manchester Originals
+2025-08-26 10:37:35 - tipico - INFO - [MATCH_FOUND] | Matched Liu K H/Yang P H vs Rank. S/Shetty C
+2025-08-26 10:37:35 - tipico - INFO - [MATCH_FOUND] | Matched Kjaer R/Soggard F vs Gutama S K / Isfahani M R P
+2025-08-26 10:37:35 - tipico - INFO - [MATCH_FOUND] | Matched Chen Z Y/Smith P vs Goh S F / Izzuddin N
+2025-08-26 10:37:35 - tipico - INFO - [MATCH_FOUND] | Matched St George Illawarra Dragons vs Manly Sea Eagles
+2025-08-26 10:37:35 - tipico - INFO - [MATCH_FOUND] | Matched Cronulla Sharks vs Newcastle Knights
+2025-08-26 10:37:35 - tipico - INFO - [MATCH_FOUND] | Matched North Queensland Cowboys vs Brisbane Broncos
+2025-08-26 10:37:35 - tipico - INFO - [MATCH_FOUND] | Matched Canberra Raiders vs Wests Tigers
+2025-08-26 10:37:35 - tipico - INFO - [MATCH_FOUND] | Matched Dolphins vs Gold Coast Titans
+2025-08-26 10:37:36 - tipico - INFO - [MATCH_FOUND] | Matched Catalans Dragons vs Wigan Warriors
+2025-08-26 10:37:36 - tipico - INFO - [MATCH_FOUND] | Matched Hull Kingston Rovers vs St Helens
+2025-08-26 10:37:36 - tipico - INFO - [MATCH_FOUND] | Matched New Zealand Warriors vs Parramatta Eels
+2025-08-26 10:37:36 - tipico - INFO - [MATCH_FOUND] | Matched Melbourne Storm vs Sydney Roosters
+2025-08-26 10:37:36 - tipico - INFO - [PROGRESS_UPDATE] | Processed 850 matches, Success: 850, Failed: 0
+2025-08-26 10:37:36 - tipico - INFO - [MATCH_FOUND] | Matched Wakefield Trinity vs Huddersfield Giants
+2025-08-26 10:37:36 - tipico - INFO - [MATCH_FOUND] | Matched Gold Coast Suns vs Essendon Bombers
+2025-08-26 10:37:36 - tipico - INFO - [MATCH_FOUND] | Matched Hull FC vs Leeds Rhinos
+2025-08-26 10:37:36 - tipico - INFO - [MATCH_FOUND] | Matched Turkey (W) vs Canada (W)
+2025-08-26 10:37:37 - tipico - INFO - [MATCH_FOUND] | Matched Argentina (W) vs Slovenia (W)
+2025-08-26 10:37:37 - tipico - INFO - [MATCH_FOUND] | Matched USA (W) vs Czech Republic (W)
+2025-08-26 10:37:37 - tipico - INFO - [MATCH_FOUND] | Matched Korea Republic U21 vs Kazakhstan U21
+2025-08-26 10:37:37 - tipico - INFO - [MATCH_FOUND] | Matched Canada U21 vs Puerto Rico U21
+2025-08-26 10:37:37 - tipico - INFO - [MATCH_FOUND] | Matched Bulgaria U21 vs Brazil U21
+2025-08-26 10:37:37 - tipico - INFO - [MATCH_FOUND] | Matched Brazil (W) vs Puerto Rico (W)
+2025-08-26 10:37:37 - tipico - INFO - [MATCH_FOUND] | Matched Tunisia U21 vs Ukraine U21
+2025-08-26 10:37:37 - tipico - INFO - [MATCH_FOUND] | Matched Italy U21 vs Argentina U21
+2025-08-26 10:37:37 - tipico - INFO - [MATCH_FOUND] | Matched Cuba (W) vs Slovakia (W)
+2025-08-26 10:37:37 - tipico - INFO - [MATCH_FOUND] | Matched France (W) vs Greece (W)
+2025-08-26 10:37:37 - tipico - INFO - [MATCH_FOUND] | Matched Sweden (W) vs Egypt (W)
+2025-08-26 10:37:37 - tipico - INFO - [MATCH_FOUND] | Matched France U21 vs Indonesia U21
+2025-08-26 10:37:37 - tipico - INFO - [MATCH_FOUND] | Matched Italy (W) vs Belgium (W)
+2025-08-26 10:37:37 - tipico - INFO - [MATCH_FOUND] | Matched Thailand (W) vs Netherlands (W)
+2025-08-26 10:37:39 - tipico - INFO - [PROGRESS_UPDATE] | Processed 900 matches, Success: 900, Failed: 0
+2025-08-26 10:37:40 - tipico - INFO - [MATCH_FOUND] | Matched Williams, Mark vs O'Connor, Joe
+2025-08-26 10:37:41 - tipico - INFO - [MATCH_FOUND] | Matched Hamilton Tiger-cats vs Toronto Argonauts
+2025-08-26 10:37:41 - tipico - INFO - [MATCH_FOUND] | Matched Saskatchewan Roughriders vs Winnipeg Blue Bombers
+2025-08-26 10:37:41 - tipico - INFO - [MATCH_FOUND] | Matched Calgary Stampeders vs Edmonton Elks
+2025-08-26 10:37:41 - tipico - INFO - [MATCH_FOUND] | Matched Jones, Jak vs Hawkins, Barry
+2025-08-26 10:37:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:37:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:37:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:37:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 22 matches in league
+2025-08-26 10:37:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 14 matches in league
+2025-08-26 10:37:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 13 matches in league
+2025-08-26 10:37:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:37:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:37:42 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:37:43 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:37:43 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:37:43 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:37:43 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:37:43 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:43 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:43 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:37:43 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:37:43 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 14 matches in league
+2025-08-26 10:37:43 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:43 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-26 10:37:43 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:37:43 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:37:43 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-26 10:37:43 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-26 10:37:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:37:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:37:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:37:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:37:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:37:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:37:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:37:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:37:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:37:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:37:44 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-26 10:37:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:37:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:37:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:37:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:37:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:37:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-26 10:37:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:37:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 9 matches in league
+2025-08-26 10:37:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 2 matches in league
+2025-08-26 10:37:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:45 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:37:46 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:37:46 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:37:46 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:46 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:37:46 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 4 matches in league
+2025-08-26 10:37:46 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:37:46 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:46 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 10 matches in league
+2025-08-26 10:37:46 - tipico - INFO - [PROGRESS_UPDATE] | Processed 950 matches, Success: 950, Failed: 0
+2025-08-26 10:37:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 5 matches in league
+2025-08-26 10:37:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 3 matches in league
+2025-08-26 10:37:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-26 10:37:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 14 matches in league
+2025-08-26 10:37:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 7 matches in league
+2025-08-26 10:37:47 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:37:47 - tipico - INFO - [MATCH_FOUND] | Matched Nublense vs Union Espanola
+2025-08-26 10:37:47 - tipico - INFO - [MATCH_FOUND] | Matched Colo Colo vs Universidad de Chile
+2025-08-26 10:37:48 - tipico - INFO - [MATCH_FOUND] | Matched O'Higgins FC vs Audax Italiano
+2025-08-26 10:37:48 - tipico - INFO - [MATCH_FOUND] | Matched Deportes Iquique vs Deportes Limache
+2025-08-26 10:37:48 - tipico - INFO - [MATCH_FOUND] | Matched Universidad Catolica vs Cobresal
+2025-08-26 10:37:48 - tipico - INFO - [MATCH_FOUND] | Matched Morocco vs Senegal
+2025-08-26 10:37:48 - tipico - INFO - [MATCH_FOUND] | Matched Madagascar vs Sudan
+2025-08-26 10:37:48 - tipico - INFO - [MATCH_FOUND] | Matched Hibernian FC vs St Mirren FC
+2025-08-26 10:37:49 - tipico - INFO - [MATCH_FOUND] | Matched SD Aucas vs CS Emelec
+2025-08-26 10:37:49 - tipico - INFO - [MATCH_FOUND] | Matched Stirling Albion FC  vs Stranraer FC
+2025-08-26 10:37:49 - tipico - INFO - [MATCH_FOUND] | Matched Huachipato vs Coquimbo Unido
+2025-08-26 10:37:49 - tipico - INFO - [MATCH_FOUND] | Matched Aberdeen FC vs Falkirk FC
+2025-08-26 10:37:49 - tipico - INFO - [MATCH_FOUND] | Matched Mushuc Runa SC vs Manta FC
+2025-08-26 10:37:50 - tipico - INFO - [MATCH_FOUND] | Matched Queen Of South vs Clyde FC
+2025-08-26 10:37:50 - tipico - INFO - [MATCH_FOUND] | Matched Vinotinto Ecuador vs CD El Nacional
+2025-08-26 10:37:50 - tipico - INFO - [MATCH_FOUND] | Matched Tokushima Vortis vs Blaublitz Akita
+2025-08-26 10:37:50 - tipico - INFO - [MATCH_FOUND] | Matched Ehime FC vs Vegalta Sendai
+2025-08-26 10:37:50 - tipico - INFO - [MATCH_FOUND] | Matched V-varen Nagasaki vs Fujieda Myfc
+2025-08-26 10:37:50 - tipico - INFO - [MATCH_FOUND] | Matched Spartans FC vs Peterhead FC
+2025-08-26 10:37:50 - tipico - INFO - [MATCH_FOUND] | Matched Oita Trinita vs Jubilo Iwata
+2025-08-26 10:37:51 - tipico - INFO - [MATCH_FOUND] | Matched Stirling Albion FC  vs Hibernian B
+2025-08-26 10:37:51 - tipico - INFO - [MATCH_FOUND] | Matched Montedio Yamagata vs Sagan Tosu
+2025-08-26 10:37:52 - tipico - INFO - [MATCH_FOUND] | Matched Cerro Largo FC vs MTV Wanderers
+2025-08-26 10:37:52 - tipico - INFO - [MATCH_FOUND] | Matched Dep. Saprissa vs Motagua
+2025-08-26 10:37:52 - tipico - INFO - [MATCH_FOUND] | Matched SV Robinhood vs Central FC
+2025-08-26 10:37:52 - tipico - INFO - [MATCH_FOUND] | Matched CA Boston River vs CA Progreso
+2025-08-26 10:37:53 - tipico - INFO - [MATCH_FOUND] | Matched Atletico San Luis vs Deportivo Toluca
+2025-08-26 10:37:53 - tipico - INFO - [MATCH_FOUND] | Matched Apoel Nicosia FC vs Pafos FC
+2025-08-26 10:37:53 - tipico - INFO - [MATCH_FOUND] | Matched Larne FC vs Ballymena United
+2025-08-26 10:37:53 - tipico - INFO - [MATCH_FOUND] | Matched Kolos Kovalivka vs Epitsentr K.-Podilskyi
+2025-08-26 10:37:53 - tipico - INFO - [MATCH_FOUND] | Matched Juarez FC vs Mazatlan FC
+2025-08-26 10:37:53 - tipico - INFO - [MATCH_FOUND] | Matched Racing Club Montevideo vs CA Penarol
+2025-08-26 10:37:54 - tipico - INFO - [MATCH_FOUND] | Matched Kryvbas Kryvyi Rih vs Obolon Kiev
+2025-08-26 10:37:54 - tipico - INFO - [MATCH_FOUND] | Matched FK Kudrivka vs Karpaty Lviv
+2025-08-26 10:37:54 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1000 matches, Success: 1000, Failed: 0
+2025-08-26 10:37:54 - tipico - INFO - [MATCH_FOUND] | Matched Club Tijuana vs Club Necaxa
+2025-08-26 10:37:54 - tipico - INFO - [MATCH_FOUND] | Matched Kasetsart FC vs Phrae United
+2025-08-26 10:37:54 - tipico - INFO - [MATCH_FOUND] | Matched FC Dynamo Kiev vs Polissya Zhytomyr
+2025-08-26 10:37:54 - tipico - INFO - [MATCH_FOUND] | Matched Pumas UNAM vs Atlas FC
+2025-08-26 10:37:54 - tipico - INFO - [MATCH_FOUND] | Matched Shakhtar Donetsk vs FC Oleksandria
+2025-08-26 10:37:54 - tipico - INFO - [MATCH_FOUND] | Matched MKS Puszcza Niepol. vs Chrobry Glogow
+2025-08-26 10:37:54 - tipico - INFO - [MATCH_FOUND] | Matched Nong Bua Pitchaya vs Mahasarakham Utd.
+2025-08-26 10:37:55 - tipico - INFO - [MATCH_FOUND] | Matched Odra Opole vs LKS Lodz
+2025-08-26 10:37:55 - tipico - INFO - [MATCH_FOUND] | Matched FKS Stal Mielec vs KS Ruch Chorzow
+2025-08-26 10:37:55 - tipico - INFO - [MATCH_FOUND] | Matched Znicz Pruszkow vs Pogon Siedlce
+2025-08-26 10:37:55 - tipico - INFO - [MATCH_FOUND] | Matched MKS Pogon Szczecin vs Rakow Czestochowa
+2025-08-26 10:37:55 - tipico - INFO - Executing 100 bulk tipico_updates operations
+2025-08-26 10:37:55 - tipico - INFO - Bulk tipico_updates completed successfully:
+2025-08-26 10:37:55 - tipico - INFO -   - Modified: 100
+2025-08-26 10:37:55 - tipico - INFO -   - Upserted: 0
+2025-08-26 10:37:55 - tipico - INFO -   - Inserted: 0
+2025-08-26 10:37:55 - tipico - INFO - [MATCH_FOUND] | Matched Sligo Rovers FC vs Bohemian FC
+2025-08-26 10:37:56 - tipico - INFO - [MATCH_FOUND] | Matched KoldingQ (W) vs FC Midtjylland (F)
+2025-08-26 10:37:56 - tipico - INFO - [MATCH_FOUND] | Matched FC Vizela vs UD Oliveirense
+2025-08-26 10:37:56 - tipico - INFO - [MATCH_FOUND] | Matched Uniao de Leiria vs SCU Torreense
+2025-08-26 10:37:56 - tipico - INFO - [MATCH_FOUND] | Matched Sporting Lisbon vs FC Porto
+2025-08-26 10:37:56 - tipico - INFO - [MATCH_FOUND] | Matched Vitoria Guimaraes vs FC Arouca
+2025-08-26 10:37:56 - tipico - INFO - [MATCH_FOUND] | Matched Academico Viseu vs FC Porto B
+2025-08-26 10:37:56 - tipico - INFO - [MATCH_FOUND] | Matched CD Feirense vs Leixoes SC
+2025-08-26 10:37:56 - tipico - INFO - [MATCH_FOUND] | Matched FC Penafiel vs GD Chaves
+2025-08-26 10:37:57 - tipico - INFO - [MATCH_FOUND] | Matched Rio Ave FC vs Sporting Braga
+2025-08-26 10:37:57 - tipico - INFO - [MATCH_FOUND] | Matched CD Santa Clara vs CF Estrela
+2025-08-26 10:37:57 - tipico - INFO - [MATCH_FOUND] | Matched Alverca Futebol vs SL Benfica
+2025-08-26 10:37:57 - tipico - INFO - [MATCH_FOUND] | Matched CD Tondela vs Estoril Praia
+2025-08-26 10:37:57 - tipico - INFO - [MATCH_FOUND] | Matched Avs Futebol Sad vs FC Famalicao
+2025-08-26 10:37:57 - tipico - INFO - [MATCH_FOUND] | Matched Casa Pia AC vs CD Nacional
+2025-08-26 10:37:57 - tipico - INFO - [MATCH_FOUND] | Matched CFR Cluj vs FCSB
+2025-08-26 10:37:57 - tipico - INFO - [MATCH_FOUND] | Matched FC Farul Constanta vs FC Petrolul Ploiesti
+2025-08-26 10:37:58 - tipico - INFO - [MATCH_FOUND] | Matched FC Unirea Alba Iulia vs FC Botosani
+2025-08-26 10:37:58 - tipico - INFO - [MATCH_FOUND] | Matched Politehnica Timisoara vs CS Dinamo Bucuresti
+2025-08-26 10:37:58 - tipico - INFO - [MATCH_FOUND] | Matched FC Voluntari vs FK Csikszereda Miercurea Ciuc
+2025-08-26 10:37:58 - tipico - INFO - [MATCH_FOUND] | Matched FC Politehnica Iasi vs FC Petrolul Ploiesti
+2025-08-26 10:37:58 - tipico - INFO - [MATCH_FOUND] | Matched CS Dinamo Bucuresti vs Acs FC Bacau 2023
+2025-08-26 10:37:58 - tipico - INFO - [MATCH_FOUND] | Matched Chindia Targoviste vs CSC Dumbravita
+2025-08-26 10:37:58 - tipico - INFO - [MATCH_FOUND] | Matched FK Csikszereda Miercurea Ciuc vs FC Otelul Galati
+2025-08-26 10:37:58 - tipico - INFO - [MATCH_FOUND] | Matched CS Corvinul H. vs CSC 1599 Selimbar
+2025-08-26 10:37:58 - tipico - INFO - [MATCH_FOUND] | Matched CSM Olimpia Satu M. vs CSM Slatina
+2025-08-26 10:37:58 - tipico - INFO - [MATCH_FOUND] | Matched CSC Dumbravita vs FC Bihor Oradea
+2025-08-26 10:37:58 - tipico - INFO - [MATCH_FOUND] | Matched CS Sporting Liesti vs CS Afumati
+2025-08-26 10:37:59 - tipico - INFO - [MATCH_FOUND] | Matched FC Bihor Oradea vs CSA Steaua Bucuresti
+2025-08-26 10:37:59 - tipico - INFO - [MATCH_FOUND] | Matched Tunari vs FC Voluntari
+2025-08-26 10:37:59 - tipico - INFO - [MATCH_FOUND] | Matched Slovan Bratislava vs FC Kosice
+2025-08-26 10:37:59 - tipico - INFO - [MATCH_FOUND] | Matched FC Botosani vs CS Univer. Craiova
+2025-08-26 10:37:59 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1050 matches, Success: 1050, Failed: 0
+2025-08-26 10:37:59 - tipico - INFO - [MATCH_FOUND] | Matched Dinamo Bucuresti vs AFC Hermannstadt
+2025-08-26 10:37:59 - tipico - INFO - [MATCH_FOUND] | Matched FC Unirea Slobozia vs FC Universitatea Cluj
+2025-08-26 10:37:59 - tipico - INFO - [MATCH_FOUND] | Matched MFK Ruzomberok vs MSK Zilina
+2025-08-26 10:37:59 - tipico - INFO - [MATCH_FOUND] | Matched Rapid Bucuresti vs FC UTA Arad
+2025-08-26 10:38:00 - tipico - INFO - [MATCH_FOUND] | Matched AS FC Agricola Borcea vs FC Arges Pitesti
+2025-08-26 10:38:00 - tipico - INFO - [MATCH_FOUND] | Matched AFC Metalul Buzau vs Ceahlaul Piatra Neamt
+2025-08-26 10:38:00 - tipico - INFO - [MATCH_FOUND] | Matched CS Sanatatea Cluj vs FC Unirea Slobozia
+2025-08-26 10:38:00 - tipico - INFO - [MATCH_FOUND] | Matched CSA Steaua Bucuresti vs FC UTA Arad
+2025-08-26 10:38:00 - tipico - INFO - [MATCH_FOUND] | Matched FC Politehnica Iasi vs CSM Slatina
+2025-08-26 10:38:00 - tipico - INFO - [MATCH_FOUND] | Matched CSM Resita vs Ceahlaul Piatra Neamt
+2025-08-26 10:38:00 - tipico - INFO - [MATCH_FOUND] | Matched CS Afumati vs AFC Metalul Buzau
+2025-08-26 10:38:01 - tipico - INFO - [MATCH_FOUND] | Matched Tj Spissky Stiavnik vs Slavia TU Kosice
+2025-08-26 10:38:01 - tipico - INFO - [MATCH_FOUND] | Matched FK Spartak Dubnica nad Vahom vs FC Banik HN Prievidza & Handlova
+2025-08-26 10:38:01 - tipico - INFO - [MATCH_FOUND] | Matched OSK Besenova vs MFK Kezmarok
+2025-08-26 10:38:01 - tipico - INFO - [MATCH_FOUND] | Matched Komarno vs MFK Skalica
+2025-08-26 10:38:01 - tipico - INFO - [MATCH_FOUND] | Matched 1. FC Tatran Presov vs AS Trencin
+2025-08-26 10:38:01 - tipico - INFO - [MATCH_FOUND] | Matched Gil Vicente FC vs Moreirense FC
+2025-08-26 10:38:01 - tipico - INFO - [MATCH_FOUND] | Matched UD Leiria U23 vs SL Benfica U23
+2025-08-26 10:38:02 - tipico - INFO - [MATCH_FOUND] | Matched SP. Braga U23 vs FC Vizela U23
+2025-08-26 10:38:02 - tipico - INFO - [MATCH_FOUND] | Matched Academico Viseu U23 vs Leixoes SC U23
+2025-08-26 10:38:02 - tipico - INFO - [MATCH_FOUND] | Matched Sporting Lisbon U23 vs Santa Clara U23
+2025-08-26 10:38:02 - tipico - INFO - [MATCH_FOUND] | Matched Middelfart vs Lyngby BK
+2025-08-26 10:38:02 - tipico - INFO - [MATCH_FOUND] | Matched Kolding IF vs Hillerod Fodbold
+2025-08-26 10:38:02 - tipico - INFO - [MATCH_FOUND] | Matched Hvidovre IF vs Hobro IK
+2025-08-26 10:38:02 - tipico - INFO - [MATCH_FOUND] | Matched Aarhus Fremad vs Aalborg BK
+2025-08-26 10:38:03 - tipico - INFO - [MATCH_FOUND] | Matched Brondby IF vs FC Midtjylland
+2025-08-26 10:38:03 - tipico - INFO - [MATCH_FOUND] | Matched AGF Aarhus vs Fredericia
+2025-08-26 10:38:03 - tipico - INFO - [MATCH_FOUND] | Matched Vejle BK vs Viborg FF
+2025-08-26 10:38:03 - tipico - INFO - [MATCH_FOUND] | Matched Longford Town FC vs Wexford FC
+2025-08-26 10:38:03 - tipico - INFO - [MATCH_FOUND] | Matched UC Dublin vs Bray Wanderers
+2025-08-26 10:38:03 - tipico - INFO - [MATCH_FOUND] | Matched Randers FC vs FC Copenhagen
+2025-08-26 10:38:03 - tipico - INFO - [MATCH_FOUND] | Matched Odense BK vs FC Nordsjalland
+2025-08-26 10:38:03 - tipico - INFO - [MATCH_FOUND] | Matched Silkeborg IF vs Sonderjyske
+2025-08-26 10:38:04 - tipico - INFO - [MATCH_FOUND] | Matched Athlone Town vs Cobh Ramblers
+2025-08-26 10:38:04 - tipico - INFO - [MATCH_FOUND] | Matched Shamrock Rovers FC vs Drogheda United FC
+2025-08-26 10:38:04 - tipico - INFO - [MATCH_FOUND] | Matched Dundalk FC vs Kerry FC
+2025-08-26 10:38:04 - tipico - INFO - [MATCH_FOUND] | Matched Finn Harps FC vs Treaty United
+2025-08-26 10:38:04 - tipico - INFO - [MATCH_FOUND] | Matched Shelbourne FC vs Galway United FC
+2025-08-26 10:38:04 - tipico - INFO - [MATCH_FOUND] | Matched Derry City vs Saint Patrick's
+2025-08-26 10:38:04 - tipico - INFO - [MATCH_FOUND] | Matched Cork City FC vs Waterford FC
+2025-08-26 10:38:04 - tipico - INFO - [MATCH_FOUND] | Matched MKS Cracovia vs KP Legia Warszawa
+2025-08-26 10:38:04 - tipico - INFO - [MATCH_FOUND] | Matched Gyeongnam FC vs Bucheon FC
+2025-08-26 10:38:04 - tipico - INFO - [MATCH_FOUND] | Matched FC Seoul vs FC Anyang
+2025-08-26 10:38:04 - tipico - INFO - [MATCH_FOUND] | Matched WKS Slask Wroclaw vs GKS Tychy 71
+2025-08-26 10:38:05 - tipico - INFO - [MATCH_FOUND] | Matched Gangwon FC vs Pohang Steelers FC
+2025-08-26 10:38:05 - tipico - INFO - [MATCH_FOUND] | Matched Gornik Leczna vs ZKS Stal Rzeszow
+2025-08-26 10:38:05 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1100 matches, Success: 1100, Failed: 0
+2025-08-26 10:38:05 - tipico - INFO - [MATCH_FOUND] | Matched Polonia Bytom vs Wieczysta Krakow
+2025-08-26 10:38:05 - tipico - INFO - [MATCH_FOUND] | Matched MKS Miedz Legnica vs Wisla Krakow SSA
+2025-08-26 10:38:05 - tipico - INFO - [MATCH_FOUND] | Matched Shandong Taishan vs Beijing Guoan FC
+2025-08-26 10:38:05 - tipico - INFO - [MATCH_FOUND] | Matched Wuhan Three Towns FC vs Shanghai Shenhua
+2025-08-26 10:38:05 - tipico - INFO - [MATCH_FOUND] | Matched Yunnan Yukun vs FC Changchun Yatai
+2025-08-26 10:38:05 - tipico - INFO - [MATCH_FOUND] | Matched Shenzhen Peng City  vs Meizhou Hakka
+2025-08-26 10:38:05 - tipico - INFO - [MATCH_FOUND] | Matched Chengdu Rongcheng vs Shanghai Port FC
+2025-08-26 10:38:05 - tipico - INFO - [MATCH_FOUND] | Matched Qingdao Hainiu FC vs Henan FC
+2025-08-26 10:38:05 - tipico - INFO - [MATCH_FOUND] | Matched Lech Poznan vs RTS Widzew Lodz
+2025-08-26 10:38:05 - tipico - INFO - [MATCH_FOUND] | Matched Jagiellonia Bialystok vs KS Lechia Gdansk
+2025-08-26 10:38:06 - tipico - INFO - [MATCH_FOUND] | Matched KS Gornik Zabrze vs LKP Motor Lublin
+2025-08-26 10:38:06 - tipico - INFO - [MATCH_FOUND] | Matched Arka Gdynia 1929 vs Wisla Plock SA
+2025-08-26 10:38:06 - tipico - INFO - [MATCH_FOUND] | Matched Zaglebie Lubin vs GKS Piast Gliwice
+2025-08-26 10:38:06 - tipico - INFO - [MATCH_FOUND] | Matched Termalica B.-Bet N. vs Korona Kielce SA
+2025-08-26 10:38:06 - tipico - INFO - [MATCH_FOUND] | Matched GKS Katowice vs Radomiak Radom
+2025-08-26 10:38:06 - tipico - INFO - [MATCH_FOUND] | Matched Gangwon FC vs Jeonbuk Hyundai
+2025-08-26 10:38:06 - tipico - INFO - [MATCH_FOUND] | Matched Bucheon FC vs Gwangju FC
+2025-08-26 10:38:06 - tipico - INFO - [MATCH_FOUND] | Matched Cheonan City FC vs Seoul E-Land FC
+2025-08-26 10:38:07 - tipico - INFO - [MATCH_FOUND] | Matched Gimpo Citizen FC vs Jeonnam Dragons
+2025-08-26 10:38:07 - tipico - INFO - [MATCH_FOUND] | Matched Busan IPark vs Cheongju FC
+2025-08-26 10:38:07 - tipico - INFO - [MATCH_FOUND] | Matched Incheon United FC vs Chungnam Asan FC
+2025-08-26 10:38:07 - tipico - INFO - [MATCH_FOUND] | Matched Ansan Greeners vs Hwaseong FC
+2025-08-26 10:38:07 - tipico - INFO - Executing 100 bulk tipico_updates operations
+2025-08-26 10:38:07 - tipico - INFO - Bulk tipico_updates completed successfully:
+2025-08-26 10:38:07 - tipico - INFO -   - Modified: 100
+2025-08-26 10:38:07 - tipico - INFO -   - Upserted: 0
+2025-08-26 10:38:07 - tipico - INFO -   - Inserted: 0
+2025-08-26 10:38:07 - tipico - INFO - [MATCH_FOUND] | Matched NK Olimpija Ljubljana vs NK Maribor
+2025-08-26 10:38:07 - tipico - INFO - [MATCH_FOUND] | Matched NK Celje vs NK Domzale
+2025-08-26 10:38:07 - tipico - INFO - [MATCH_FOUND] | Matched NS Mura vs NK Primorje
+2025-08-26 10:38:08 - tipico - INFO - [MATCH_FOUND] | Matched Daejeon Citizen FC vs Gimcheon Sangmu
+2025-08-26 10:38:08 - tipico - INFO - [MATCH_FOUND] | Matched NK Aluminij vs FC Koper
+2025-08-26 10:38:08 - tipico - INFO - [MATCH_FOUND] | Matched NK Kalcer Radomlje vs NK Bravo
+2025-08-26 10:38:08 - tipico - INFO - [MATCH_FOUND] | Matched Ulsan Hyundai vs Jeonbuk Hyundai
+2025-08-26 10:38:08 - tipico - INFO - [MATCH_FOUND] | Matched Club America vs CF Pachuca
+2025-08-26 10:38:08 - tipico - INFO - [MATCH_FOUND] | Matched Jeju United FC vs Gwangju FC
+2025-08-26 10:38:08 - tipico - INFO - [MATCH_FOUND] | Matched Daegu FC vs Suwon FC
+2025-08-26 10:38:08 - tipico - INFO - [MATCH_FOUND] | Matched SC Poltava vs FC Zorya Lugansk
+2025-08-26 10:38:09 - tipico - INFO - [MATCH_FOUND] | Matched Club Leon vs Querétaro F.C.
+2025-08-26 10:38:09 - tipico - INFO - [MATCH_FOUND] | Matched Puebla FC vs CF Monterrey
+2025-08-26 10:38:09 - tipico - INFO - [MATCH_FOUND] | Matched Santos Laguna vs Tigres UANL
+2025-08-26 10:38:09 - tipico - INFO - [MATCH_FOUND] | Matched Leones Neg. UDeG vs Tlaxcala FC
+2025-08-26 10:38:09 - tipico - INFO - [MATCH_FOUND] | Matched CA Morelia vs Mineros Zacatecas
+2025-08-26 10:38:09 - tipico - INFO - [MATCH_FOUND] | Matched Alebrijes Oaxaca vs Venados FC
+2025-08-26 10:38:10 - tipico - INFO - [MATCH_FOUND] | Matched CA La Paz vs Dorados de Sinaloa
+2025-08-26 10:38:10 - tipico - INFO - [MATCH_FOUND] | Matched Correcaminos UAT vs Tepatitlan FC
+2025-08-26 10:38:10 - tipico - INFO - [MATCH_FOUND] | Matched CD Tapatio vs Atlante FC
+2025-08-26 10:38:10 - tipico - INFO - [MATCH_FOUND] | Matched CF Pachuca (W) vs Atlas FC (W)
+2025-08-26 10:38:10 - tipico - INFO - [MATCH_FOUND] | Matched Cruz Azul FC (W) vs Deportivo Toluca (W)
+2025-08-26 10:38:11 - tipico - INFO - [MATCH_FOUND] | Matched Coleraine FC vs FC Linfield
+2025-08-26 10:38:11 - tipico - INFO - [MATCH_FOUND] | Matched Ethnikos Achnas FC vs AC Omonia Nicosia
+2025-08-26 10:38:11 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1150 matches, Success: 1150, Failed: 0
+2025-08-26 10:38:11 - tipico - INFO - [MATCH_FOUND] | Matched AEK Larnaca FC vs AEL Limassol FC
+2025-08-26 10:38:12 - tipico - INFO - [MATCH_FOUND] | Matched Omonia Aradippou vs Aris Limassol FC
+2025-08-26 10:38:12 - tipico - INFO - [MATCH_FOUND] | Matched FC Glentoran Belfast vs Carrick Rangers FC
+2025-08-26 10:38:12 - tipico - INFO - [MATCH_FOUND] | Matched Cliftonville FC vs Glenavon FC
+2025-08-26 10:38:12 - tipico - INFO - [MATCH_FOUND] | Matched Guarani FC vs Gen. Caballero JLM
+2025-08-26 10:38:12 - tipico - INFO - [MATCH_FOUND] | Matched Libertad Asuncion vs Cerro Porteno
+2025-08-26 10:38:12 - tipico - INFO - [MATCH_FOUND] | Matched FC Portadown vs Crusaders FC
+2025-08-26 10:38:13 - tipico - INFO - [MATCH_FOUND] | Matched Encarnacion FC vs CS 2 de Mayo
+2025-08-26 10:38:13 - tipico - INFO - [MATCH_FOUND] | Matched CD Recoleta vs CS 2 de Mayo
+2025-08-26 10:38:13 - tipico - INFO - [MATCH_FOUND] | Matched Inter Miami CF vs Orlando City SC
+2025-08-26 10:38:13 - tipico - INFO - [MATCH_FOUND] | Matched LA Galaxy vs Seattle Sounders
+2025-08-26 10:38:13 - tipico - INFO - [MATCH_FOUND] | Matched CA Tembetary vs Sportivo Trinidense
+2025-08-26 10:38:13 - tipico - INFO - [MATCH_FOUND] | Matched Juventud LP vs CA Cerro
+2025-08-26 10:38:14 - tipico - INFO - [MATCH_FOUND] | Matched CA River Plate MTV vs Nacional de Football
+2025-08-26 10:38:14 - tipico - INFO - [MATCH_FOUND] | Matched Liverpool FC vs Defensor Sporting
+2025-08-26 10:38:14 - tipico - INFO - [MATCH_FOUND] | Matched Danubio FC vs Miramar Misiones
+2025-08-26 10:38:14 - tipico - INFO - [MATCH_FOUND] | Matched Rio Negro de San Jose vs CA Penarol
+2025-08-26 10:38:14 - tipico - INFO - [MATCH_FOUND] | Matched CA Bella Vista vs Juventud LP
+2025-08-26 10:38:14 - tipico - INFO - [MATCH_FOUND] | Matched Universitario Salto vs MTV Wanderers
+2025-08-26 10:38:14 - tipico - INFO - [MATCH_FOUND] | Matched Huracan Uru. vs Nacional de Football
+2025-08-26 10:38:15 - tipico - INFO - [MATCH_FOUND] | Matched Indep. Santa Fe vs Once Caldas
+2025-08-26 10:38:15 - tipico - INFO - [MATCH_FOUND] | Matched Deportes Tolima vs Fortaleza FC
+2025-08-26 10:38:15 - tipico - INFO - [MATCH_FOUND] | Matched Alianza Valledupar vs America de Cali
+2025-08-26 10:38:15 - tipico - INFO - [MATCH_FOUND] | Matched Deportivo Cali vs Indep. Medellin
+2025-08-26 10:38:15 - tipico - INFO - [MATCH_FOUND] | Matched Deportivo Pereira vs Atl. Bucaramanga
+2025-08-26 10:38:15 - tipico - INFO - [MATCH_FOUND] | Matched Deportivo La Equidad vs Deportivo Pasto
+2025-08-26 10:38:15 - tipico - INFO - [MATCH_FOUND] | Matched Atletico Nacional vs Envigado FC
+2025-08-26 10:38:15 - tipico - INFO - [MATCH_FOUND] | Matched Aguilas Doradas vs Millonarios FC
+2025-08-26 10:38:16 - tipico - INFO - [MATCH_FOUND] | Matched La Luz FC vs CA Rentistas
+2025-08-26 10:38:16 - tipico - INFO - [MATCH_FOUND] | Matched Club Atletico Junior vs Llaneros FC
+2025-08-26 10:38:16 - tipico - INFO - [MATCH_FOUND] | Matched Alianza Valledupar vs Indep. Santa Fe
+2025-08-26 10:38:16 - tipico - INFO - [MATCH_FOUND] | Matched Bogota FC vs Cucuta Deportivo
+2025-08-26 10:38:16 - tipico - INFO - [MATCH_FOUND] | Matched JEF United Chiba vs Ventforet Kofu
+2025-08-26 10:38:16 - tipico - INFO - [MATCH_FOUND] | Matched FC Imabari vs Iwaki FC
+2025-08-26 10:38:16 - tipico - INFO - [MATCH_FOUND] | Matched Kataller Toyama vs Roasso Kumamoto
+2025-08-26 10:38:16 - tipico - INFO - [MATCH_FOUND] | Matched Mito Hollyhock vs Renofa Yamaguchi
+2025-08-26 10:38:17 - tipico - INFO - [MATCH_FOUND] | Matched Consadole Sapporo vs Omiya Ardija
+2025-08-26 10:38:17 - tipico - INFO - [MATCH_FOUND] | Matched Atl. Bucaramanga vs America de Cali
+2025-08-26 10:38:17 - tipico - INFO - [MATCH_FOUND] | Matched Fortaleza FC vs Indep. Medellin
+2025-08-26 10:38:17 - tipico - INFO - [MATCH_FOUND] | Matched Atletico Nacional vs Deportes Quindio
+2025-08-26 10:38:17 - tipico - INFO - [MATCH_FOUND] | Matched Real Cartagena vs Millonarios FC
+2025-08-26 10:38:17 - tipico - INFO - [MATCH_FOUND] | Matched Delfin SC vs Libertad
+2025-08-26 10:38:18 - tipico - INFO - [MATCH_FOUND] | Matched Club Atletico Junior vs Atletico FC
+2025-08-26 10:38:18 - tipico - INFO - [MATCH_FOUND] | Matched CD Cuenca vs Orense SC
+2025-08-26 10:38:18 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1200 matches, Success: 1200, Failed: 0
+2025-08-26 10:38:18 - tipico - INFO - [MATCH_FOUND] | Matched Urawa Red Diamonds vs Niigata Albirex
+2025-08-26 10:38:18 - tipico - INFO - [MATCH_FOUND] | Matched Shonan Bellmare vs Gamba Osaka
+2025-08-26 10:38:18 - tipico - INFO - [MATCH_FOUND] | Matched Nagoya Grampus vs FC Tokyo
+2025-08-26 10:38:18 - tipico - INFO - [MATCH_FOUND] | Matched Kawasaki Frontale vs Machida Zelvia
+2025-08-26 10:38:18 - tipico - INFO - [MATCH_FOUND] | Matched Montrose FC vs Forfar Athletic
+2025-08-26 10:38:19 - tipico - INFO - [MATCH_FOUND] | Matched Inverness CT vs Aberdeen FC B
+2025-08-26 10:38:19 - tipico - INFO - [MATCH_FOUND] | Matched Kelty Hearts F.c. vs Celtic Glasgow B
+2025-08-26 10:38:19 - tipico - INFO - [MATCH_FOUND] | Matched Elgin City vs Dundee United B
+2025-08-26 10:38:19 - tipico - INFO - [MATCH_FOUND] | Matched East Kilbride vs Motherwell B
+2025-08-26 10:38:19 - tipico - INFO - [MATCH_FOUND] | Matched Queens Park R. U21 vs Fleetwood Town U21
+2025-08-26 10:38:19 - tipico - INFO - [MATCH_FOUND] | Matched Millwall U21 vs Crewe Alexandra U21
+2025-08-26 10:38:19 - tipico - INFO - [MATCH_FOUND] | Matched Kashiwa Reysol vs Avispa Fukuoka
+2025-08-26 10:38:19 - tipico - INFO - [MATCH_FOUND] | Matched Cerezo Osaka vs Sanfrecce Hiroshima
+2025-08-26 10:38:19 - tipico - INFO - [MATCH_FOUND] | Matched Shimizu S-Pulse vs Kashima Antlers
+2025-08-26 10:38:20 - tipico - INFO - [MATCH_FOUND] | Matched Vissel Kobe vs Yokohama F Marinos
+2025-08-26 10:38:20 - tipico - INFO - [MATCH_FOUND] | Matched Kyoto Sanga FC vs Fagiano Okayama
+2025-08-26 10:38:20 - tipico - INFO - [MATCH_FOUND] | Matched Yokohama FC vs Tokyo Verdy
+2025-08-26 10:38:20 - tipico - INFO - [MATCH_FOUND] | Matched East Fife FC vs Kilmarnock FC B
+2025-08-26 10:38:20 - tipico - INFO - [MATCH_FOUND] | Matched Cove Rangers FC vs Dundee FC B
+2025-08-26 10:38:20 - tipico - INFO - [MATCH_FOUND] | Matched Annan Athletic vs Stenhousemuir FC
+2025-08-26 10:38:20 - tipico - INFO - [MATCH_FOUND] | Matched Alloa Athletic FC vs St Mirren B
+2025-08-26 10:38:21 - tipico - INFO - [MATCH_FOUND] | Matched Al Muaither vs Al Waab
+2025-08-26 10:38:21 - tipico - INFO - [MATCH_FOUND] | Matched Lusail City vs Al Khor
+2025-08-26 10:38:21 - tipico - INFO - [MATCH_FOUND] | Matched AL Mesaimeer vs Al Kharaitiyat SC
+2025-08-26 10:38:21 - tipico - INFO - [MATCH_FOUND] | Matched Charlton Athletic U21 vs Barnsley U21
+2025-08-26 10:38:21 - tipico - INFO - [MATCH_FOUND] | Matched Cardiff City U21 vs Wigan Athletic U21
+2025-08-26 10:38:21 - tipico - INFO - [MATCH_FOUND] | Matched Al Bidda SC vs Al Markhiya
+2025-08-26 10:38:21 - tipico - INFO - [MATCH_FOUND] | Matched Colchester Utd U21 vs Coventry City U21
+2025-08-26 10:38:21 - tipico - INFO - [MATCH_FOUND] | Matched Bristol City U21 vs Sheffield Wednesday U21
+2025-08-26 10:38:21 - tipico - INFO - [MATCH_FOUND] | Matched FC Pakhtakor  vs Mash'al Mubarek
+2025-08-26 10:38:21 - tipico - INFO - [MATCH_FOUND] | Matched Exeter C. U21 vs Luton Town U21
+2025-08-26 10:38:21 - tipico - INFO - [MATCH_FOUND] | Matched Dundee FC vs Dundee United
+2025-08-26 10:38:21 - tipico - INFO - Executing 100 bulk tipico_updates operations
+2025-08-26 10:38:22 - tipico - INFO - Bulk tipico_updates completed successfully:
+2025-08-26 10:38:22 - tipico - INFO -   - Modified: 100
+2025-08-26 10:38:22 - tipico - INFO -   - Upserted: 0
+2025-08-26 10:38:22 - tipico - INFO -   - Inserted: 0
+2025-08-26 10:38:22 - tipico - INFO - [MATCH_FOUND] | Matched Rangers FC vs Celtic FC
+2025-08-26 10:38:22 - tipico - INFO - [MATCH_FOUND] | Matched Motherwell FC vs Kilmarnock FC
+2025-08-26 10:38:22 - tipico - INFO - [MATCH_FOUND] | Matched St Johnstone FC vs Greenock Morton FC
+2025-08-26 10:38:23 - tipico - INFO - [MATCH_FOUND] | Matched Partick Thistle FC vs Raith Rovers FC
+2025-08-26 10:38:23 - tipico - INFO - [MATCH_FOUND] | Matched Hamilton Academical vs Cove Rangers FC
+2025-08-26 10:38:23 - tipico - INFO - [MATCH_FOUND] | Matched Stenhousemuir FC vs East Fife FC
+2025-08-26 10:38:23 - tipico - INFO - [MATCH_FOUND] | Matched Queen Of South vs Kelty Hearts F.c.
+2025-08-26 10:38:23 - tipico - INFO - [MATCH_FOUND] | Matched Montrose FC vs Peterhead FC
+2025-08-26 10:38:23 - tipico - INFO - [MATCH_FOUND] | Matched Dunfermline Athletic vs Ross County FC
+2025-08-26 10:38:23 - tipico - INFO - [MATCH_FOUND] | Matched Arbroath FC vs Airdrieonians FC
+2025-08-26 10:38:24 - tipico - INFO - [MATCH_FOUND] | Matched Spartans FC vs Annan Athletic
+2025-08-26 10:38:24 - tipico - INFO - [MATCH_FOUND] | Matched East Kilbride vs Forfar Athletic
+2025-08-26 10:38:24 - tipico - INFO - [MATCH_FOUND] | Matched Inverness CT vs Alloa Athletic FC
+2025-08-26 10:38:24 - tipico - INFO - [MATCH_FOUND] | Matched Dumbarton FC vs Edinburgh City
+2025-08-26 10:38:24 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1250 matches, Success: 1250, Failed: 0
+2025-08-26 10:38:24 - tipico - INFO - [MATCH_FOUND] | Matched Clyde FC vs Elgin City
+2025-08-26 10:38:24 - tipico - INFO - [MATCH_FOUND] | Matched Union La Calera vs CD Palestino
+2025-08-26 10:38:24 - tipico - INFO - [MATCH_FOUND] | Matched Everton Vina Del Mar vs Deportes La Serena
+2025-08-26 10:38:24 - tipico - INFO - [MATCH_FOUND] | Matched Adr Jicaral vs AD Rosario
+2025-08-26 10:38:24 - tipico - INFO - [MATCH_FOUND] | Matched Guadelupe FC vs Aserri FC
+2025-08-26 10:38:29 - tipico - INFO - [MATCH_FOUND] | Matched Bolivar vs The Strongest
+2025-08-26 10:38:29 - tipico - INFO - [PROGRESS_UPDATE] | Processed 1300 matches, Success: 1300, Failed: 0
+2025-08-26 10:38:29 - tipico - INFO - [MATCH_FOUND] | Matched Dagon Port FC vs Shan United FC
+2025-08-26 10:38:29 - tipico - INFO - [MATCH_FOUND] | Matched Ac. del Balompie vs Always Ready
+2025-08-26 10:38:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:38:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 1 matches in league
+2025-08-26 10:38:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 8 matches in league
+2025-08-26 10:38:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 11 matches in league
+2025-08-26 10:38:29 - tipico - INFO - [LEAGUE_MATCHES_EXTRACTED] | Found 6 matches in league
+2025-08-26 10:38:30 - tipico - INFO - [MATCH_FOUND] | Matched 1 FC Slovacko vs FK Jablonec
+2025-08-26 10:38:30 - tipico - INFO - [MATCH_FOUND] | Matched Pardubice vs Bohemians 1905
+2025-08-26 10:38:30 - tipico - INFO - [MATCH_FOUND] | Matched MFK Karvina vs FK Teplice
+2025-08-26 10:38:30 - tipico - INFO - [MATCH_FOUND] | Matched FC Slovan Liberec vs FC Viktoria Plzen
+2025-08-26 10:38:30 - tipico - INFO - [MATCH_FOUND] | Matched FK Mlada Boleslav vs SK Slavia Prague
+2025-08-26 10:38:30 - tipico - INFO - [MATCH_FOUND] | Matched Dukla Prague vs FC Hradec Kralove
+2025-08-26 10:38:30 - tipico - INFO - [MATCH_FOUND] | Matched SK Sigma Olomouc vs FC Banik Ostrava
+2025-08-26 10:38:30 - tipico - INFO - [MATCH_FOUND] | Matched SK Kladno vs Ceske Budejovice
+2025-08-26 10:38:31 - tipico - INFO - [MATCH_FOUND] | Matched AC Sparta Prague vs FC Zlin
+2025-08-26 10:38:31 - tipico - INFO - [MATCH_FOUND] | Matched Slovan Velvary vs FK Teplice
+2025-08-26 10:38:31 - tipico - INFO - [MATCH_FOUND] | Matched Ceska Lipa vs Pardubice
+2025-08-26 10:38:31 - tipico - INFO - [MATCH_FOUND] | Matched Fotbal Trinec vs 1.SK Prostejov
+2025-08-26 10:38:31 - tipico - INFO - [MATCH_FOUND] | Matched Admira Prague vs FK Jablonec
+2025-08-26 10:38:31 - tipico - INFO - [MATCH_FOUND] | Matched Horni Redice vs SK Aritma Praha
+2025-08-26 10:38:31 - tipico - INFO - [MATCH_FOUND] | Matched AS Monaco vs Racing Strasbourg
+2025-08-26 10:38:31 - tipico - INFO - [MATCH_FOUND] | Matched FC Lorient vs Lille OSC
+2025-08-26 10:38:31 - tipico - INFO - [MATCH_FOUND] | Matched Seraing United vs ROC Charleroi
+2025-08-26 10:38:31 - tipico - INFO - [MATCH_FOUND] | Matched FC Toulouse vs Paris St Germain
+2025-08-26 10:38:32 - tipico - INFO - [MATCH_FOUND] | Matched RC Lens vs Stade Brest 29
+2025-08-26 10:38:32 - tipico - INFO - [MATCH_FOUND] | Matched FC Nantes vs AJ Auxerre
+2025-08-26 10:38:32 - tipico - INFO - [MATCH_FOUND] | Matched Angers SCO vs Stade Rennes
+2025-08-26 10:38:32 - tipico - INFO - [MATCH_FOUND] | Matched SK Beveren vs Jong KAA Gent
+2025-08-26 10:38:32 - tipico - INFO - [MATCH_FOUND] | Matched KAS Eupen vs RSC Anderlecht Futures
+2025-08-26 10:38:32 - tipico - INFO - [MATCH_FOUND] | Matched Olympique Lyon vs Olympique Marseille
+2025-08-26 10:38:33 - tipico - INFO - [MATCH_FOUND] | Matched Paris FC vs FC Metz
+2025-08-26 10:38:33 - tipico - INFO - [MATCH_FOUND] | Matched K Beerschot VA vs Lierse Kempenzonen
+2025-08-26 10:38:33 - tipico - INFO - [MATCH_FOUND] | Matched Le Havre AC vs OGC Nice
+2025-08-26 10:38:47 - tipico - INFO - [FINAL_BULK_UPDATE] | Executing final 49 bulk operations
+2025-08-26 10:38:47 - tipico - INFO - Executing 49 bulk tipico_updates operations
+2025-08-26 10:38:47 - tipico - INFO - Bulk tipico_updates completed successfully:
+2025-08-26 10:38:47 - tipico - INFO -   - Modified: 49
+2025-08-26 10:38:47 - tipico - INFO -   - Upserted: 0
+2025-08-26 10:38:47 - tipico - INFO -   - Inserted: 0
+2025-08-26 10:38:47 - tipico - INFO - [SCRAPER_COMPLETED] Matches: 1333 | Tipico scraper completed successfully
+2025-08-26 10:38:47 - tipico - INFO - [FINAL_STATS] | Total: 1333, Success: 1333, Failed: 0, Unique odds: 7

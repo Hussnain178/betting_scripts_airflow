@@ -97,7 +97,8 @@
     "3-way moneyline - first half",
     "1st half",
     "1st half 3-way",
-    "1st half - including overtime"
+    "1st half - including overtime",
+    "half time 3-way"
   ],
   "__v": 0,
   "createdAt": {
@@ -879,7 +880,6 @@
     "spread-game",
     "point spread - points - match",
     "runline - game",
-    "game handicap",
     "alternate game spread - match",
     "game spread - match",
     "point spread - game",
@@ -893,7 +893,8 @@
     "point spread - including overtime",
     "goal spread - extra time",
     "handicap - points - match",
-    "handicap"
+    "handicap",
+    "game handicap"
   ],
   "__v": 0,
   "createdAt": {
@@ -1210,7 +1211,6 @@
     "over/under points",
     "total points",
     "total",
-    "total pass completions by the player - including overtime",
     "points-more-less-than",
     "total points - game",
     "total points - match",
@@ -1236,7 +1236,8 @@
     "total goals o/u - game",
     "total goals o/u - odd",
     "over/under remaining time",
-    "total receptions by the player - including overtime"
+    "total receptions by the player - including overtime",
+    "total pass completions by the player - including overtime"
   ],
   "__v": 0,
   "createdAt": {
@@ -1276,7 +1277,6 @@
   "maps": [
     "total goals - 1st half",
     "1--half-over-under",
-    "over/under remaining time in the half",
     "ou-1h",
     "1st-half---over-under",
     "over-under-1st-half",
@@ -1285,7 +1285,8 @@
     "total points - first half",
     "1. half over/under",
     "total-1st half",
-    "total points - 1st half - including overtime"
+    "total points - 1st half - including overtime",
+    "over/under remaining time in the half"
   ],
   "__v": 0,
   "createdAt": {
@@ -3513,8 +3514,7 @@
     }
   ],
   "maps": [
-    "set handicap",
-
+    "set handicap"
   ],
   "__v": 0,
   "createdAt": {
@@ -8946,7 +8946,7 @@
   },
   "id": "correct-score-quarter-1",
   "act": true,
-  "ovs": []
+  "ovs": [],
   "maps": [
     "correct-score-1st-quarter",
     "correct score - quarter 1"

@@ -371,28 +371,30 @@ def check_key(name):
     not_used_key = ['scoreless', 'never', 'niether', 'total runs', 'retain','corner','odd/even',' bands ',
                     ':', '0:','penalty', 'target', 'shots', 'series', 'yellow', 'super over','blocks ',
                     'header', '4s', 'touchdown', 'of the match',  '6s', 'fifty','successful','cards',
-                    'century', "player's total runs",  'retain','through','to go ','halfback','steals ',
+                    'century', "player's total runs",'through','to go ','halfback','steals ',
                     'performance', 'converted', 'listed', 'center', 'margin',  'either', 'hc ', 'runs ',
-                    'rushing',  'yards', 'receving', '(', ')','tiebreak','caught','individual',
-                    'deuce', 'next', 'touchdowns', 'range', 'will', '?', 'did', 'does', 'hour', 'minute', 'halves','scorer',
+                    'rushing',  'yards', 'receiving', '(', ')','tiebreak','caught','individual',
+                    'deuce', 'next', 'range', 'will', '?', 'did', 'does', 'hour', 'minute', 'halves','scorer',
                     ' end', ' get', ' own', ' award', ' kick', ' hero', ' tries', ' more', ' last', ' given',
                     ' red', ' most', ' try', ' out', ' tie', ' break', ' win', ' side', ' four',' and','and ',
                     ' sixes', ' top', ' lead', ' race', ' stats', 'end ', 'get ', 'own ', 'award ', 'kick ',
                     'hero ', 'tries ', 'more ', 'last ', 'given ', 'red ', 'most ', 'try ', 'out ', 'tie ', 'break ',
                     'win ', 'side ', 'four ', 'sixes ', 'top ', 'lead ', 'race ', 'stats ','offsides',
                     'betting', '&', '1 .ht', '1. ht', '1.ht', 'number of runs in match', 'how', 'which', 'who',
-                    'result',  'halftime', 'legs', 'half time', 'full time','halftime', 'fulltime',
-                    'tackles', 'attempts', 'final', 'frame', 'wides', 'highest',  'assists', 'made', 'home', 'away', 'rebounds', 'milestones', 'qualify', 'exact',
-                    'bottom',  'wicket', 'at least', 'at end', 'at the end', 'before', 'after', 'fulltime',
+                    'result',  'legs','away', 'rebounds', 'milestones', 'qualify', 'exact',
+                    'tackles', 'attempts', 'final', 'frame', 'wides', 'highest',  'assists', 'made', 'home',
+                    'bottom',  'wicket', 'at least', 'at end', 'at the end', 'before', 'after',
                    'specials', 'squares', 'puck', 'record','first team','first-team','last team','last-team']
     for word in not_used_key:
         if word in name.lower():
             l=1
 
-    excat_not_used=['total match points','to score','total offsides ','set betting']
+    excat_not_used=['total match points','to score','total offsides ','set betting','halftime score']
     if name.lower() in excat_not_used:
         return False
-    if not any(word in name.lower() for word in not_used_key) :
+    if not any(word in name.lower() for word in not_used_key):
+        if 'half' in name.lower() and 'full' in name.lower() and 'time' in name.lower():
+            return False
         if 'set' in name.lower() and 'point' in name.lower():
             for number in range(40):
                 if f'point {str(number)}' in name.lower():
@@ -440,8 +442,8 @@ def check_header_name(key):
     for repl in conversion_list:
         original_key = original_key.replace(repl, '')
 
-    checked = ['top', 'wicket', 'halftime', 'at least', 'at end', 'at the end',
-               'before', 'after', 'fulltime', 'lead']
+    checked = ['top', 'wicket', 'at least', 'at end', 'at the end',
+               'before', 'after', 'lead']
     if not any(word in key.lower() for word in checked):
         half_data = ['half', '. h', ' .h']
         key = key.replace(' ', '').replace('-', '')

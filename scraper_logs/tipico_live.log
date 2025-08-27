@@ -336,3 +336,31 @@
 2025-08-25 14:59:55 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
 2025-08-25 14:59:55 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
 2025-08-25 14:59:55 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-26 10:16:57 - tipico_live - INFO - Logger initialized for tipico_live scraper
+2025-08-26 10:16:57 - tipico_live - INFO - Log file: scraper_logs/tipico_live.log
+2025-08-26 10:16:57 - tipico_live - INFO - [INIT] | Initializing Tipico Live scraper
+2025-08-26 10:16:57 - tipico_live - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings for live matches
+2025-08-26 10:16:59 - tipico_live - INFO - [START] | Starting Tipico Live navigation scraping
+2025-08-26 10:17:01 - tipico_live - INFO - [LIVE_NAVIGATION_PARSED] | Found 21 sports categories for live matches
+2025-08-26 10:17:01 - tipico_live - INFO - [LIVE_SPORTS_QUEUED] | Queued live match requests for 21 sports
+2025-08-26 10:17:01 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 3 live matches
+2025-08-26 10:17:02 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-26 10:17:02 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-26 10:17:02 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-26 10:17:02 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-26 10:17:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-26 10:17:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-26 10:17:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-26 10:17:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-26 10:17:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-26 10:17:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-26 10:17:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-26 10:17:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-26 10:17:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-26 10:17:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-26 10:17:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-26 10:17:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-26 10:17:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-26 10:17:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-26 10:17:03 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches
+2025-08-26 10:17:04 - tipico_live - INFO - [LIVE_MATCHES_EXTRACTED] | Found 0 live matches

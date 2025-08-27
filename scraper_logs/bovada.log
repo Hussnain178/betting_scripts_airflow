@@ -4011,3 +4011,1619 @@
 2025-08-25 16:28:54 - bovada - INFO - [INIT] | Initializing Bovada scraper
 2025-08-25 16:28:54 - bovada - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings, 293 countries
 2025-08-25 16:28:56 - bovada - INFO - [START] | Starting Bovada navigation scraping
+2025-08-26 10:16:50 - bovada - INFO - Logger initialized for bovada scraper
+2025-08-26 10:16:50 - bovada - INFO - Log file: scraper_logs/bovada.log
+2025-08-26 10:16:50 - bovada - INFO - [INIT] | Initializing Bovada scraper
+2025-08-26 10:16:51 - bovada - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings, 293 countries
+2025-08-26 10:16:53 - bovada - INFO - [START] | Starting Bovada navigation scraping
+2025-08-26 10:16:55 - bovada - INFO - [NAVIGATION_PARSED] | Found 27 sport categories
+2025-08-26 10:16:55 - bovada - INFO - [SPORTS_FILTERED] | Processing 14 valid sports out of 27
+2025-08-26 10:16:56 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 14 subcategories for Snooker
+2025-08-26 10:16:57 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 2 subcategories for Snooker
+2025-08-26 10:16:57 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 3 subcategories for Snooker
+2025-08-26 10:16:57 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 18 subcategories for Snooker
+2025-08-26 10:16:57 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 1 subcategories for Snooker
+2025-08-26 10:16:58 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 8 subcategories for Snooker
+2025-08-26 10:16:58 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 3 subcategories for Snooker
+2025-08-26 10:16:58 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 2 subcategories for Snooker
+2025-08-26 10:16:58 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 4 subcategories for Snooker
+2025-08-26 10:16:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:16:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:16:59 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 10 subcategories for Snooker
+2025-08-26 10:16:59 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 6 subcategories for Snooker
+2025-08-26 10:16:59 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 9 subcategories for Snooker
+2025-08-26 10:16:59 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 6 subcategories for Snooker
+2025-08-26 10:16:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:16:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:17:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 10 matches from league
+2025-08-26 10:17:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:17:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:17:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:17:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:17:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:17:02 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:17:02 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:02 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:17:03 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 9 matches from league
+2025-08-26 10:17:03 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:03 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:17:03 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:17:04 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:17:04 - bovada - INFO - [PROGRESS_UPDATE] | Processed 50 matches, Success: 50, Failed: 0
+2025-08-26 10:17:04 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 13 matches from league
+2025-08-26 10:17:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:06 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:17:06 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:06 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:06 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:06 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:07 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 44 matches from league
+2025-08-26 10:17:10 - bovada - INFO - [PROGRESS_UPDATE] | Processed 100 matches, Success: 100, Failed: 0
+2025-08-26 10:17:11 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:17:11 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:11 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:11 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:11 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:12 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:12 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:12 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:12 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:12 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:12 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:12 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 15 matches from league
+2025-08-26 10:17:14 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:14 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:17:14 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:14 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:17:14 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:14 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:14 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:17:15 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:17:15 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:15 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:15 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:17:15 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:17:15 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:17:16 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:17:16 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:17:17 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:17:17 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 22 matches from league
+2025-08-26 10:35:05 - bovada - INFO - Logger initialized for bovada scraper
+2025-08-26 10:35:05 - bovada - INFO - Log file: scraper_logs/bovada.log
+2025-08-26 10:35:05 - bovada - INFO - [INIT] | Initializing Bovada scraper
+2025-08-26 10:35:05 - bovada - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings, 293 countries
+2025-08-26 10:35:06 - bovada - INFO - [START] | Starting Bovada navigation scraping
+2025-08-26 10:38:17 - bovada - INFO - Logger initialized for bovada scraper
+2025-08-26 10:38:17 - bovada - INFO - Log file: scraper_logs/bovada.log
+2025-08-26 10:38:17 - bovada - INFO - [INIT] | Initializing Bovada scraper
+2025-08-26 10:38:17 - bovada - INFO - [INIT_COMPLETE] | Loaded 259 odds mappings, 293 countries
+2025-08-26 10:38:18 - bovada - INFO - [START] | Starting Bovada navigation scraping
+2025-08-26 10:38:21 - bovada - INFO - [NAVIGATION_PARSED] | Found 27 sport categories
+2025-08-26 10:38:21 - bovada - INFO - [SPORTS_FILTERED] | Processing 14 valid sports out of 27
+2025-08-26 10:38:22 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 10 subcategories for Snooker
+2025-08-26 10:38:23 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 9 subcategories for Snooker
+2025-08-26 10:38:24 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 1 subcategories for Snooker
+2025-08-26 10:38:24 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 6 subcategories for Snooker
+2025-08-26 10:38:24 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 18 subcategories for Snooker
+2025-08-26 10:38:24 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 4 subcategories for Snooker
+2025-08-26 10:38:24 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 14 subcategories for Snooker
+2025-08-26 10:38:24 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 8 subcategories for Snooker
+2025-08-26 10:38:24 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 2 subcategories for Snooker
+2025-08-26 10:38:24 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 2 subcategories for Snooker
+2025-08-26 10:38:24 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:38:24 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:24 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:24 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:24 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 3 subcategories for Snooker
+2025-08-26 10:38:25 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 3 subcategories for Snooker
+2025-08-26 10:38:25 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:25 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:25 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:25 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:38:25 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:25 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:25 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 6 subcategories for Snooker
+2025-08-26 10:38:25 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:25 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:38:30 - bovada - INFO - [MATCH_FOUND] | Matched Leigh Centurions vs Castleford Tigers
+2025-08-26 10:38:30 - bovada - INFO - [MATCH_FOUND] | Matched Hull KR vs St Helens
+2025-08-26 10:38:30 - bovada - INFO - [MATCH_FOUND] | Matched Hull FC vs Leeds Rhinos
+2025-08-26 10:38:30 - bovada - INFO - [MATCH_FOUND] | Matched Wakefield Trinity vs Huddersfield Giants
+2025-08-26 10:38:30 - bovada - INFO - [MATCH_FOUND] | Matched Catalans Dragons vs Wigan Warriors
+2025-08-26 10:38:31 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:31 - bovada - INFO - [MATCH_FOUND] | Matched Canada vs Namibia
+2025-08-26 10:38:31 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 9 matches from league
+2025-08-26 10:38:31 - bovada - INFO - [MATCH_FOUND] | Matched Canterbury Bulldogs vs Penrith Panthers
+2025-08-26 10:38:31 - bovada - INFO - [MATCH_FOUND] | Matched New Zealand Warriors vs Parramatta Eels
+2025-08-26 10:38:31 - bovada - INFO - [MATCH_FOUND] | Matched Melbourne Storm vs Sydney Roosters
+2025-08-26 10:38:31 - bovada - INFO - [MATCH_FOUND] | Matched Canberra Raiders vs Wests Tigers
+2025-08-26 10:38:31 - bovada - INFO - [MATCH_FOUND] | Matched St George Illawarra Dragons vs Manly Sea Eagles
+2025-08-26 10:38:31 - bovada - INFO - [MATCH_FOUND] | Matched North Queensland Cowboys vs Brisbane Broncos
+2025-08-26 10:38:31 - bovada - INFO - [MATCH_FOUND] | Matched Cronulla Sharks vs Newcastle Knights
+2025-08-26 10:38:31 - bovada - INFO - [MATCH_FOUND] | Matched Dolphins vs Gold Coast Titans
+2025-08-26 10:38:31 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:31 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:31 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:31 - bovada - INFO - [MATCH_FOUND] | Matched Papua New Guinea vs Kenya
+2025-08-26 10:38:31 - bovada - INFO - [MATCH_FOUND] | Matched Qatar vs Denmark
+2025-08-26 10:38:31 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:38:31 - bovada - INFO - [MATCH_FOUND] | Matched St Lucia Kings vs Guyana Amazon Warriors
+2025-08-26 10:38:31 - bovada - INFO - [MATCH_FOUND] | Matched Trinbago Knight Riders vs Antigua And Barbuda Falcons
+2025-08-26 10:38:31 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:32 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:32 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:32 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:32 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:32 - bovada - INFO - [MATCH_FOUND] | Matched Gulbarga Mystics vs Bengaluru Blasters
+2025-08-26 10:38:32 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:32 - bovada - INFO - [SUBCATEGORY_PARSED] | Found 18 subcategories for Snooker
+2025-08-26 10:38:32 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:38:32 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:32 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 10 matches from league
+2025-08-26 10:38:32 - bovada - INFO - [MATCH_FOUND] | Matched Richmond (W) vs Essendon Bombers W
+2025-08-26 10:38:32 - bovada - INFO - [MATCH_FOUND] | Matched Geelong W vs Sydney Swans W
+2025-08-26 10:38:32 - bovada - INFO - [MATCH_FOUND] | Matched St Kilda W vs West Coast Eagles W
+2025-08-26 10:38:32 - bovada - INFO - [MATCH_FOUND] | Matched Port Adelaide W vs Gold Coast Suns W
+2025-08-26 10:38:32 - bovada - INFO - [MATCH_FOUND] | Matched Western Bulldogs W vs Hawthorn Hawks W
+2025-08-26 10:38:32 - bovada - INFO - [MATCH_FOUND] | Matched Collingwood Magpies W vs Melbourne Demons W
+2025-08-26 10:38:32 - bovada - INFO - [MATCH_FOUND] | Matched Fremantle Dockers W vs North Melbourne W
+2025-08-26 10:38:33 - bovada - INFO - [MATCH_FOUND] | Matched Brisbane Lions W vs Carlton Blues W
+2025-08-26 10:38:33 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:38:33 - bovada - INFO - [MATCH_FOUND] | Matched Northern Superchargers Women vs Manchester Originals Women
+2025-08-26 10:38:33 - bovada - INFO - [MATCH_FOUND] | Matched Trent Rockets Women vs Birmingham Phoenix Women
+2025-08-26 10:38:33 - bovada - INFO - [MATCH_FOUND] | Matched Southern Brave Women vs Welsh Fire Women
+2025-08-26 10:38:33 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:38:33 - bovada - INFO - [MATCH_FOUND] | Matched Derbyshire vs Essex
+2025-08-26 10:38:33 - bovada - INFO - [MATCH_FOUND] | Matched Glamorgan vs Leicestershire
+2025-08-26 10:38:33 - bovada - INFO - [MATCH_FOUND] | Matched Gloucestershire vs Hampshire
+2025-08-26 10:38:33 - bovada - INFO - [MATCH_FOUND] | Matched Kent vs Yorkshire 
+2025-08-26 10:38:33 - bovada - INFO - [MATCH_FOUND] | Matched Lancashire vs Middlesex
+2025-08-26 10:38:33 - bovada - INFO - [MATCH_FOUND] | Matched Somerset vs Northamptonshire
+2025-08-26 10:38:33 - bovada - INFO - [PROGRESS_UPDATE] | Processed 50 matches, Success: 50, Failed: 0
+2025-08-26 10:38:33 - bovada - INFO - [MATCH_FOUND] | Matched Warwickshire vs Sussex
+2025-08-26 10:38:33 - bovada - INFO - [MATCH_FOUND] | Matched Worcestershire vs Surrey
+2025-08-26 10:38:33 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:38:33 - bovada - INFO - [MATCH_FOUND] | Matched Northern Superchargers vs Manchester Originals
+2025-08-26 10:38:33 - bovada - INFO - [MATCH_FOUND] | Matched Trent Rockets vs Birmingham Phoenix
+2025-08-26 10:38:33 - bovada - INFO - [MATCH_FOUND] | Matched Southern Brave vs Welsh Fire
+2025-08-26 10:38:34 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:38:34 - bovada - INFO - [MATCH_FOUND] | Matched Gold Coast Suns vs Essendon Bombers
+2025-08-26 10:38:34 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:34 - bovada - INFO - [MATCH_FOUND] | Matched Kaat Coppez vs Liel M Rothensteiner
+2025-08-26 10:38:34 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:38:35 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:38:35 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 9 matches from league
+2025-08-26 10:38:35 - bovada - INFO - [MATCH_FOUND] | Matched Marie Weckerle vs Kira Pavlova
+2025-08-26 10:38:35 - bovada - INFO - [MATCH_FOUND] | Matched Naiktha Bains vs Berfu Cengiz
+2025-08-26 10:38:35 - bovada - INFO - [MATCH_FOUND] | Matched Amelia Rajecki vs Olga Helmi
+2025-08-26 10:38:35 - bovada - INFO - [MATCH_FOUND] | Matched Gabriela Andrea Knutson vs Alyssa Reguer
+2025-08-26 10:38:35 - bovada - INFO - [MATCH_FOUND] | Matched Marianna Argyrokastriti vs Viktoria Hruncakova
+2025-08-26 10:38:35 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 14 matches from league
+2025-08-26 10:38:35 - bovada - INFO - [MATCH_FOUND] | Matched Irina Khayndrava vs Adelina Lachinova
+2025-08-26 10:38:35 - bovada - INFO - [MATCH_FOUND] | Matched Pauline Gloeckner vs Anastasia Pliushcheva
+2025-08-26 10:38:35 - bovada - INFO - [MATCH_FOUND] | Matched Victoria Kapcia vs Julita Saner
+2025-08-26 10:38:35 - bovada - INFO - [MATCH_FOUND] | Matched Anastasiya Zaparyniuk vs Ekaterina Yashina
+2025-08-26 10:38:35 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:38:36 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 44 matches from league
+2025-08-26 10:38:36 - bovada - INFO - [PROGRESS_UPDATE] | Processed 100 matches, Success: 100, Failed: 0
+2025-08-26 10:38:38 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 7 matches from league
+2025-08-26 10:38:38 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 15 matches from league
+2025-08-26 10:38:38 - bovada - INFO - [MATCH_FOUND] | Matched Alisa Vasileva vs Elizaveta Rozhkova
+2025-08-26 10:38:38 - bovada - INFO - [MATCH_FOUND] | Matched Ksenia Smirnova vs Angelina Wirges
+2025-08-26 10:38:38 - bovada - INFO - [MATCH_FOUND] | Matched Sofia Martianova vs Anna Bochoradze
+2025-08-26 10:38:38 - bovada - INFO - [MATCH_FOUND] | Matched Ekaterina Agureeva vs Kristina Kroitor
+2025-08-26 10:38:38 - bovada - INFO - [PROGRESS_UPDATE] | Processed 150 matches, Success: 150, Failed: 0
+2025-08-26 10:38:38 - bovada - INFO - [MATCH_FOUND] | Matched Ksenia Laskutova vs Ulyana Hrabavets
+2025-08-26 10:38:38 - bovada - INFO - [MATCH_FOUND] | Matched Valeria Monko vs Nita Skhiladze
+2025-08-26 10:38:38 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:38:38 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 14 matches from league
+2025-08-26 10:38:39 - bovada - INFO - [MATCH_FOUND] | Matched Alexia Trasca vs Lilian Poling
+2025-08-26 10:38:39 - bovada - INFO - [MATCH_FOUND] | Matched Syria La Cerra vs Hiroko Kuwata
+2025-08-26 10:38:39 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:38:39 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 15 matches from league
+2025-08-26 10:38:39 - bovada - INFO - [MATCH_FOUND] | Matched Boston Red Sox vs Baltimore Orioles
+2025-08-26 10:38:39 - bovada - INFO - [MATCH_FOUND] | Matched Atlanta Braves vs Miami Marlins
+2025-08-26 10:38:39 - bovada - INFO - [MATCH_FOUND] | Matched Tampa Bay Rays vs Cleveland Guardians
+2025-08-26 10:38:39 - bovada - INFO - [MATCH_FOUND] | Matched Washington Nationals vs New York Yankees
+2025-08-26 10:38:39 - bovada - INFO - [MATCH_FOUND] | Matched Minnesota Twins vs Toronto Blue Jays
+2025-08-26 10:38:39 - bovada - INFO - [MATCH_FOUND] | Matched Philadelphia Phillies vs New York Mets
+2025-08-26 10:38:39 - bovada - INFO - [MATCH_FOUND] | Matched Arizona Diamondbacks vs Milwaukee Brewers
+2025-08-26 10:38:39 - bovada - INFO - [MATCH_FOUND] | Matched Kansas City Royals vs Chicago White Sox
+2025-08-26 10:38:39 - bovada - INFO - [MATCH_FOUND] | Matched Pittsburgh Pirates vs St. Louis Cardinals
+2025-08-26 10:38:39 - bovada - INFO - [MATCH_FOUND] | Matched Los Angeles Angels vs Texas Rangers
+2025-08-26 10:38:40 - bovada - INFO - [MATCH_FOUND] | Matched Colorado Rockies vs Houston Astros
+2025-08-26 10:38:40 - bovada - INFO - [MATCH_FOUND] | Matched San Diego Padres vs Seattle Mariners
+2025-08-26 10:38:40 - bovada - INFO - [MATCH_FOUND] | Matched Chicago Cubs vs San Francisco Giants
+2025-08-26 10:38:40 - bovada - INFO - [MATCH_FOUND] | Matched Detroit Tigers vs Athletics
+2025-08-26 10:38:40 - bovada - INFO - [MATCH_FOUND] | Matched Cincinnati Reds vs Los Angeles Dodgers
+2025-08-26 10:38:40 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:40 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:40 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:40 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:40 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 17 matches from league
+2025-08-26 10:38:40 - bovada - INFO - [PROGRESS_UPDATE] | Processed 200 matches, Success: 200, Failed: 0
+2025-08-26 10:38:40 - bovada - INFO - [MATCH_FOUND] | Matched Luisa Meyer Auf Der Heide vs Antonia Schmidt
+2025-08-26 10:38:40 - bovada - INFO - [MATCH_FOUND] | Matched Francesca Curmi vs Mina Hodzic
+2025-08-26 10:38:40 - bovada - INFO - [MATCH_FOUND] | Matched Anastasia Tikhonova vs Isis L Van Den Broek
+2025-08-26 10:38:40 - bovada - INFO - [MATCH_FOUND] | Matched Anouck Vrancken Peeters vs Josy Daems
+2025-08-26 10:38:40 - bovada - INFO - [MATCH_FOUND] | Matched Britt Du Pree vs Nastasja Mariana Schunk
+2025-08-26 10:38:40 - bovada - INFO - [MATCH_FOUND] | Matched Mona Barthel vs Joy de Zeeuw
+2025-08-26 10:38:40 - bovada - INFO - [MATCH_FOUND] | Matched Sarah van Emst vs Noma Akugue Noha
+2025-08-26 10:38:41 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:41 - bovada - INFO - [MATCH_FOUND] | Matched Seattle Storm vs Indiana Fever
+2025-08-26 10:38:41 - bovada - INFO - [MATCH_FOUND] | Matched Phoenix Mercury vs Los Angeles Sparks
+2025-08-26 10:38:41 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 21 matches from league
+2025-08-26 10:38:42 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:42 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:42 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:42 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:42 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:42 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:42 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:42 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:42 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:38:42 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:42 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:43 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:43 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:43 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:43 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:43 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:43 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:43 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:43 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 28 matches from league
+2025-08-26 10:38:43 - bovada - INFO - [PROGRESS_UPDATE] | Processed 250 matches, Success: 250, Failed: 0
+2025-08-26 10:38:44 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:44 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:44 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:44 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:45 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:45 - bovada - INFO - [MATCH_FOUND] | Matched Nongbua Pitchaya vs Mahasarakham United
+2025-08-26 10:38:45 - bovada - INFO - [MATCH_FOUND] | Matched Kasetsart FC vs Phrae United
+2025-08-26 10:38:45 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:45 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:45 - bovada - INFO - [MATCH_FOUND] | Matched Bucheon FC vs Gwangju FC
+2025-08-26 10:38:45 - bovada - INFO - [MATCH_FOUND] | Matched Gangwon FC vs Jeonbuk Hyundai
+2025-08-26 10:38:45 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:38:45 - bovada - INFO - [MATCH_FOUND] | Matched Orlando Pirates vs Orbit College
+2025-08-26 10:38:45 - bovada - INFO - [MATCH_FOUND] | Matched Polokwane City vs Durban City FC 2024
+2025-08-26 10:38:45 - bovada - INFO - [MATCH_FOUND] | Matched Richards Bay vs Chippa United
+2025-08-26 10:38:45 - bovada - INFO - [MATCH_FOUND] | Matched Stellenbosch vs Marumo Gallants
+2025-08-26 10:38:45 - bovada - INFO - [MATCH_FOUND] | Matched TS Galaxy vs Siwelele
+2025-08-26 10:38:45 - bovada - INFO - [MATCH_FOUND] | Matched Golden Arrows vs Magesi FC
+2025-08-26 10:38:45 - bovada - INFO - [MATCH_FOUND] | Matched Kaizer Chiefs vs Mamelodi Sundowns
+2025-08-26 10:38:45 - bovada - INFO - [MATCH_FOUND] | Matched Sekhukhune United vs AmaZulu
+2025-08-26 10:38:46 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 7 matches from league
+2025-08-26 10:38:46 - bovada - INFO - [MATCH_FOUND] | Matched Ansan Greeners vs Hwaseong FC
+2025-08-26 10:38:46 - bovada - INFO - [MATCH_FOUND] | Matched Busan IPark vs Cheongju
+2025-08-26 10:38:46 - bovada - INFO - [MATCH_FOUND] | Matched Gimpo FC vs Jeonnam Dragons
+2025-08-26 10:38:46 - bovada - INFO - [MATCH_FOUND] | Matched Incheon United vs Chungnam Asan
+2025-08-26 10:38:46 - bovada - INFO - Executing 100 bulk bovada_updates operations
+2025-08-26 10:38:46 - bovada - INFO - Bulk bovada_updates completed successfully:
+2025-08-26 10:38:46 - bovada - INFO -   - Modified: 100
+2025-08-26 10:38:46 - bovada - INFO -   - Upserted: 0
+2025-08-26 10:38:46 - bovada - INFO -   - Inserted: 0
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_FOUND] | Matched Suwon Bluewings vs Seongnam FC
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_FOUND] | Matched Cheonan City vs Seoul E-Land
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_FOUND] | Matched Gyeongnam FC vs Bucheon FC
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_FOUND] | Matched Daegu FC vs Suwon City
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_FOUND] | Matched Jeju United vs Gwangju FC
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_FOUND] | Matched Ulsan Hyundai vs Jeonbuk Hyundai
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_FOUND] | Matched Daejeon Hana Citizen vs Gimcheon Sangmu
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_FOUND] | Matched FC Seoul vs FC Anyang
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_FOUND] | Matched Gangwon FC vs Pohang Steelers
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_FOUND] | Matched Aral Samali vs Fardu Ferghana
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_FOUND] | Matched Al Bidda SC vs Al Markhiya SC
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_FOUND] | Matched Lusail City vs Al Khor
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_FOUND] | Matched Muaither SC vs Al-Waab
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:38:47 - bovada - INFO - [PROGRESS_UPDATE] | Processed 300 matches, Success: 300, Failed: 0
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_FOUND] | Matched Al-Shahaniya SC vs Al Wakrah
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_FOUND] | Matched Qatar SC vs Al Ahli Doha
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 10 matches from league
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_FOUND] | Matched Consadole Sapporo vs Omiya Ardija
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_FOUND] | Matched Mito Hollyhock vs Renofa Yamaguchi
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_FOUND] | Matched Kataller Toyama vs Roasso Kumamoto
+2025-08-26 10:38:47 - bovada - INFO - [MATCH_FOUND] | Matched FC Imabari vs Iwaki FC
+2025-08-26 10:38:48 - bovada - INFO - [MATCH_FOUND] | Matched Montedio Yamagata vs Sagan Tosu
+2025-08-26 10:38:48 - bovada - INFO - [MATCH_FOUND] | Matched Tokushima Vortis vs Blaublitz Akita
+2025-08-26 10:38:48 - bovada - INFO - [MATCH_FOUND] | Matched V-Varen Nagasaki vs Fujieda MYFC
+2025-08-26 10:38:48 - bovada - INFO - [MATCH_FOUND] | Matched Ehime FC vs Vegalta Sendai
+2025-08-26 10:38:48 - bovada - INFO - [MATCH_FOUND] | Matched Oita Trinita vs Jubilo Iwata
+2025-08-26 10:38:48 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:38:48 - bovada - INFO - [MATCH_FOUND] | Matched Bangkok United vs BG Pathum United
+2025-08-26 10:38:48 - bovada - INFO - [MATCH_FOUND] | Matched Port FC vs Rayong FC
+2025-08-26 10:38:48 - bovada - INFO - [MATCH_FOUND] | Matched Chiangrai United vs Buriram United
+2025-08-26 10:38:48 - bovada - INFO - [MATCH_FOUND] | Matched Prachuap FC vs Sukhothai FC
+2025-08-26 10:38:48 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:48 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:48 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:48 - bovada - INFO - [MATCH_FOUND] | Matched Bunyodkor vs Buxoro
+2025-08-26 10:38:48 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 10 matches from league
+2025-08-26 10:38:48 - bovada - INFO - [MATCH_FOUND] | Matched Yokohama FC vs Tokyo Verdy
+2025-08-26 10:38:48 - bovada - INFO - [MATCH_FOUND] | Matched Kyoto Sanga vs Fagiano Okayama
+2025-08-26 10:38:48 - bovada - INFO - [MATCH_FOUND] | Matched Vissel Kobe vs Yokohama F Marinos
+2025-08-26 10:38:48 - bovada - INFO - [MATCH_FOUND] | Matched Shimizu S-Pulse vs Kashima Antlers
+2025-08-26 10:38:49 - bovada - INFO - [MATCH_FOUND] | Matched Cerezo Osaka vs Sanfrecce Hiroshima
+2025-08-26 10:38:49 - bovada - INFO - [MATCH_FOUND] | Matched Kashiwa Reysol vs Avispa Fukuoka
+2025-08-26 10:38:49 - bovada - INFO - [MATCH_FOUND] | Matched Kawasaki Frontale vs Machida Zelvia
+2025-08-26 10:38:49 - bovada - INFO - [MATCH_FOUND] | Matched Nagoya Grampus vs FC Tokyo
+2025-08-26 10:38:49 - bovada - INFO - [MATCH_FOUND] | Matched Shonan Bellmare vs Gamba Osaka
+2025-08-26 10:38:49 - bovada - INFO - [MATCH_FOUND] | Matched Urawa Red Diamonds vs Niigata Albirex
+2025-08-26 10:38:49 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:38:49 - bovada - INFO - [MATCH_FOUND] | Matched Hanwha Eagles vs Kiwoom Heroes
+2025-08-26 10:38:49 - bovada - INFO - [MATCH_FOUND] | Matched KT Wiz vs Lotte Giants
+2025-08-26 10:38:49 - bovada - INFO - [MATCH_FOUND] | Matched Kia Tigers vs SSG Landers
+2025-08-26 10:38:49 - bovada - INFO - [MATCH_FOUND] | Matched LG Twins vs NC Dinos
+2025-08-26 10:38:50 - bovada - INFO - [MATCH_FOUND] | Matched Samsung Lions vs Doosan Bears
+2025-08-26 10:38:50 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:38:50 - bovada - INFO - [MATCH_FOUND] | Matched Hanshin Tigers vs Yokohama DeNa BayStars
+2025-08-26 10:38:50 - bovada - INFO - [MATCH_FOUND] | Matched Chiba Lotte Marines vs Orix Buffaloes
+2025-08-26 10:38:50 - bovada - INFO - [MATCH_FOUND] | Matched Fukuoka SoftBank Hawks vs Tohoku Rakuten Golden Eagles
+2025-08-26 10:38:50 - bovada - INFO - [MATCH_FOUND] | Matched Tokyo Yakult Swallows vs Chunichi Dragons
+2025-08-26 10:38:50 - bovada - INFO - [MATCH_FOUND] | Matched Yomiuri Giants vs Hiroshima Toyo Carp
+2025-08-26 10:38:50 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:50 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:38:50 - bovada - INFO - [MATCH_FOUND] | Matched Haras El Hodood vs Al Masry SC
+2025-08-26 10:38:50 - bovada - INFO - [MATCH_FOUND] | Matched Zamalek SC vs Pharco FC
+2025-08-26 10:38:51 - bovada - INFO - [MATCH_FOUND] | Matched Al Ittihad Alexandria vs ENPPI Club
+2025-08-26 10:38:51 - bovada - INFO - [MATCH_FOUND] | Matched National Bank of Egypt vs Tala'ea El Gaish
+2025-08-26 10:38:51 - bovada - INFO - [MATCH_FOUND] | Matched Ismaily SC vs Ghazl El Mahallah
+2025-08-26 10:38:51 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:51 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:51 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 9 matches from league
+2025-08-26 10:38:51 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:51 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 13 matches from league
+2025-08-26 10:38:51 - bovada - INFO - [MATCH_FOUND] | Matched Jackson Page vs Si Jiahui
+2025-08-26 10:38:51 - bovada - INFO - [PROGRESS_UPDATE] | Processed 350 matches, Success: 350, Failed: 0
+2025-08-26 10:38:52 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:52 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 12 matches from league
+2025-08-26 10:38:52 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:38:52 - bovada - INFO - [MATCH_FOUND] | Matched Esteghlal Jonoob Tehran vs Zob Ahan
+2025-08-26 10:38:52 - bovada - INFO - [MATCH_FOUND] | Matched Shams Azar Qazvin vs Chador Malu Yazd
+2025-08-26 10:38:52 - bovada - INFO - [MATCH_FOUND] | Matched Foolad Khuzestan vs Malavan Bandar Anzali
+2025-08-26 10:38:52 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:52 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:52 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:52 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:52 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:52 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:52 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:52 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:38:53 - bovada - INFO - [MATCH_FOUND] | Matched Bahamas vs Uruguay
+2025-08-26 10:38:53 - bovada - INFO - [MATCH_FOUND] | Matched Brazil vs USA
+2025-08-26 10:38:53 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 73 matches from league
+2025-08-26 10:38:53 - bovada - INFO - [PROGRESS_UPDATE] | Processed 400 matches, Success: 400, Failed: 0
+2025-08-26 10:38:54 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:54 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:38:54 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:38:54 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:54 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:54 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:54 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 16 matches from league
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_FOUND] | Matched Lithuania vs Great Britain
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_FOUND] | Matched Portugal vs Czech Republic
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_FOUND] | Matched Germany vs Montenegro
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_FOUND] | Matched Turkey vs Latvia
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_FOUND] | Matched Finland vs Sweden
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_FOUND] | Matched Estonia vs Serbia
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_FOUND] | Matched Iceland vs Israel
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_FOUND] | Matched Spain vs Georgia
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_FOUND] | Matched France vs Belgium
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_FOUND] | Matched Cyprus vs Bosnia and Herzegovina
+2025-08-26 10:38:55 - bovada - INFO - [PROGRESS_UPDATE] | Processed 450 matches, Success: 450, Failed: 0
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_FOUND] | Matched Italy vs Greece
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_FOUND] | Matched Poland vs Slovenia
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_FOUND] | Matched Göztepe vs Konyaspor
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_FOUND] | Matched Kasimpasa vs Gaziantep
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_FOUND] | Matched Kocaelispor vs Kayserispor
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_FOUND] | Matched Antalyaspor vs Fatih Karagümrük
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_FOUND] | Matched Galatasaray vs Çaykur Rizespor
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_FOUND] | Matched Genclerbirligi vs Fenerbahce
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_FOUND] | Matched Trabzonspor vs Samsunspor
+2025-08-26 10:38:55 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:38:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:38:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:38:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:39:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:39:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:39:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:39:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:39:00 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:39:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:39:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:02 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:39:02 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:02 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:39:02 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:39:02 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:39:02 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:39:02 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:02 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:39:02 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:02 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:03 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:39:03 - bovada - INFO - [MATCH_FOUND] | Matched FC Wil vs FC Rapperswil-Jona
+2025-08-26 10:39:03 - bovada - INFO - [MATCH_FOUND] | Matched AC Bellinzona vs Yverdon-Sport
+2025-08-26 10:39:03 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:03 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:03 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:39:03 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 7 matches from league
+2025-08-26 10:39:03 - bovada - INFO - [MATCH_FOUND] | Matched FC Thun vs Grasshoppers
+2025-08-26 10:39:03 - bovada - INFO - [MATCH_FOUND] | Matched Winterthur vs FC Zürich
+2025-08-26 10:39:03 - bovada - INFO - [MATCH_FOUND] | Matched FC Sion vs FC Basel
+2025-08-26 10:39:03 - bovada - INFO - [MATCH_FOUND] | Matched Lausanne-Sport vs St. Gallen
+2025-08-26 10:39:03 - bovada - INFO - [MATCH_FOUND] | Matched Servette vs Luzern
+2025-08-26 10:39:03 - bovada - INFO - [MATCH_FOUND] | Matched Young Boys vs FC Lugano
+2025-08-26 10:39:03 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:03 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:03 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:03 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:03 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:39:03 - bovada - INFO - [MATCH_FOUND] | Matched Sakaryaspor vs Boluspor
+2025-08-26 10:39:03 - bovada - INFO - [MATCH_FOUND] | Matched Ümraniyespor vs Erokspor
+2025-08-26 10:39:04 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:39:04 - bovada - INFO - [MATCH_FOUND] | Matched Qingdao Hainiu vs Henan FC
+2025-08-26 10:39:04 - bovada - INFO - [MATCH_FOUND] | Matched Chengdu Rongcheng vs Shanghai Port
+2025-08-26 10:39:04 - bovada - INFO - [MATCH_FOUND] | Matched Yunnan Yukun vs Changchun Yatai
+2025-08-26 10:39:04 - bovada - INFO - [MATCH_FOUND] | Matched Wuhan Three Towns vs Shanghai Shenhua
+2025-08-26 10:39:04 - bovada - INFO - [MATCH_FOUND] | Matched Shandong Taishan vs Beijing Guoan
+2025-08-26 10:39:04 - bovada - INFO - [MATCH_FOUND] | Matched Shenzhen Peng City vs Meizhou Hakka
+2025-08-26 10:39:04 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:04 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:04 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:04 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:04 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:04 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:04 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:04 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:04 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:04 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:04 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:04 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:06 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:06 - bovada - INFO - [MATCH_FOUND] | Matched Brisbane City vs Brisbane Roar NPL
+2025-08-26 10:39:06 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 9 matches from league
+2025-08-26 10:39:06 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:39:06 - bovada - INFO - [MATCH_FOUND] | Matched Levadia Tallinn vs Narva Trans
+2025-08-26 10:39:06 - bovada - INFO - [MATCH_FOUND] | Matched Tallinna Kalev vs Flora Tallinn
+2025-08-26 10:39:06 - bovada - INFO - [MATCH_FOUND] | Matched Nomme Kalju vs Kuressaare
+2025-08-26 10:39:06 - bovada - INFO - [MATCH_FOUND] | Matched Harju Laagri vs Tartu Tammeka
+2025-08-26 10:39:06 - bovada - INFO - Executing 100 bulk bovada_updates operations
+2025-08-26 10:39:07 - bovada - INFO - Bulk bovada_updates completed successfully:
+2025-08-26 10:39:07 - bovada - INFO -   - Modified: 100
+2025-08-26 10:39:07 - bovada - INFO -   - Upserted: 0
+2025-08-26 10:39:07 - bovada - INFO -   - Inserted: 0
+2025-08-26 10:39:07 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:07 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:07 - bovada - INFO - [MATCH_FOUND] | Matched TSG Hawks vs Fubon Guardians
+2025-08-26 10:39:07 - bovada - INFO - [MATCH_FOUND] | Matched Uni-Lions vs Wei Chuan Dragons
+2025-08-26 10:39:07 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:07 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:07 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 7 matches from league
+2025-08-26 10:39:07 - bovada - INFO - [MATCH_FOUND] | Matched Bulgaria U21 vs Brazil U21
+2025-08-26 10:39:07 - bovada - INFO - [PROGRESS_UPDATE] | Processed 500 matches, Success: 500, Failed: 0
+2025-08-26 10:39:07 - bovada - INFO - [MATCH_FOUND] | Matched USA U21 vs Morocco U21
+2025-08-26 10:39:07 - bovada - INFO - [MATCH_FOUND] | Matched Colombia U21 vs Cuba U21
+2025-08-26 10:39:07 - bovada - INFO - [MATCH_FOUND] | Matched South Korea U21 vs Kazakhstan U21
+2025-08-26 10:39:07 - bovada - INFO - [MATCH_FOUND] | Matched France U21 vs Indonesia U21
+2025-08-26 10:39:07 - bovada - INFO - [MATCH_FOUND] | Matched Italy U21 vs Argentina U21
+2025-08-26 10:39:07 - bovada - INFO - [MATCH_FOUND] | Matched Tunisia U21 vs Ukraine U21
+2025-08-26 10:39:07 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:07 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 16 matches from league
+2025-08-26 10:39:07 - bovada - INFO - [MATCH_FOUND] | Matched Argentina (W) vs Slovenia (W)
+2025-08-26 10:39:07 - bovada - INFO - [MATCH_FOUND] | Matched France (W) vs Greece (W)
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_FOUND] | Matched Italy (W) vs Belgium (W)
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_FOUND] | Matched Sweden (W) vs Egypt (W)
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_FOUND] | Matched Brazil (W) vs Puerto Rico (W)
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_FOUND] | Matched Cuba (W) vs Slovakia (W)
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_FOUND] | Matched Thailand (W) vs Netherlands (W)
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_FOUND] | Matched Colombia (W) vs Mexico (W)
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_FOUND] | Matched Turkey (W) vs Canada (W)
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_FOUND] | Matched Japan (W) vs Serbia (W)
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_FOUND] | Matched Bulgaria (W) vs Spain (W)
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_FOUND] | Matched China (W) vs Dominican Republic (W)
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_FOUND] | Matched Poland (W) vs Germany (W)
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_FOUND] | Matched Ukraine (W) vs Cameroon (W)
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 7 matches from league
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:39:08 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:09 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:09 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:09 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:09 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:09 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:39:09 - bovada - INFO - [MATCH_FOUND] | Matched I. Sabanov/M. Sabanov vs N. Alvarez Varona/N. Sanchez Izquierdo
+2025-08-26 10:39:09 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:09 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 16 matches from league
+2025-08-26 10:39:09 - bovada - INFO - [MATCH_FOUND] | Matched Denis Yevseyev vs Hiroki Moriya
+2025-08-26 10:39:09 - bovada - INFO - [MATCH_FOUND] | Matched Masamichi Imamura vs Oliver Crawford
+2025-08-26 10:39:09 - bovada - INFO - [MATCH_FOUND] | Matched Sergey Fomin vs Kokoro Isomura
+2025-08-26 10:39:09 - bovada - INFO - [PROGRESS_UPDATE] | Processed 550 matches, Success: 550, Failed: 0
+2025-08-26 10:39:10 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:10 - bovada - INFO - [MATCH_FOUND] | Matched Haukar vs Armann Reykjavik
+2025-08-26 10:39:10 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 12 matches from league
+2025-08-26 10:39:10 - bovada - INFO - [MATCH_FOUND] | Matched Benjamin Winter Lopez vs Mikel Martinez
+2025-08-26 10:39:10 - bovada - INFO - [MATCH_FOUND] | Matched Carlos Lopez Montagud vs Carles Cordoba
+2025-08-26 10:39:10 - bovada - INFO - [MATCH_FOUND] | Matched Lorenzo Giustino vs Jordi Garcia Mestre
+2025-08-26 10:39:10 - bovada - INFO - [MATCH_FOUND] | Matched Richard Zusman vs Alvaro Peiro Serrano
+2025-08-26 10:39:10 - bovada - INFO - [MATCH_FOUND] | Matched Kuzey Cekirge vs Ivan Marrero Curbelo
+2025-08-26 10:39:10 - bovada - INFO - [MATCH_FOUND] | Matched Pedro Rodenas vs Javier Barranco Cosano
+2025-08-26 10:39:10 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 7 matches from league
+2025-08-26 10:39:10 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:10 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:10 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:10 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:10 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:10 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:10 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:10 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 9 matches from league
+2025-08-26 10:39:11 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:11 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:11 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:11 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:11 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:11 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:11 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 16 matches from league
+2025-08-26 10:39:11 - bovada - INFO - [MATCH_FOUND] | Matched Adria Soriano Barrera vs Stuart Parker
+2025-08-26 10:39:11 - bovada - INFO - [MATCH_FOUND] | Matched Michael Geerts vs Naoya Honda
+2025-08-26 10:39:12 - bovada - INFO - [MATCH_FOUND] | Matched Abedallah Shelbayh vs Daniel Rincon
+2025-08-26 10:39:12 - bovada - INFO - [MATCH_FOUND] | Matched Eliakim Coulibaly vs Marek Gengel
+2025-08-26 10:39:12 - bovada - INFO - [MATCH_FOUND] | Matched Matteo Martineau vs Jurij Rodionov
+2025-08-26 10:39:12 - bovada - INFO - [MATCH_FOUND] | Matched Valentin Vacherot vs Martin Landaluce
+2025-08-26 10:39:12 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:12 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 7 matches from league
+2025-08-26 10:39:12 - bovada - INFO - [PROGRESS_UPDATE] | Processed 600 matches, Success: 600, Failed: 0
+2025-08-26 10:39:12 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:12 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 11 matches from league
+2025-08-26 10:39:12 - bovada - INFO - [MATCH_FOUND] | Matched Daniel Michalski vs Carlos Sanchez Jover
+2025-08-26 10:39:12 - bovada - INFO - [MATCH_FOUND] | Matched Francisco Rocha vs Maxwell McKennon
+2025-08-26 10:39:12 - bovada - INFO - [MATCH_FOUND] | Matched Mili Poljicak vs Guy den Ouden
+2025-08-26 10:39:12 - bovada - INFO - [MATCH_FOUND] | Matched Mika Brunold vs Henrique Rocha
+2025-08-26 10:39:13 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:13 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:13 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:13 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 7 matches from league
+2025-08-26 10:39:13 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:39:13 - bovada - INFO - [MATCH_FOUND] | Matched Tianjin Pioneers vs Fujian Sturgeons
+2025-08-26 10:39:13 - bovada - INFO - [MATCH_FOUND] | Matched Xinjiang Flying Tigers vs Qingdao Eagles
+2025-08-26 10:39:13 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:39:13 - bovada - INFO - [MATCH_FOUND] | Matched Muntinlupa Cagers vs Pampanga Giant Lanterns
+2025-08-26 10:39:13 - bovada - INFO - [MATCH_FOUND] | Matched Abra Solid North Weavers vs Mindoro Tamaraws
+2025-08-26 10:39:13 - bovada - INFO - [MATCH_FOUND] | Matched Batang Kankaloo vs Pangasinan Heatwaves
+2025-08-26 10:39:13 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 10 matches from league
+2025-08-26 10:39:19 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 11 matches from league
+2025-08-26 10:39:19 - bovada - INFO - [MATCH_FOUND] | Matched Alexander Ritschard vs Thiago Monteiro
+2025-08-26 10:39:19 - bovada - INFO - [MATCH_FOUND] | Matched Henri Squire vs Tommaso Compagnucci
+2025-08-26 10:39:19 - bovada - INFO - [MATCH_FOUND] | Matched Jacopo Berrettini vs Luciano Emanuel Ambrogi
+2025-08-26 10:39:19 - bovada - INFO - [MATCH_FOUND] | Matched Lorenzo Carboni vs Timofey Skatov
+2025-08-26 10:39:19 - bovada - INFO - [MATCH_FOUND] | Matched Stefano Travaglia vs Gabriele Pennaforti
+2025-08-26 10:39:19 - bovada - INFO - [MATCH_FOUND] | Matched Federico Bondioli vs Giovanni Fonio
+2025-08-26 10:39:19 - bovada - INFO - [MATCH_FOUND] | Matched Marco Cecchinato vs Luka Mikrut
+2025-08-26 10:39:19 - bovada - INFO - [MATCH_FOUND] | Matched Raul Brancaccio vs Kilian Feldbausch
+2025-08-26 10:39:20 - bovada - INFO - [MATCH_FOUND] | Matched Federico Arnaboldi vs Alvaro Guillen Meza
+2025-08-26 10:39:20 - bovada - INFO - [MATCH_FOUND] | Matched Nicolai Budkov Kjaer vs Cedrik-Marcel Stebe
+2025-08-26 10:39:20 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:20 - bovada - INFO - [PROGRESS_UPDATE] | Processed 650 matches, Success: 650, Failed: 0
+2025-08-26 10:39:20 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 15 matches from league
+2025-08-26 10:39:20 - bovada - INFO - [MATCH_FOUND] | Matched Jenny Duerst vs Federica Urgesi
+2025-08-26 10:39:20 - bovada - INFO - [MATCH_FOUND] | Matched Inka Wawrzkiewicz vs Anna Kmiecik
+2025-08-26 10:39:20 - bovada - INFO - [MATCH_FOUND] | Matched Camilla Rosatello vs Miriana Tona
+2025-08-26 10:39:20 - bovada - INFO - [MATCH_FOUND] | Matched Despina Papamichail vs Lucia Cortez Llorca
+2025-08-26 10:39:20 - bovada - INFO - [MATCH_FOUND] | Matched Kajsa Rinaldo Persson vs Tatiana Pieri
+2025-08-26 10:39:20 - bovada - INFO - [MATCH_FOUND] | Matched Marcelina Podlinska vs Eva Vedder
+2025-08-26 10:39:20 - bovada - INFO - [MATCH_FOUND] | Matched Weronika Ewald vs Zhibek Kulambayeva
+2025-08-26 10:39:20 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 11 matches from league
+2025-08-26 10:39:20 - bovada - INFO - [MATCH_FOUND] | Matched Hernan Casanova vs Nicolas Garcia Longo
+2025-08-26 10:39:20 - bovada - INFO - [MATCH_FOUND] | Matched Nicolas Bruna vs Mariano Kestelboim
+2025-08-26 10:39:20 - bovada - INFO - [MATCH_FOUND] | Matched Tadeo Meneo vs Strong Kirchheimer
+2025-08-26 10:39:20 - bovada - INFO - [MATCH_FOUND] | Matched Thiago Cigarran vs Mateo Del Pino
+2025-08-26 10:39:20 - bovada - INFO - [MATCH_FOUND] | Matched Bruno Fernandez vs Franco Ribero
+2025-08-26 10:39:20 - bovada - INFO - [MATCH_FOUND] | Matched Hernando Jose Escurra Isnardi vs Joao Vitor Scramin do Lago
+2025-08-26 10:39:20 - bovada - INFO - [MATCH_FOUND] | Matched Tobia Grandinetti vs Gonzalo Villanueva
+2025-08-26 10:39:20 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 13 matches from league
+2025-08-26 10:39:21 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 15 matches from league
+2025-08-26 10:39:21 - bovada - INFO - [PROGRESS_UPDATE] | Processed 700 matches, Success: 700, Failed: 0
+2025-08-26 10:39:21 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 22 matches from league
+2025-08-26 10:39:21 - bovada - INFO - [MATCH_FOUND] | Matched Yevheniia Kantemyr vs Thi Trang Vu
+2025-08-26 10:39:21 - bovada - INFO - [MATCH_FOUND] | Matched Neslihan Arin (TUR) vs Tomoka Miyazaki
+2025-08-26 10:39:21 - bovada - INFO - [MATCH_FOUND] | Matched Miranda Wilson vs Supanida Katethong
+2025-08-26 10:39:21 - bovada - INFO - [MATCH_FOUND] | Matched Saloni Mehta vs Karupathevan Letshanaa
+2025-08-26 10:39:21 - bovada - INFO - [MATCH_FOUND] | Matched Jia Min Yeo vs Busanan Ongbamrungphan
+2025-08-26 10:39:21 - bovada - INFO - [MATCH_FOUND] | Matched Pornpawee Chochuwong vs Ishika Jaiswal
+2025-08-26 10:39:21 - bovada - INFO - [MATCH_FOUND] | Matched Yu Fei Chen vs Mia Blichfeldt
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_FOUND] | Matched Alec Beckley vs Przemyslaw Michocki
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_FOUND] | Matched Matthew William Donald vs Nikita Mashtakov
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 9 matches from league
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_FOUND] | Matched Tzu Li Chang vs Kai-An Wu
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 12 matches from league
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_FOUND] | Matched Denise Valente vs Pia Lovric
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_FOUND] | Matched Enola Chiesa vs Amandine Monnot 
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_FOUND] | Matched Carlota Martinez Cirez vs Jessica Bertoldo
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_FOUND] | Matched Gabriela Ce vs Suana Tucakovic
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_FOUND] | Matched Kristina Novak vs Samira De Stefano
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_FOUND] | Matched Angelica Raggi vs Alessandra Mazzola
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_FOUND] | Matched Ekaterina Perelygina vs Lisa Pigato
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_FOUND] | Matched Iva Primorac Pavicic vs Nika Radisic
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 7 matches from league
+2025-08-26 10:39:22 - bovada - INFO - [PROGRESS_UPDATE] | Processed 750 matches, Success: 750, Failed: 0
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 16 matches from league
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_FOUND] | Matched Marie Vogt vs Juliette Mazzoni
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_FOUND] | Matched Rositsa Dencheva vs Josephine Kunz
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_FOUND] | Matched Lisa Claeys vs Nicole Gadient
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_FOUND] | Matched Milla Sequeira vs Yasmine Wagner
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_FOUND] | Matched Valentini Grammatikopoulou vs Romane Longueville
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_FOUND] | Matched Gina Marie Dittmann vs Sofia Shapatava
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_FOUND] | Matched Elsa Bonelli vs Melisa  Ercan
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_FOUND] | Matched Kristyna Paul vs Laura Hietaranta
+2025-08-26 10:39:22 - bovada - INFO - [MATCH_FOUND] | Matched Stefaniya Pushkar vs Alina Granwehr
+2025-08-26 10:39:22 - bovada - INFO - Executing 100 bulk bovada_updates operations
+2025-08-26 10:39:23 - bovada - INFO - Bulk bovada_updates completed successfully:
+2025-08-26 10:39:23 - bovada - INFO -   - Modified: 100
+2025-08-26 10:39:23 - bovada - INFO -   - Upserted: 0
+2025-08-26 10:39:23 - bovada - INFO -   - Inserted: 0
+2025-08-26 10:39:23 - bovada - INFO - [MATCH_FOUND] | Matched Tina Nadine Smith vs Diana Marcinkevica
+2025-08-26 10:39:23 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 16 matches from league
+2025-08-26 10:39:23 - bovada - INFO - [MATCH_FOUND] | Matched Andrin Casanova vs Luca Staeheli
+2025-08-26 10:39:23 - bovada - INFO - [MATCH_FOUND] | Matched Gian Gruenig vs Timofey Stepanov
+2025-08-26 10:39:23 - bovada - INFO - [MATCH_FOUND] | Matched Alexander Weis vs Gabriele Mellerio
+2025-08-26 10:39:23 - bovada - INFO - [MATCH_FOUND] | Matched Niklas Waldner vs Giacomo Crisostomo
+2025-08-26 10:39:23 - bovada - INFO - [MATCH_FOUND] | Matched Justin Lenders vs Hugo Ouzilou
+2025-08-26 10:39:23 - bovada - INFO - [MATCH_FOUND] | Matched Adrien Burdet vs Remy Bertola
+2025-08-26 10:39:23 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 12 matches from league
+2025-08-26 10:39:23 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:24 - bovada - INFO - [PROGRESS_UPDATE] | Processed 800 matches, Success: 800, Failed: 0
+2025-08-26 10:39:24 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:39:24 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 10 matches from league
+2025-08-26 10:39:24 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:24 - bovada - INFO - [MATCH_FOUND] | Matched Ricardo Rodriguez vs Aleksandr Braynin
+2025-08-26 10:39:24 - bovada - INFO - [MATCH_FOUND] | Matched Jakub Filip vs Alen Mujakic
+2025-08-26 10:39:24 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 13 matches from league
+2025-08-26 10:39:24 - bovada - INFO - [MATCH_FOUND] | Matched Filip Jeff Planinsek vs Luka Talan Lopatic
+2025-08-26 10:39:24 - bovada - INFO - [MATCH_FOUND] | Matched Marko Topo vs Stefan Popovic
+2025-08-26 10:39:24 - bovada - INFO - [MATCH_FOUND] | Matched Mirza Basic vs Branko Djuric
+2025-08-26 10:39:24 - bovada - INFO - [MATCH_FOUND] | Matched Pavel Verbin vs Bor Artnak
+2025-08-26 10:39:24 - bovada - INFO - [MATCH_FOUND] | Matched Tilen Kovac vs Sebastian Dominko
+2025-08-26 10:39:24 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:39:25 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:39:25 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:25 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 15 matches from league
+2025-08-26 10:39:25 - bovada - INFO - [MATCH_FOUND] | Matched Alexandre Reco vs Bogdan Seleznev
+2025-08-26 10:39:25 - bovada - INFO - [MATCH_FOUND] | Matched Keshav Chopra vs Ivan Gretskiy
+2025-08-26 10:39:25 - bovada - INFO - [PROGRESS_UPDATE] | Processed 850 matches, Success: 850, Failed: 0
+2025-08-26 10:39:25 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:39:25 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:39:25 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:39:25 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:39:25 - bovada - INFO - [MATCH_FOUND] | Matched North Harbour vs Bay of Plenty
+2025-08-26 10:39:25 - bovada - INFO - [MATCH_FOUND] | Matched Canterbury vs Manawatu
+2025-08-26 10:39:25 - bovada - INFO - [MATCH_FOUND] | Matched Counties Manukau vs Taranaki
+2025-08-26 10:39:25 - bovada - INFO - [MATCH_FOUND] | Matched Northland vs Hawke's Bay
+2025-08-26 10:39:25 - bovada - INFO - [MATCH_FOUND] | Matched Wellington vs Auckland
+2025-08-26 10:39:25 - bovada - INFO - [MATCH_FOUND] | Matched Waikato vs Southland
+2025-08-26 10:39:25 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:39:26 - bovada - INFO - [MATCH_FOUND] | Matched Alberto Bronzetti vs Noah Perfetti
+2025-08-26 10:39:26 - bovada - INFO - [MATCH_FOUND] | Matched Pietro Romeo Scomparin vs Jacopo Antonelli
+2025-08-26 10:39:26 - bovada - INFO - [MATCH_FOUND] | Matched Pijus Vaitiekunas vs Nicola Rispoli
+2025-08-26 10:39:26 - bovada - INFO - [MATCH_FOUND] | Matched Edoardo Zanada vs Iannis Miletich
+2025-08-26 10:39:26 - bovada - INFO - [MATCH_FOUND] | Matched Filippo Mazzola vs Daniel  Bagnolini
+2025-08-26 10:39:26 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:26 - bovada - INFO - [MATCH_FOUND] | Matched Matyas Fuele vs Gergely Madarasz
+2025-08-26 10:39:26 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:39:26 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:39:26 - bovada - INFO - [MATCH_FOUND] | Matched Alessandro Bellifemine vs Radu David Turcanu
+2025-08-26 10:39:26 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 14 matches from league
+2025-08-26 10:39:26 - bovada - INFO - [MATCH_FOUND] | Matched Andrea Meduri vs Damien Salvestre
+2025-08-26 10:39:26 - bovada - INFO - [MATCH_FOUND] | Matched Freek Van Donselaar vs Yanis Ghazouani Durand
+2025-08-26 10:39:26 - bovada - INFO - [MATCH_FOUND] | Matched Isaac Lhomond vs Thomas Gerbaud
+2025-08-26 10:39:26 - bovada - INFO - [MATCH_FOUND] | Matched Amaury Raynel vs Mickael Kaouk
+2025-08-26 10:39:26 - bovada - INFO - [MATCH_FOUND] | Matched Mathieu Scaglia vs Jim Hendrikx
+2025-08-26 10:39:26 - bovada - INFO - [MATCH_FOUND] | Matched Maxence Beauge vs Valentin Faure
+2025-08-26 10:39:26 - bovada - INFO - [MATCH_FOUND] | Matched Pietro Pampanin vs Maxime Chazal
+2025-08-26 10:39:27 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:27 - bovada - INFO - [MATCH_FOUND] | Matched Tom Sickenberger vs Louis Van Herck
+2025-08-26 10:39:27 - bovada - INFO - [MATCH_FOUND] | Matched Nino Ehrenschneider vs Jeremy Schifris
+2025-08-26 10:39:27 - bovada - INFO - [PROGRESS_UPDATE] | Processed 900 matches, Success: 900, Failed: 0
+2025-08-26 10:39:27 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 12 matches from league
+2025-08-26 10:39:27 - bovada - INFO - [MATCH_FOUND] | Matched AEK Larnaca vs SK Brann
+2025-08-26 10:39:27 - bovada - INFO - [MATCH_FOUND] | Matched KuPS vs FC Midtjylland
+2025-08-26 10:39:27 - bovada - INFO - [MATCH_FOUND] | Matched Sigma Olomouc vs Malmö FF
+2025-08-26 10:39:27 - bovada - INFO - [MATCH_FOUND] | Matched Samsunspor vs Panathinaikos
+2025-08-26 10:39:27 - bovada - INFO - [MATCH_FOUND] | Matched Ludogorets Razgrad vs Shkendija
+2025-08-26 10:39:27 - bovada - INFO - [MATCH_FOUND] | Matched Young Boys vs Slovan Bratislava
+2025-08-26 10:39:27 - bovada - INFO - [MATCH_FOUND] | Matched FCSB vs Aberdeen
+2025-08-26 10:39:27 - bovada - INFO - [MATCH_FOUND] | Matched Braga vs Lincoln Red Imps
+2025-08-26 10:39:27 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:27 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:27 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:27 - bovada - INFO - [MATCH_FOUND] | Matched Saprissa vs Motagua
+2025-08-26 10:39:27 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:27 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 42 matches from league
+2025-08-26 10:39:28 - bovada - INFO - [MATCH_FOUND] | Matched Beatriz Haddad Maia vs Sonay Kartal
+2025-08-26 10:39:28 - bovada - INFO - [MATCH_FOUND] | Matched Katie Boulter vs Marta Kostyuk
+2025-08-26 10:39:28 - bovada - INFO - [MATCH_FOUND] | Matched Suzan Lamens vs Valerie Glozman
+2025-08-26 10:39:28 - bovada - INFO - [MATCH_FOUND] | Matched Victoria Jimenez Kasintseva vs Maya Joint
+2025-08-26 10:39:28 - bovada - INFO - [MATCH_FOUND] | Matched Emiliana Arango vs Iga Swiatek
+2025-08-26 10:39:28 - bovada - INFO - [MATCH_FOUND] | Matched Lois Boisson vs Viktorija Golubic
+2025-08-26 10:39:28 - bovada - INFO - [MATCH_FOUND] | Matched Ashlyn Krueger vs Sofia Kenin
+2025-08-26 10:39:28 - bovada - INFO - [MATCH_FOUND] | Matched Hailey Baptiste vs Katerina Siniakova
+2025-08-26 10:39:28 - bovada - INFO - [MATCH_FOUND] | Matched Ajla Tomljanovic vs Coco Gauff
+2025-08-26 10:39:28 - bovada - INFO - [MATCH_FOUND] | Matched Greet Minnen vs Naomi Osaka
+2025-08-26 10:39:28 - bovada - INFO - [MATCH_FOUND] | Matched Anastasia Potapova vs Mirra Andreeva
+2025-08-26 10:39:28 - bovada - INFO - [MATCH_FOUND] | Matched Anna Kalinskaya vs Yulia Putintseva
+2025-08-26 10:39:28 - bovada - INFO - [MATCH_FOUND] | Matched Aryna Sabalenka vs Polina Kudermetova
+2025-08-26 10:39:28 - bovada - INFO - [MATCH_FOUND] | Matched Daria Kasatkina vs Kamilla Rakhimova
+2025-08-26 10:39:28 - bovada - INFO - [MATCH_FOUND] | Matched Elena Rybakina vs Tereza Valentova
+2025-08-26 10:39:28 - bovada - INFO - [MATCH_FOUND] | Matched Elsa Jacquemot vs Leylah Fernandez
+2025-08-26 10:39:28 - bovada - INFO - [MATCH_FOUND] | Matched Emma Navarro vs Catherine McNally
+2025-08-26 10:39:28 - bovada - INFO - [MATCH_FOUND] | Matched Emma Raducanu vs Janice Tjen
+2025-08-26 10:39:28 - bovada - INFO - [MATCH_FOUND] | Matched Iva Jovic vs Jasmine Paolini
+2025-08-26 10:39:28 - bovada - INFO - [MATCH_FOUND] | Matched Jelena Ostapenko vs Taylor Townsend
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_FOUND] | Matched Jessica Pegula vs Anna Blinkova
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_FOUND] | Matched Liudmila Samsonova vs Priscilla Hon
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_FOUND] | Matched Magdalena Frech vs Peyton Stearns
+2025-08-26 10:39:29 - bovada - INFO - [PROGRESS_UPDATE] | Processed 950 matches, Success: 950, Failed: 0
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_FOUND] | Matched Maria Sakkari vs Anna Bondar
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_FOUND] | Matched McCartney Kessler vs Marketa Vondrousova
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_FOUND] | Matched Moyuka Uchijima vs Barbora Krejcikova
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_FOUND] | Matched Renata Zarazua vs Diane Parry
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_FOUND] | Matched Victoria Azarenka vs Anastasia Pavlyuchenkova
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_FOUND] | Matched Inter Miami vs Orlando City
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 7 matches from league
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_FOUND] | Matched Real Sociedad B vs Almería
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_FOUND] | Matched Sporting Gijón vs Cultural Leonesa
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_FOUND] | Matched Castellón vs Real Zaragoza
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_FOUND] | Matched FC Andorra vs Burgos
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_FOUND] | Matched Granada vs Mirandés
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_FOUND] | Matched Huesca vs Eibar
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 43 matches from league
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_FOUND] | Matched Lorenzo Musetti vs Giovanni Mpetshi Perricard
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_FOUND] | Matched Marton Fucsovics vs Denis Shapovalov
+2025-08-26 10:39:29 - bovada - INFO - [MATCH_FOUND] | Matched Matteo Arnaldi vs Francisco Cerundolo
+2025-08-26 10:39:30 - bovada - INFO - [MATCH_FOUND] | Matched Leandro Riedi vs Pedro Martinez
+2025-08-26 10:39:30 - bovada - INFO - [MATCH_FOUND] | Matched Arthur Rinderknech vs Alejandro Davidovich Fokina
+2025-08-26 10:39:30 - bovada - INFO - [MATCH_FOUND] | Matched Ben Shelton vs Pablo Carreno-Busta
+2025-08-26 10:39:30 - bovada - INFO - [MATCH_FOUND] | Matched Brandon Nakashima vs Jerome Kym
+2025-08-26 10:39:30 - bovada - INFO - [MATCH_FOUND] | Matched Cameron Norrie vs Francisco Comesana
+2025-08-26 10:39:30 - bovada - INFO - [MATCH_FOUND] | Matched Gabriel Diallo vs Jaume Munar
+2025-08-26 10:39:30 - bovada - INFO - [MATCH_FOUND] | Matched Jakub Mensik vs Ugo Blanchet
+2025-08-26 10:39:30 - bovada - INFO - [MATCH_FOUND] | Matched Jenson Brooksby vs Flavio Cobolli
+2025-08-26 10:39:30 - bovada - INFO - [MATCH_FOUND] | Matched Jiri Lehecka vs Tomas Martin Etcheverry
+2025-08-26 10:39:30 - bovada - INFO - [MATCH_FOUND] | Matched Joao Fonseca vs Tomas Machac
+2025-08-26 10:39:31 - bovada - INFO - [MATCH_FOUND] | Matched Jordan Thompson vs Adrian Mannarino
+2025-08-26 10:39:31 - bovada - INFO - [MATCH_FOUND] | Matched Karen Khachanov vs Kamil Majchrzak
+2025-08-26 10:39:31 - bovada - INFO - [MATCH_FOUND] | Matched Lloyd Harris vs Taylor Fritz
+2025-08-26 10:39:31 - bovada - INFO - [PROGRESS_UPDATE] | Processed 1000 matches, Success: 1000, Failed: 0
+2025-08-26 10:39:31 - bovada - INFO - [MATCH_FOUND] | Matched Luciano Darderi vs Eliot Spizzirri
+2025-08-26 10:39:31 - bovada - INFO - [MATCH_FOUND] | Matched Mattia Bellucci vs Carlos Alcaraz
+2025-08-26 10:39:31 - bovada - INFO - Executing 100 bulk bovada_updates operations
+2025-08-26 10:39:31 - bovada - INFO - Bulk bovada_updates completed successfully:
+2025-08-26 10:39:31 - bovada - INFO -   - Modified: 100
+2025-08-26 10:39:31 - bovada - INFO -   - Upserted: 0
+2025-08-26 10:39:31 - bovada - INFO -   - Inserted: 0
+2025-08-26 10:39:31 - bovada - INFO - [MATCH_FOUND] | Matched Novak Djokovic vs Zachary Svajda
+2025-08-26 10:39:31 - bovada - INFO - [MATCH_FOUND] | Matched Raphael Collignon vs Casper Ruud
+2025-08-26 10:39:31 - bovada - INFO - [MATCH_FOUND] | Matched Tristan Boyer vs Andrey Rublev
+2025-08-26 10:39:31 - bovada - INFO - [MATCH_FOUND] | Matched Zizou Bergs vs Jack Draper
+2025-08-26 10:39:31 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:39:31 - bovada - INFO - [MATCH_FOUND] | Matched Cukaricki vs OFK Belgrade
+2025-08-26 10:39:31 - bovada - INFO - [MATCH_FOUND] | Matched TSC Backa Topola vs Javor Ivanjica
+2025-08-26 10:39:31 - bovada - INFO - [MATCH_FOUND] | Matched Partizan vs Radnik Surdulica
+2025-08-26 10:39:31 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:39:32 - bovada - INFO - [MATCH_FOUND] | Matched Kairat Almaty vs Celtic
+2025-08-26 10:39:32 - bovada - INFO - [MATCH_FOUND] | Matched Pafos FC vs Crvena Zvezda
+2025-08-26 10:39:32 - bovada - INFO - [MATCH_FOUND] | Matched Benfica vs Fenerbahce
+2025-08-26 10:39:32 - bovada - INFO - [MATCH_FOUND] | Matched Club Brugge vs Rangers
+2025-08-26 10:39:32 - bovada - INFO - [MATCH_FOUND] | Matched FC Copenhagen vs FC Basel
+2025-08-26 10:39:32 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:39:32 - bovada - INFO - [MATCH_FOUND] | Matched Aluminij vs Koper
+2025-08-26 10:39:32 - bovada - INFO - [MATCH_FOUND] | Matched Radomlje vs Bravo
+2025-08-26 10:39:32 - bovada - INFO - [MATCH_FOUND] | Matched Mura vs Primorje
+2025-08-26 10:39:32 - bovada - INFO - [MATCH_FOUND] | Matched Celje vs Domzale
+2025-08-26 10:39:32 - bovada - INFO - [MATCH_FOUND] | Matched Olimpija Ljubljana vs Maribor
+2025-08-26 10:39:32 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:39:32 - bovada - INFO - [MATCH_FOUND] | Matched Brommapojkarna vs IF Elfsborg
+2025-08-26 10:39:32 - bovada - INFO - [MATCH_FOUND] | Matched AIK vs IK Sirius FK
+2025-08-26 10:39:32 - bovada - INFO - [MATCH_FOUND] | Matched Malmö FF vs Degerfors IF
+2025-08-26 10:39:33 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:33 - bovada - INFO - [MATCH_FOUND] | Matched Jedinstvo Ub vs Macva Sabac
+2025-08-26 10:39:33 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 9 matches from league
+2025-08-26 10:39:33 - bovada - INFO - [MATCH_FOUND] | Matched Kalmar FF vs Helsingborgs IF
+2025-08-26 10:39:33 - bovada - INFO - [MATCH_FOUND] | Matched Västerås SK vs Helsingborgs IF
+2025-08-26 10:39:33 - bovada - INFO - [MATCH_FOUND] | Matched Landskrona BoIS vs GIF Sundsvall
+2025-08-26 10:39:33 - bovada - INFO - [MATCH_FOUND] | Matched Umeå FC vs IK Oddevold
+2025-08-26 10:39:33 - bovada - INFO - [MATCH_FOUND] | Matched IK Brage vs Trelleborgs FF
+2025-08-26 10:39:33 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:39:33 - bovada - INFO - [MATCH_FOUND] | Matched Miedz Legnica vs Wisla Krakow
+2025-08-26 10:39:33 - bovada - INFO - [MATCH_FOUND] | Matched Polonia Warszawa vs Pogon Grodzisk Mazowiecki
+2025-08-26 10:39:33 - bovada - INFO - [MATCH_FOUND] | Matched Znicz Pruszkow vs Pogon Siedlce
+2025-08-26 10:39:33 - bovada - INFO - [MATCH_FOUND] | Matched Odra Opole vs LKS Lodz
+2025-08-26 10:39:33 - bovada - INFO - [MATCH_FOUND] | Matched Puszcza Niepolomice vs Chrobry Glogow
+2025-08-26 10:39:33 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 22 matches from league
+2025-08-26 10:39:34 - bovada - INFO - [MATCH_FOUND] | Matched Celta de Vigo vs Real Betis
+2025-08-26 10:39:34 - bovada - INFO - [MATCH_FOUND] | Matched Elche vs Levante
+2025-08-26 10:39:34 - bovada - INFO - [MATCH_FOUND] | Matched Valencia vs Getafe
+2025-08-26 10:39:34 - bovada - INFO - [MATCH_FOUND] | Matched Alavés vs Atlético Madrid
+2025-08-26 10:39:34 - bovada - INFO - [MATCH_FOUND] | Matched Real Oviedo vs Real Sociedad
+2025-08-26 10:39:34 - bovada - INFO - [MATCH_FOUND] | Matched Girona vs Sevilla
+2025-08-26 10:39:34 - bovada - INFO - [MATCH_FOUND] | Matched Real Madrid vs Mallorca
+2025-08-26 10:39:34 - bovada - INFO - [MATCH_FOUND] | Matched Celta de Vigo vs Villarreal
+2025-08-26 10:39:34 - bovada - INFO - [MATCH_FOUND] | Matched Real Betis vs Athletic Bilbao
+2025-08-26 10:39:34 - bovada - INFO - [MATCH_FOUND] | Matched Espanyol vs Osasuna
+2025-08-26 10:39:34 - bovada - INFO - [PROGRESS_UPDATE] | Processed 1050 matches, Success: 1050, Failed: 0
+2025-08-26 10:39:34 - bovada - INFO - [MATCH_FOUND] | Matched Rayo Vallecano vs FC Barcelona
+2025-08-26 10:39:35 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 21 matches from league
+2025-08-26 10:39:35 - bovada - INFO - [MATCH_FOUND] | Matched Matthias Kicklitz vs Jonatan Christie
+2025-08-26 10:39:35 - bovada - INFO - [MATCH_FOUND] | Matched Viren Nettasinghe (SRI) vs Misha Zilberman (ISR)
+2025-08-26 10:39:35 - bovada - INFO - [MATCH_FOUND] | Matched Adriano Viale vs Byung Jae Kim
+2025-08-26 10:39:35 - bovada - INFO - [MATCH_FOUND] | Matched Rasmus Gemke vs Chun-Yi Lin
+2025-08-26 10:39:35 - bovada - INFO - [MATCH_FOUND] | Matched Alex Lanier vs Aria Dinata
+2025-08-26 10:39:35 - bovada - INFO - [MATCH_FOUND] | Matched Kean Yew Loh vs Kalle Koljonen
+2025-08-26 10:39:35 - bovada - INFO - [MATCH_FOUND] | Matched Kodai Naraoka vs Nhat Nguyen
+2025-08-26 10:39:35 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:39:35 - bovada - INFO - [MATCH_FOUND] | Matched Dubnica vs Banik Prievidza
+2025-08-26 10:39:35 - bovada - INFO - [MATCH_FOUND] | Matched OSK Besenova vs MFK Kezmarok
+2025-08-26 10:39:35 - bovada - INFO - [MATCH_FOUND] | Matched Spissky Stiavnik vs Slavia TU Kosice
+2025-08-26 10:39:35 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:39:35 - bovada - INFO - [MATCH_FOUND] | Matched Steaua Bucuresti vs UTA Arad
+2025-08-26 10:39:35 - bovada - INFO - [MATCH_FOUND] | Matched Olimpia Satu Mare vs CSM Slatina
+2025-08-26 10:39:36 - bovada - INFO - [MATCH_FOUND] | Matched Sanatate Cluj vs Unirea Slobozia
+2025-08-26 10:39:36 - bovada - INFO - [MATCH_FOUND] | Matched Unirea Alba Iulia vs Botosani
+2025-08-26 10:39:36 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:39:36 - bovada - INFO - [MATCH_FOUND] | Matched Stabaek IF vs IK Start
+2025-08-26 10:39:36 - bovada - INFO - [MATCH_FOUND] | Matched Hødd vs Raufoss IL
+2025-08-26 10:39:36 - bovada - INFO - [MATCH_FOUND] | Matched Kongsvinger IL vs Ranheim
+2025-08-26 10:39:36 - bovada - INFO - [MATCH_FOUND] | Matched Lillestrøm SK vs Skeid
+2025-08-26 10:39:36 - bovada - INFO - [MATCH_FOUND] | Matched Aalesunds FK vs Egersunds IK
+2025-08-26 10:39:36 - bovada - INFO - [MATCH_FOUND] | Matched Lyn FK vs Odd
+2025-08-26 10:39:36 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 24 matches from league
+2025-08-26 10:39:36 - bovada - INFO - [MATCH_FOUND] | Matched Riga FC vs Sparta Prague
+2025-08-26 10:39:36 - bovada - INFO - [MATCH_FOUND] | Matched Fredrikstad FK vs Crystal Palace
+2025-08-26 10:39:37 - bovada - INFO - [PROGRESS_UPDATE] | Processed 1100 matches, Success: 1100, Failed: 0
+2025-08-26 10:39:37 - bovada - INFO - [MATCH_FOUND] | Matched Omonia Nicosia vs Wolfsberger AC
+2025-08-26 10:39:37 - bovada - INFO - [MATCH_FOUND] | Matched AZ Alkmaar vs Levski Sofia
+2025-08-26 10:39:37 - bovada - INFO - [MATCH_FOUND] | Matched AEK Athens vs Anderlecht
+2025-08-26 10:39:37 - bovada - INFO - [MATCH_FOUND] | Matched Banik Ostrava vs Celje
+2025-08-26 10:39:37 - bovada - INFO - [MATCH_FOUND] | Matched Differdange 03 vs Drita
+2025-08-26 10:39:37 - bovada - INFO - [MATCH_FOUND] | Matched Fiorentina vs FC Polissya
+2025-08-26 10:39:37 - bovada - INFO - [MATCH_FOUND] | Matched Rayo Vallecano vs Neman Grodno
+2025-08-26 10:39:37 - bovada - INFO - [MATCH_FOUND] | Matched FC Linfield vs Shelbourne FC
+2025-08-26 10:39:37 - bovada - INFO - [MATCH_FOUND] | Matched Legia Warsaw vs Hibernian
+2025-08-26 10:39:37 - bovada - INFO - [MATCH_FOUND] | Matched Mainz vs Rosenborg BK
+2025-08-26 10:39:37 - bovada - INFO - [MATCH_FOUND] | Matched SS Virtus vs Breidablik
+2025-08-26 10:39:38 - bovada - INFO - [MATCH_FOUND] | Matched Servette vs Shakhtar Donetsk
+2025-08-26 10:39:38 - bovada - INFO - [MATCH_FOUND] | Matched Shamrock Rovers vs Santa Clara
+2025-08-26 10:39:38 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:39:38 - bovada - INFO - [MATCH_FOUND] | Matched Kristiansund BK vs SK Brann
+2025-08-26 10:39:38 - bovada - INFO - [MATCH_FOUND] | Matched Fredrikstad FK vs FK Haugesund
+2025-08-26 10:39:38 - bovada - INFO - [MATCH_FOUND] | Matched Ham-Kam vs Sarpsborg
+2025-08-26 10:39:38 - bovada - INFO - [MATCH_FOUND] | Matched Sandefjord vs Bodø/Glimt
+2025-08-26 10:39:38 - bovada - INFO - [MATCH_FOUND] | Matched Tromsø IL vs KFUM Oslo
+2025-08-26 10:39:38 - bovada - INFO - [MATCH_FOUND] | Matched Viking FK vs Rosenborg BK
+2025-08-26 10:39:38 - bovada - INFO - [MATCH_FOUND] | Matched Strømsgodset IF vs Molde FK
+2025-08-26 10:39:38 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:39:38 - bovada - INFO - [MATCH_FOUND] | Matched KFC Komarno vs Skalica
+2025-08-26 10:39:38 - bovada - INFO - [MATCH_FOUND] | Matched Tatran Presov vs Trencin
+2025-08-26 10:39:38 - bovada - INFO - [MATCH_FOUND] | Matched Zeleziarne Podbrezova vs Zemplin Michalovce
+2025-08-26 10:39:38 - bovada - INFO - [MATCH_FOUND] | Matched Ruzomberok vs Zilina
+2025-08-26 10:39:38 - bovada - INFO - [MATCH_FOUND] | Matched Slovan Bratislava vs FK Kosice
+2025-08-26 10:39:38 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 7 matches from league
+2025-08-26 10:39:38 - bovada - INFO - [MATCH_FOUND] | Matched GKS Katowice vs Radomiak Radom
+2025-08-26 10:39:39 - bovada - INFO - [MATCH_FOUND] | Matched Termalica Nieciecza vs Korona Kielce
+2025-08-26 10:39:39 - bovada - INFO - [MATCH_FOUND] | Matched Gornik Zabrze vs Motor Lublin
+2025-08-26 10:39:39 - bovada - INFO - [MATCH_FOUND] | Matched Jagiellonia Bialystok vs Lechia Gdansk
+2025-08-26 10:39:39 - bovada - INFO - [MATCH_FOUND] | Matched Lech Poznań vs Widzew Lodz
+2025-08-26 10:39:39 - bovada - INFO - [MATCH_FOUND] | Matched KS Cracovia vs Legia Warsaw
+2025-08-26 10:39:39 - bovada - INFO - [MATCH_FOUND] | Matched Pogon Szczecin vs Rakow Czestochowa
+2025-08-26 10:39:39 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:39:39 - bovada - INFO - [MATCH_FOUND] | Matched Inverness CT vs Alloa Athletic
+2025-08-26 10:39:39 - bovada - INFO - [MATCH_FOUND] | Matched Montrose vs Peterhead
+2025-08-26 10:39:39 - bovada - INFO - [MATCH_FOUND] | Matched Queen of the South vs Kelty Hearts
+2025-08-26 10:39:39 - bovada - INFO - [MATCH_FOUND] | Matched Stenhousemuir vs East Fife
+2025-08-26 10:39:39 - bovada - INFO - Executing 100 bulk bovada_updates operations
+2025-08-26 10:39:40 - bovada - INFO - Bulk bovada_updates completed successfully:
+2025-08-26 10:39:40 - bovada - INFO -   - Modified: 100
+2025-08-26 10:39:40 - bovada - INFO -   - Upserted: 0
+2025-08-26 10:39:40 - bovada - INFO -   - Inserted: 0
+2025-08-26 10:39:40 - bovada - INFO - [MATCH_FOUND] | Matched Hamilton vs Cove Rangers
+2025-08-26 10:39:40 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:39:40 - bovada - INFO - [MATCH_FOUND] | Matched Clyde vs Elgin City
+2025-08-26 10:39:40 - bovada - INFO - [MATCH_FOUND] | Matched Dumbarton vs Edinburgh City
+2025-08-26 10:39:40 - bovada - INFO - [MATCH_FOUND] | Matched East Kilbride FC vs Forfar Athletic
+2025-08-26 10:39:40 - bovada - INFO - [MATCH_FOUND] | Matched Spartans vs Annan Athletic
+2025-08-26 10:39:40 - bovada - INFO - [PROGRESS_UPDATE] | Processed 1150 matches, Success: 1150, Failed: 0
+2025-08-26 10:39:40 - bovada - INFO - [MATCH_FOUND] | Matched Stirling Albion vs Stranraer
+2025-08-26 10:39:40 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:39:40 - bovada - INFO - [MATCH_FOUND] | Matched Arbroath vs Airdrieonians
+2025-08-26 10:39:40 - bovada - INFO - [MATCH_FOUND] | Matched Ayr United vs Queen's Park
+2025-08-26 10:39:41 - bovada - INFO - [MATCH_FOUND] | Matched Dunfermline Athletic vs Ross County
+2025-08-26 10:39:41 - bovada - INFO - [MATCH_FOUND] | Matched Partick Thistle vs Raith Rovers
+2025-08-26 10:39:41 - bovada - INFO - [MATCH_FOUND] | Matched St. Johnstone vs Greenock Morton
+2025-08-26 10:39:41 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:39:41 - bovada - INFO - [MATCH_FOUND] | Matched Rapid Bucuresti vs UTA Arad
+2025-08-26 10:39:41 - bovada - INFO - [MATCH_FOUND] | Matched Unirea Slobozia vs Universitatea Cluj
+2025-08-26 10:39:41 - bovada - INFO - [MATCH_FOUND] | Matched Dinamo Bucuresti vs Hermannstadt
+2025-08-26 10:39:41 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:41 - bovada - INFO - [MATCH_FOUND] | Matched Kauno Zalgiris vs Hegelmann
+2025-08-26 10:39:41 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 7 matches from league
+2025-08-26 10:39:41 - bovada - INFO - [MATCH_FOUND] | Matched Livingston vs Hearts
+2025-08-26 10:39:41 - bovada - INFO - [MATCH_FOUND] | Matched Motherwell vs Kilmarnock
+2025-08-26 10:39:41 - bovada - INFO - [MATCH_FOUND] | Matched Rangers vs Celtic
+2025-08-26 10:39:41 - bovada - INFO - [MATCH_FOUND] | Matched Dundee FC vs Dundee United
+2025-08-26 10:39:41 - bovada - INFO - [MATCH_FOUND] | Matched Aberdeen vs Falkirk
+2025-08-26 10:39:41 - bovada - INFO - [MATCH_FOUND] | Matched Hibernian vs St. Mirren
+2025-08-26 10:39:42 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:39:42 - bovada - INFO - [MATCH_FOUND] | Matched Athlone Town vs Cobh Ramblers
+2025-08-26 10:39:42 - bovada - INFO - [MATCH_FOUND] | Matched Dundalk vs Kerry FC
+2025-08-26 10:39:42 - bovada - INFO - [MATCH_FOUND] | Matched Finn Harps vs Treaty United
+2025-08-26 10:39:42 - bovada - INFO - [MATCH_FOUND] | Matched Longford Town vs Wexford
+2025-08-26 10:39:42 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:42 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 14 matches from league
+2025-08-26 10:39:42 - bovada - INFO - [MATCH_FOUND] | Matched Stranraer vs Rangers (R)
+2025-08-26 10:39:42 - bovada - INFO - [MATCH_FOUND] | Matched Alloa Athletic vs St. Mirren (R)
+2025-08-26 10:39:42 - bovada - INFO - [MATCH_FOUND] | Matched Annan Athletic vs Stenhousemuir
+2025-08-26 10:39:42 - bovada - INFO - [MATCH_FOUND] | Matched Cove Rangers vs Dundee FC (R)
+2025-08-26 10:39:42 - bovada - INFO - [MATCH_FOUND] | Matched Dumbarton vs Hearts (R)
+2025-08-26 10:39:42 - bovada - INFO - [MATCH_FOUND] | Matched East Fife vs Kilmarnock (R)
+2025-08-26 10:39:43 - bovada - INFO - [MATCH_FOUND] | Matched East Kilbride FC vs Motherwell (R)
+2025-08-26 10:39:43 - bovada - INFO - [MATCH_FOUND] | Matched Elgin City vs Dundee United (R)
+2025-08-26 10:39:43 - bovada - INFO - [MATCH_FOUND] | Matched Inverness CT vs Aberdeen B
+2025-08-26 10:39:43 - bovada - INFO - [MATCH_FOUND] | Matched Kelty Hearts vs Celtic (R)
+2025-08-26 10:39:43 - bovada - INFO - [MATCH_FOUND] | Matched Montrose vs Forfar Athletic
+2025-08-26 10:39:43 - bovada - INFO - [MATCH_FOUND] | Matched Queen of the South vs Clyde
+2025-08-26 10:39:43 - bovada - INFO - [MATCH_FOUND] | Matched Spartans vs Peterhead
+2025-08-26 10:39:43 - bovada - INFO - [MATCH_FOUND] | Matched Stirling Albion vs Hibernian B
+2025-08-26 10:39:43 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 9 matches from league
+2025-08-26 10:39:43 - bovada - INFO - [MATCH_FOUND] | Matched Gil Vicente vs Moreirense
+2025-08-26 10:39:43 - bovada - INFO - [MATCH_FOUND] | Matched Casa Pia vs Nacional
+2025-08-26 10:39:43 - bovada - INFO - [MATCH_FOUND] | Matched Vitória Guimarães vs Arouca
+2025-08-26 10:39:43 - bovada - INFO - [MATCH_FOUND] | Matched Sporting CP vs FC Porto
+2025-08-26 10:39:43 - bovada - INFO - [MATCH_FOUND] | Matched Tondela vs Estoril
+2025-08-26 10:39:43 - bovada - INFO - [MATCH_FOUND] | Matched Rio Ave vs Braga
+2025-08-26 10:39:43 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:39:43 - bovada - INFO - [MATCH_FOUND] | Matched Hapoel Haifa vs Hapoel Jerusalem
+2025-08-26 10:39:44 - bovada - INFO - [MATCH_FOUND] | Matched Hapoel Be'er Sheva vs Ironi Tiberias
+2025-08-26 10:39:44 - bovada - INFO - [MATCH_FOUND] | Matched Maccabi Tel Aviv vs Maccabi Netanya
+2025-08-26 10:39:44 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:39:44 - bovada - INFO - [MATCH_FOUND] | Matched Cork City vs Waterford
+2025-08-26 10:39:44 - bovada - INFO - [MATCH_FOUND] | Matched Derry City vs St Patrick's Athletic
+2025-08-26 10:39:44 - bovada - INFO - [MATCH_FOUND] | Matched Sligo Rovers vs Bohemians Dublin
+2025-08-26 10:39:44 - bovada - INFO - [MATCH_FOUND] | Matched Shelbourne FC vs Galway United
+2025-08-26 10:39:44 - bovada - INFO - [MATCH_FOUND] | Matched Shamrock Rovers vs Drogheda United
+2025-08-26 10:39:44 - bovada - INFO - [PROGRESS_UPDATE] | Processed 1200 matches, Success: 1200, Failed: 0
+2025-08-26 10:39:44 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:39:44 - bovada - INFO - [MATCH_FOUND] | Matched Reggiana vs Empoli
+2025-08-26 10:39:44 - bovada - INFO - [MATCH_FOUND] | Matched Juve Stabia vs Venezia
+2025-08-26 10:39:44 - bovada - INFO - [MATCH_FOUND] | Matched Mantova vs Pescara
+2025-08-26 10:39:44 - bovada - INFO - [MATCH_FOUND] | Matched Cesena vs Virtus Entella
+2025-08-26 10:39:44 - bovada - INFO - [MATCH_FOUND] | Matched Palermo vs Frosinone
+2025-08-26 10:39:44 - bovada - INFO - [MATCH_FOUND] | Matched Spezia vs Catanzaro
+2025-08-26 10:39:44 - bovada - INFO - [MATCH_FOUND] | Matched Carrarese vs Padova
+2025-08-26 10:39:44 - bovada - INFO - [MATCH_FOUND] | Matched Bari vs Monza
+2025-08-26 10:39:44 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:45 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:45 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:45 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:39:45 - bovada - INFO - [MATCH_FOUND] | Matched Leiria vs Torreense
+2025-08-26 10:39:45 - bovada - INFO - [MATCH_FOUND] | Matched Penafiel vs Chaves
+2025-08-26 10:39:45 - bovada - INFO - [MATCH_FOUND] | Matched Feirense vs Leixões
+2025-08-26 10:39:45 - bovada - INFO - [MATCH_FOUND] | Matched Académico de Viseu vs Porto B
+2025-08-26 10:39:45 - bovada - INFO - [MATCH_FOUND] | Matched Vizela vs Oliveirense
+2025-08-26 10:39:45 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:39:45 - bovada - INFO - [MATCH_FOUND] | Matched FC Portadown vs Crusaders
+2025-08-26 10:39:45 - bovada - INFO - [MATCH_FOUND] | Matched Larne vs Ballymena United
+2025-08-26 10:39:45 - bovada - INFO - [MATCH_FOUND] | Matched Cliftonville vs Glenavon
+2025-08-26 10:39:45 - bovada - INFO - [MATCH_FOUND] | Matched Glentoran vs Carrick Rangers
+2025-08-26 10:39:45 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:39:45 - bovada - INFO - [MATCH_FOUND] | Matched Orenburg vs Rubin Kazan
+2025-08-26 10:39:45 - bovada - INFO - [MATCH_FOUND] | Matched Spartak Moscow vs Sochi
+2025-08-26 10:39:45 - bovada - INFO - [MATCH_FOUND] | Matched Rostov vs Akhmat Grozny
+2025-08-26 10:39:46 - bovada - INFO - [MATCH_FOUND] | Matched Lokomotiv Moscow vs Krylia Sovetov Samara
+2025-08-26 10:39:46 - bovada - INFO - [MATCH_FOUND] | Matched CSKA Moscow vs Krasnodar
+2025-08-26 10:39:46 - bovada - INFO - [MATCH_FOUND] | Matched Dynamo Makhachkala vs Dinamo Moscow
+2025-08-26 10:39:46 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:39:46 - bovada - INFO - [MATCH_FOUND] | Matched Orenburg vs Zenit St. Petersburg
+2025-08-26 10:39:46 - bovada - INFO - [MATCH_FOUND] | Matched Akhmat Grozny vs Rubin Kazan
+2025-08-26 10:39:46 - bovada - INFO - [MATCH_FOUND] | Matched Krylia Sovetov Samara vs Dinamo Moscow
+2025-08-26 10:39:46 - bovada - INFO - [MATCH_FOUND] | Matched Sochi vs Krasnodar
+2025-08-26 10:39:46 - bovada - INFO - [MATCH_FOUND] | Matched Baltika Kaliningrad vs CSKA Moscow
+2025-08-26 10:39:46 - bovada - INFO - [MATCH_FOUND] | Matched Rostov vs Dynamo Makhachkala
+2025-08-26 10:39:46 - bovada - INFO - [MATCH_FOUND] | Matched Lokomotiv Moscow vs Akron Tolyatti
+2025-08-26 10:39:46 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:46 - bovada - INFO - [MATCH_FOUND] | Matched Encarnacion FC vs CS 2 de Mayo
+2025-08-26 10:39:46 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:46 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:46 - bovada - INFO - [MATCH_FOUND] | Matched Sporting San José vs Guadalupe
+2025-08-26 10:39:47 - bovada - INFO - [MATCH_FOUND] | Matched Herediano vs Municipal Liberia
+2025-08-26 10:39:47 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:39:47 - bovada - INFO - [MATCH_FOUND] | Matched Racing Louisville (W) vs Houston Dash (W)
+2025-08-26 10:39:47 - bovada - INFO - [MATCH_FOUND] | Matched Portland Thorns (W) vs Utah Royals (W)
+2025-08-26 10:39:47 - bovada - INFO - [MATCH_FOUND] | Matched Seattle Reign W vs San Diego Wave (W)
+2025-08-26 10:39:47 - bovada - INFO - [MATCH_FOUND] | Matched Washington Spirit (W) vs Chicago Red Stars (W)
+2025-08-26 10:39:47 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 20 matches from league
+2025-08-26 10:39:47 - bovada - INFO - [MATCH_FOUND] | Matched Cremonese vs Sassuolo
+2025-08-26 10:39:47 - bovada - INFO - [MATCH_FOUND] | Matched Lecce vs AC Milan
+2025-08-26 10:39:47 - bovada - INFO - [MATCH_FOUND] | Matched Bologna vs Como
+2025-08-26 10:39:47 - bovada - INFO - [MATCH_FOUND] | Matched Parma vs Atalanta
+2025-08-26 10:39:47 - bovada - INFO - [MATCH_FOUND] | Matched Napoli vs Cagliari
+2025-08-26 10:39:47 - bovada - INFO - [MATCH_FOUND] | Matched Pisa vs AS Roma
+2025-08-26 10:39:47 - bovada - INFO - [MATCH_FOUND] | Matched Genoa vs Juventus
+2025-08-26 10:39:47 - bovada - INFO - [MATCH_FOUND] | Matched Inter Milan vs Udinese
+2025-08-26 10:39:47 - bovada - INFO - [MATCH_FOUND] | Matched Lazio vs Hellas Verona
+2025-08-26 10:39:47 - bovada - INFO - [PROGRESS_UPDATE] | Processed 1250 matches, Success: 1250, Failed: 0
+2025-08-26 10:39:48 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:39:48 - bovada - INFO - [MATCH_FOUND] | Matched CA Tembetary vs Sportivo Trinidense
+2025-08-26 10:39:48 - bovada - INFO - Executing 100 bulk bovada_updates operations
+2025-08-26 10:39:49 - bovada - INFO - Bulk bovada_updates completed successfully:
+2025-08-26 10:39:49 - bovada - INFO -   - Modified: 100
+2025-08-26 10:39:49 - bovada - INFO -   - Upserted: 0
+2025-08-26 10:39:49 - bovada - INFO -   - Inserted: 0
+2025-08-26 10:39:49 - bovada - INFO - [MATCH_FOUND] | Matched CD Recoleta vs CS 2 de Mayo
+2025-08-26 10:39:49 - bovada - INFO - [MATCH_FOUND] | Matched Club Guaraní vs General Caballero JLM
+2025-08-26 10:39:49 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:49 - bovada - INFO - [MATCH_FOUND] | Matched La Luz vs Rentistas
+2025-08-26 10:39:49 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 12 matches from league
+2025-08-26 10:39:49 - bovada - INFO - [MATCH_FOUND] | Matched Detroit City vs San Antonio FC
+2025-08-26 10:39:49 - bovada - INFO - [MATCH_FOUND] | Matched Indy Eleven vs Louisville City
+2025-08-26 10:39:49 - bovada - INFO - [MATCH_FOUND] | Matched Loudoun United vs Miami FC
+2025-08-26 10:39:49 - bovada - INFO - [MATCH_FOUND] | Matched Rhode Island FC vs Charleston Battery
+2025-08-26 10:39:49 - bovada - INFO - [MATCH_FOUND] | Matched North Carolina FC vs Hartford Athletic
+2025-08-26 10:39:49 - bovada - INFO - [MATCH_FOUND] | Matched Tampa Bay Rowdies vs Pittsburgh Riverhounds
+2025-08-26 10:39:49 - bovada - INFO - [MATCH_FOUND] | Matched Colorado Springs Switchbacks vs FC Tulsa
+2025-08-26 10:39:50 - bovada - INFO - [MATCH_FOUND] | Matched New Mexico United vs Sacramento Republic
+2025-08-26 10:39:50 - bovada - INFO - [MATCH_FOUND] | Matched Oakland Roots vs Monterey Bay
+2025-08-26 10:39:50 - bovada - INFO - [MATCH_FOUND] | Matched Orange County vs Birmingham Legion
+2025-08-26 10:39:50 - bovada - INFO - [MATCH_FOUND] | Matched Las Vegas Lights vs Lexington SC
+2025-08-26 10:39:50 - bovada - INFO - [MATCH_FOUND] | Matched Phoenix Rising vs El Paso Locomotive
+2025-08-26 10:39:50 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:50 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:50 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 12 matches from league
+2025-08-26 10:39:50 - bovada - INFO - [MATCH_FOUND] | Matched FC Cincinnati vs Philadelphia Union
+2025-08-26 10:39:50 - bovada - INFO - [MATCH_FOUND] | Matched New York Red Bulls vs Columbus Crew
+2025-08-26 10:39:50 - bovada - INFO - [MATCH_FOUND] | Matched New England Revolution vs Charlotte FC
+2025-08-26 10:39:50 - bovada - INFO - [MATCH_FOUND] | Matched New York City FC vs DC United
+2025-08-26 10:39:50 - bovada - INFO - [MATCH_FOUND] | Matched Toronto FC vs CF Montréal
+2025-08-26 10:39:50 - bovada - INFO - [MATCH_FOUND] | Matched Austin FC vs San Jose Earthquakes
+2025-08-26 10:39:50 - bovada - INFO - [MATCH_FOUND] | Matched Minnesota United vs Portland Timbers
+2025-08-26 10:39:50 - bovada - INFO - [MATCH_FOUND] | Matched Nashville SC vs Atlanta United
+2025-08-26 10:39:51 - bovada - INFO - [MATCH_FOUND] | Matched Sporting Kansas City vs Colorado Rapids
+2025-08-26 10:39:51 - bovada - INFO - [MATCH_FOUND] | Matched St. Louis City SC vs Houston Dynamo
+2025-08-26 10:39:51 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:39:51 - bovada - INFO - [MATCH_FOUND] | Matched Liverpool Montevideo vs Defensor Sporting
+2025-08-26 10:39:51 - bovada - INFO - [MATCH_FOUND] | Matched River Plate Montevideo vs Nacional
+2025-08-26 10:39:51 - bovada - INFO - [MATCH_FOUND] | Matched Plaza Colonia vs Montevideo City Torque
+2025-08-26 10:39:51 - bovada - INFO - [MATCH_FOUND] | Matched Danubio vs Miramar Misiones
+2025-08-26 10:39:51 - bovada - INFO - [MATCH_FOUND] | Matched Juventud de Las Piedras vs CA Cerro
+2025-08-26 10:39:51 - bovada - INFO - [MATCH_FOUND] | Matched Racing Club Montevideo vs Peñarol
+2025-08-26 10:39:51 - bovada - INFO - [MATCH_FOUND] | Matched Boston River vs Progreso
+2025-08-26 10:39:51 - bovada - INFO - [MATCH_FOUND] | Matched Cerro Largo vs Montevideo Wanderers
+2025-08-26 10:39:51 - bovada - INFO - [PROGRESS_UPDATE] | Processed 1300 matches, Success: 1300, Failed: 0
+2025-08-26 10:39:51 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:39:52 - bovada - INFO - [MATCH_FOUND] | Matched Operário PR vs Coritiba PR
+2025-08-26 10:39:52 - bovada - INFO - [MATCH_FOUND] | Matched CRB AL vs Paysandu PA
+2025-08-26 10:39:52 - bovada - INFO - [MATCH_FOUND] | Matched Volta Redonda RJ vs Athletic Club SJDR
+2025-08-26 10:39:52 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 7 matches from league
+2025-08-26 10:39:52 - bovada - INFO - [MATCH_FOUND] | Matched Junior FC vs Atlético FC
+2025-08-26 10:39:52 - bovada - INFO - [MATCH_FOUND] | Matched Deportes Pereira vs Real Soacha Cundinamarca
+2025-08-26 10:39:52 - bovada - INFO - [MATCH_FOUND] | Matched Atlético Bucaramanga vs América de Cali
+2025-08-26 10:39:52 - bovada - INFO - [MATCH_FOUND] | Matched Deportivo Pasto vs Once Caldas
+2025-08-26 10:39:52 - bovada - INFO - [MATCH_FOUND] | Matched Alianza FC vs Independiente Santa Fe
+2025-08-26 10:39:52 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:39:53 - bovada - INFO - [MATCH_FOUND] | Matched Vasco da Gama vs Botafogo RJ
+2025-08-26 10:39:53 - bovada - INFO - [MATCH_FOUND] | Matched Bahia vs Fluminense RJ
+2025-08-26 10:39:53 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:39:53 - bovada - INFO - [MATCH_FOUND] | Matched Vinotinto FC vs El Nacional
+2025-08-26 10:39:53 - bovada - INFO - [MATCH_FOUND] | Matched Mushuc Runa vs Manta
+2025-08-26 10:39:53 - bovada - INFO - [MATCH_FOUND] | Matched Aucas vs Emelec
+2025-08-26 10:39:53 - bovada - INFO - [MATCH_FOUND] | Matched CD Cuenca vs Orense
+2025-08-26 10:39:53 - bovada - INFO - [MATCH_FOUND] | Matched Delfín vs Libertad
+2025-08-26 10:39:53 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 10 matches from league
+2025-08-26 10:39:53 - bovada - INFO - [MATCH_FOUND] | Matched Junior FC vs Llaneros FC
+2025-08-26 10:39:53 - bovada - INFO - [MATCH_FOUND] | Matched Águilas Doradas vs Millonarios
+2025-08-26 10:39:53 - bovada - INFO - [MATCH_FOUND] | Matched La Equidad vs Deportivo Pasto
+2025-08-26 10:39:53 - bovada - INFO - [MATCH_FOUND] | Matched Deportes Pereira vs Atlético Bucaramanga
+2025-08-26 10:39:54 - bovada - INFO - [MATCH_FOUND] | Matched Atlético Nacional vs Envigado
+2025-08-26 10:39:54 - bovada - INFO - [MATCH_FOUND] | Matched Alianza FC vs América de Cali
+2025-08-26 10:39:54 - bovada - INFO - [MATCH_FOUND] | Matched Deportes Tolima vs Fortaleza CEIF
+2025-08-26 10:39:54 - bovada - INFO - [MATCH_FOUND] | Matched Independiente Santa Fe vs Once Caldas
+2025-08-26 10:39:54 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:54 - bovada - INFO - [MATCH_FOUND] | Matched Deportivo Muñiz vs Claypole
+2025-08-26 10:39:55 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:39:55 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:55 - bovada - INFO - [MATCH_FOUND] | Matched Unión de Santa Fe vs River Plate
+2025-08-26 10:39:55 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:39:55 - bovada - INFO - [MATCH_FOUND] | Matched Deportivo Morón vs Gimnasia Mendoza
+2025-08-26 10:39:55 - bovada - INFO - [MATCH_FOUND] | Matched Talleres de Remedios vs Defensores Unidos
+2025-08-26 10:39:55 - bovada - INFO - [MATCH_FOUND] | Matched Deportivo Maipú vs Madryn
+2025-08-26 10:39:55 - bovada - INFO - [MATCH_FOUND] | Matched Gimnasia Jujuy vs Central Norte Salta
+2025-08-26 10:39:55 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:39:55 - bovada - INFO - [MATCH_FOUND] | Matched Magallanes vs Unión San Felipe
+2025-08-26 10:39:55 - bovada - INFO - [MATCH_FOUND] | Matched Curicó Unido vs Deportes Temuco
+2025-08-26 10:39:55 - bovada - INFO - [MATCH_FOUND] | Matched Santiago Wanderers vs Rangers de Talca
+2025-08-26 10:39:55 - bovada - INFO - [PROGRESS_UPDATE] | Processed 1350 matches, Success: 1350, Failed: 0
+2025-08-26 10:39:55 - bovada - INFO - [MATCH_FOUND] | Matched Cobreloa Calama vs San Luis de Quillota
+2025-08-26 10:39:56 - bovada - INFO - [MATCH_FOUND] | Matched San Marcos de Arica vs Antofagasta
+2025-08-26 10:39:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:39:56 - bovada - INFO - [MATCH_FOUND] | Matched Universitario Salto vs Montevideo Wanderers
+2025-08-26 10:39:56 - bovada - INFO - [MATCH_FOUND] | Matched Bella Vista vs Juventud de Las Piedras
+2025-08-26 10:39:56 - bovada - INFO - [MATCH_FOUND] | Matched Atenas Tala vs Racing Club Montevideo
+2025-08-26 10:39:56 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 7 matches from league
+2025-08-26 10:39:56 - bovada - INFO - [MATCH_FOUND] | Matched Tapatío vs Atlante FC
+2025-08-26 10:39:56 - bovada - INFO - [MATCH_FOUND] | Matched Club Atletico La Paz vs Dorados Sinaloa
+2025-08-26 10:39:57 - bovada - INFO - [MATCH_FOUND] | Matched Alebrijes de Oaxaca vs Venados
+2025-08-26 10:39:57 - bovada - INFO - [MATCH_FOUND] | Matched Atlético Morelia vs Mineros de Zacatecas
+2025-08-26 10:39:57 - bovada - INFO - [MATCH_FOUND] | Matched Leones Negros UdeG vs Tlaxcala
+2025-08-26 10:39:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:39:57 - bovada - INFO - [MATCH_FOUND] | Matched Ceará vs Juventude
+2025-08-26 10:39:57 - bovada - INFO - [MATCH_FOUND] | Matched Botafogo RJ vs RB Bragantino
+2025-08-26 10:39:57 - bovada - INFO - [MATCH_FOUND] | Matched Cruzeiro MG vs São Paulo SP
+2025-08-26 10:39:57 - bovada - INFO - [MATCH_FOUND] | Matched Santos SP vs Fluminense RJ
+2025-08-26 10:39:57 - bovada - INFO - [MATCH_FOUND] | Matched Mirassol SP vs Bahia
+2025-08-26 10:39:57 - bovada - INFO - [MATCH_FOUND] | Matched Internacional vs Fortaleza
+2025-08-26 10:39:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:39:57 - bovada - INFO - [MATCH_FOUND] | Matched Alianza Huanuco vs Los Chankas CYC
+2025-08-26 10:39:57 - bovada - INFO - [MATCH_FOUND] | Matched Atlético Grau vs AD Tarma
+2025-08-26 10:39:57 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:39:57 - bovada - INFO - [MATCH_FOUND] | Matched Unión La Calera vs Palestino
+2025-08-26 10:39:58 - bovada - INFO - [MATCH_FOUND] | Matched Huachipato vs Coquimbo Unido
+2025-08-26 10:39:58 - bovada - INFO - [MATCH_FOUND] | Matched O'Higgins vs Audax Italiano
+2025-08-26 10:39:58 - bovada - INFO - [MATCH_FOUND] | Matched Deportes Iquique vs Deportes Limache
+2025-08-26 10:39:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:39:58 - bovada - INFO - [MATCH_FOUND] | Matched Cruz Azul (W) vs Deportivo Toluca (W)
+2025-08-26 10:39:58 - bovada - INFO - [MATCH_FOUND] | Matched CF Pachuca (W) vs Atlas FC (W)
+2025-08-26 10:39:58 - bovada - INFO - [MATCH_FOUND] | Matched CD Guadalajara (W) vs CF Monterrey (W)
+2025-08-26 10:39:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:39:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:39:58 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:39:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 10 matches from league
+2025-08-26 10:39:59 - bovada - INFO - [MATCH_FOUND] | Matched Atlético San Luis vs Deportivo Toluca
+2025-08-26 10:39:59 - bovada - INFO - [MATCH_FOUND] | Matched FC Juárez vs Mazatlán FC
+2025-08-26 10:39:59 - bovada - INFO - [MATCH_FOUND] | Matched Puebla FC vs CF Monterrey
+2025-08-26 10:39:59 - bovada - INFO - [MATCH_FOUND] | Matched Club León vs Querétaro FC
+2025-08-26 10:39:59 - bovada - INFO - [MATCH_FOUND] | Matched Santos Laguna vs Tigres UANL
+2025-08-26 10:39:59 - bovada - INFO - [PROGRESS_UPDATE] | Processed 1400 matches, Success: 1400, Failed: 0
+2025-08-26 10:39:59 - bovada - INFO - [MATCH_FOUND] | Matched Chivas Guadalajara vs Cruz Azul
+2025-08-26 10:39:59 - bovada - INFO - [MATCH_FOUND] | Matched Club América vs CF Pachuca
+2025-08-26 10:39:59 - bovada - INFO - [MATCH_FOUND] | Matched Pumas UNAM vs Atlas FC
+2025-08-26 10:39:59 - bovada - INFO - [MATCH_FOUND] | Matched Tijuana vs Necaxa
+2025-08-26 10:39:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:39:59 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 16 matches from league
+2025-08-26 10:39:59 - bovada - INFO - [MATCH_FOUND] | Matched Banfield vs Tigre
+2025-08-26 10:39:59 - bovada - INFO - Executing 100 bulk bovada_updates operations
+2025-08-26 10:40:00 - bovada - INFO - Bulk bovada_updates completed successfully:
+2025-08-26 10:40:00 - bovada - INFO -   - Modified: 100
+2025-08-26 10:40:00 - bovada - INFO -   - Upserted: 0
+2025-08-26 10:40:00 - bovada - INFO -   - Inserted: 0
+2025-08-26 10:40:00 - bovada - INFO - [MATCH_FOUND] | Matched Newell's Old Boys vs Barracas Central
+2025-08-26 10:40:00 - bovada - INFO - [MATCH_FOUND] | Matched Instituto Córdoba vs Independiente
+2025-08-26 10:40:00 - bovada - INFO - [MATCH_FOUND] | Matched San Lorenzo vs Huracán
+2025-08-26 10:40:00 - bovada - INFO - [MATCH_FOUND] | Matched Central Córdoba vs Estudiantes de La Plata
+2025-08-26 10:40:00 - bovada - INFO - [MATCH_FOUND] | Matched Independiente Rivadavia vs Argentinos Juniors
+2025-08-26 10:40:00 - bovada - INFO - [MATCH_FOUND] | Matched CA Sarmiento Junin vs Rosario Central
+2025-08-26 10:40:00 - bovada - INFO - [MATCH_FOUND] | Matched Aldosivi vs Boca Juniors
+2025-08-26 10:40:00 - bovada - INFO - [MATCH_FOUND] | Matched Defensa y Justicia vs CA Belgrano
+2025-08-26 10:40:00 - bovada - INFO - [MATCH_FOUND] | Matched Racing Club vs Unión de Santa Fe
+2025-08-26 10:40:01 - bovada - INFO - [MATCH_FOUND] | Matched Platense vs Godoy Cruz
+2025-08-26 10:40:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 13 matches from league
+2025-08-26 10:40:01 - bovada - INFO - [MATCH_FOUND] | Matched Eisbären Berlin vs Storhamar
+2025-08-26 10:40:01 - bovada - INFO - [MATCH_FOUND] | Matched Ilves vs ERC Ingolstadt
+2025-08-26 10:40:01 - bovada - INFO - [MATCH_FOUND] | Matched KalPa vs Belfast Giants
+2025-08-26 10:40:01 - bovada - INFO - [MATCH_FOUND] | Matched SC Bern vs Grenoble Brûleurs de loups
+2025-08-26 10:40:01 - bovada - INFO - [MATCH_FOUND] | Matched Sparta Prague vs KAC Klagenfurt
+2025-08-26 10:40:01 - bovada - INFO - [MATCH_FOUND] | Matched HC Lausanne vs Lukko
+2025-08-26 10:40:01 - bovada - INFO - [MATCH_FOUND] | Matched Odense Bulldogs vs Mountfield HK
+2025-08-26 10:40:01 - bovada - INFO - [MATCH_FOUND] | Matched Brynäs IF vs Kometa Brno
+2025-08-26 10:40:01 - bovada - INFO - [MATCH_FOUND] | Matched GKS Tychy vs RB Salzburg
+2025-08-26 10:40:01 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:40:01 - bovada - INFO - [MATCH_FOUND] | Matched Paksi FC vs Kazincbarcikai SC
+2025-08-26 10:40:01 - bovada - INFO - [MATCH_FOUND] | Matched Zalaegerszegi TE vs Kisvárda FC
+2025-08-26 10:40:01 - bovada - INFO - [MATCH_FOUND] | Matched Ujpest FC vs MTK Budapest
+2025-08-26 10:40:01 - bovada - INFO - [MATCH_FOUND] | Matched Debreceni VSC vs Ferencváros
+2025-08-26 10:40:02 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:40:02 - bovada - INFO - [MATCH_FOUND] | Matched Valur Reykjavik vs Afturelding
+2025-08-26 10:40:02 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:40:02 - bovada - INFO - [MATCH_FOUND] | Matched TuS Geretsried vs Sportfreunde Schwaig
+2025-08-26 10:40:02 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:40:02 - bovada - INFO - [MATCH_FOUND] | Matched Eintracht Braunschweig vs VfB Stuttgart
+2025-08-26 10:40:02 - bovada - INFO - [MATCH_FOUND] | Matched Wehen Wiesbaden vs Bayern Munich
+2025-08-26 10:40:02 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:40:02 - bovada - INFO - [MATCH_FOUND] | Matched Trinec vs Prostejov
+2025-08-26 10:40:02 - bovada - INFO - [MATCH_FOUND] | Matched Slovan Velvary vs Teplice
+2025-08-26 10:40:02 - bovada - INFO - [MATCH_FOUND] | Matched Admira Prague vs Jablonec
+2025-08-26 10:40:02 - bovada - INFO - [MATCH_FOUND] | Matched Arsenal Ceska Lipa vs Pardubice
+2025-08-26 10:40:02 - bovada - INFO - [MATCH_FOUND] | Matched Horni Redice vs Aritma Prague
+2025-08-26 10:40:02 - bovada - INFO - [MATCH_FOUND] | Matched SK Kladno vs Dynamo Ceske Budejovice
+2025-08-26 10:40:02 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:40:02 - bovada - INFO - [MATCH_FOUND] | Matched 1860 Munich vs VfB Stuttgart (R)
+2025-08-26 10:40:02 - bovada - INFO - [PROGRESS_UPDATE] | Processed 1450 matches, Success: 1450, Failed: 0
+2025-08-26 10:40:03 - bovada - INFO - [MATCH_FOUND] | Matched Energie Cottbus vs Ingolstadt
+2025-08-26 10:40:03 - bovada - INFO - [MATCH_FOUND] | Matched Rot-Weiss Essen vs Alemannia Aachen
+2025-08-26 10:40:03 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 7 matches from league
+2025-08-26 10:40:03 - bovada - INFO - [MATCH_FOUND] | Matched Panserraikos vs OFI Crete
+2025-08-26 10:40:03 - bovada - INFO - [MATCH_FOUND] | Matched AEL Larissa vs AE Kifisia
+2025-08-26 10:40:03 - bovada - INFO - [MATCH_FOUND] | Matched AEK Athens vs Asteras Tripolis
+2025-08-26 10:40:03 - bovada - INFO - [MATCH_FOUND] | Matched PAOK Thessaloniki vs Atromitos
+2025-08-26 10:40:03 - bovada - INFO - [MATCH_FOUND] | Matched Panathinaikos vs Levadiakos
+2025-08-26 10:40:03 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:40:03 - bovada - INFO - [MATCH_FOUND] | Matched Kolding (W) vs FC Midtjylland W
+2025-08-26 10:40:03 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:40:03 - bovada - INFO - [MATCH_FOUND] | Matched Aarhus Fremad vs Aalborg BK
+2025-08-26 10:40:03 - bovada - INFO - [MATCH_FOUND] | Matched Hvidovre IF vs Hobro IK
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_FOUND] | Matched Kolding IF vs Hillerød
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_FOUND] | Matched Middelfart BK vs Lyngby BK
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 10 matches from league
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_FOUND] | Matched FC Nürnberg vs Paderborn
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_FOUND] | Matched Hertha BSC vs Elversberg
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_FOUND] | Matched Bochum vs Preussen Münster
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_FOUND] | Matched Eintracht Braunschweig vs Arminia Bielefeld
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_FOUND] | Matched Holstein Kiel vs Hannover 96
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_FOUND] | Matched Kaiserslautern vs Darmstadt
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_FOUND] | Matched Dynamo Dresden vs Schalke 04
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_FOUND] | Matched Magdeburg vs Greuther Fürth
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_FOUND] | Matched Exeter City U21 vs Luton Town FC U21
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 7 matches from league
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_FOUND] | Matched Apollon Limassol vs Krasava ENY Ypsonas
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_FOUND] | Matched Olympiakos Nicosia vs Anorthosis Famagusta
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_FOUND] | Matched Omonia Aradippou vs Aris Limassol
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_FOUND] | Matched AEK Larnaca vs AEL Limassol
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_FOUND] | Matched Ethnikos Achnas vs Omonia Nicosia
+2025-08-26 10:40:04 - bovada - INFO - [MATCH_FOUND] | Matched APOEL Nicosia vs Pafos FC
+2025-08-26 10:40:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:40:05 - bovada - INFO - [MATCH_FOUND] | Matched Dukla Prague vs Hradec Kralove
+2025-08-26 10:40:05 - bovada - INFO - [MATCH_FOUND] | Matched FC Slovácko vs Jablonec
+2025-08-26 10:40:05 - bovada - INFO - [MATCH_FOUND] | Matched MFK Karvina vs Teplice
+2025-08-26 10:40:05 - bovada - INFO - [MATCH_FOUND] | Matched Pardubice vs Bohemians Prague
+2025-08-26 10:40:05 - bovada - INFO - [MATCH_FOUND] | Matched Mlada Boleslav vs Slavia Prague
+2025-08-26 10:40:05 - bovada - INFO - [MATCH_FOUND] | Matched Slovan Liberec vs Viktoria Plzen
+2025-08-26 10:40:05 - bovada - INFO - [MATCH_FOUND] | Matched Sigma Olomouc vs Banik Ostrava
+2025-08-26 10:40:05 - bovada - INFO - [MATCH_FOUND] | Matched Sparta Prague vs FC Zlín
+2025-08-26 10:40:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:40:05 - bovada - INFO - [MATCH_FOUND] | Matched Vejle BK vs Viborg FF
+2025-08-26 10:40:05 - bovada - INFO - [MATCH_FOUND] | Matched AGF Aarhus vs FC Fredericia
+2025-08-26 10:40:05 - bovada - INFO - [MATCH_FOUND] | Matched Silkeborg IF vs SønderjyskE
+2025-08-26 10:40:05 - bovada - INFO - [MATCH_FOUND] | Matched Odense vs FC Nordsjælland
+2025-08-26 10:40:05 - bovada - INFO - [MATCH_FOUND] | Matched Randers vs FC Copenhagen
+2025-08-26 10:40:05 - bovada - INFO - [MATCH_FOUND] | Matched Brøndby IF vs FC Midtjylland
+2025-08-26 10:40:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:40:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:40:05 - bovada - INFO - [MATCH_FOUND] | Matched SV Gloggnitz vs Traiskirchen FCM
+2025-08-26 10:40:05 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:40:06 - bovada - INFO - [MATCH_FOUND] | Matched FC Lahti vs Klubi 04
+2025-08-26 10:40:06 - bovada - INFO - [PROGRESS_UPDATE] | Processed 1500 matches, Success: 1500, Failed: 0
+2025-08-26 10:40:06 - bovada - INFO - [MATCH_FOUND] | Matched PK-35 vs Jippo
+2025-08-26 10:40:06 - bovada - INFO - [MATCH_FOUND] | Matched KäPa vs TPS
+2025-08-26 10:40:06 - bovada - INFO - [MATCH_FOUND] | Matched SJK Akatemia vs SalPa
+2025-08-26 10:40:06 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:40:06 - bovada - INFO - [MATCH_FOUND] | Matched AC Oulu vs FC Haka
+2025-08-26 10:40:06 - bovada - INFO - [MATCH_FOUND] | Matched FC Ilves vs IFK Mariehamn
+2025-08-26 10:40:06 - bovada - INFO - [MATCH_FOUND] | Matched FC Inter vs VPS
+2025-08-26 10:40:06 - bovada - INFO - [MATCH_FOUND] | Matched IF Gnistan vs FF Jaro
+2025-08-26 10:40:06 - bovada - INFO - [MATCH_FOUND] | Matched KTP vs HJK
+2025-08-26 10:40:06 - bovada - INFO - [MATCH_FOUND] | Matched SJK vs KuPS
+2025-08-26 10:40:06 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 19 matches from league
+2025-08-26 10:40:06 - bovada - INFO - [MATCH_FOUND] | Matched Hamburger SV vs St. Pauli
+2025-08-26 10:40:06 - bovada - INFO - [MATCH_FOUND] | Matched Hoffenheim vs Eintracht Frankfurt
+2025-08-26 10:40:06 - bovada - INFO - [MATCH_FOUND] | Matched RB Leipzig vs Heidenheim
+2025-08-26 10:40:06 - bovada - INFO - [MATCH_FOUND] | Matched Werder Bremen vs Bayer Leverkusen
+2025-08-26 10:40:06 - bovada - INFO - [MATCH_FOUND] | Matched Augsburg vs Bayern Munich
+2025-08-26 10:40:06 - bovada - INFO - [MATCH_FOUND] | Matched Wolfsburg vs Mainz
+2025-08-26 10:40:06 - bovada - INFO - [MATCH_FOUND] | Matched Borussia Dortmund vs Union Berlin
+2025-08-26 10:40:06 - bovada - INFO - [MATCH_FOUND] | Matched FC Köln vs Freiburg
+2025-08-26 10:40:07 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 12 matches from league
+2025-08-26 10:40:07 - bovada - INFO - [MATCH_FOUND] | Matched AFC Hornchurch vs Chippenham
+2025-08-26 10:40:07 - bovada - INFO - [MATCH_FOUND] | Matched AFC Totton vs Eastbourne Borough
+2025-08-26 10:40:07 - bovada - INFO - [MATCH_FOUND] | Matched Bath City vs Dorking Wanderers
+2025-08-26 10:40:07 - bovada - INFO - [MATCH_FOUND] | Matched Chelmsford City vs Chesham Utd
+2025-08-26 10:40:07 - bovada - INFO - [MATCH_FOUND] | Matched Dover Athletic vs Maidenhead United
+2025-08-26 10:40:07 - bovada - INFO - [MATCH_FOUND] | Matched Hampton & Richmond vs Ebbsfleet United
+2025-08-26 10:40:07 - bovada - INFO - Executing 100 bulk bovada_updates operations
+2025-08-26 10:40:08 - bovada - INFO - Bulk bovada_updates completed successfully:
+2025-08-26 10:40:08 - bovada - INFO -   - Modified: 100
+2025-08-26 10:40:08 - bovada - INFO -   - Upserted: 0
+2025-08-26 10:40:08 - bovada - INFO -   - Inserted: 0
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_FOUND] | Matched Hemel Hempstead Town vs Torquay Utd
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_FOUND] | Matched Horsham FC vs Salisbury FC
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_FOUND] | Matched Slough Town vs Enfield Town
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_FOUND] | Matched Tonbridge Angels vs Farnborough
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_FOUND] | Matched Weston-Super-Mare vs Dagenham & Redbridge
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_FOUND] | Matched Worthing vs Maidstone United
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_FOUND] | Matched Austria Lustenau vs Kapfenberger
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_FOUND] | Matched Marchfeld Donauauen vs SW Bregenz
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_FOUND] | Matched WSC Hertha vs SKN St. Polten
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_FOUND] | Matched ASK Voitsberg vs Admira Wacker Mödling
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_FOUND] | Matched Amstetten vs First Vienna
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_FOUND] | Matched Union Gurten vs SV Ried
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_FOUND] | Matched Germany vs Italy
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_FOUND] | Matched FC Sevlievo vs Ludogorets Razgrad (R)
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_FOUND] | Matched FC Salzburg vs BW Linz
+2025-08-26 10:40:08 - bovada - INFO - [PROGRESS_UPDATE] | Processed 1550 matches, Success: 1550, Failed: 0
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_FOUND] | Matched LASK Linz vs SV Ried
+2025-08-26 10:40:08 - bovada - INFO - [MATCH_FOUND] | Matched Grazer AK vs Sturm Graz
+2025-08-26 10:40:09 - bovada - INFO - [MATCH_FOUND] | Matched Austria Wien vs SCR Altach
+2025-08-26 10:40:09 - bovada - INFO - [MATCH_FOUND] | Matched Hartberg vs Rapid Wien
+2025-08-26 10:40:09 - bovada - INFO - [MATCH_FOUND] | Matched WSG Tirol vs Wolfsberger AC
+2025-08-26 10:40:09 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:40:09 - bovada - INFO - [MATCH_FOUND] | Matched Bili Tygri Liberec vs Rytiri Kladno
+2025-08-26 10:40:09 - bovada - INFO - [MATCH_FOUND] | Matched Dukla Jihlava vs Zubr Prerov
+2025-08-26 10:40:09 - bovada - INFO - [MATCH_FOUND] | Matched HC Olomouc vs Ocelari Trinec
+2025-08-26 10:40:09 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:40:09 - bovada - INFO - [MATCH_FOUND] | Matched First Vienna vs Austria Lustenau
+2025-08-26 10:40:09 - bovada - INFO - [MATCH_FOUND] | Matched WSC Hertha vs Austria Wien (R)
+2025-08-26 10:40:09 - bovada - INFO - [MATCH_FOUND] | Matched Austria Klagenfurt vs Admira Wacker Mödling
+2025-08-26 10:40:09 - bovada - INFO - [MATCH_FOUND] | Matched Austria Salzburg vs Amstetten
+2025-08-26 10:40:09 - bovada - INFO - [MATCH_FOUND] | Matched Rapid Wien (R) vs SKN St. Polten
+2025-08-26 10:40:09 - bovada - INFO - [MATCH_FOUND] | Matched SV Stripfing vs Kapfenberger
+2025-08-26 10:40:09 - bovada - INFO - [MATCH_FOUND] | Matched Sturm Graz (R) vs Floridsdorfer
+2025-08-26 10:40:09 - bovada - INFO - [MATCH_FOUND] | Matched SW Bregenz vs Liefering
+2025-08-26 10:40:09 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 27 matches from league
+2025-08-26 10:40:10 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 2 matches from league
+2025-08-26 10:40:10 - bovada - INFO - [MATCH_FOUND] | Matched Maksimir Zagreb vs Jadran Porec
+2025-08-26 10:40:10 - bovada - INFO - [MATCH_FOUND] | Matched Nehaj Senj vs HNK Vukovar
+2025-08-26 10:40:10 - bovada - INFO - [PROGRESS_UPDATE] | Processed 1600 matches, Success: 1600, Failed: 0
+2025-08-26 10:40:10 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:40:10 - bovada - INFO - [MATCH_FOUND] | Matched Istra vs Gorica
+2025-08-26 10:40:10 - bovada - INFO - [MATCH_FOUND] | Matched Varazdin vs Dinamo Zagreb
+2025-08-26 10:40:10 - bovada - INFO - [MATCH_FOUND] | Matched Lokomotiva Zagreb vs Osijek
+2025-08-26 10:40:10 - bovada - INFO - [MATCH_FOUND] | Matched Hajduk Split vs Rijeka
+2025-08-26 10:40:10 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:40:10 - bovada - INFO - [MATCH_FOUND] | Matched PFC Montana vs Dobrudzha Dobrich
+2025-08-26 10:40:11 - bovada - INFO - [MATCH_FOUND] | Matched Botev Vratsa vs Cherno More Varna
+2025-08-26 10:40:11 - bovada - INFO - [MATCH_FOUND] | Matched Septemvri Sofia vs Lokomotive Sofia
+2025-08-26 10:40:11 - bovada - INFO - [MATCH_FOUND] | Matched Spartak Varna vs Lokomotiv Plovdiv
+2025-08-26 10:40:11 - bovada - INFO - [MATCH_FOUND] | Matched Slavia Sofia vs CSKA Sofia
+2025-08-26 10:40:11 - bovada - INFO - [MATCH_FOUND] | Matched Arda Kardzhali vs Beroe Stara Zagora
+2025-08-26 10:40:11 - bovada - INFO - [MATCH_FOUND] | Matched Levski Sofia vs FC CSKA 1948
+2025-08-26 10:40:11 - bovada - INFO - [MATCH_FOUND] | Matched Ludogorets Razgrad vs Botev Plovdiv
+2025-08-26 10:40:11 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:40:11 - bovada - INFO - [MATCH_FOUND] | Matched Eupen vs RSC Anderlecht Futures
+2025-08-26 10:40:11 - bovada - INFO - [MATCH_FOUND] | Matched Lommel SK vs Lokeren Temse
+2025-08-26 10:40:11 - bovada - INFO - [MATCH_FOUND] | Matched Seraing vs Olympic Charleroi
+2025-08-26 10:40:11 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 19 matches from league
+2025-08-26 10:40:11 - bovada - INFO - [MATCH_FOUND] | Matched Chelsea vs Fulham
+2025-08-26 10:40:11 - bovada - INFO - [MATCH_FOUND] | Matched Manchester United vs Burnley
+2025-08-26 10:40:11 - bovada - INFO - [MATCH_FOUND] | Matched Sunderland vs Brentford
+2025-08-26 10:40:11 - bovada - INFO - [MATCH_FOUND] | Matched Tottenham Hotspur vs Bournemouth
+2025-08-26 10:40:11 - bovada - INFO - [MATCH_FOUND] | Matched Leeds United vs Newcastle United
+2025-08-26 10:40:11 - bovada - INFO - [MATCH_FOUND] | Matched Brighton & Hove Albion vs Manchester City
+2025-08-26 10:40:11 - bovada - INFO - [MATCH_FOUND] | Matched Nottingham Forest vs West Ham United
+2025-08-26 10:40:11 - bovada - INFO - [MATCH_FOUND] | Matched Liverpool vs Arsenal
+2025-08-26 10:40:12 - bovada - INFO - [MATCH_FOUND] | Matched Aston Villa vs Crystal Palace
+2025-08-26 10:40:12 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 8 matches from league
+2025-08-26 10:40:12 - bovada - INFO - [MATCH_FOUND] | Matched Cercle Brugge vs Sint-Truiden
+2025-08-26 10:40:12 - bovada - INFO - [MATCH_FOUND] | Matched KVC Westerlo vs Royal Antwerp
+2025-08-26 10:40:12 - bovada - INFO - [MATCH_FOUND] | Matched Royal Charleroi vs FCV Dender EH
+2025-08-26 10:40:12 - bovada - INFO - [MATCH_FOUND] | Matched Gent vs Club Brugge
+2025-08-26 10:40:12 - bovada - INFO - [MATCH_FOUND] | Matched Genk vs Zulte Waregem
+2025-08-26 10:40:12 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:40:12 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 4 matches from league
+2025-08-26 10:40:12 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:40:12 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:40:12 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:40:12 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:40:13 - bovada - INFO - [PROGRESS_UPDATE] | Processed 1650 matches, Success: 1650, Failed: 0
+2025-08-26 10:40:13 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 13 matches from league
+2025-08-26 10:40:13 - bovada - INFO - [MATCH_FOUND] | Matched Salford City vs Cheltenham Town
+2025-08-26 10:40:13 - bovada - INFO - [MATCH_FOUND] | Matched Barrow FC vs Fleetwood Town
+2025-08-26 10:40:13 - bovada - INFO - [MATCH_FOUND] | Matched Crewe Alexandra vs Swindon Town
+2025-08-26 10:40:13 - bovada - INFO - [MATCH_FOUND] | Matched Barnet vs Colchester United
+2025-08-26 10:40:13 - bovada - INFO - [MATCH_FOUND] | Matched Bromley vs Harrogate Town
+2025-08-26 10:40:13 - bovada - INFO - [MATCH_FOUND] | Matched Cambridge United vs Newport County
+2025-08-26 10:40:13 - bovada - INFO - [MATCH_FOUND] | Matched Chesterfield vs Crawley Town
+2025-08-26 10:40:13 - bovada - INFO - [MATCH_FOUND] | Matched Grimsby Town vs Bristol Rovers
+2025-08-26 10:40:13 - bovada - INFO - [MATCH_FOUND] | Matched Milton Keynes Dons vs Walsall
+2025-08-26 10:40:13 - bovada - INFO - [MATCH_FOUND] | Matched Oldham Athletic vs Gillingham
+2025-08-26 10:40:13 - bovada - INFO - [MATCH_FOUND] | Matched Shrewsbury Town vs Accrington Stanley
+2025-08-26 10:40:13 - bovada - INFO - [MATCH_FOUND] | Matched Tranmere Rovers vs Notts County
+2025-08-26 10:40:13 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 5 matches from league
+2025-08-26 10:40:13 - bovada - INFO - [MATCH_FOUND] | Matched Aubagne vs Concarneau
+2025-08-26 10:40:13 - bovada - INFO - [MATCH_FOUND] | Matched Dijon FCO vs Paris 13 Atletico
+2025-08-26 10:40:14 - bovada - INFO - [MATCH_FOUND] | Matched Châteauroux vs US Orléans
+2025-08-26 10:40:14 - bovada - INFO - [MATCH_FOUND] | Matched Valenciennes vs Rouen
+2025-08-26 10:40:14 - bovada - INFO - [MATCH_FOUND] | Matched Versailles vs Villefranche-Beaujolais
+2025-08-26 10:40:14 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:40:14 - bovada - INFO - [MATCH_FOUND] | Matched Bristol City U21 vs Sheffield Wednesday U21
+2025-08-26 10:40:14 - bovada - INFO - [MATCH_FOUND] | Matched Cardiff City U21 vs Wigan Athletic U21
+2025-08-26 10:40:14 - bovada - INFO - [MATCH_FOUND] | Matched Charlton Athletic U21 vs Barnsley U21
+2025-08-26 10:40:14 - bovada - INFO - [MATCH_FOUND] | Matched Colchester United U21 vs Coventry City U21
+2025-08-26 10:40:14 - bovada - INFO - [MATCH_FOUND] | Matched Millwall U21 vs Crewe Alexandra U21
+2025-08-26 10:40:14 - bovada - INFO - [MATCH_FOUND] | Matched QPR U21 vs Fleetwood Town U21
+2025-08-26 10:40:14 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 6 matches from league
+2025-08-26 10:40:14 - bovada - INFO - [MATCH_FOUND] | Matched Red Star vs Annecy
+2025-08-26 10:40:14 - bovada - INFO - [MATCH_FOUND] | Matched Rodez Aveyron vs Boulogne
+2025-08-26 10:40:14 - bovada - INFO - [MATCH_FOUND] | Matched USL Dunkerque vs Troyes
+2025-08-26 10:40:14 - bovada - INFO - [MATCH_FOUND] | Matched SC Bastia vs Guingamp
+2025-08-26 10:40:14 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 3 matches from league
+2025-08-26 10:40:14 - bovada - INFO - [MATCH_FOUND] | Matched Bristol Rovers vs Tottenham Hotspur U21
+2025-08-26 10:40:14 - bovada - INFO - [MATCH_FOUND] | Matched Oldham Athletic vs Manchester City U21
+2025-08-26 10:40:14 - bovada - INFO - [MATCH_FOUND] | Matched Shrewsbury Town vs Chelsea U21
+2025-08-26 10:40:14 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 13 matches from league
+2025-08-26 10:40:15 - bovada - INFO - [MATCH_FOUND] | Matched Cardiff City vs Plymouth Argyle
+2025-08-26 10:40:15 - bovada - INFO - [MATCH_FOUND] | Matched Doncaster Rovers vs Rotherham United
+2025-08-26 10:40:15 - bovada - INFO - [MATCH_FOUND] | Matched Barnsley vs Huddersfield Town
+2025-08-26 10:40:15 - bovada - INFO - [MATCH_FOUND] | Matched Blackpool vs Bolton Wanderers
+2025-08-26 10:40:15 - bovada - INFO - [MATCH_FOUND] | Matched Bradford City vs AFC Wimbledon
+2025-08-26 10:40:15 - bovada - INFO - [MATCH_FOUND] | Matched Burton Albion vs Luton Town
+2025-08-26 10:40:15 - bovada - INFO - [MATCH_FOUND] | Matched Exeter City vs Peterborough United
+2025-08-26 10:40:15 - bovada - INFO - [MATCH_FOUND] | Matched Leyton Orient vs Northampton Town
+2025-08-26 10:40:15 - bovada - INFO - Executing 100 bulk bovada_updates operations
+2025-08-26 10:40:15 - bovada - INFO - Bulk bovada_updates completed successfully:
+2025-08-26 10:40:15 - bovada - INFO -   - Modified: 100
+2025-08-26 10:40:15 - bovada - INFO -   - Upserted: 0
+2025-08-26 10:40:15 - bovada - INFO -   - Inserted: 0
+2025-08-26 10:40:15 - bovada - INFO - [MATCH_FOUND] | Matched Lincoln City vs Mansfield Town
+2025-08-26 10:40:15 - bovada - INFO - [MATCH_FOUND] | Matched Reading vs Port Vale
+2025-08-26 10:40:15 - bovada - INFO - [MATCH_FOUND] | Matched Stevenage vs Wycombe Wanderers
+2025-08-26 10:40:15 - bovada - INFO - [MATCH_FOUND] | Matched Wigan Athletic vs Stockport County
+2025-08-26 10:40:15 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 1 matches from league
+2025-08-26 10:40:15 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 12 matches from league
+2025-08-26 10:40:16 - bovada - INFO - [MATCH_FOUND] | Matched Leicester City vs Birmingham City
+2025-08-26 10:40:16 - bovada - INFO - [MATCH_FOUND] | Matched Middlesbrough vs Sheffield United
+2025-08-26 10:40:16 - bovada - INFO - [MATCH_FOUND] | Matched Queens Park Rangers vs Charlton Athletic
+2025-08-26 10:40:16 - bovada - INFO - [MATCH_FOUND] | Matched Stoke City vs West Bromwich Albion
+2025-08-26 10:40:16 - bovada - INFO - [PROGRESS_UPDATE] | Processed 1700 matches, Success: 1700, Failed: 0
+2025-08-26 10:40:16 - bovada - INFO - [MATCH_FOUND] | Matched Blackburn Rovers vs Norwich City
+2025-08-26 10:40:16 - bovada - INFO - [MATCH_FOUND] | Matched Bristol City vs Hull City
+2025-08-26 10:40:16 - bovada - INFO - [MATCH_FOUND] | Matched Ipswich Town vs Derby County
+2025-08-26 10:40:16 - bovada - INFO - [MATCH_FOUND] | Matched Millwall vs Wrexham
+2025-08-26 10:40:16 - bovada - INFO - [MATCH_FOUND] | Matched Portsmouth vs Preston North End
+2025-08-26 10:40:16 - bovada - INFO - [MATCH_FOUND] | Matched Sheffield Wednesday vs Swansea City
+2025-08-26 10:40:16 - bovada - INFO - [MATCH_FOUND] | Matched Watford vs Southampton
+2025-08-26 10:40:16 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 10 matches from league
+2025-08-26 10:40:16 - bovada - INFO - [MATCH_FOUND] | Matched Lens vs Brest
+2025-08-26 10:40:16 - bovada - INFO - [MATCH_FOUND] | Matched Lorient vs Lille
+2025-08-26 10:40:16 - bovada - INFO - [MATCH_FOUND] | Matched Nantes vs AJ Auxerre
+2025-08-26 10:40:16 - bovada - INFO - [MATCH_FOUND] | Matched Toulouse vs Paris Saint-Germain
+2025-08-26 10:40:16 - bovada - INFO - [MATCH_FOUND] | Matched Angers vs Rennes
+2025-08-26 10:40:16 - bovada - INFO - [MATCH_FOUND] | Matched Le Havre vs Nice
+2025-08-26 10:40:16 - bovada - INFO - [MATCH_FOUND] | Matched Monaco vs Strasbourg
+2025-08-26 10:40:16 - bovada - INFO - [MATCH_FOUND] | Matched Paris FC vs Metz
+2025-08-26 10:40:17 - bovada - INFO - [MATCH_FOUND] | Matched Lyon vs Marseille
+2025-08-26 10:40:18 - bovada - INFO - [MATCH_DATA_EXTRACTED] | Processing 24 matches from league
+2025-08-26 10:40:18 - bovada - INFO - [MATCH_FOUND] | Matched Reading vs AFC Wimbledon
+2025-08-26 10:40:18 - bovada - INFO - [MATCH_FOUND] | Matched Cambridge United vs Charlton Athletic
+2025-08-26 10:40:18 - bovada - INFO - [MATCH_FOUND] | Matched Accrington Stanley vs Doncaster Rovers
+2025-08-26 10:40:18 - bovada - INFO - [MATCH_FOUND] | Matched Barnsley vs Rotherham United
+2025-08-26 10:40:18 - bovada - INFO - [MATCH_FOUND] | Matched Birmingham City vs Port Vale
+2025-08-26 10:40:19 - bovada - INFO - [MATCH_FOUND] | Matched Bournemouth vs Brentford
+2025-08-26 10:40:19 - bovada - INFO - [MATCH_FOUND] | Matched Bromley vs Wycombe Wanderers
+2025-08-26 10:40:19 - bovada - INFO - [MATCH_FOUND] | Matched Burnley vs Derby County
+2025-08-26 10:40:19 - bovada - INFO - [MATCH_FOUND] | Matched Burton Albion vs Lincoln City
+2025-08-26 10:40:19 - bovada - INFO - [MATCH_FOUND] | Matched Cardiff City vs Cheltenham Town
+2025-08-26 10:40:19 - bovada - INFO - [MATCH_FOUND] | Matched Millwall vs Coventry City
+2025-08-26 10:40:19 - bovada - INFO - [MATCH_FOUND] | Matched Norwich City vs Southampton
+2025-08-26 10:40:19 - bovada - INFO - [MATCH_FOUND] | Matched Preston North End vs Wrexham
+2025-08-26 10:40:19 - bovada - INFO - [MATCH_FOUND] | Matched Stoke City vs Bradford City
+2025-08-26 10:40:19 - bovada - INFO - [MATCH_FOUND] | Matched Sunderland vs Huddersfield Town
+2025-08-26 10:40:19 - bovada - INFO - [MATCH_FOUND] | Matched Swansea City vs Plymouth Argyle
+2025-08-26 10:40:19 - bovada - INFO - [MATCH_FOUND] | Matched Wigan Athletic vs Stockport County
+2025-08-26 10:40:19 - bovada - INFO - [MATCH_FOUND] | Matched Sheffield Wednesday vs Leeds United
+2025-08-26 10:40:19 - bovada - INFO - [MATCH_FOUND] | Matched Everton vs Mansfield Town
+2025-08-26 10:40:19 - bovada - INFO - [MATCH_FOUND] | Matched Fulham vs Bristol City
+2025-08-26 10:40:19 - bovada - INFO - [MATCH_FOUND] | Matched Oxford United vs Brighton & Hove Albion
+2025-08-26 10:40:19 - bovada - INFO - [MATCH_FOUND] | Matched Grimsby Town vs Manchester United
